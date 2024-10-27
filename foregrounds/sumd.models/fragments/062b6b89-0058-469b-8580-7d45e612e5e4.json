@@ -2,15 +2,15 @@
   "fragments": [
     {
       "direction": "Input",
-      "entityId": "0ac6b19c-4d0c-4441-af0a-0281ab0a60d3",
+      "entityId": "062b6b89-0058-469b-8580-7d45e612e5e4",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 1.0
       },
-      "externalId": "paper_woodfree_uncoated",
+      "externalId": "silicone-production",
       "flow": {
-        "externalId": "198f9bb6-4268-4609-b85f-3f90f0d26d6d",
+        "externalId": "a8f9b840-05ff-4dad-b11e-dd4b1342655d",
         "origin": "ecoinvent.3.7.1.cutoff"
       },
       "isBackground": false,
@@ -19,25 +19,54 @@
       "parent": null,
       "tags": {
         "Comment": "",
-        "Name": "paper, woodfree, uncoated",
-        "StageName": "paper production, woodfree, uncoated, at non-integrated mill"
+        "Name": "silicone product",
+        "StageName": ""
       },
       "terminations": {
         "default": {
-          "externalId": "6c1496e3-abe2-49cc-b1b3-76060ccb2bb0",
+          "externalId": "silicone-production",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "25a6e0ff-65d2-463d-a5c5-70f929098ae4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "25a6e0ff-65d2-463d-a5c5-70f929098ae4",
+      "flow": {
+        "externalId": "a8f9b840-05ff-4dad-b11e-dd4b1342655d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "silicone-production",
+      "tags": {
+        "Comment": "",
+        "Name": "silicone product",
+        "StageName": "silicone product production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "09962b0b-8d0c-40a0-8fbb-dee83e86b776",
           "origin": "ecoinvent.3.7.1.cutoff"
         }
       }
     },
     {
       "direction": "Input",
-      "entityId": "09ca38db-91df-4819-8143-ccddf708824e",
+      "entityId": "55af632a-95e5-4399-82c4-e8bc800b4c18",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
-        "1": 0.4802000000000004
+        "1": 0.5575800000000007
       },
-      "externalId": "09ca38db-91df-4819-8143-ccddf708824e",
+      "externalId": "55af632a-95e5-4399-82c4-e8bc800b4c18",
       "flow": {
         "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
         "origin": "ecoinvent.3.7.1.cutoff"
@@ -45,7 +74,7 @@
       "isBackground": true,
       "isBalanceFlow": false,
       "isPrivate": false,
-      "parent": "paper_woodfree_uncoated",
+      "parent": "25a6e0ff-65d2-463d-a5c5-70f929098ae4",
       "tags": {
         "Comment": "",
         "Name": "electricity, medium voltage",
@@ -60,13 +89,13 @@
     },
     {
       "direction": "Input",
-      "entityId": "b72ec61d-1902-43ad-8721-ad9620563b60",
+      "entityId": "6d1685c5-85b8-49cd-9739-0ea8d6bd1cb2",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
-        "1": 0.0
+        "1": 0.3446085200000003
       },
-      "externalId": "b72ec61d-1902-43ad-8721-ad9620563b60",
+      "externalId": "6d1685c5-85b8-49cd-9739-0ea8d6bd1cb2",
       "flow": {
         "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
         "origin": "ecoinvent.3.7.1.cutoff"
@@ -74,7 +103,7 @@
       "isBackground": true,
       "isBalanceFlow": false,
       "isPrivate": false,
-      "parent": "paper_woodfree_uncoated",
+      "parent": "25a6e0ff-65d2-463d-a5c5-70f929098ae4",
       "tags": {
         "Comment": "",
         "Name": "electricity, high voltage",

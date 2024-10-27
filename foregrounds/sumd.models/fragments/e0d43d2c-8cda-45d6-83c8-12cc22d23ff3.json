@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "e0d43d2c-8cda-45d6-83c8-12cc22d23ff3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "melamine-production",
+      "flow": {
+        "externalId": "10d65b66-177a-4c93-a984-ef986f6a8fe4",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "melamine formaldehyde resin",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "melamine-production",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "15a16118-1c0c-492f-8c3c-539b41f48423",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "15a16118-1c0c-492f-8c3c-539b41f48423",
+      "flow": {
+        "externalId": "10d65b66-177a-4c93-a984-ef986f6a8fe4",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "melamine-production",
+      "tags": {
+        "Comment": "",
+        "Name": "melamine formaldehyde resin",
+        "StageName": "melamine formaldehyde resin production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "1d248d31-661a-4ea1-9aa1-8b5ffddd9cf2",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9173f217-3c17-4394-944a-3a29e02304d8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.012999999999999992
+      },
+      "externalId": "9173f217-3c17-4394-944a-3a29e02304d8",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "15a16118-1c0c-492f-8c3c-539b41f48423",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

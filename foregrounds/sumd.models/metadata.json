@@ -1,8 +1,8 @@
 {
   "version_major": 0,
-  "version_minor": 0,
+  "version_minor": 1,
   "dataSource": "/data/GitHub/Scope3/FPF-Regional/catalog/lexicon.models",
   "release_notes": null,
-  "description": "LcForeground",
-  "author": "Antelope"
+  "description": null,
+  "author": null
 }

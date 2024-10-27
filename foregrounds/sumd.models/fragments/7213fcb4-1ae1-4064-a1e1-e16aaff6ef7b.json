@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "7213fcb4-1ae1-4064-a1e1-e16aaff6ef7b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "steel-production-converter",
+      "flow": {
+        "externalId": "817c3650-4fed-4ef2-b9b6-404a198834e6",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "steel, low-alloyed",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "steel-production-converter",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bcd17c46-aeea-4011-afe4-666495432b13",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "bcd17c46-aeea-4011-afe4-666495432b13",
+      "flow": {
+        "externalId": "817c3650-4fed-4ef2-b9b6-404a198834e6",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "steel-production-converter",
+      "tags": {
+        "Comment": "",
+        "Name": "steel, low-alloyed",
+        "StageName": "steel production, converter, low-alloyed"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "68001fbf-93b2-4a15-938c-62585a9b2a62",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "00ab9c84-aa7d-4727-a1b3-b0d715810c9d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.05000000000000001
+      },
+      "externalId": "00ab9c84-aa7d-4727-a1b3-b0d715810c9d",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bcd17c46-aeea-4011-afe4-666495432b13",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}
