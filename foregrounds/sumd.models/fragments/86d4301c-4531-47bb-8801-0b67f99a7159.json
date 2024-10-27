@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "86d4301c-4531-47bb-8801-0b67f99a7159",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "grid-JP-cutoff-medium",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "865a4ff9-190c-4996-9f1e-056ff5c8b28e",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d"
+        }
+      }
+    }
+  ]
+}

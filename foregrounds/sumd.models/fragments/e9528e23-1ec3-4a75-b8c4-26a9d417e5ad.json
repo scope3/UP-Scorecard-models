@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "e9528e23-1ec3-4a75-b8c4-26a9d417e5ad",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-glass-GLO",
+      "flow": {
+        "externalId": "c3fd9530-3e9b-44b5-8833-9e544937a6e9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "packaging glass, white",
+        "StageName": "packaging glass production, white, without cullet"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "2c83e166-d0e5-4251-b00a-b6ac86e998a7",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

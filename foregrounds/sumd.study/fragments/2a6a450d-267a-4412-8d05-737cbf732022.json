@@ -1,0 +1,62 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "2a6a450d-267a-4412-8d05-737cbf732022",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-wood-mass",
+      "flow": {
+        "externalId": "wood_packaging",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "enter m3/kg in flow properties for wood_packaging",
+        "Name": "lath, softwood, raw, kiln drying to u=20 [RoW]",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-wood-mass",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "5c610f31-373f-4b86-8fb5-5e6e9d87afc1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "5c610f31-373f-4b86-8fb5-5e6e9d87afc1",
+      "flow": {
+        "externalId": "wood_lath",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-wood-mass",
+      "tags": {
+        "Comment": "",
+        "Name": "Wood Lath",
+        "StageName": "lath, softwood, raw, kiln drying to u=20%"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "lath-softwood-raw",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "3e0d16e0-2ac9-40bc-b69a-fa5549d13b76",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-vPP",
+      "flow": {
+        "externalId": "PP",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "PP primary",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-vPP",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "2f8b008c-334c-48f8-9af8-829cb22b4381",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 7e-05
+      },
+      "externalId": "2f8b008c-334c-48f8-9af8-829cb22b4381",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-vPP",
+      "tags": {
+        "Comment": "non-mass so won't affect balance",
+        "Name": "Plastic leakage from primary production",
+        "StageName": "to water"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "aa084d2d-dc0c-421e-9152-b84737f6e350",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "aa084d2d-dc0c-421e-9152-b84737f6e350",
+      "flow": {
+        "externalId": "vPP",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-vPP",
+      "tags": {
+        "Comment": "",
+        "Name": "Vpp",
+        "StageName": "PP Primary"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "pp-production",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "ab35181b-1f44-4b35-bfb4-de57d4790b5e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-gasoline_kg",
+      "flow": {
+        "externalId": "bc38e349-1ccf-3855-a615-a4f581ab875b",
+        "origin": "lcacommons.uslci.fy24.q1.01"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Gasoline, combusted in equipment",
+        "StageName": "Gasoline, combusted in equipment"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d3e13675-1455-375f-a557-bb8234de75ff",
+          "origin": "lcacommons.uslci.fy24.q1.01"
+        }
+      }
+    }
+  ]
+}

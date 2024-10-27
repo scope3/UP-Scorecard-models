@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "ea2c497e-e382-46db-b3fc-179d7674575d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-diesel",
+      "flow": {
+        "externalId": "d815ff18-015c-3afb-be18-be03bdf325da",
+        "origin": "lcacommons.uslci.fy24.q1.01"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Diesel, combusted in industrial equipment",
+        "StageName": "Diesel, combusted in industrial equipment"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d6ad7035-5498-3237-8abd-50e93b1eef89",
+          "origin": "lcacommons.uslci.fy24.q1.01"
+        }
+      }
+    }
+  ]
+}

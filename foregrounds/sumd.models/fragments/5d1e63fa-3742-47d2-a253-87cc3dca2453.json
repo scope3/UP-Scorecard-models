@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "5d1e63fa-3742-47d2-a253-87cc3dca2453",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "plastic-film-form",
+      "flow": {
+        "externalId": "579049d0-3db8-4496-a234-2f61ed28a72b",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "extrusion, plastic film",
+        "StageName": "extrusion, plastic film"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "8fa69d8a-0314-41cd-96ee-9649b49b915a",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "16d13e6a-e531-47e5-8651-22c88cc0b9a0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "16d13e6a-e531-47e5-8651-22c88cc0b9a0",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "plastic-film-form",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "96b03b33-e224-403c-9a5c-b6b8c373540c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.6599999999999999
+      },
+      "externalId": "96b03b33-e224-403c-9a5c-b6b8c373540c",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "plastic-film-form",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

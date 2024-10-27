@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "02e1be08-9a62-4564-8178-d9291c271363",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "treatment_of_scrap_steel_municipal_incineration_RoW",
+      "flow": {
+        "externalId": "d1a4a803-c563-4740-84cf-3c21a488bd74",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "scrap steel",
+        "StageName": "treatment of scrap steel, municipal incineration"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "3b968292-06e4-4c29-a7e1-afad7d5f95ba",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "4d266911-0565-46a9-a6fe-8b3e391bff46",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00044475,
+        "1": 0.0
+      },
+      "externalId": "4d266911-0565-46a9-a6fe-8b3e391bff46",
+      "flow": {
+        "externalId": "db4566b1-bd88-427d-92da-2d25879063b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "treatment_of_scrap_steel_municipal_incineration_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "4d266911-0565-46a9-a6fe-8b3e391bff46",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "9fdee4bf-4d59-4f98-a5c6-5d0bbea5347f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "tetrafluoroethylene-production",
+      "flow": {
+        "externalId": "874ae709-1968-4ef3-a4e8-4cefbe22c11e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "tetrafluoroethylene",
+        "StageName": "tetrafluoroethylene production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "4c0fc70a-451b-4d5f-ab28-bb723d4c2abb",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "69402918-2a25-4417-96f2-e693dd068a1c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "69402918-2a25-4417-96f2-e693dd068a1c",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "tetrafluoroethylene-production",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bbdd2519-6d00-476d-97d5-bc652f726d5e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "bbdd2519-6d00-476d-97d5-bc652f726d5e",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "tetrafluoroethylene-production",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

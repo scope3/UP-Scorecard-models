@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "742caf1e-1170-4949-ae16-a4855273281d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "grid-ASCC-cutoff-low",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market for electricity, low voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "38867d37-85d0-46e0-b88e-4ad135d88ebf",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "d69294d7-8d64-4915-a896-9996a014c410"
+        }
+      }
+    }
+  ]
+}

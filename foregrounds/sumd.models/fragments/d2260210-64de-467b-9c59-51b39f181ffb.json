@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "d2260210-64de-467b-9c59-51b39f181ffb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "wood_untreated_municipal_incineration_RoW",
+      "flow": {
+        "externalId": "6f2eb438-cde2-4d07-a770-d023a988a9c4",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste wood, untreated",
+        "StageName": "treatment of waste wood, untreated, municipal incineration"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "53f62582-3d5e-4181-80b8-ddc44a4e709b",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "7bb94563-8650-4844-a01c-76d593e1987d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00047617,
+        "1": 0.0
+      },
+      "externalId": "7bb94563-8650-4844-a01c-76d593e1987d",
+      "flow": {
+        "externalId": "db4566b1-bd88-427d-92da-2d25879063b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wood_untreated_municipal_incineration_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "7bb94563-8650-4844-a01c-76d593e1987d",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

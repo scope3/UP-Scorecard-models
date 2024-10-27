@@ -1,0 +1,92 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "26071e06-d68f-4404-ad97-f9412cebdec2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-wash",
+      "flow": {
+        "externalId": "wash",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Wash container",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "wash-container",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9fc7bd35-cccd-40d4-8e00-d5dd94fb1f64",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "9fc7bd35-cccd-40d4-8e00-d5dd94fb1f64",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-wash",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": "Wash"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-water-supply",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c7ee671a-eadd-4677-b68e-7dc78428047e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c7ee671a-eadd-4677-b68e-7dc78428047e",
+      "flow": {
+        "externalId": "elec",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-wash",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "Wash"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-chooser-medium",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

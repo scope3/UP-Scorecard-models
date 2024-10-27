@@ -1,0 +1,62 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "6d63ba63-6f2b-4f8b-bae9-48ee38845f3a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-bamboo",
+      "flow": {
+        "externalId": "bamboo_primary",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "Chang; Escamilla",
+        "Name": "Bamboo production",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "bamboo-prim",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a088b691-268d-4502-805f-d53fe56c62ae",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a088b691-268d-4502-805f-d53fe56c62ae",
+      "flow": {
+        "externalId": "elec",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-bamboo",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, low voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-low",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

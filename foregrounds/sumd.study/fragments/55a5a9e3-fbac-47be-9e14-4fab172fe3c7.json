@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "55a5a9e3-fbac-47be-9e14-4fab172fe3c7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-vpet_minus",
+      "flow": {
+        "externalId": "vpet_minus_eg",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "PET with a cut-off EG flow",
+        "Name": "PET omitting EG",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-vpet_minus",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "856ce4b3-5972-4198-8e73-d244f68e738c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 7e-05
+      },
+      "externalId": "856ce4b3-5972-4198-8e73-d244f68e738c",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-vpet_minus",
+      "tags": {
+        "Comment": "non-mass so won't affect balance",
+        "Name": "Plastic leakage from primary production",
+        "StageName": "to water"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b7344e89-62d7-47c5-bf8b-b7f80e6bd324",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "b7344e89-62d7-47c5-bf8b-b7f80e6bd324",
+      "flow": {
+        "externalId": "vpet_minus_eg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-vpet_minus",
+      "tags": {
+        "Comment": "",
+        "Name": "PET bg process",
+        "StageName": "polyethylene terephthalate production, granulate, bottle grade"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "materials-vPET-production_ux",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

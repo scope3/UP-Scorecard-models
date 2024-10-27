@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "7609a3a1-4fcc-42be-adf4-e4f0caa20b4c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "transport-ocean_freight",
+      "flow": {
+        "externalId": "ocean_freight",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Average ocean freighter transport",
+        "StageName": "transport, freight, sea, container ship"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "809e9326-4503-4589-a9a8-ff823c4ea0a1",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "2741cea8-327f-4e0f-9401-b10858dc68f8"
+        }
+      }
+    }
+  ]
+}

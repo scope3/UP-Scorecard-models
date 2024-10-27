@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "f29a28df-3ed9-43f1-8e19-7c4074578a18",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-sulfuric_acid_96",
+      "flow": {
+        "externalId": "9d63da75-8289-4b96-a900-67ec3bd40a16",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "sulfuric acid",
+        "StageName": "sulfuric acid production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "24ce2564-a878-41aa-a484-9f146aad2bdb",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

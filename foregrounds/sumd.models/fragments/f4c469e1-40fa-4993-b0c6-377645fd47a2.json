@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "f4c469e1-40fa-4993-b0c6-377645fd47a2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "polypropylene_municipal_incineration_RoW",
+      "flow": {
+        "externalId": "00478901-732f-4bf4-81cc-2255f9874512",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste polypropylene",
+        "StageName": "treatment of waste polypropylene, municipal incineration"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "1d17cd95-4d13-469c-b5da-f5c35a44ee6f",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "011980ec-b5cd-4f05-81d5-f04bc1b15748",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0004754,
+        "1": 0.0
+      },
+      "externalId": "011980ec-b5cd-4f05-81d5-f04bc1b15748",
+      "flow": {
+        "externalId": "db4566b1-bd88-427d-92da-2d25879063b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "polypropylene_municipal_incineration_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "011980ec-b5cd-4f05-81d5-f04bc1b15748",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

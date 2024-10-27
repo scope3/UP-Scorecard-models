@@ -1,0 +1,89 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "2eb4f671-02c6-4ccb-a210-67f68c875ef8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "grid-chooser-medium",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "ASCC-grid-cutoff": {
+          "externalId": "grid-ASCC-cutoff-medium",
+          "origin": "foreground"
+        },
+        "BR-grid-cutoff": {
+          "externalId": "grid-BR-cutoff-medium",
+          "origin": "foreground"
+        },
+        "CN-grid-cutoff": {
+          "externalId": "grid-CN-cutoff-medium",
+          "origin": "foreground"
+        },
+        "ENTSO-grid-cutoff": {
+          "externalId": "grid-ENTSO-cutoff-medium",
+          "origin": "foreground"
+        },
+        "FRCC-grid-cutoff": {
+          "externalId": "grid-FRCC-cutoff-medium",
+          "origin": "foreground"
+        },
+        "GLO-grid-cutoff": {
+          "externalId": "grid-GLO-cutoff-medium",
+          "origin": "foreground"
+        },
+        "HICC-grid-cutoff": {
+          "externalId": "grid-HICC-cutoff-medium",
+          "origin": "foreground"
+        },
+        "ID-grid-cutoff": {
+          "externalId": "grid-ID-cutoff-medium",
+          "origin": "foreground"
+        },
+        "JP-grid-cutoff": {
+          "externalId": "grid-JP-cutoff-medium",
+          "origin": "foreground"
+        },
+        "RFC-grid-cutoff": {
+          "externalId": "grid-RFC-cutoff-medium",
+          "origin": "foreground"
+        },
+        "RNA-grid-cutoff": {
+          "externalId": "grid-RNA-cutoff-medium",
+          "origin": "foreground"
+        },
+        "SERC-grid-cutoff": {
+          "externalId": "grid-SERC-cutoff-medium",
+          "origin": "foreground"
+        },
+        "TRE-grid-cutoff": {
+          "externalId": "grid-TRE-cutoff-medium",
+          "origin": "foreground"
+        },
+        "US-grid-cutoff": {
+          "externalId": "grid-US-cutoff-medium",
+          "origin": "foreground"
+        },
+        "default": {
+          "externalId": "grid-US-cutoff-medium",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

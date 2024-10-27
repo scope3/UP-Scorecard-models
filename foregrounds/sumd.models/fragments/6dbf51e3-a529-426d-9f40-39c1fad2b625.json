@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "6dbf51e3-a529-426d-9f40-39c1fad2b625",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-naclo_100",
+      "flow": {
+        "externalId": "96501bb6-a68f-41f5-a067-92137e816e05",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "sodium hypochlorite, without water, in 15% solution state",
+        "StageName": "sodium hypochlorite production, product in 15% solution state"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "8dcefc69-e593-4c3a-a712-b9e2b4e47515",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

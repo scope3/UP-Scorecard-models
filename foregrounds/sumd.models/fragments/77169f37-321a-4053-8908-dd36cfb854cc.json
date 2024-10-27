@@ -1,0 +1,41 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "77169f37-321a-4053-8908-dd36cfb854cc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "e_train_trans_freight",
+      "flow": {
+        "externalId": "0ace02fa-eca5-482d-a829-c18e46a52db4",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Transport, electric train",
+        "StageName": "transport, freight train, electricity"
+      },
+      "terminations": {
+        "CN-grid-cutoff": {
+          "externalId": "fa0c2c55-3fdd-4420-a57a-b57f75467529",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "ENTSO-grid-cutoff": {
+          "externalId": "f19d1d10-473b-4e9f-a725-944ef4608ff9",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "default": {
+          "externalId": "e_train_trans_RoW",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

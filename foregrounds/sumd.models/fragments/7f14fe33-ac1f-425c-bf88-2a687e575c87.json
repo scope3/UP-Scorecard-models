@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "7f14fe33-ac1f-425c-bf88-2a687e575c87",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bleached_unbleached_board_carton",
+      "flow": {
+        "externalId": "43c831c7-8759-4b40-94b4-b6e0f05087a7",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "solid bleached and unbleached board carton",
+        "StageName": "solid bleached and unbleached board carton production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "f06099e4-58a4-45ad-a9c0-53180e0a1179",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9aad8beb-5268-45fc-94ad-cf6af86eb480",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "9aad8beb-5268-45fc-94ad-cf6af86eb480",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bleached_unbleached_board_carton",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f8e157c5-8ce9-41a5-b73a-b1c204b426ca",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0889536022006696
+      },
+      "externalId": "f8e157c5-8ce9-41a5-b73a-b1c204b426ca",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bleached_unbleached_board_carton",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

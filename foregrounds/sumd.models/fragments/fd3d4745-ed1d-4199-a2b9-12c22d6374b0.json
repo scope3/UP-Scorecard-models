@@ -1,0 +1,93 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "fd3d4745-ed1d-4199-a2b9-12c22d6374b0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1000.0,
+        "1": 1000.0
+      },
+      "externalId": "waste-to-landfill",
+      "flow": {
+        "externalId": "waste",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Waste",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "waste-to-landfill",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "46cdac86-154a-43ce-a8e2-5a29a5327e24",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "46cdac86-154a-43ce-a8e2-5a29a5327e24",
+      "flow": {
+        "externalId": "waste",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "waste-to-landfill",
+      "tags": {
+        "Comment": "",
+        "Name": "Waste",
+        "StageName": "treatment of waste plastic, mixture, sanitary landfill"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "6b882ed8-f010-4441-92d2-69cea2b62345",
+          "origin": "ecoinvent.3.6.cutoff",
+          "termFlow": "88afd721-07ec-4910-a004-fa3fecb6bf70"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8d620def-e4d2-4952-8b40-77e361adaffb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 20.0,
+        "1": 20.0
+      },
+      "externalId": "8d620def-e4d2-4952-8b40-77e361adaffb",
+      "flow": {
+        "externalId": "truck_13t",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "waste-to-landfill",
+      "tags": {
+        "Comment": "",
+        "Name": "Transport, truck, 13t",
+        "StageName": "Transport, truck, 13t"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "transport-truck_13t",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

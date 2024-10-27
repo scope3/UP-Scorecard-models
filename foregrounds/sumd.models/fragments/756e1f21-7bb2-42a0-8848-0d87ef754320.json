@@ -1,0 +1,117 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "756e1f21-7bb2-42a0-8848-0d87ef754320",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "sulfate-pulp-unbleached",
+      "flow": {
+        "externalId": "63b67766-9ed6-4037-bb45-eb4f88fdd76b",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "sulfate pulp, unbleached",
+        "StageName": "sulfate pulp production, from softwood, unbleached"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "9ec562c9-2f53-4486-b8a7-4a4a39d92b9d",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "1d6ef4c4-87c6-4dc0-bf40-227df9846500",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.00233671355660619
+      },
+      "externalId": "1d6ef4c4-87c6-4dc0-bf40-227df9846500",
+      "flow": {
+        "externalId": "6eb408db-980a-4b9e-82a8-b6dca183ec35",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "sulfate-pulp-unbleached",
+      "tags": {
+        "Comment": "",
+        "Name": "pulpwood, softwood, measured as solid wood under bark",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "37c2ae66-6732-4874-929c-a87d6493e1cc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.02914305253310412
+      },
+      "externalId": "37c2ae66-6732-4874-929c-a87d6493e1cc",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "sulfate-pulp-unbleached",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "53ebcdee-f429-4caf-855b-601ebe4127ff",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "53ebcdee-f429-4caf-855b-601ebe4127ff",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "sulfate-pulp-unbleached",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

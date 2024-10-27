@@ -1,0 +1,265 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "e7175243-10f2-4207-bf7a-29bfe23fa4ee",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "corrugated-box-recyc",
+      "flow": {
+        "externalId": "ca213807-7c00-4537-ac8c-23d39d0f2bd5",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Corrugated cardboard, from recycled content",
+        "StageName": "corrugated board box production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "6fd720ba-f735-4b19-bf60-36243131b2f3",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2b1950e9-0911-4833-9bd8-eee7415e9b5b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.485648639810653
+      },
+      "externalId": "2b1950e9-0911-4833-9bd8-eee7415e9b5b",
+      "flow": {
+        "externalId": "128696a8-005e-49a7-9616-d96178655408",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "corrugated-box-recyc",
+      "tags": {
+        "Comment": "",
+        "Name": "containerboard, fluting medium",
+        "StageName": "containerboard production, fluting medium, recycled"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "0005be0b-8ede-42dd-b8c5-9284e2f1057f",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "50dbd796-cb95-44b4-8b22-10c6cfa09832",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.16276744223575404
+      },
+      "externalId": "50dbd796-cb95-44b4-8b22-10c6cfa09832",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "2b1950e9-0911-4833-9bd8-eee7415e9b5b",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d367e860-5304-4603-9306-db36e22775bf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d367e860-5304-4603-9306-db36e22775bf",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "2b1950e9-0911-4833-9bd8-eee7415e9b5b",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9315f37b-add4-4e1f-8f41-f4dda1d95672",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.61854826758958
+      },
+      "externalId": "9315f37b-add4-4e1f-8f41-f4dda1d95672",
+      "flow": {
+        "externalId": "399489c2-92d1-4b5f-91ca-c23dafc52f4e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "corrugated-box-recyc",
+      "tags": {
+        "Comment": "",
+        "Name": "containerboard, linerboard",
+        "StageName": "containerboard production, linerboard, testliner"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "ce179151-08b1-4d97-a9f9-d39b2e300efb",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "224da996-c437-40bc-b7a7-c93b0d6b0528",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "224da996-c437-40bc-b7a7-c93b0d6b0528",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "9315f37b-add4-4e1f-8f41-f4dda1d95672",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2ec3d716-5626-4407-8757-44d3ded62d05",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.018687472016531842
+      },
+      "externalId": "2ec3d716-5626-4407-8757-44d3ded62d05",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "9315f37b-add4-4e1f-8f41-f4dda1d95672",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a3706c7b-7a7c-4c38-b3e2-a6b4e7316f08",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0704600017311603
+      },
+      "externalId": "a3706c7b-7a7c-4c38-b3e2-a6b4e7316f08",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "corrugated-box-recyc",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c333131f-45a6-4a3f-b166-107a5fcec29e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c333131f-45a6-4a3f-b166-107a5fcec29e",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "corrugated-box-recyc",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

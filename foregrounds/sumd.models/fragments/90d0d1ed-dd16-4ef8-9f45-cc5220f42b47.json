@@ -1,0 +1,217 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "90d0d1ed-dd16-4ef8-9f45-cc5220f42b47",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bamboo-culm",
+      "flow": {
+        "externalId": "culm",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[lexicon.models] lexicon.models/bamboo-culm",
+        "StageName": "",
+        "flowname": "culm"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "bamboo-culm",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "160d23c7-990f-403d-ade0-ad4053f52d3f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0035,
+        "1": 0.0035
+      },
+      "externalId": "160d23c7-990f-403d-ade0-ad4053f52d3f",
+      "flow": {
+        "externalId": "urea",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-culm",
+      "tags": {
+        "Comment": "",
+        "Name": "N fertilizer (as urea active ingredient)",
+        "StageName": "urea production",
+        "flowname": "N fertilizer"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-urea",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "73f22a6b-6752-41ca-8916-cd93b80de2be",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.185,
+        "1": 0.185
+      },
+      "externalId": "73f22a6b-6752-41ca-8916-cd93b80de2be",
+      "flow": {
+        "externalId": "land_use",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-culm",
+      "tags": {
+        "Comment": "",
+        "Name": "Land Use, generic",
+        "StageName": "",
+        "flowname": "land"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "93c46655-170f-47f1-8246-d60fae90375c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.001,
+        "1": 0.001
+      },
+      "externalId": "93c46655-170f-47f1-8246-d60fae90375c",
+      "flow": {
+        "externalId": "gasoline_kg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-culm",
+      "tags": {
+        "Comment": "",
+        "Name": "Gasoline, combusted",
+        "StageName": "Gasoline, combusted in equipment",
+        "flowname": "gasoline_harvest"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-gasoline_kg",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c57ffde3-d23e-4730-b73f-9bd1e2a5ac5e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.062,
+        "1": 0.062
+      },
+      "externalId": "c57ffde3-d23e-4730-b73f-9bd1e2a5ac5e",
+      "flow": {
+        "externalId": "truck_5t",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-culm",
+      "tags": {
+        "Comment": "",
+        "Name": "Small truck transport",
+        "StageName": "transport, freight, lorry 3.5-7.5 metric ton, EURO6",
+        "flowname": "transport",
+        "flowtype": "transport"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "transport-truck_5t",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c678961b-aa1d-4214-9f96-66acabf95e12",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0035,
+        "1": 0.0035
+      },
+      "externalId": "c678961b-aa1d-4214-9f96-66acabf95e12",
+      "flow": {
+        "externalId": "single superphosphate",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-culm",
+      "tags": {
+        "Comment": "",
+        "Name": "P fertilizer (as P2O5)",
+        "StageName": "single superphosphate production",
+        "flowname": "P fertilizer"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-single superphosphate",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "daa4b832-5236-433a-9958-6a710ef7f117",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00115,
+        "1": 0.00115
+      },
+      "externalId": "daa4b832-5236-433a-9958-6a710ef7f117",
+      "flow": {
+        "externalId": "potassium chloride",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-culm",
+      "tags": {
+        "Comment": "",
+        "Name": "K fertilizer (as KCl)",
+        "StageName": "potassium chloride production",
+        "flowname": "K fertilizer"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-potassium chloride",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

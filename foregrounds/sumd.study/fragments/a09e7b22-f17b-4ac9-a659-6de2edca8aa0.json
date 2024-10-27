@@ -1,0 +1,93 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "a09e7b22-f17b-4ac9-a659-6de2edca8aa0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-cullet",
+      "flow": {
+        "externalId": "rGlass",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Rglass",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-cullet",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "07774253-2b83-4560-8bd1-fb67cd13cb5d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.652892562
+      },
+      "externalId": "07774253-2b83-4560-8bd1-fb67cd13cb5d",
+      "flow": {
+        "externalId": "rGlass",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-cullet",
+      "tags": {
+        "Comment": "",
+        "Name": "Euro glass - 60.5% cullet",
+        "StageName": "Glass Production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d91fc8f1-c0e3-4c42-9f9a-ed48fd99326b",
+          "origin": "ecoinvent.3.6.cutoff",
+          "termFlow": "c3fd9530-3e9b-44b5-8833-9e544937a6e9"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a608b07c-f5a9-4bf5-8926-6fd261b0306f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": -0.652892562
+      },
+      "externalId": "a608b07c-f5a9-4bf5-8926-6fd261b0306f",
+      "flow": {
+        "externalId": "vGlass",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-cullet",
+      "tags": {
+        "Comment": "reused process- make subfragment to cache results",
+        "Name": "GLO glass - 0% cullet",
+        "StageName": "Glass Production"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-glass-GLO",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "46fa7da0-2478-40c6-9436-84064fa9705f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "glass_municipal_incineration_RoW",
+      "flow": {
+        "externalId": "dae141a8-7daa-4f03-a649-b85b718ac65b",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste glass",
+        "StageName": "treatment of waste glass, municipal incineration"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "11d8a964-6f86-4757-b32a-bf43bebf4072",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "5a1a8dbf-8915-4684-bbb1-6679f5d361f3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00041006,
+        "1": 0.0
+      },
+      "externalId": "5a1a8dbf-8915-4684-bbb1-6679f5d361f3",
+      "flow": {
+        "externalId": "db4566b1-bd88-427d-92da-2d25879063b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "glass_municipal_incineration_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "5a1a8dbf-8915-4684-bbb1-6679f5d361f3",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

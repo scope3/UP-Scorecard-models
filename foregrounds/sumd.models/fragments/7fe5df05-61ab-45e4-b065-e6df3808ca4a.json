@@ -1,0 +1,143 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "7fe5df05-61ab-45e4-b065-e6df3808ca4a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "corrugated-box-minus",
+      "flow": {
+        "externalId": "ca213807-7c00-4537-ac8c-23d39d0f2bd5",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "corrugated board box",
+        "StageName": "corrugated board box production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "6fd720ba-f735-4b19-bf60-36243131b2f3",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "45068bfd-3bb9-48f2-a764-3931ef4d0991",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.61854826758958
+      },
+      "externalId": "45068bfd-3bb9-48f2-a764-3931ef4d0991",
+      "flow": {
+        "externalId": "399489c2-92d1-4b5f-91ca-c23dafc52f4e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "corrugated-box-minus",
+      "tags": {
+        "Comment": "",
+        "Name": "containerboard, linerboard",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7cbb8aa8-20be-48e0-b3e0-024ef6badb65",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7cbb8aa8-20be-48e0-b3e0-024ef6badb65",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "corrugated-box-minus",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7cd36841-ae96-421a-a045-fb62e8c12e23",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.485648639810653
+      },
+      "externalId": "7cd36841-ae96-421a-a045-fb62e8c12e23",
+      "flow": {
+        "externalId": "128696a8-005e-49a7-9616-d96178655408",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "corrugated-box-minus",
+      "tags": {
+        "Comment": "",
+        "Name": "containerboard, fluting medium",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d4d951ac-9fc3-484d-8c63-034b9ed199e8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0704600017311603
+      },
+      "externalId": "d4d951ac-9fc3-484d-8c63-034b9ed199e8",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "corrugated-box-minus",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

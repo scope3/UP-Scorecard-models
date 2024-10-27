@@ -1,0 +1,92 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "fe7c0876-67c5-426e-bd5a-23aad559d86a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-vHDPE",
+      "flow": {
+        "externalId": "HDPE",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "HDPE primary",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-vHDPE",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "239fb8e9-bb37-47b7-95b4-f14d2c77e432",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "239fb8e9-bb37-47b7-95b4-f14d2c77e432",
+      "flow": {
+        "externalId": "vHDPE",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-vHDPE",
+      "tags": {
+        "Comment": "",
+        "Name": "Vhdpe",
+        "StageName": "HDPE Primary"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "hdpe-production",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "8ea9a36f-d32a-4e71-a196-782285313b12",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 7e-05
+      },
+      "externalId": "8ea9a36f-d32a-4e71-a196-782285313b12",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-vHDPE",
+      "tags": {
+        "Comment": "non-mass so won't affect balance",
+        "Name": "Plastic leakage from primary production",
+        "StageName": "to water"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

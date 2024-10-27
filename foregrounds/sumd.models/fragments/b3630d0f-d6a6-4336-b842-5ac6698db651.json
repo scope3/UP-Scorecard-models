@@ -1,0 +1,244 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "b3630d0f-d6a6-4336-b842-5ac6698db651",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1000.0,
+        "1": 1000.0
+      },
+      "externalId": "molded-fiber",
+      "flow": {
+        "externalId": "molded_fiber",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[lexicon.models] lexicon.models/molded-fiber",
+        "StageName": "",
+        "flowname": "Molded Fiber Product"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "molded-fiber",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "23441c1b-2dac-439e-9de7-8da3a7293a7e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 9.12,
+        "1": 9.12
+      },
+      "externalId": "23441c1b-2dac-439e-9de7-8da3a7293a7e",
+      "flow": {
+        "externalId": "solid_waste_plastic",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "molded-fiber",
+      "tags": {
+        "Comment": "",
+        "Name": "Solid Waste, plastic",
+        "StageName": "treatment of waste plastic, mixture, sanitary landfill",
+        "flowname": "Solid Waste, plastic",
+        "notes": "Table 4 says solid waste = 60% plastic"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "plastic_mixture_sanitary_landfill_RoW",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "451a6135-28ef-49c2-bfdc-022d7035ec5b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 41.4,
+        "1": 41.4
+      },
+      "externalId": "451a6135-28ef-49c2-bfdc-022d7035ec5b",
+      "flow": {
+        "externalId": "aluminum_sulfate",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "molded-fiber",
+      "tags": {
+        "Comment": "",
+        "Name": "Chemcials with aluminum compounts",
+        "StageName": "aluminium sulfate production, without water, in 4.33% aluminium solution state",
+        "flowname": "Aluminum Sulfate",
+        "notes": "Referred to as \"Additives\" in the paper; using Zabaniotou below for Al sulfate"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-aluminum_sulfate",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8d57b637-b641-4a2d-95af-b1beaad9bec1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 5.0,
+        "1": 5.0
+      },
+      "externalId": "8d57b637-b641-4a2d-95af-b1beaad9bec1",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "molded-fiber",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": "",
+        "flowname": "Water"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "96a38d39-1f7e-47ea-93cb-1b2b6d3e3e91",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2663.63,
+        "1": 2663.63
+      },
+      "externalId": "96a38d39-1f7e-47ea-93cb-1b2b6d3e3e91",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "molded-fiber",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "Electricity"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bd946f6a-4a2d-49c1-b641-c20f2eb52a33",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1070.0,
+        "1": 1070.0
+      },
+      "externalId": "bd946f6a-4a2d-49c1-b641-c20f2eb52a33",
+      "flow": {
+        "externalId": "paper_r_collected",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "molded-fiber",
+      "tags": {
+        "Comment": "",
+        "Name": "Recycled paper",
+        "StageName": "",
+        "flowname": "Recycled paper",
+        "notes": "post-collection"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c7b6d887-678a-4d48-8c71-c868bece8d8b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 12833.0,
+        "1": 12833.0
+      },
+      "externalId": "c7b6d887-678a-4d48-8c71-c868bece8d8b",
+      "flow": {
+        "externalId": "ng_mj_hhv",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "molded-fiber",
+      "tags": {
+        "Comment": "",
+        "Name": "Natural gas",
+        "StageName": "heat production, natural gas, at boiler condensing modulating <100kW",
+        "flowname": "Natural gas",
+        "notes": "assuming: NG energy source to make steam; 2.1 GJ/t steam and 90% efficient natural gas boiler"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-ng_mj_hhv",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "e492c9a3-516f-4c9f-8763-efbe4084b6ed",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 6.08,
+        "1": 6.08
+      },
+      "externalId": "e492c9a3-516f-4c9f-8763-efbe4084b6ed",
+      "flow": {
+        "externalId": "solid_waste_fiber",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "molded-fiber",
+      "tags": {
+        "Comment": "",
+        "Name": "Solid Waste, fiber",
+        "StageName": "treatment of waste graphical paper, sanitary landfill",
+        "flowname": "Solid Waste, fiber",
+        "notes": "Assuming balance of solid waste is fiber"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "graphical_paper_sanitary_landfill_RoW",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

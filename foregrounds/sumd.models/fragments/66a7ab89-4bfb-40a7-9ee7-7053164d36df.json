@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "66a7ab89-4bfb-40a7-9ee7-7053164d36df",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "transport-truck_32t",
+      "flow": {
+        "externalId": "truck_32t",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Transport, truck, 32t",
+        "StageName": "transport, freight, lorry >32 metric ton, EURO6"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "3f512dc1-a6df-4da3-af08-dbdd5ad37f3f",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "52a8f3c4-df5d-4f18-830b-985bcd8ac830"
+        }
+      }
+    }
+  ]
+}

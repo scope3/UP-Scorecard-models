@@ -1,0 +1,150 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "1e7f2e57-2080-4d1e-a178-c27d8914845c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "graphical_paper_sanitary_landfill_RoW",
+      "flow": {
+        "externalId": "d51e5a32-c20a-4da6-8d58-31f344b50c00",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste graphical paper",
+        "StageName": "treatment of waste graphical paper, sanitary landfill"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "d566e793-8709-4363-a4ca-9c7725729402",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "4c22e60f-ab38-446c-9e85-9cebed09ee58",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.79e-05,
+        "1": -1.79e-05
+      },
+      "externalId": "4c22e60f-ab38-446c-9e85-9cebed09ee58",
+      "flow": {
+        "externalId": "baf58fc9-573c-419c-8c16-831ac03203b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "graphical_paper_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "4c22e60f-ab38-446c-9e85-9cebed09ee58",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "fc1d79ff-2f08-4c2b-9c51-066131b23ff4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7
+      },
+      "externalId": "fc1d79ff-2f08-4c2b-9c51-066131b23ff4",
+      "flow": {
+        "externalId": "baf58fc9-573c-419c-8c16-831ac03203b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c22e60f-ab38-446c-9e85-9cebed09ee58",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": "urban air close to ground"
+      },
+      "terminations": {
+        "default": {
+          "context": "urban air",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "efc1bc66-5825-4a41-abb8-3767ca0c1a72",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0419,
+        "1": -0.0419
+      },
+      "externalId": "efc1bc66-5825-4a41-abb8-3767ca0c1a72",
+      "flow": {
+        "externalId": "57bdb443-d4a6-423d-8024-959b8261d02e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "graphical_paper_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "efc1bc66-5825-4a41-abb8-3767ca0c1a72",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "dae3f0c8-a925-4002-b73d-20f89e1d70d6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7
+      },
+      "externalId": "dae3f0c8-a925-4002-b73d-20f89e1d70d6",
+      "flow": {
+        "externalId": "57bdb443-d4a6-423d-8024-959b8261d02e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "efc1bc66-5825-4a41-abb8-3767ca0c1a72",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": "non-urban air or from high stacks"
+      },
+      "terminations": {
+        "default": {
+          "context": "rural air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

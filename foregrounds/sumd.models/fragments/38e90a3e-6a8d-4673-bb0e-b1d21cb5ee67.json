@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "38e90a3e-6a8d-4673-bb0e-b1d21cb5ee67",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-oil_lubricate",
+      "flow": {
+        "externalId": "ea75b944-c676-4a13-85b8-2bea98f765a4",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "lubricating oil",
+        "StageName": "market for lubricating oil"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "39f08131-4338-483a-8dce-c9405e66ac3c",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

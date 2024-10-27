@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "ece65b42-f288-4530-8452-b45810ffb285",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "treatment_of_scrap_aluminium_municipal_incineration_RoW",
+      "flow": {
+        "externalId": "618bf4eb-bee5-4d38-8e4f-78cfebf779be",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "scrap aluminium",
+        "StageName": "treatment of scrap aluminium, municipal incineration"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "77536df6-7297-498f-8859-dbd5c09ef33a",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "d1d8f202-daa5-4c62-8881-c16aa7ebc5f9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0004284,
+        "1": 0.0
+      },
+      "externalId": "d1d8f202-daa5-4c62-8881-c16aa7ebc5f9",
+      "flow": {
+        "externalId": "db4566b1-bd88-427d-92da-2d25879063b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "treatment_of_scrap_aluminium_municipal_incineration_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d1d8f202-daa5-4c62-8881-c16aa7ebc5f9",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "50be9353-936a-4453-918f-8ac519192336",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-land-use-corn",
+      "flow": {
+        "externalId": "land_use",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "includes direct and induced effects",
+        "Name": "Land use transformation for corn-based products",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-land-use-corn",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "087f1679-1aeb-4b4e-83b6-db4906006e7f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.1
+      },
+      "externalId": "087f1679-1aeb-4b4e-83b6-db4906006e7f",
+      "flow": {
+        "externalId": "carbon dioxide",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-land-use-corn",
+      "tags": {
+        "Comment": "GREET + CA LCFS; low end 100 g; corn grain",
+        "Name": "CO2 intensity of land use change",
+        "StageName": "to air"
+      },
+      "terminations": {
+        "default": {
+          "context": "to air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

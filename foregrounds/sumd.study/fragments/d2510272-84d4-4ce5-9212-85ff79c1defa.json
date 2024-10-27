@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "d2510272-84d4-4ce5-9212-85ff79c1defa",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-inj",
+      "flow": {
+        "externalId": "injection molding",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "yield 0.994",
+        "Name": "injection molded ",
+        "StageName": "injection moulding"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "f618d5c6-f1d1-4f8b-af23-99ff3b5c505f",
+          "origin": "ecoinvent.3.6.cutoff",
+          "termFlow": "68d6dfcf-2089-4586-9bbf-ad75591105cf"
+        }
+      }
+    }
+  ]
+}

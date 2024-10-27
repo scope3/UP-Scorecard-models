@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "69e60ba4-50b2-48b3-bf2b-56737d024db6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "graphical_paper_municipal_incineration_RoW",
+      "flow": {
+        "externalId": "d51e5a32-c20a-4da6-8d58-31f344b50c00",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste graphical paper",
+        "StageName": "treatment of waste graphical paper, municipal incineration"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "917f3440-8e5d-47f1-b1a7-cd5c43a0e60c",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "37f890ca-3ba3-4410-9827-987273ad9331",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00047096,
+        "1": 0.0
+      },
+      "externalId": "37f890ca-3ba3-4410-9827-987273ad9331",
+      "flow": {
+        "externalId": "db4566b1-bd88-427d-92da-2d25879063b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "graphical_paper_municipal_incineration_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "37f890ca-3ba3-4410-9827-987273ad9331",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

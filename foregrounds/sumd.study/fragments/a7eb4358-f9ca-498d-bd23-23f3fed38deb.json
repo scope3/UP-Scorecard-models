@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "a7eb4358-f9ca-498d-bd23-23f3fed38deb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.9
+      },
+      "externalId": "SUM-SS-forming",
+      "flow": {
+        "externalId": "SS",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "Assume 90% yield",
+        "Name": "Ss",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-SS-forming",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "185bad48-612f-4936-a87a-a195cfd91e4f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "185bad48-612f-4936-a87a-a195cfd91e4f",
+      "flow": {
+        "externalId": "SS-deep-drawing",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-SS-forming",
+      "tags": {
+        "Comment": "considerable uncertainty about which DD process to use - but the results don't vary much",
+        "Name": "Deep drawing to form the container",
+        "StageName": "SS Forming"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "stainless-deep-drawing",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c47bc011-d1f3-40de-aa0c-63511c2aafa7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "c47bc011-d1f3-40de-aa0c-63511c2aafa7",
+      "flow": {
+        "externalId": "SS-rolling",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-SS-forming",
+      "tags": {
+        "Comment": "",
+        "Name": "Rolling to create the blank",
+        "StageName": "SS Forming"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "stainless-rolling",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

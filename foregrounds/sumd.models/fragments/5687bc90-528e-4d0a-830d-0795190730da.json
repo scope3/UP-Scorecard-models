@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "5687bc90-528e-4d0a-830d-0795190730da",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-urea",
+      "flow": {
+        "externalId": "9e0c9c28-7d8f-4f18-a769-bff3a4c8c1e5",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "urea",
+        "StageName": "urea production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "efb0150c-7fb3-4c66-909e-560957f89e4a",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

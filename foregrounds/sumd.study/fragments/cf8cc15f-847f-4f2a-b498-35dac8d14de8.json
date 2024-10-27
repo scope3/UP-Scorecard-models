@@ -1,0 +1,62 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "cf8cc15f-847f-4f2a-b498-35dac8d14de8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-bamboo-form",
+      "flow": {
+        "externalId": "bamboo_utensil",
+        "origin": "sumd.models"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Bamboo utensil, fabricated",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "bamboo-form",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "5744c5b0-1a24-473c-921b-c0b3f5e0b84d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "5744c5b0-1a24-473c-921b-c0b3f5e0b84d",
+      "flow": {
+        "externalId": "elec",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-bamboo-form",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, low voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-low",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

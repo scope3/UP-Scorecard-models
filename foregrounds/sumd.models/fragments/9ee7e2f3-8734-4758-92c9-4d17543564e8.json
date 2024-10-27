@@ -1,0 +1,93 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "9ee7e2f3-8734-4758-92c9-4d17543564e8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "materials-Al-ingot",
+      "flow": {
+        "externalId": "44defed2-3dc7-4d59-b3bc-23dacf1b9140",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "aluminium, primary, ingot",
+        "StageName": "aluminium production, primary, ingot"
+      },
+      "terminations": {
+        "Al-CN": {
+          "externalId": "57b94b74-ec5d-4d96-a57a-c1b8648f2ae1",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "Al-IAI Area, Africa": {
+          "externalId": "42c6169b-9951-4d9d-9ca9-1b5441b297ff",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "Al-IAI Area, Asia, without China and GCC": {
+          "externalId": "78e0c2fd-a221-49a0-bdb4-6e59185fd3f8",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "Al-IAI Area, EU27 & EFTA": {
+          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "Al-IAI Area, Gulf Cooperation Council": {
+          "externalId": "baae1515-259e-446e-a172-b69509f4112d",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "Al-IAI Area, Russia & RER w/o EU27 & EFTA": {
+          "externalId": "08a83640-a3ec-46f1-afd8-a365502ca853",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "Al-IAI Area, South America": {
+          "externalId": "0e287919-84c6-4678-8c0e-bc55537f7a76",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "Al-RoW": {
+          "externalId": "f1b89823-7033-49eb-9b3a-e3308632be6d",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "Al-UN-OCEANIA": {
+          "externalId": "5813866a-4c1a-4556-b9ae-3f50753b8c3a",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "BR-grid-cutoff": {
+          "externalId": "0e287919-84c6-4678-8c0e-bc55537f7a76",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "CN-grid-cutoff": {
+          "externalId": "57b94b74-ec5d-4d96-a57a-c1b8648f2ae1",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "ENTSO-grid-cutoff": {
+          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "GLO-grid-cutoff": {
+          "externalId": "f1b89823-7033-49eb-9b3a-e3308632be6d",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "ID-grid-cutoff": {
+          "externalId": "f1b89823-7033-49eb-9b3a-e3308632be6d",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "JP-grid-cutoff": {
+          "externalId": "f1b89823-7033-49eb-9b3a-e3308632be6d",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "default": {
+          "externalId": "d7d325bd-d3d5-447e-957c-1485fe84360a",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

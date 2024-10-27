@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "7d30a0fb-c858-491b-b280-c81c558036d8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-detergent",
+      "flow": {
+        "externalId": "ee02b2e7-9c42-4fe3-904b-2a4a6f221656",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "ethoxylated alcohol (AE7)",
+        "StageName": "ethoxylated alcohol (AE7) production, petrochemical"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d0c02fe6-f491-4e29-a445-d8221e46d2bf",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

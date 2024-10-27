@@ -1,0 +1,150 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "acd2e64d-a406-4abb-ab2d-c0f35d7f4258",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "polyethylene_terephthalate_sanitary_landfill_RoW",
+      "flow": {
+        "externalId": "dcb70fd5-e305-4920-b68b-40697cc6a206",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste polyethylene terephthalate",
+        "StageName": "treatment of waste polyethylene terephthalate, sanitary landfill"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "47ed19a7-29ed-4b9a-b160-58bd63b28313",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "22665523-5fb6-48df-b1e9-9a97522092e2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 9.06e-07,
+        "1": -9.06e-07
+      },
+      "externalId": "22665523-5fb6-48df-b1e9-9a97522092e2",
+      "flow": {
+        "externalId": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "polyethylene_terephthalate_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "22665523-5fb6-48df-b1e9-9a97522092e2",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "e9425585-878c-4d26-814f-bacec79eb485",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7
+      },
+      "externalId": "e9425585-878c-4d26-814f-bacec79eb485",
+      "flow": {
+        "externalId": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "22665523-5fb6-48df-b1e9-9a97522092e2",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": "urban air close to ground"
+      },
+      "terminations": {
+        "default": {
+          "context": "urban air",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "7a70dd46-a11a-4ec1-8344-e9073d654273",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00213,
+        "1": -0.00213
+      },
+      "externalId": "7a70dd46-a11a-4ec1-8344-e9073d654273",
+      "flow": {
+        "externalId": "70ef743b-3ed5-4a6d-b192-fb6d62378555",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "polyethylene_terephthalate_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "7a70dd46-a11a-4ec1-8344-e9073d654273",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "acaec9ae-fe89-48d3-8cbe-3b5d1dc331c0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7
+      },
+      "externalId": "acaec9ae-fe89-48d3-8cbe-3b5d1dc331c0",
+      "flow": {
+        "externalId": "70ef743b-3ed5-4a6d-b192-fb6d62378555",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "7a70dd46-a11a-4ec1-8344-e9073d654273",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": "non-urban air or from high stacks"
+      },
+      "terminations": {
+        "default": {
+          "context": "rural air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

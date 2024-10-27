@@ -1,0 +1,181 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "343611c9-99d5-4d2b-84b7-100ece9416fc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-Glass",
+      "flow": {
+        "externalId": "Glass",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "DO NOT USE",
+        "Name": "Glass material mixer",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-Glass",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "324600c0-58cb-4ee0-b5ae-8c8cabf5c62d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "-Glass-primary",
+      "flow": {
+        "externalId": "vGlass",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Glass",
+      "tags": {
+        "Comment": "",
+        "Name": "Global benchmark - no cullet",
+        "StageName": "Glass Production"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-glass-primary",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bfcb1342-4463-40d9-ac8d-07f14813b8f9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "SUM-Glass-rc",
+      "flow": {
+        "externalId": "rGlass",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Glass",
+      "tags": {
+        "Comment": "DO NOT USE",
+        "Name": "Glass recycled content",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-Glass-rc",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8c901e2a-7200-45bd-a41e-46d65a3dd217",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "8c901e2a-7200-45bd-a41e-46d65a3dd217",
+      "flow": {
+        "externalId": "rGlass",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Glass-rc",
+      "tags": {
+        "Comment": "Uses extrapolation -- to separate out vGlass and rGlass, terminate this to SUM-cullet and set -Glass-primary balance-flow to True",
+        "Name": "Cullet input",
+        "StageName": "Glass Production"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "SUM-Glass-cullet",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d595bf75-6d15-4f5f-9b16-82f3381729a9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "-Glass-Sort",
+      "flow": {
+        "externalId": "resin_sort_pc",
+        "origin": "sumd.models"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Glass-rc",
+      "tags": {
+        "Comment": "",
+        "Name": "Sorting facility",
+        "StageName": "Glass Recovery"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "-SUM-Sorting",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "5c80546e-2c81-4629-8333-20632dd44f02",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "5c80546e-2c81-4629-8333-20632dd44f02",
+      "flow": {
+        "externalId": "resin_coll_pc",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "-Glass-Sort",
+      "tags": {
+        "Comment": "",
+        "Name": "Recycled content cut-off",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "5c80546e-2c81-4629-8333-20632dd44f02",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

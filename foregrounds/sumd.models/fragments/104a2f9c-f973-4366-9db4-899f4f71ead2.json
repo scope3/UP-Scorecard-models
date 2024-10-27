@@ -1,0 +1,185 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "104a2f9c-f973-4366-9db4-899f4f71ead2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "wash-container",
+      "flow": {
+        "externalId": "wash_cycle",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[lexicon.models] lexicon.models/wash-container",
+        "StageName": "",
+        "flowname": "Wash Cycle",
+        "flowtype": "reference",
+        "notes": "Commercial 1-rack washer"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "wash-container",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "15cf454b-74d9-4516-abd3-a6ab98a81749",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.024,
+        "1": 0.024
+      },
+      "externalId": "15cf454b-74d9-4516-abd3-a6ab98a81749",
+      "flow": {
+        "externalId": "ng",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash-container",
+      "tags": {
+        "Comment": "",
+        "Name": "Natural gas",
+        "StageName": "heat production, natural gas, at boiler condensing modulating <100kW",
+        "flowname": "natural gas (heat water)",
+        "flowtype": "energy",
+        "notes": "for water heating"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-ng",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "404e0f1c-2c7c-4a4e-a396-87ea5e3aff02",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0034,
+        "1": 0.0034
+      },
+      "externalId": "404e0f1c-2c7c-4a4e-a396-87ea5e3aff02",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash-container",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": "",
+        "flowname": "water",
+        "flowtype": "water"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7507861c-094a-4d0d-b5aa-3ae3599b1aa7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 40.0,
+        "1": 40.0
+      },
+      "externalId": "7507861c-094a-4d0d-b5aa-3ae3599b1aa7",
+      "flow": {
+        "externalId": "wash_capacity",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash-container",
+      "tags": {
+        "Comment": "",
+        "Name": "Dishwasher capacity",
+        "StageName": "",
+        "flowname": "Washer capacity",
+        "notes": "Impact of each bottle wash = 1/capacity * (impact of a wash cycle)"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9b16a9bf-dd87-467d-8158-ad5a7782a09f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.02,
+        "1": 0.02
+      },
+      "externalId": "9b16a9bf-dd87-467d-8158-ad5a7782a09f",
+      "flow": {
+        "externalId": "detergent",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash-container",
+      "tags": {
+        "Comment": "",
+        "Name": "Detergent",
+        "StageName": "ethoxylated alcohol (AE7) production, petrochemical",
+        "flowname": "detergent",
+        "flowtype": "chemical"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-detergent",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fe6eb18d-024b-4281-a949-a61029348943",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.9,
+        "1": 0.9
+      },
+      "externalId": "fe6eb18d-024b-4281-a949-a61029348943",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash-container",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "electricity",
+        "flowtype": "energy"
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

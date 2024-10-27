@@ -1,0 +1,1048 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "6eff2c71-fa73-47af-b3da-f011935aa883",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "reclaim-PET",
+      "flow": {
+        "externalId": "rpet_pellet",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[lexicon.models] lexicon.models/reclaim-PET",
+        "StageName": "",
+        "flowname": "rPET pellet",
+        "flowtype": "reference",
+        "notes": "Incoming transport of resin includes the weight of incoming contaminants allocated to the resin based on its share of total weight of saleable outputs (resin and other recovered materials).",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "reclaim-PET",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "024f4726-d5cd-4e55-9c33-0b3fc9532b8a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00135,
+        "1": 0.00135
+      },
+      "externalId": "024f4726-d5cd-4e55-9c33-0b3fc9532b8a",
+      "flow": {
+        "externalId": "detergent",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Detergent",
+        "StageName": "ethoxylated alcohol (AE7) production, petrochemical",
+        "flowname": "Detergent",
+        "flowtype": "chemical",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-detergent",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "08522213-822d-415a-a06d-8b4fc51b903d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 9.9e-05,
+        "1": 9.9e-05
+      },
+      "externalId": "08522213-822d-415a-a06d-8b4fc51b903d",
+      "flow": {
+        "externalId": "polyacrylamide",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Wastewater treatment polymer",
+        "StageName": "polyacrylamide production",
+        "flowname": "Wastewater treatment polymer",
+        "flowtype": "chemical",
+        "notes": "other possibilities: poly diallyl dimethyl ammonium chloride; epichlorohydrin/dimethylamine polymers",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-polyacrylamide",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0bd3083e-caa9-4407-953d-ee2d08f4c01a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 6.6e-07,
+        "1": 6.6e-07
+      },
+      "externalId": "0bd3083e-caa9-4407-953d-ee2d08f4c01a",
+      "flow": {
+        "externalId": "diesel",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Diesel",
+        "StageName": "Diesel, combusted in industrial equipment",
+        "flowname": "Diesel",
+        "flowtype": "energy",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-diesel",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "10a70194-ccf9-4ff5-879b-b89f1c4a32c8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.34,
+        "1": 0.34
+      },
+      "externalId": "10a70194-ccf9-4ff5-879b-b89f1c4a32c8",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "Electricity",
+        "flowtype": "energy",
+        "notes": "Includes electricity reported by participating reclaimers in US, Canada, and Mexico; kWh by country not listed individually to protect confidentiality.",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "22bd43ed-d485-4bfe-98e9-98d929854508",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0095,
+        "1": 0.0095
+      },
+      "externalId": "22bd43ed-d485-4bfe-98e9-98d929854508",
+      "flow": {
+        "externalId": "naoh_100",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Sodium hydroxide, active ingredient",
+        "StageName": "chlor-alkali electrolysis, membrane cell",
+        "flowname": "Sodium Hydroxide, 50%",
+        "flowtype": "chemical",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-naoh_100",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "24552dc6-25af-4b21-aeca-11a65ca79060",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.011,
+        "1": 0.011
+      },
+      "externalId": "24552dc6-25af-4b21-aeca-11a65ca79060",
+      "flow": {
+        "externalId": "waste_process",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Wastes generated by reclamation processes",
+        "StageName": "",
+        "flowname": "Wastes generated by reclamation processes",
+        "flowtype": "waste",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "30781156-5187-4bc2-b043-f7d73edf8a38",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00048,
+        "1": 0.00048
+      },
+      "externalId": "30781156-5187-4bc2-b043-f7d73edf8a38",
+      "flow": {
+        "externalId": "nacl",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Salt",
+        "StageName": "",
+        "flowname": "Salt",
+        "flowtype": "chemical",
+        "notes": "assuming nacl",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3145a667-c33a-4c3f-8be0-ba36fc0a23ea",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00135,
+        "1": 0.00135
+      },
+      "externalId": "3145a667-c33a-4c3f-8be0-ba36fc0a23ea",
+      "flow": {
+        "externalId": "surfactant",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Surfactant",
+        "StageName": "non-ionic surfactant production, ethylene oxide derivate",
+        "flowname": "Surfactant",
+        "flowtype": "chemical",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-surfactant",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "38a0f9fe-8ce0-4f4b-a634-dd6f70575a4a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0031,
+        "1": 0.0031
+      },
+      "externalId": "38a0f9fe-8ce0-4f4b-a634-dd6f70575a4a",
+      "flow": {
+        "externalId": "polydimethylsiloxane",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Defoamants",
+        "StageName": "polydimethylsiloxane production",
+        "flowname": "Defoamants",
+        "flowtype": "chemical",
+        "notes": "assuming Polydimethylsiloxane",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-polydimethylsiloxane",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "428b335a-c6ba-4513-8a6f-b40fc1d65487",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.1e-06,
+        "1": 1.1e-06
+      },
+      "externalId": "428b335a-c6ba-4513-8a6f-b40fc1d65487",
+      "flow": {
+        "externalId": "lpg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "LPG",
+        "StageName": "Liquefied petroleum gas, combusted in industrial boiler",
+        "flowname": "LPG",
+        "flowtype": "energy",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-lpg",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4e50d343-c1ea-4dbc-be15-652928e1c0fc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.8e-05,
+        "1": 1.8e-05
+      },
+      "externalId": "4e50d343-c1ea-4dbc-be15-652928e1c0fc",
+      "flow": {
+        "externalId": "chemical_generic",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Other confidential chemicals",
+        "StageName": "",
+        "flowname": "Other confidential chemicals",
+        "flowtype": "chemical",
+        "notes": "need a \"generic\" chemical",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6a290b6c-8dcb-4d67-bed1-67e3c8a4aba7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 6.8e-05,
+        "1": 6.8e-05
+      },
+      "externalId": "6a290b6c-8dcb-4d67-bed1-67e3c8a4aba7",
+      "flow": {
+        "externalId": "ferric_chloride",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Ferric chloride",
+        "StageName": "iron(III) chloride production, without water, in 12% iron solution state",
+        "flowname": "Ferric chloride",
+        "flowtype": "chemical",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-ferric_chloride",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "6d8f9e82-47d6-4b1b-9d70-24fa36651223",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0018,
+        "1": 0.0018
+      },
+      "externalId": "6d8f9e82-47d6-4b1b-9d70-24fa36651223",
+      "flow": {
+        "externalId": "bod",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "BOD",
+        "StageName": "",
+        "flowname": "BOD",
+        "flowtype": "emission-water",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "731b71eb-ee41-4ed4-b934-c1952bd28c57",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.001,
+        "1": 0.001
+      },
+      "externalId": "731b71eb-ee41-4ed4-b934-c1952bd28c57",
+      "flow": {
+        "externalId": "sulfuric_acid",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Acid",
+        "StageName": "sulfuric acid production",
+        "flowname": "Acid",
+        "flowtype": "chemical",
+        "notes": "assuming sulfuric acid",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-sulfuric_acid",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7a8e2495-3051-4660-882d-d675b8e534bc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 3.1e-06,
+        "1": 3.1e-06
+      },
+      "externalId": "7a8e2495-3051-4660-882d-d675b8e534bc",
+      "flow": {
+        "externalId": "lpg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "LPG",
+        "StageName": "Liquefied petroleum gas, combusted in industrial boiler",
+        "flowname": "Propane",
+        "flowtype": "energy",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-lpg",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "80ee1077-2ce7-4e93-a153-5619fa872e6a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 5.4e-06,
+        "1": 5.4e-06
+      },
+      "externalId": "80ee1077-2ce7-4e93-a153-5619fa872e6a",
+      "flow": {
+        "externalId": "h2o2_100",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Hydrogen peroxide, active ingredient",
+        "StageName": "market for hydrogen peroxide, without water, in 50% solution state",
+        "flowname": "Hydrogen peroxide, 35%",
+        "flowtype": "chemical",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-h2o2_100",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "82a4f2f7-dfd1-4f99-b050-97892cd50d1a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.9000000000000003e-07,
+        "1": 2.9000000000000003e-07
+      },
+      "externalId": "82a4f2f7-dfd1-4f99-b050-97892cd50d1a",
+      "flow": {
+        "externalId": "lpg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "LPG",
+        "StageName": "Liquefied petroleum gas, combusted in industrial boiler",
+        "flowname": "Propane",
+        "flowtype": "energy",
+        "reclaim_stage": "flake-pellet"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-lpg",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8c04de0d-a18b-4023-af50-04539b8783b0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.034,
+        "1": 0.034
+      },
+      "externalId": "8c04de0d-a18b-4023-af50-04539b8783b0",
+      "flow": {
+        "externalId": "ng",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Natural gas",
+        "StageName": "heat production, natural gas, at boiler condensing modulating <100kW",
+        "flowname": "Natural gas",
+        "flowtype": "energy",
+        "reclaim_stage": "flake-pellet"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-ng",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8f7e8552-f689-41f3-891f-a59df6e8c466",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.48,
+        "1": 0.48
+      },
+      "externalId": "8f7e8552-f689-41f3-891f-a59df6e8c466",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "Electricity",
+        "flowtype": "energy",
+        "notes": "Flake to Pellet; Includes electricity reported by participating reclaimers in US, Canada, and Mexico; kWh by country not listed individually to protect confidentiality.",
+        "reclaim_stage": "flake-pellet"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "96d64fe8-a632-40f5-8697-5513517eed4b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.067,
+        "1": 0.067
+      },
+      "externalId": "96d64fe8-a632-40f5-8697-5513517eed4b",
+      "flow": {
+        "externalId": "ng",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Natural gas",
+        "StageName": "heat production, natural gas, at boiler condensing modulating <100kW",
+        "flowname": "Natural gas",
+        "flowtype": "energy",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-ng",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "addef402-6e10-489e-af6f-c2c68b0fcf9f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 3.6e-05,
+        "1": 3.6e-05
+      },
+      "externalId": "addef402-6e10-489e-af6f-c2c68b0fcf9f",
+      "flow": {
+        "externalId": "ww_diss_solid",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Dissolved solids, unspecified",
+        "StageName": "",
+        "flowname": "Dissolved solids, unspecified",
+        "flowtype": "emission-water",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "aebe2498-1b85-4c42-8062-2cdbca4b7c4e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.18,
+        "1": 0.18
+      },
+      "externalId": "aebe2498-1b85-4c42-8062-2cdbca4b7c4e",
+      "flow": {
+        "externalId": "waste_contam",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Incoming contaminants removed by reclaimer",
+        "StageName": "",
+        "flowname": "Incoming contaminants removed by reclaimer",
+        "flowtype": "waste",
+        "notes": "Weight of contaminants in incoming material allocated to the resin based on its share of total weight of saleable outputs (resin and other recovered materials).",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b30f30ba-1b0f-4219-8b8e-7f34be83c2ab",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00068,
+        "1": 0.00068
+      },
+      "externalId": "b30f30ba-1b0f-4219-8b8e-7f34be83c2ab",
+      "flow": {
+        "externalId": "aluminum_sulfate",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Chemcials with aluminum compounts",
+        "StageName": "aluminium sulfate production, without water, in 4.33% aluminium solution state",
+        "flowname": "Chemcials with aluminum compounts",
+        "flowtype": "chemical",
+        "notes": "assuming aluminum sulfate",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-aluminum_sulfate",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ccd24ffb-2ac9-47a4-8666-5d2e0c5c6417",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0033,
+        "1": 0.0033
+      },
+      "externalId": "ccd24ffb-2ac9-47a4-8666-5d2e0c5c6417",
+      "flow": {
+        "externalId": "truck_diesel",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Combination truck transport, diesel",
+        "StageName": "transport, freight, lorry >32 metric ton, EURO6",
+        "flowname": "Combination truck transport, diesel (chemicals)",
+        "flowtype": "transport",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "transport-truck_20t",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ce4abd63-4317-4b0e-8f6e-b75d43bc364d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.18,
+        "1": 1.18
+      },
+      "externalId": "ce4abd63-4317-4b0e-8f6e-b75d43bc364d",
+      "flow": {
+        "externalId": "resin_sort_pc",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Resin, Sorted postconsumer",
+        "StageName": "",
+        "flowname": "PET, Sorted postconsumer",
+        "flowtype": "raw_material",
+        "notes": "collected & sorted",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "e1d70811-54b6-4729-a7ca-a620ff28e819",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00078,
+        "1": 0.00078
+      },
+      "externalId": "e1d70811-54b6-4729-a7ca-a620ff28e819",
+      "flow": {
+        "externalId": "ww_susp_solid",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Suspended solids, unspecified",
+        "StageName": "",
+        "flowname": "Suspended solids, unspecified",
+        "flowtype": "emission-water",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e3aa6e8d-9844-4ef3-8c65-4f5d310edd56",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7
+      },
+      "externalId": "e3aa6e8d-9844-4ef3-8c65-4f5d310edd56",
+      "flow": {
+        "externalId": "truck_diesel",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Combination truck transport, diesel",
+        "StageName": "transport, freight, lorry >32 metric ton, EURO6",
+        "flowname": "Combination truck transport, diesel (resin)",
+        "flowtype": "transport",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "transport-truck_20t",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "e5dd0b54-27fc-4ed0-b0ee-8961eb29926c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 7.4e-06,
+        "1": 7.4e-06
+      },
+      "externalId": "e5dd0b54-27fc-4ed0-b0ee-8961eb29926c",
+      "flow": {
+        "externalId": "pm",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Particulates, unspecified",
+        "StageName": "",
+        "flowname": "Particulates, unspecified",
+        "flowtype": "emission-air",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e8bbe532-92d0-4421-9511-a6bc520aa91c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00088,
+        "1": 0.00088
+      },
+      "externalId": "e8bbe532-92d0-4421-9511-a6bc520aa91c",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": "",
+        "flowname": "Water consumption",
+        "flowtype": "water",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "edf3bb15-4dc5-4279-8b86-981a3125a6d8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 8.3e-08,
+        "1": 8.3e-08
+      },
+      "externalId": "edf3bb15-4dc5-4279-8b86-981a3125a6d8",
+      "flow": {
+        "externalId": "lpg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "LPG",
+        "StageName": "Liquefied petroleum gas, combusted in industrial boiler",
+        "flowname": "LPG",
+        "flowtype": "energy",
+        "reclaim_stage": "flake-pellet"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-lpg",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "f4a4e796-4f57-466d-baae-59c33f886cb7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0016,
+        "1": 0.0016
+      },
+      "externalId": "f4a4e796-4f57-466d-baae-59c33f886cb7",
+      "flow": {
+        "externalId": "cod",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "COD",
+        "StageName": "",
+        "flowname": "COD",
+        "flowtype": "emission-water",
+        "reclaim_stage": "bale-flake"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fea65536-64ef-4c74-90a6-8fdc1dc32fd9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0031,
+        "1": 0.0031
+      },
+      "externalId": "fea65536-64ef-4c74-90a6-8fdc1dc32fd9",
+      "flow": {
+        "externalId": "n2_liq",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "reclaim-PET",
+      "tags": {
+        "Comment": "",
+        "Name": "Nitrogen",
+        "StageName": "",
+        "flowname": "Nitrogen",
+        "flowtype": "chemical",
+        "notes": "Flake to Pellet",
+        "reclaim_stage": "flake-pellet"
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

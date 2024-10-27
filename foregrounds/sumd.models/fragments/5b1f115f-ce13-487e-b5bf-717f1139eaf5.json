@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "5b1f115f-ce13-487e-b5bf-717f1139eaf5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-fossil-eg",
+      "flow": {
+        "externalId": "4052f31f-cd94-4b86-b075-210914586a0f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "ethylene glycol",
+        "StageName": "market for ethylene glycol"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "84729f30-a02a-473b-bbcd-685d4b9cc883",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "309a1bc3-3ec3-47c0-a595-00ed2e92a631",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-land-use-bamboo",
+      "flow": {
+        "externalId": "land_use",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "includes direct and induced effects",
+        "Name": "Land use transformation for bamboo-based products",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-land-use-bamboo",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "b7c5570c-621d-4912-ba46-8e6122f88baf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "b7c5570c-621d-4912-ba46-8e6122f88baf",
+      "flow": {
+        "externalId": "carbon dioxide",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-land-use-bamboo",
+      "tags": {
+        "Comment": "TBD",
+        "Name": "CO2 intensity of land use change",
+        "StageName": "to air"
+      },
+      "terminations": {
+        "default": {
+          "context": "to air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

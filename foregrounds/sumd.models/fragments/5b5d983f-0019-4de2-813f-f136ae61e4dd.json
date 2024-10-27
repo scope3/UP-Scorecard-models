@@ -1,0 +1,368 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "5b5d983f-0019-4de2-813f-f136ae61e4dd",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bamboo-prim",
+      "flow": {
+        "externalId": "bamboo_prim",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[lexicon.models] lexicon.models/bamboo-prim",
+        "StageName": "",
+        "flowname": "bamboo_prim",
+        "notes": "bamboo, to be used for utensil manufacture"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "bamboo-prim",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "03b738f9-d52c-4464-8853-f24a135b29ff",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.072,
+        "1": 0.072
+      },
+      "externalId": "03b738f9-d52c-4464-8853-f24a135b29ff",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "elec_treat",
+        "notes": "Chang'18"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3010944b-9c8c-4238-b967-c922bfca1432",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.001,
+        "1": 0.001
+      },
+      "externalId": "3010944b-9c8c-4238-b967-c922bfca1432",
+      "flow": {
+        "externalId": "potassium chloride",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "K fertilizer (as KCl)",
+        "StageName": "potassium chloride production",
+        "flowname": "K fertilizer",
+        "notes": "As KCl; Assuming half of value from Escamilla, to account for Chang having zero fertilizer"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-potassium chloride",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "418e6518-a267-498c-af91-e95f008d5ee9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.325,
+        "1": 0.325
+      },
+      "externalId": "418e6518-a267-498c-af91-e95f008d5ee9",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "elec_dry",
+        "notes": "Chang'18"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "69d06b9f-8ea7-497c-afac-908dae4ab338",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0013,
+        "1": 0.0013
+      },
+      "externalId": "69d06b9f-8ea7-497c-afac-908dae4ab338",
+      "flow": {
+        "externalId": "gasoline_kg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "Gasoline, combusted",
+        "StageName": "Gasoline, combusted in equipment",
+        "flowname": "gasoline_harvest",
+        "notes": "Escamilla'14"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-gasoline_kg",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6e5f93fe-c1a5-4a83-a6c6-044125ead8e8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.004,
+        "1": 0.004
+      },
+      "externalId": "6e5f93fe-c1a5-4a83-a6c6-044125ead8e8",
+      "flow": {
+        "externalId": "urea",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "N fertilizer (as urea active ingredient)",
+        "StageName": "urea production",
+        "flowname": "N fertilizer",
+        "notes": "As urea; Assuming half of value from Escamilla, to account for Chang having zero fertilizer"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-urea",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "786044a3-b3a1-404f-a27e-b91162937517",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.069,
+        "1": 0.069
+      },
+      "externalId": "786044a3-b3a1-404f-a27e-b91162937517",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "elec_trim",
+        "notes": "Elec to trim from Chang'18 \"slice\" and \"split\"; Elec for dust constrol assumed to be 25% value of Chang'18"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a15cfaf9-ed48-44e4-9feb-e789004e3764",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.231,
+        "1": 0.231
+      },
+      "externalId": "a15cfaf9-ed48-44e4-9feb-e789004e3764",
+      "flow": {
+        "externalId": "land_use",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "Land Use, generic",
+        "StageName": "",
+        "flowname": "land",
+        "notes": "Yield from Escamilla'14"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a8ebd88d-98ac-4d8c-8ffd-3805f29828c0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.25,
+        "1": 1.25
+      },
+      "externalId": "a8ebd88d-98ac-4d8c-8ffd-3805f29828c0",
+      "flow": {
+        "externalId": "culm",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "Bamboo culm, resource",
+        "StageName": "",
+        "flowname": "culm",
+        "notes": "as raw, harvested culm (stalk)"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a911ce6f-28e8-4fc0-a835-ae2024c9495f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0775,
+        "1": 0.0775
+      },
+      "externalId": "a911ce6f-28e8-4fc0-a835-ae2024c9495f",
+      "flow": {
+        "externalId": "truck_5t",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "Small truck transport",
+        "StageName": "transport, freight, lorry 3.5-7.5 metric ton, EURO6",
+        "flowname": "transport",
+        "flowtype": "transport",
+        "notes": "5 t truck; transport from field to processing"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "transport-truck_5t",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ca205b00-638c-4932-b1e6-2d30faf49326",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.004,
+        "1": 0.004
+      },
+      "externalId": "ca205b00-638c-4932-b1e6-2d30faf49326",
+      "flow": {
+        "externalId": "single superphosphate",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "P fertilizer (as P2O5)",
+        "StageName": "single superphosphate production",
+        "flowname": "P fertilizer",
+        "notes": "as P2O5; Assuming half of value from Escamilla, to account for Chang having zero fertilizer"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-single superphosphate",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fc556a3f-0d90-40c0-ad20-07a3a0f3d214",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.102,
+        "1": 0.102
+      },
+      "externalId": "fc556a3f-0d90-40c0-ad20-07a3a0f3d214",
+      "flow": {
+        "externalId": "h2o2_100",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-prim",
+      "tags": {
+        "Comment": "",
+        "Name": "Hydrogen peroxide, active ingredient",
+        "StageName": "market for hydrogen peroxide, without water, in 50% solution state",
+        "flowname": "h2o2_treat",
+        "notes": "Reported as pure H2O2; from Chang'18,  kg h2o2 (50%) / kg bamboo section"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-h2o2_100",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

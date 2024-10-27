@@ -1,0 +1,66 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "de4d8cfd-13a7-4b44-b8f9-31ad0ee5d870",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-Bio-EG",
+      "flow": {
+        "externalId": "bio_ethylene_glycol",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Bio-based Ethylene Glycol from corn",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "bioEG",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9c6efe74-7eda-4209-8979-cafe909f0e03",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "9c6efe74-7eda-4209-8979-cafe909f0e03",
+      "flow": {
+        "externalId": "land_use_corn",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Bio-EG",
+      "tags": {
+        "Comment": "",
+        "Name": "Implied land use",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-land-use-corn",
+          "origin": "foreground",
+          "termFlow": {
+            "externalId": "land_use",
+            "origin": "foreground"
+          }
+        }
+      }
+    }
+  ]
+}

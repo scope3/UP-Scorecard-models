@@ -1,0 +1,154 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "0fb849c1-124a-4b8a-bf74-7b882a7ae24d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "wood_untreated_sanitary_landfill_RoW",
+      "flow": {
+        "externalId": "6f2eb438-cde2-4d07-a770-d023a988a9c4",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste wood, untreated",
+        "StageName": "treatment of waste wood, untreated, sanitary landfill"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "b486d6b0-f1a1-4280-a9df-9805adb085f7",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "69e181e7-0f4e-4304-af33-bfa3f24b57e7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00231,
+        "1": -0.00231
+      },
+      "externalId": "69e181e7-0f4e-4304-af33-bfa3f24b57e7",
+      "flow": {
+        "externalId": "57bdb443-d4a6-423d-8024-959b8261d02e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wood_untreated_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "69e181e7-0f4e-4304-af33-bfa3f24b57e7",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "5d9faa80-aa75-447e-b48b-64a1073d35e0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7,
+        "defeat_methane": 1.0,
+        "defeat_methane1": 1.0
+      },
+      "externalId": "5d9faa80-aa75-447e-b48b-64a1073d35e0",
+      "flow": {
+        "externalId": "57bdb443-d4a6-423d-8024-959b8261d02e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "69e181e7-0f4e-4304-af33-bfa3f24b57e7",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": "non-urban air or from high stacks"
+      },
+      "terminations": {
+        "default": {
+          "context": "rural air",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "adc2c2e5-1aa5-4213-91cc-e6a33e59c886",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 9.86e-07,
+        "1": -9.86e-07
+      },
+      "externalId": "adc2c2e5-1aa5-4213-91cc-e6a33e59c886",
+      "flow": {
+        "externalId": "baf58fc9-573c-419c-8c16-831ac03203b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wood_untreated_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "adc2c2e5-1aa5-4213-91cc-e6a33e59c886",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "24742abf-6973-4606-874d-7db0bef8163d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7,
+        "defeat_methane": 1.0,
+        "defeat_methane0": 1.0
+      },
+      "externalId": "24742abf-6973-4606-874d-7db0bef8163d",
+      "flow": {
+        "externalId": "baf58fc9-573c-419c-8c16-831ac03203b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "adc2c2e5-1aa5-4213-91cc-e6a33e59c886",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": "urban air close to ground"
+      },
+      "terminations": {
+        "default": {
+          "context": "urban air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

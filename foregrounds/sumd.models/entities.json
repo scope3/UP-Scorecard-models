@@ -1,0 +1,2022 @@
+{
+  "@context": "https://bkuczenski.github.io/lca-tools-datafiles/context.jsonld",
+  "catalogNames": {
+    "lexicon.models": [
+      "/data/GitHub/Scope3/FPF-Regional/catalog/lexicon.models",
+      "/data/GitHub/Scope3/FPF-Regional/catalog/lexicon.models/entities.json",
+      "/data/GitHub/Scope3/SUM-Lexicon/catalog/lexicon.models",
+      "/data/GitHub/Scope3/SUM-Lexicon/catalog/lexicon.models/entities.json"
+    ],
+    "sumd.models": [
+      "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models",
+      "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models/entities.json"
+    ]
+  },
+  "dataSource": "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models",
+  "dataSourceType": "LcForeground",
+  "flows": [
+    {
+      "Name": "waste polypropylene",
+      "entityType": "flow",
+      "externalId": "00478901-732f-4bf4-81cc-2255f9874512",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "00478901-732f-4bf4-81cc-2255f9874512"
+    },
+    {
+      "Name": "urea formaldehyde resin",
+      "entityType": "flow",
+      "externalId": "064de167-b110-483c-8c4f-c9307417b2d1",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "064de167-b110-483c-8c4f-c9307417b2d1"
+    },
+    {
+      "Name": "polydimethylsiloxane",
+      "entityType": "flow",
+      "externalId": "0dc25044-d414-5564-b7f3-998ef6732374",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "0dc25044-d414-5564-b7f3-998ef6732374"
+    },
+    {
+      "Name": "butyl acrylate",
+      "entityType": "flow",
+      "externalId": "118544e5-7d7a-4bfe-bcf9-6e71e0b50ad4",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "118544e5-7d7a-4bfe-bcf9-6e71e0b50ad4"
+    },
+    {
+      "Name": "containerboard, fluting medium",
+      "entityType": "flow",
+      "externalId": "128696a8-005e-49a7-9616-d96178655408",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "128696a8-005e-49a7-9616-d96178655408"
+    },
+    {
+      "Name": "printing ink, offset, without solvent, in 47.5% solution state",
+      "entityType": "flow",
+      "externalId": "13f4bda2-1e95-40e5-9f1e-97feb2142cd0",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "13f4bda2-1e95-40e5-9f1e-97feb2142cd0"
+    },
+    {
+      "Name": "sawnwood, lath, softwood, raw, dried (u=20%)",
+      "entityType": "flow",
+      "externalId": "1458c180-5333-475e-88d2-7886d76e779e",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "uuid": "1458c180-5333-475e-88d2-7886d76e779e"
+    },
+    {
+      "Name": "polyvinylchloride, bulk polymerised",
+      "entityType": "flow",
+      "externalId": "1768722c-0cb1-4b0b-9183-2ff16919120e",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "1768722c-0cb1-4b0b-9183-2ff16919120e"
+    },
+    {
+      "Name": "paper, woodfree, uncoated",
+      "entityType": "flow",
+      "externalId": "198f9bb6-4268-4609-b85f-3f90f0d26d6d",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "198f9bb6-4268-4609-b85f-3f90f0d26d6d"
+    },
+    {
+      "Name": "polyethylene terephthalate, granulate, bottle grade",
+      "entityType": "flow",
+      "externalId": "19bacec1-aff8-4398-a7bd-d125b48505b7",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "19bacec1-aff8-4398-a7bd-d125b48505b7"
+    },
+    {
+      "Name": "deep drawing, steel, 3500 kN press, automode",
+      "entityType": "flow",
+      "externalId": "1bed7aa6-94cd-445e-83f2-0ac811d8be86",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "1bed7aa6-94cd-445e-83f2-0ac811d8be86"
+    },
+    {
+      "Name": "stretch blow moulding",
+      "entityType": "flow",
+      "externalId": "1e16715e-6aa4-4649-92bd-304400d6c246",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "1e16715e-6aa4-4649-92bd-304400d6c246"
+    },
+    {
+      "Name": "bagasse, from sugarcane",
+      "entityType": "flow",
+      "externalId": "22df1429-91c9-4d1e-a289-1deec0adc66d",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "22df1429-91c9-4d1e-a289-1deec0adc66d"
+    },
+    {
+      "Name": "hydrogen peroxide, without water, in 50% solution state",
+      "entityType": "flow",
+      "externalId": "26c92545-7995-491d-bcca-ee6d590ef194",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "26c92545-7995-491d-bcca-ee6d590ef194"
+    },
+    {
+      "Name": "polyacrylamide",
+      "entityType": "flow",
+      "externalId": "29f75a6a-e5cd-40f6-8f84-797deb0ef98c",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "29f75a6a-e5cd-40f6-8f84-797deb0ef98c"
+    },
+    {
+      "Name": "bagasse, from sweet sorghum",
+      "entityType": "flow",
+      "externalId": "2cd6e74e-c64c-4ed4-945b-fd2d2a4f0db6",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "2cd6e74e-c64c-4ed4-945b-fd2d2a4f0db6"
+    },
+    {
+      "Name": "ceramic tile",
+      "entityType": "flow",
+      "externalId": "33187006-ca03-4db5-bc5a-75a91024c3ef",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "33187006-ca03-4db5-bc5a-75a91024c3ef"
+    },
+    {
+      "Name": "containerboard, linerboard",
+      "entityType": "flow",
+      "externalId": "399489c2-92d1-4b5f-91ca-c23dafc52f4e",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "399489c2-92d1-4b5f-91ca-c23dafc52f4e"
+    },
+    {
+      "Name": "hydrogen fluoride",
+      "entityType": "flow",
+      "externalId": "39f50029-2aae-470f-87dc-5e24405df568",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "39f50029-2aae-470f-87dc-5e24405df568"
+    },
+    {
+      "Name": "inert waste",
+      "entityType": "flow",
+      "externalId": "3a91cb7d-843b-495d-9973-33ba5efee877",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "3a91cb7d-843b-495d-9973-33ba5efee877"
+    },
+    {
+      "Name": "single superphosphate",
+      "entityType": "flow",
+      "externalId": "3fbcb3ea-30d6-5459-8ac1-955fb642e67f",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "3fbcb3ea-30d6-5459-8ac1-955fb642e67f"
+    },
+    {
+      "Name": "non-ionic surfactant",
+      "entityType": "flow",
+      "externalId": "3fc068d9-71cf-5f55-8e15-1675bbc38caf",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "3fc068d9-71cf-5f55-8e15-1675bbc38caf"
+    },
+    {
+      "Name": "ethylene glycol",
+      "entityType": "flow",
+      "externalId": "4052f31f-cd94-4b86-b075-210914586a0f",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "4052f31f-cd94-4b86-b075-210914586a0f"
+    },
+    {
+      "Name": "waste paperboard",
+      "entityType": "flow",
+      "externalId": "42baed81-24d1-4aed-a120-cc7d35ddac10",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "42baed81-24d1-4aed-a120-cc7d35ddac10"
+    },
+    {
+      "Name": "solid bleached and unbleached board carton",
+      "entityType": "flow",
+      "externalId": "43c831c7-8759-4b40-94b4-b6e0f05087a7",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "43c831c7-8759-4b40-94b4-b6e0f05087a7"
+    },
+    {
+      "Name": "aluminium, primary, ingot",
+      "entityType": "flow",
+      "externalId": "44defed2-3dc7-4d59-b3bc-23dacf1b9140",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
+    },
+    {
+      "Name": "aluminium sulfate, without water, in 4.33% aluminium solution state",
+      "entityType": "flow",
+      "externalId": "4ad5078c-3f14-440a-b9d6-b44ff0faec60",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "4ad5078c-3f14-440a-b9d6-b44ff0faec60"
+    },
+    {
+      "Name": "liquid packaging board container",
+      "entityType": "flow",
+      "externalId": "5048f36a-990d-4188-9834-7792f51cad69",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "5048f36a-990d-4188-9834-7792f51cad69"
+    },
+    {
+      "Name": "epoxy resin, liquid",
+      "entityType": "flow",
+      "externalId": "51c7e57a-00b7-4412-b56c-94c17b211ee7",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "51c7e57a-00b7-4412-b56c-94c17b211ee7"
+    },
+    {
+      "Name": "epichlorohydrin",
+      "entityType": "flow",
+      "externalId": "55918c79-1454-4ce3-9c06-a09b4e3e224b",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "55918c79-1454-4ce3-9c06-a09b4e3e224b"
+    },
+    {
+      "Name": "extrusion, plastic film",
+      "entityType": "flow",
+      "externalId": "579049d0-3db8-4496-a234-2f61ed28a72b",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "579049d0-3db8-4496-a234-2f61ed28a72b"
+    },
+    {
+      "Name": "Methane, non-fossil",
+      "entityType": "flow",
+      "externalId": "57bdb443-d4a6-423d-8024-959b8261d02e",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "57bdb443-d4a6-423d-8024-959b8261d02e"
+    },
+    {
+      "Name": "Methane, fossil",
+      "entityType": "flow",
+      "externalId": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f"
+    },
+    {
+      "Name": "sodium hydroxide, without water, in 50% solution state",
+      "entityType": "flow",
+      "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "61396bcb-bf35-411a-a6a6-8543ccef83e8"
+    },
+    {
+      "Name": "scrap aluminium",
+      "entityType": "flow",
+      "externalId": "618bf4eb-bee5-4d38-8e4f-78cfebf779be",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "618bf4eb-bee5-4d38-8e4f-78cfebf779be"
+    },
+    {
+      "Name": "sulfate pulp, unbleached",
+      "entityType": "flow",
+      "externalId": "63b67766-9ed6-4037-bb45-eb4f88fdd76b",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "63b67766-9ed6-4037-bb45-eb4f88fdd76b"
+    },
+    {
+      "Name": "electricity, high voltage",
+      "entityType": "flow",
+      "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
+      "uuid": "66c93e71-f32b-4591-901c-55395db5c132"
+    },
+    {
+      "Name": "polypropylene, granulate",
+      "entityType": "flow",
+      "externalId": "66ca2f38-5e51-4546-83c0-d7cef0c55c7c",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "66ca2f38-5e51-4546-83c0-d7cef0c55c7c"
+    },
+    {
+      "Name": "sheet rolling, chromium steel",
+      "entityType": "flow",
+      "externalId": "68b4fdd4-d341-4ac5-9dbc-59eb34653dab",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "68b4fdd4-d341-4ac5-9dbc-59eb34653dab"
+    },
+    {
+      "Name": "injection moulding",
+      "entityType": "flow",
+      "externalId": "68d6dfcf-2089-4586-9bbf-ad75591105cf",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "68d6dfcf-2089-4586-9bbf-ad75591105cf"
+    },
+    {
+      "Name": "pulpwood, softwood, measured as solid wood under bark",
+      "entityType": "flow",
+      "externalId": "6eb408db-980a-4b9e-82a8-b6dca183ec35",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "uuid": "6eb408db-980a-4b9e-82a8-b6dca183ec35"
+    },
+    {
+      "Name": "waste wood, untreated",
+      "entityType": "flow",
+      "externalId": "6f2eb438-cde2-4d07-a770-d023a988a9c4",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "6f2eb438-cde2-4d07-a770-d023a988a9c4"
+    },
+    {
+      "Name": "Methane, fossil",
+      "entityType": "flow",
+      "externalId": "70ef743b-3ed5-4a6d-b192-fb6d62378555",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "70ef743b-3ed5-4a6d-b192-fb6d62378555"
+    },
+    {
+      "Name": "Carbon dioxide, non-fossil",
+      "entityType": "flow",
+      "externalId": "73ed05cc-9727-4abf-9516-4b5c0fe54a16",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "73ed05cc-9727-4abf-9516-4b5c0fe54a16"
+    },
+    {
+      "Name": "electricity, medium voltage",
+      "entityType": "flow",
+      "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
+      "uuid": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d"
+    },
+    {
+      "Name": "waste aluminium",
+      "entityType": "flow",
+      "externalId": "7df87cd6-22cd-4010-ab95-b1a02917bbfe",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "7df87cd6-22cd-4010-ab95-b1a02917bbfe"
+    },
+    {
+      "Name": "waste polyethylene",
+      "entityType": "flow",
+      "externalId": "7ee0ddc3-924d-4339-b9bf-7856af6a698f",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "7ee0ddc3-924d-4339-b9bf-7856af6a698f"
+    },
+    {
+      "Name": "sawnwood, softwood, raw",
+      "entityType": "flow",
+      "externalId": "86f41749-d313-4e4a-ab11-67af97ee0e4a",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "uuid": "86f41749-d313-4e4a-ab11-67af97ee0e4a"
+    },
+    {
+      "Name": "tetrafluoroethylene",
+      "entityType": "flow",
+      "externalId": "874ae709-1968-4ef3-a4e8-4cefbe22c11e",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "874ae709-1968-4ef3-a4e8-4cefbe22c11e"
+    },
+    {
+      "Name": "waste plastic, mixture",
+      "entityType": "flow",
+      "externalId": "88afd721-07ec-4910-a004-fa3fecb6bf70",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "88afd721-07ec-4910-a004-fa3fecb6bf70"
+    },
+    {
+      "Name": "polyethylene, low density, granulate",
+      "entityType": "flow",
+      "externalId": "947a85fa-114e-4d9e-b36c-3293e48ea5ae",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "947a85fa-114e-4d9e-b36c-3293e48ea5ae"
+    },
+    {
+      "Name": "sodium hypochlorite, without water, in 15% solution state",
+      "entityType": "flow",
+      "externalId": "96501bb6-a68f-41f5-a067-92137e816e05",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "96501bb6-a68f-41f5-a067-92137e816e05"
+    },
+    {
+      "Name": "beverage carton converting",
+      "entityType": "flow",
+      "externalId": "9cc5ecbd-442b-4d2a-a1dd-73b7b899535d",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-19da-a746-0800200c9a66",
+      "uuid": "9cc5ecbd-442b-4d2a-a1dd-73b7b899535d"
+    },
+    {
+      "Name": "sulfuric acid",
+      "entityType": "flow",
+      "externalId": "9d63da75-8289-4b96-a900-67ec3bd40a16",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "9d63da75-8289-4b96-a900-67ec3bd40a16"
+    },
+    {
+      "Name": "urea",
+      "entityType": "flow",
+      "externalId": "9e0c9c28-7d8f-4f18-a769-bff3a4c8c1e5",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "9e0c9c28-7d8f-4f18-a769-bff3a4c8c1e5"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "This is the consumption mix ( bio / fossil)",
+      "Name": "Ethylene glycol, at use",
+      "entityType": "flow",
+      "externalId": "EG",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "should convert to CO2eq emissions",
+      "Name": "CO2 equivalent emissions - excluding LUC",
+      "entityType": "flow",
+      "externalId": "GWP_noLUC",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "CO2 equivalent emissions from LUC",
+      "entityType": "flow",
+      "externalId": "GWP_onlyLUC",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "If it's pure HF, its a gas",
+      "Ecoinvent": "hydrogen fluoride production",
+      "Name": "Hydrogen fluoride",
+      "entityType": "flow",
+      "externalId": "HF",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "Assuming injection molded",
+      "Name": "PE part (for mfg.)",
+      "entityType": "flow",
+      "externalId": "PE_part",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "Assuming injection molded",
+      "Name": "PP part (for mfg.)",
+      "entityType": "flow",
+      "externalId": "PP_part",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "sheet rolling, aluminium",
+      "entityType": "flow",
+      "externalId": "a5309c08-cc71-402e-b870-163a09ee0742",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "a5309c08-cc71-402e-b870-163a09ee0742"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Adhesive",
+      "entityType": "flow",
+      "externalId": "adhesive",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Transport, air, freight",
+      "entityType": "flow",
+      "externalId": "air_freight",
+      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Aluminum can",
+      "entityType": "flow",
+      "externalId": "alum_can",
+      "referenceQuantity": "flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Alum. scrap (from can mfg)",
+      "entityType": "flow",
+      "externalId": "alum_mfg_scrap",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "does not include coatings",
+      "Name": "Aluminum sheet",
+      "entityType": "flow",
+      "externalId": "alum_sheet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "X",
+      "Ecoinvent": "aluminium sulfate production, powder",
+      "Name": "Chemcials with aluminum compounts",
+      "entityType": "flow",
+      "externalId": "aluminum_sulfate",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "waste polystyrene",
+      "entityType": "flow",
+      "externalId": "b0176c67-5bc0-462a-8466-4f372f446f7c",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "b0176c67-5bc0-462a-8466-4f372f446f7c"
+    },
+    {
+      "Name": "folding boxboard carton",
+      "entityType": "flow",
+      "externalId": "b0ba5ada-4b2a-4a29-b383-bdd78d6bbad6",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "b0ba5ada-4b2a-4a29-b383-bdd78d6bbad6"
+    },
+    {
+      "Name": "heat, central or small-scale, natural gas",
+      "entityType": "flow",
+      "externalId": "b3c58f5d-5815-487c-8b9c-4366e00d22dc",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200c9a66",
+      "uuid": "b3c58f5d-5815-487c-8b9c-4366e00d22dc"
+    },
+    {
+      "Name": "polyethylene, high density, granulate",
+      "entityType": "flow",
+      "externalId": "b685192a-e033-421e-9074-8fe7cb176046",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "b685192a-e033-421e-9074-8fe7cb176046"
+    },
+    {
+      "Name": "iron(III) chloride, without water, in a 12% iron solution state",
+      "entityType": "flow",
+      "externalId": "b8f9a782-d4ee-4477-be28-ee3ff2997cf6",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "b8f9a782-d4ee-4477-be28-ee3ff2997cf6"
+    },
+    {
+      "Name": "Methane, non-fossil",
+      "entityType": "flow",
+      "externalId": "baf58fc9-573c-419c-8c16-831ac03203b9",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "baf58fc9-573c-419c-8c16-831ac03203b9"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Primary Bamboo",
+      "entityType": "flow",
+      "externalId": "bamboo_prim",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Bamboo utensil, fabricated",
+      "entityType": "flow",
+      "externalId": "bamboo_utensil",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Transport, barge",
+      "entityType": "flow",
+      "externalId": "barge",
+      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "Name": "Gasoline, combusted in equipment",
+      "entityType": "flow",
+      "externalId": "bc38e349-1ccf-3855-a615-a4f581ab875b",
+      "origin": "lcacommons.uslci.fy24.q1.01",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "uuid": "bc38e349-1ccf-3855-a615-a4f581ab875b"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "bioEG",
+      "entityType": "flow",
+      "externalId": "bioeg",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "BOD",
+      "entityType": "flow",
+      "externalId": "bod",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "BPA/BPF",
+      "entityType": "flow",
+      "externalId": "bpa",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "steel, chromium steel 18/8",
+      "entityType": "flow",
+      "externalId": "c33b5236-001e-49b5-aa3d-810c0214f9ce",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "c33b5236-001e-49b5-aa3d-810c0214f9ce"
+    },
+    {
+      "Name": "packaging glass, white",
+      "entityType": "flow",
+      "externalId": "c3fd9530-3e9b-44b5-8833-9e544937a6e9",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "c3fd9530-3e9b-44b5-8833-9e544937a6e9"
+    },
+    {
+      "Name": "thermoforming of plastic sheets",
+      "entityType": "flow",
+      "externalId": "c449e3b5-385c-454b-acba-e3e6f58c68e4",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "c449e3b5-385c-454b-acba-e3e6f58c68e4"
+    },
+    {
+      "Name": "extrusion of plastic sheets and thermoforming, inline",
+      "entityType": "flow",
+      "externalId": "c5638b4f-3c4b-4874-9188-644d52be12bc",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "c5638b4f-3c4b-4874-9188-644d52be12bc"
+    },
+    {
+      "Name": "corrugated board box",
+      "entityType": "flow",
+      "externalId": "ca213807-7c00-4537-ac8c-23d39d0f2bd5",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "ca213807-7c00-4537-ac8c-23d39d0f2bd5"
+    },
+    {
+      "Name": "blow moulding",
+      "entityType": "flow",
+      "externalId": "cfe51aa8-55b2-43ef-82f3-0d6c4c80ca67",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "cfe51aa8-55b2-43ef-82f3-0d6c4c80ca67"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "Use ecoinvent \"organic chemicals, unspecified\"",
+      "Name": "Other confidential chemicals",
+      "entityType": "flow",
+      "externalId": "chemical_generic",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Can coating (unspecified)",
+      "entityType": "flow",
+      "externalId": "coating_paint",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "COD",
+      "entityType": "flow",
+      "externalId": "cod",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Cullet",
+      "entityType": "flow",
+      "externalId": "cullet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Bamboo culm, resource",
+      "entityType": "flow",
+      "externalId": "culm",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "scrap steel",
+      "entityType": "flow",
+      "externalId": "d1a4a803-c563-4740-84cf-3c21a488bd74",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "d1a4a803-c563-4740-84cf-3c21a488bd74"
+    },
+    {
+      "Name": "purified terephthalic acid",
+      "entityType": "flow",
+      "externalId": "d479404a-f180-41cc-a587-4425b64e4a00",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "d479404a-f180-41cc-a587-4425b64e4a00"
+    },
+    {
+      "Name": "waste graphical paper",
+      "entityType": "flow",
+      "externalId": "d51e5a32-c20a-4da6-8d58-31f344b50c00",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "d51e5a32-c20a-4da6-8d58-31f344b50c00"
+    },
+    {
+      "Name": "Diesel, combusted in industrial equipment",
+      "entityType": "flow",
+      "externalId": "d815ff18-015c-3afb-be18-be03bdf325da",
+      "origin": "lcacommons.uslci.fy24.q1.01",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "uuid": "d815ff18-015c-3afb-be18-be03bdf325da"
+    },
+    {
+      "Name": "waste glass",
+      "entityType": "flow",
+      "externalId": "dae141a8-7daa-4f03-a649-b85b718ac65b",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "dae141a8-7daa-4f03-a649-b85b718ac65b"
+    },
+    {
+      "Name": "Water",
+      "entityType": "flow",
+      "externalId": "db4566b1-bd88-427d-92da-2d25879063b9",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "uuid": "db4566b1-bd88-427d-92da-2d25879063b9"
+    },
+    {
+      "Name": "waste polyethylene terephthalate",
+      "entityType": "flow",
+      "externalId": "dcb70fd5-e305-4920-b68b-40697cc6a206",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "dcb70fd5-e305-4920-b68b-40697cc6a206"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "X",
+      "Ecoinvent": "ethoxylated alcohol (AE3) production, petrochemical",
+      "Name": "Detergent",
+      "entityType": "flow",
+      "externalId": "detergent",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Diesel",
+      "entityType": "flow",
+      "externalId": "diesel",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "Name": "sheet rolling, steel",
+      "entityType": "flow",
+      "externalId": "e2f62697-57d4-42fe-95bf-c85fd32a9cf0",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "e2f62697-57d4-42fe-95bf-c85fd32a9cf0"
+    },
+    {
+      "Name": "polyvinylchloride, suspension polymerised",
+      "entityType": "flow",
+      "externalId": "e69cca3a-6e2a-4638-b9e7-09927dcf1c95",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "e69cca3a-6e2a-4638-b9e7-09927dcf1c95"
+    },
+    {
+      "Name": "polymer foaming",
+      "entityType": "flow",
+      "externalId": "e6c4c508-f95f-42e0-b0a7-78c703326f9c",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "e6c4c508-f95f-42e0-b0a7-78c703326f9c"
+    },
+    {
+      "Name": "lubricating oil",
+      "entityType": "flow",
+      "externalId": "ea75b944-c676-4a13-85b8-2bea98f765a4",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "ea75b944-c676-4a13-85b8-2bea98f765a4"
+    },
+    {
+      "Name": "ethoxylated alcohol (AE7)",
+      "entityType": "flow",
+      "externalId": "ee02b2e7-9c42-4fe3-904b-2a4a6f221656",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "ee02b2e7-9c42-4fe3-904b-2a4a6f221656"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "kWh is its own quantity for explicit clarity, even though it is basically the same as 'net calorific value'",
+      "Name": "Electricity",
+      "entityType": "flow",
+      "externalId": "elec",
+      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Epoxy resin",
+      "entityType": "flow",
+      "externalId": "epoxy_resin",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "Liquefied petroleum gas, combusted in industrial boiler",
+      "entityType": "flow",
+      "externalId": "f77da622-e84d-3639-8917-fcf792aaee13",
+      "origin": "lcacommons.uslci.fy24.q1.01",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "uuid": "f77da622-e84d-3639-8917-fcf792aaee13"
+    },
+    {
+      "Name": "polymethyl methacrylate, sheet",
+      "entityType": "flow",
+      "externalId": "f8257971-f691-4192-a882-9b923df961d8",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "f8257971-f691-4192-a882-9b923df961d8"
+    },
+    {
+      "Name": "Carbon dioxide, fossil",
+      "entityType": "flow",
+      "externalId": "f9749677-9c9f-4678-ab55-c607dfdc2cb9",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "f9749677-9c9f-4678-ab55-c607dfdc2cb9"
+    },
+    {
+      "Name": "potassium chloride",
+      "entityType": "flow",
+      "externalId": "f9c6e4e7-e45c-423e-b48e-f7e140efb38e",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "f9c6e4e7-e45c-423e-b48e-f7e140efb38e"
+    },
+    {
+      "Name": "polyvinylchloride, emulsion polymerised",
+      "entityType": "flow",
+      "externalId": "fd45a910-a95c-4742-90a5-473e86d16486",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "fd45a910-a95c-4742-90a5-473e86d16486"
+    },
+    {
+      "Name": "aluminium, wrought alloy",
+      "entityType": "flow",
+      "externalId": "fef44ccb-917e-4c8d-bb35-a1898827b659",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "fef44ccb-917e-4c8d-bb35-a1898827b659"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "X",
+      "Ecoinvent": "iron(III) chloride production, without water, in 12% iron solution state",
+      "Name": "Ferric chloride",
+      "entityType": "flow",
+      "externalId": "ferric_chloride",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "polyethylene, linear low density, granulate",
+      "entityType": "flow",
+      "externalId": "ff4734a5-a4a6-4960-bfbd-febae7a64f65",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "ff4734a5-a4a6-4960-bfbd-febae7a64f65"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Gasoline, combusted",
+      "entityType": "flow",
+      "externalId": "gasoline",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Gasoline, combusted",
+      "entityType": "flow",
+      "externalId": "gasoline_kg",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Glass",
+      "entityType": "flow",
+      "externalId": "glass",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "X",
+      "Ecoinvent": "hydrogen peroxide, without water, in 50% solution state",
+      "Name": "Hydrogen peroxide, active ingredient",
+      "entityType": "flow",
+      "externalId": "h2o2_100",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "HDPE, Collected postconsumer",
+      "entityType": "flow",
+      "externalId": "hdpe_coll_pc",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "HDPE pellet",
+      "entityType": "flow",
+      "externalId": "hdpe_pellet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "HDPE, Sorted postconsumer",
+      "entityType": "flow",
+      "externalId": "hdpe_sort_pc",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "ink",
+      "entityType": "flow",
+      "externalId": "ink",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Land Use, generic",
+      "entityType": "flow",
+      "externalId": "land_use",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-21da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Land Use, for Corn Production",
+      "entityType": "flow",
+      "externalId": "land_use_corn",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-21da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Can lining (unspecified)",
+      "entityType": "flow",
+      "externalId": "lining_can",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "LPG",
+      "entityType": "flow",
+      "externalId": "lpg",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "LPG",
+      "entityType": "flow",
+      "externalId": "lpg_mj",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Molded Fiber Product",
+      "entityType": "flow",
+      "externalId": "molded_fiber",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Nitrogen",
+      "entityType": "flow",
+      "externalId": "n2_liq",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Salt",
+      "entityType": "flow",
+      "externalId": "nacl",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "X",
+      "Ecoinvent": "sodium hypochlorite production, product in 15% solution state",
+      "Name": "Sodium hypochlorite, active ingredient",
+      "entityType": "flow",
+      "externalId": "naclo_100",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Sodium hydroxide, active ingredient",
+      "entityType": "flow",
+      "externalId": "naoh_100",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Natural gas",
+      "entityType": "flow",
+      "externalId": "ng",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Natural gas",
+      "entityType": "flow",
+      "externalId": "ng_mj",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Natural gas",
+      "entityType": "flow",
+      "externalId": "ng_mj_hhv",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-14da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Average ocean freighter transport",
+      "entityType": "flow",
+      "externalId": "ocean_freight",
+      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Lubricating oil",
+      "entityType": "flow",
+      "externalId": "oil_lubricate",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Paper",
+      "entityType": "flow",
+      "externalId": "paper",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Recycled paper",
+      "entityType": "flow",
+      "externalId": "paper_r_collected",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "PET, Collected postconsumer",
+      "entityType": "flow",
+      "externalId": "pet_coll_pc",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "PET pellet",
+      "entityType": "flow",
+      "externalId": "pet_pellet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "PET, Sorted postconsumer",
+      "entityType": "flow",
+      "externalId": "pet_sort_pc",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Particulates, unspecified",
+      "entityType": "flow",
+      "externalId": "pm",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Ecoinvent": "polyacrylamide production",
+      "Name": "Wastewater treatment polymer",
+      "entityType": "flow",
+      "externalId": "polyacrylamide",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "X",
+      "Ecoinvent": "polydimethylsiloxane production",
+      "Name": "Defoamants",
+      "entityType": "flow",
+      "externalId": "polydimethylsiloxane",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "K fertilizer (as KCl)",
+      "entityType": "flow",
+      "externalId": "potassium chloride",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "PP pellet",
+      "entityType": "flow",
+      "externalId": "pp_pellet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "This is basically quicklime (CaO, aka 'burnt lime'), but in a \"raw\" form (saw somewhere that ists 85% CaO, 5% CaCO3, and the rest maybe sand, but I'm not sure.",
+      "Name": "Quicklime lumps",
+      "entityType": "flow",
+      "externalId": "quicklime_lump",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "rAluminum",
+      "entityType": "flow",
+      "externalId": "ralum",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "input to sorting process",
+      "Name": "Resin, Collected postconsumer",
+      "entityType": "flow",
+      "externalId": "resin_coll_pc",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "output from sorting process",
+      "Name": "Resin, Sorted postconsumer",
+      "entityType": "flow",
+      "externalId": "resin_sort_pc",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "good as vHDPE",
+      "Name": "rHDPE pellet",
+      "entityType": "flow",
+      "externalId": "rhdpe_pellet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "good as vPET",
+      "Name": "rPET pellet",
+      "entityType": "flow",
+      "externalId": "rpet_pellet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "rPP pellet",
+      "entityType": "flow",
+      "externalId": "rpp_pellet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "rStainless Steel",
+      "entityType": "flow",
+      "externalId": "rss",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "P fertilizer (as P2O5)",
+      "entityType": "flow",
+      "externalId": "single superphosphate",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Solid Waste, fiber",
+      "entityType": "flow",
+      "externalId": "solid_waste_fiber",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Solid Waste, plastic",
+      "entityType": "flow",
+      "externalId": "solid_waste_plastic",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "\u00bf\u00bfDoe we need more specific??",
+      "Name": "Solvent",
+      "entityType": "flow",
+      "externalId": "solvent",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Stainless Steel",
+      "entityType": "flow",
+      "externalId": "ss",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "X",
+      "Ecoinvent": "sulfuric acid production",
+      "Name": "Acid",
+      "entityType": "flow",
+      "externalId": "sulfuric_acid",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "X",
+      "Ecoinvent": "sulfuric acid production",
+      "Name": "Sulfuric acid aq. (96%)",
+      "entityType": "flow",
+      "externalId": "sulfuric_acid_96",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "X",
+      "Ecoinvent": "non-ionic surfactant production, ethylene oxide derivate",
+      "Name": "Surfactant",
+      "entityType": "flow",
+      "externalId": "surfactant",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "terephthalic acid",
+      "Name": "TPA",
+      "entityType": "flow",
+      "externalId": "tpa",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Rail transport",
+      "entityType": "flow",
+      "externalId": "train",
+      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Transport, truck, 13t",
+      "entityType": "flow",
+      "externalId": "truck_13t",
+      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Transport, truck, 20t",
+      "entityType": "flow",
+      "externalId": "truck_20t",
+      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Transport, truck, 32t",
+      "entityType": "flow",
+      "externalId": "truck_32t",
+      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Small truck transport",
+      "entityType": "flow",
+      "externalId": "truck_5t",
+      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Transport, truck, 8t",
+      "entityType": "flow",
+      "externalId": "truck_8t",
+      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Combination truck transport, diesel",
+      "entityType": "flow",
+      "externalId": "truck_diesel",
+      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "N fertilizer (as urea active ingredient)",
+      "entityType": "flow",
+      "externalId": "urea",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "PLA",
+      "entityType": "flow",
+      "externalId": "vPLA",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "vAluminum",
+      "entityType": "flow",
+      "externalId": "valum",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "vGlass",
+      "entityType": "flow",
+      "externalId": "vglass",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "vHDPE pellet",
+      "entityType": "flow",
+      "externalId": "vhdpe_pellet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "vPET pellet",
+      "entityType": "flow",
+      "externalId": "vpet_pellet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "vPP pellet",
+      "entityType": "flow",
+      "externalId": "vpp_pellet",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "vStainless Steel",
+      "entityType": "flow",
+      "externalId": "vss",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Dishwasher capacity",
+      "entityType": "flow",
+      "externalId": "wash_capacity",
+      "referenceQuantity": "flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Dishwasher Cycle",
+      "entityType": "flow",
+      "externalId": "wash_cycle",
+      "referenceQuantity": "flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Waste",
+      "entityType": "flow",
+      "externalId": "waste",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Incoming contaminants removed by reclaimer",
+      "entityType": "flow",
+      "externalId": "waste_contam",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Wastes generated by reclamation processes",
+      "entityType": "flow",
+      "externalId": "waste_process",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "This is meant to represent water as impact, as opposed to water as flow type",
+      "Name": "Water impact",
+      "entityType": "flow",
+      "externalId": "water_blue",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Water used",
+      "entityType": "flow",
+      "externalId": "water_muni",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Dissolved solids, unspecified",
+      "entityType": "flow",
+      "externalId": "ww_diss_solid",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Suspended solids, unspecified",
+      "entityType": "flow",
+      "externalId": "ww_susp_solid",
+      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+    }
+  ],
+  "initArgs": {
+    "dataReference": "sumd.models"
+  },
+  "quantities": [
+    {
+      "Name": "Electric energy",
+      "entityType": "quantity",
+      "externalId": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
+      "origin": "local.ecoinvent.3.2.cutoff",
+      "referenceUnit": "kWh",
+      "uuid": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc"
+    },
+    {
+      "Indicator": "GWP 100a",
+      "Name": "IPCC 2013, climate change, GWP 100a",
+      "entityType": "quantity",
+      "externalId": "IPCC 2013, climate change, GWP 100a",
+      "origin": "lcia.sum.ecoinvent",
+      "referenceUnit": "kg CO2-Eq",
+      "uuid": "f6c0024a-9276-3dbe-9f66-715f2ef96790"
+    },
+    {
+      "Indicator": "WDP",
+      "Name": "ReCiPe Midpoint (E) V1.13, water depletion, WDP",
+      "entityType": "quantity",
+      "externalId": "ReCiPe Midpoint (E) V1.13, water depletion, WDP",
+      "origin": "lcia.sum.ecoinvent",
+      "referenceUnit": "m3 water-Eq",
+      "uuid": "a1d1d86f-1bda-36fa-b3ef-716431519dce"
+    },
+    {
+      "Name": "Incineration Carbon",
+      "entityType": "quantity",
+      "externalId": "c_incin",
+      "origin": "sumd.study",
+      "referenceUnit": "kg carbon"
+    },
+    {
+      "Name": "Number of items",
+      "entityType": "quantity",
+      "externalId": "flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345",
+      "origin": "elcd.3.2",
+      "referenceUnit": "Item(s)",
+      "uuid": "01846770-4cfe-4a25-8ad9-919d8d378345"
+    },
+    {
+      "Name": "Number of items",
+      "entityType": "quantity",
+      "externalId": "flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345",
+      "origin": "local.qdb",
+      "referenceUnit": "Item(s)",
+      "uuid": "01846770-4cfe-4a25-8ad9-919d8d378345"
+    },
+    {
+      "Name": "Goods transport (mass*distance)",
+      "entityType": "quantity",
+      "externalId": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66",
+      "origin": "elcd.3.2",
+      "referenceUnit": "t*km",
+      "uuid": "838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "Name": "Goods transport (mass*distance)",
+      "entityType": "quantity",
+      "externalId": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "t*km",
+      "uuid": "838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "Name": "Mass",
+      "entityType": "quantity",
+      "externalId": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "origin": "elcd.3.2",
+      "referenceUnit": "kg",
+      "uuid": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "Mass",
+      "entityType": "quantity",
+      "externalId": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "kg",
+      "uuid": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "Net calorific value",
+      "entityType": "quantity",
+      "externalId": "flowproperties/93a60a56-a3c8-11da-a746-0800200c9a66",
+      "origin": "elcd.3.2",
+      "referenceUnit": "MJ",
+      "uuid": "93a60a56-a3c8-11da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Net calorific value",
+      "entityType": "quantity",
+      "externalId": "flowproperties/93a60a56-a3c8-11da-a746-0800200c9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "MJ",
+      "uuid": "93a60a56-a3c8-11da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Gross calorific value",
+      "entityType": "quantity",
+      "externalId": "flowproperties/93a60a56-a3c8-14da-a746-0800200c9a66",
+      "origin": "elcd.3.2",
+      "referenceUnit": "MJ",
+      "uuid": "93a60a56-a3c8-14da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Gross calorific value",
+      "entityType": "quantity",
+      "externalId": "flowproperties/93a60a56-a3c8-14da-a746-0800200c9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "MJ",
+      "uuid": "93a60a56-a3c8-14da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Area",
+      "entityType": "quantity",
+      "externalId": "flowproperties/93a60a56-a3c8-19da-a746-0800200c9a66",
+      "origin": "elcd.3.2",
+      "referenceUnit": "m2",
+      "uuid": "93a60a56-a3c8-19da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Area*time",
+      "entityType": "quantity",
+      "externalId": "flowproperties/93a60a56-a3c8-21da-a746-0800200c9a66",
+      "origin": "elcd.3.2",
+      "referenceUnit": "m2*a",
+      "uuid": "93a60a56-a3c8-21da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Volume",
+      "entityType": "quantity",
+      "externalId": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "origin": "elcd.3.2",
+      "referenceUnit": "m3",
+      "uuid": "93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Volume",
+      "entityType": "quantity",
+      "externalId": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "m3",
+      "uuid": "93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Mass, synthetic plastic",
+      "entityType": "quantity",
+      "externalId": "mass_plastic",
+      "origin": "sumd.study",
+      "referenceUnit": "kg plastic"
+    },
+    {
+      "Indicator": "Blue water",
+      "Name": "Water Footprint",
+      "entityType": "quantity",
+      "externalId": "q_water_footprint",
+      "origin": "lcia",
+      "referenceUnit": "m3"
+    },
+    {
+      "Indicator": "water",
+      "Name": "selected LCI results, additional, resource, water",
+      "entityType": "quantity",
+      "externalId": "selected LCI results, additional, resource, water",
+      "origin": "lcia.sum.ecoinvent",
+      "referenceUnit": "m3",
+      "uuid": "54fe203f-2a41-3dd5-9b39-9283b9efe844"
+    }
+  ],
+  "termManager": {
+    "Characterizations": {
+      "IPCC 2013, climate change, GWP 100a": {
+        "CO2 equivalent emissions - excluding LUC": {
+          "to air": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "CO2 equivalent emissions from LUC": {
+          "to air": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        }
+      },
+      "ReCiPe Midpoint (E) V1.13, water depletion, WDP": {
+        "Water used": {
+          "from water": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "lexicon.models/water_muni": {
+          "from water": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        }
+      },
+      "c_incin": {
+        "Paper": {
+          "None": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+            "value": {
+              "GLO": 0.444
+            }
+          }
+        }
+      },
+      "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66": {
+        "Aluminum can": {
+          "None": {
+            "ref_quantity": "flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345",
+            "value": {
+              "GLO": 0.01292082948
+            }
+          }
+        }
+      },
+      "flowproperties/93a60a56-a3c8-11da-a746-0800200c9a66": {
+        "lexicon.models/ng": {
+          "None": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+            "value": {
+              "GLO": 37.0
+            }
+          }
+        },
+        "lexicon.models/ng_mj_hhv": {
+          "None": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-14da-a746-0800200c9a66",
+            "value": {
+              "GLO": 0.9
+            }
+          }
+        }
+      },
+      "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66": {
+        "lexicon.models/gasoline_kg": {
+          "None": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+            "value": {
+              "GLO": 0.001333333333
+            }
+          }
+        }
+      },
+      "mass_plastic": {
+        "Adhesive": {
+          "None": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        }
+      },
+      "q_water_footprint": {
+        "Water impact": {
+          "from water": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "lexicon.models/water_muni": {
+          "from water": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        }
+      },
+      "selected LCI results, additional, resource, water": {
+        "Water used": {
+          "from water": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "lexicon.models/water_muni": {
+          "from water": {
+            "ref_quantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        }
+      }
+    },
+    "Compartments": [
+      {
+        "name": "Emissions",
+        "sense": "Sink",
+        "synonyms": [
+          "('emissions',)",
+          "emission",
+          "emissions",
+          "lcia:Emissions",
+          "lexicon.models:Emissions",
+          "uslci.mod:emission"
+        ]
+      },
+      {
+        "name": "Resources",
+        "sense": "Source",
+        "synonyms": [
+          "('resources',)",
+          "Energy resources",
+          "Material resources",
+          "Non renewable energy resources",
+          "Non renewable resources",
+          "Renewable energy resources",
+          "Renewable resources",
+          "local.elcd.3.2:Resources",
+          "natural resource",
+          "renewable",
+          "resource",
+          "resource, air",
+          "resource, air, subterranean",
+          "resource, ground",
+          "resource, water",
+          "resource, water, subterranean",
+          "resources",
+          "uslci.mod:resource",
+          "uslci.mod:resource, air",
+          "uslci.mod:resource, air, subterranean",
+          "uslci.mod:resource, ground",
+          "uslci.mod:resource, water",
+          "uslci.mod:resource, water, subterranean"
+        ]
+      },
+      {
+        "name": "from water",
+        "parent": "Resources",
+        "synonyms": [
+          "Non-renewable element resources from water",
+          "Non-renewable material resources from water",
+          "Renewable energy resources from water",
+          "Renewable material resources from water",
+          "Resources from water",
+          "Resources; from water",
+          "in water",
+          "lcia:from water",
+          "lexicon.models:from water"
+        ]
+      },
+      {
+        "name": "to air",
+        "parent": "Emissions",
+        "synonyms": [
+          "Emission to air",
+          "Emission to air, unspecified",
+          "Emissions to air",
+          "Emissions to air, unspecified",
+          "Emissions; to air",
+          "Group NMVOC to air",
+          "Halogenated organic emissions to air",
+          "Heavy metals to air",
+          "Inorganic emissions to air",
+          "Organic emissions to air (group VOC)",
+          "Other emissions to air",
+          "Particles to air",
+          "Radioactive emissions to air",
+          "air, unspecified",
+          "lcia.sum.ecoinvent:air",
+          "lcia.sum.ecoinvent:air, unspecified",
+          "lexicon.models:to air",
+          "local.ecoinvent.3.6.cutoff.index.20210103:air",
+          "local.ecoinvent.3.6.cutoff:air",
+          "local.ecoinvent.3.7.1.cutoff.index.20210103:air",
+          "local.ecoinvent.3.7.1.cutoff:air",
+          "local.lcia.ecoinvent.3.7:air",
+          "rural",
+          "to Air",
+          "troposphere",
+          "uslci.mod:air",
+          "uslci.mod:rural",
+          "uslci.mod:troposphere"
+        ]
+      }
+    ],
+    "Flowables": [
+      {
+        "name": "Adhesive",
+        "synonyms": [
+          "lexicon.models/adhesive",
+          "sumd.models/adhesive"
+        ]
+      },
+      {
+        "name": "Aluminum can",
+        "synonyms": [
+          "lexicon.models/alum_can",
+          "sumd.models/alum_can"
+        ]
+      },
+      {
+        "name": "CO2 equivalent emissions - excluding LUC",
+        "synonyms": [
+          "lexicon.models/GWP_noLUC",
+          "sumd.models/GWP_noLUC"
+        ]
+      },
+      {
+        "name": "CO2 equivalent emissions from LUC",
+        "synonyms": [
+          "lexicon.models/GWP_onlyLUC",
+          "sumd.models/GWP_onlyLUC"
+        ]
+      },
+      {
+        "name": "Paper",
+        "synonyms": [
+          "lexicon.models/paper",
+          "sumd.models/paper"
+        ]
+      },
+      {
+        "name": "Water impact",
+        "synonyms": [
+          "lexicon.models/water_blue",
+          "sumd.models/water_blue"
+        ]
+      },
+      {
+        "name": "Water used",
+        "synonyms": []
+      },
+      {
+        "name": "lexicon.models/gasoline_kg",
+        "synonyms": [
+          "sumd.models/gasoline_kg"
+        ]
+      },
+      {
+        "name": "lexicon.models/ng",
+        "synonyms": [
+          "sumd.models/ng"
+        ]
+      },
+      {
+        "name": "lexicon.models/ng_mj_hhv",
+        "synonyms": [
+          "sumd.models/ng_mj_hhv"
+        ]
+      },
+      {
+        "name": "lexicon.models/water_muni",
+        "synonyms": [
+          "sumd.models/water_muni"
+        ]
+      }
+    ]
+  }
+}

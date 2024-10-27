@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "bfe91aa2-4fba-4472-a2af-722c0e21dabf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "transport-truck_5t",
+      "flow": {
+        "externalId": "truck_5t",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Small truck transport",
+        "StageName": "transport, freight, lorry 3.5-7.5 metric ton, EURO6"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d7402739-2d82-4a92-a976-3673a20de21a",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "ccc1fbd3-3877-43b6-a845-0c2ed8359c29"
+        }
+      }
+    }
+  ]
+}

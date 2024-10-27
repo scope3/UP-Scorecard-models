@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "078b361a-fb4e-4700-a107-e8c2076d9240",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "grid-TRE-cutoff-high",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "61fb758f-a1e2-4dbb-9e81-f48ab8a51a39",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "66c93e71-f32b-4591-901c-55395db5c132"
+        }
+      }
+    }
+  ]
+}

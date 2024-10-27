@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "2e2f1bba-2b71-4285-9ec2-c18bda1fb1e8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-blow",
+      "flow": {
+        "externalId": "HDPE",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "yield 0.997",
+        "Name": "blow molding",
+        "StageName": "blow moulding"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "2a6f5e94-597d-4054-93c6-e7ed5649c41e",
+          "origin": "ecoinvent.3.6.cutoff",
+          "termFlow": "cfe51aa8-55b2-43ef-82f3-0d6c4c80ca67"
+        }
+      }
+    }
+  ]
+}

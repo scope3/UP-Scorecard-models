@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "29a467c7-e457-451e-a01f-0676eda7d0aa",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-naoh_100",
+      "flow": {
+        "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "sodium hydroxide, without water, in 50% solution state",
+        "StageName": "chlor-alkali electrolysis, membrane cell"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "e998a71a-014e-4acc-a0b4-a8629fbe632a",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "698a7b0e-5a50-4928-8d15-936f68df0597",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "paperboard_sanitary_landfill_RoW",
+      "flow": {
+        "externalId": "42baed81-24d1-4aed-a120-cc7d35ddac10",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste paperboard",
+        "StageName": "treatment of waste paperboard, sanitary landfill"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "41fe4574-becd-4c78-af61-e66991fcce71",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "71ad43f6-1d81-4e0d-8ab3-ce992016351c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.3e-05,
+        "1": -2.3e-05
+      },
+      "externalId": "71ad43f6-1d81-4e0d-8ab3-ce992016351c",
+      "flow": {
+        "externalId": "baf58fc9-573c-419c-8c16-831ac03203b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "paperboard_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "71ad43f6-1d81-4e0d-8ab3-ce992016351c",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "a1357180-6fd1-4dc3-9ba7-597f06294c3f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7
+      },
+      "externalId": "a1357180-6fd1-4dc3-9ba7-597f06294c3f",
+      "flow": {
+        "externalId": "baf58fc9-573c-419c-8c16-831ac03203b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "71ad43f6-1d81-4e0d-8ab3-ce992016351c",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": "urban air close to ground"
+      },
+      "terminations": {
+        "default": {
+          "context": "urban air",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "befa7c4e-45a4-41b0-88af-8d727cf28553",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.054,
+        "1": -0.054
+      },
+      "externalId": "befa7c4e-45a4-41b0-88af-8d727cf28553",
+      "flow": {
+        "externalId": "57bdb443-d4a6-423d-8024-959b8261d02e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "paperboard_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "befa7c4e-45a4-41b0-88af-8d727cf28553",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "1750f0d7-acb6-4620-b99b-4c4947097f20",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7
+      },
+      "externalId": "1750f0d7-acb6-4620-b99b-4c4947097f20",
+      "flow": {
+        "externalId": "57bdb443-d4a6-423d-8024-959b8261d02e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "befa7c4e-45a4-41b0-88af-8d727cf28553",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, non-fossil",
+        "StageName": "non-urban air or from high stacks"
+      },
+      "terminations": {
+        "default": {
+          "context": "rural air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

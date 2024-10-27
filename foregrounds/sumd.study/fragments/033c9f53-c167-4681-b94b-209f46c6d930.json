@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "033c9f53-c167-4681-b94b-209f46c6d930",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-PLA",
+      "flow": {
+        "externalId": "vPLA",
+        "origin": "sumd.models"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "ecoinvent via plastics europe",
+        "Name": "PLA Primary",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-PLA",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "b4691f55-05af-440c-821d-288594879578",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 7e-05
+      },
+      "externalId": "b4691f55-05af-440c-821d-288594879578",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-PLA",
+      "tags": {
+        "Comment": "",
+        "Name": "Plastic leakage from primary production",
+        "StageName": "to water"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e5abe161-bdfb-4ee0-a590-ce34d7cb6f3c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "e5abe161-bdfb-4ee0-a590-ce34d7cb6f3c",
+      "flow": {
+        "externalId": "vPLA",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-PLA",
+      "tags": {
+        "Comment": "",
+        "Name": "PLA production, summary",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "PLA",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

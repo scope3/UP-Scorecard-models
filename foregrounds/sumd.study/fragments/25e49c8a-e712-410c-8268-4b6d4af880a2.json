@@ -1,0 +1,62 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "25e49c8a-e712-410c-8268-4b6d4af880a2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-sawnwood",
+      "flow": {
+        "externalId": "wood_packaging",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Wood Packaging",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-sawnwood",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "83eeca80-08ce-4d3f-874b-44fc19742a3b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "83eeca80-08ce-4d3f-874b-44fc19742a3b",
+      "flow": {
+        "externalId": "sawnwood",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-sawnwood",
+      "tags": {
+        "Comment": "",
+        "Name": "Sawnwood",
+        "StageName": "sawing, softwood"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "wood-sawing",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

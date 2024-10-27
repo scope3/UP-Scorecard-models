@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "a79a493d-ef8d-4e74-95a1-1db5bb828815",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-ng_mj_hhv",
+      "flow": {
+        "externalId": "b3c58f5d-5815-487c-8b9c-4366e00d22dc",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "heat, central or small-scale, natural gas",
+        "StageName": "heat production, natural gas, at boiler condensing modulating <100kW"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "16fe87c1-a118-44dd-b27e-9e76df7055f9",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

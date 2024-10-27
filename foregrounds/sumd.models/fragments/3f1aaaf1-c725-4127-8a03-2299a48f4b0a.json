@@ -1,0 +1,174 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "3f1aaaf1-c725-4127-8a03-2299a48f4b0a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bamboo-form",
+      "flow": {
+        "externalId": "bamboo_utensil",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[lexicon.models] lexicon.models/bamboo-form",
+        "StageName": "",
+        "flowname": "bamboo_utensil",
+        "flowtype": "product"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "bamboo-form",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "1fd27e81-908c-49c8-b7ad-ebb82e768505",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.028,
+        "1": 0.028
+      },
+      "externalId": "1fd27e81-908c-49c8-b7ad-ebb82e768505",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-form",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "sanding"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4138fd41-56e7-42df-9b66-8b7e8edbe410",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.186,
+        "1": 0.186
+      },
+      "externalId": "4138fd41-56e7-42df-9b66-8b7e8edbe410",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-form",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "fine planing"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "59963868-114a-4dba-838d-cc274fdd4fda",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.402,
+        "1": 0.402
+      },
+      "externalId": "59963868-114a-4dba-838d-cc274fdd4fda",
+      "flow": {
+        "externalId": "truck_5t",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-form",
+      "tags": {
+        "Comment": "",
+        "Name": "Small truck transport",
+        "StageName": "transport, freight, lorry 3.5-7.5 metric ton, EURO6",
+        "flowname": "transport"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "transport-truck_5t",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "820bddc7-8e86-4565-9b3e-93a83ab9b7a6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.009,
+        "1": 0.009
+      },
+      "externalId": "820bddc7-8e86-4565-9b3e-93a83ab9b7a6",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-form",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "sawing"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8db075ec-d2fa-4323-9a10-3abf2dc1cfc5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.07,
+        "1": 0.07
+      },
+      "externalId": "8db075ec-d2fa-4323-9a10-3abf2dc1cfc5",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bamboo-form",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "dust management"
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

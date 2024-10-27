@@ -1,0 +1,175 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "eb861bcb-46b3-41a8-8e34-53ec42797b73",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "materials-vPET-production_ux",
+      "flow": {
+        "externalId": "19bacec1-aff8-4398-a7bd-d125b48505b7",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "polyethylene terephthalate, granulate, bottle grade",
+        "StageName": "polyethylene terephthalate production, granulate, bottle grade"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "cc80c20b-5c27-49d5-b7d8-efa0422a808d",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "46480135-cb36-4a9b-b307-7f4e936eac04",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.1985047117286886
+      },
+      "externalId": "46480135-cb36-4a9b-b307-7f4e936eac04",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "materials-vPET-production_ux",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4a552bdc-8532-41da-acc7-c7b551fe3f24",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "4a552bdc-8532-41da-acc7-c7b551fe3f24",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "materials-vPET-production_ux",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "761fedb2-e9b4-4c8e-b590-2d102bc2cc6c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.33494336709287
+      },
+      "externalId": "761fedb2-e9b4-4c8e-b590-2d102bc2cc6c",
+      "flow": {
+        "externalId": "4052f31f-cd94-4b86-b075-210914586a0f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "materials-vPET-production_ux",
+      "tags": {
+        "Comment": "",
+        "Name": "ethylene glycol",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "761fedb2-e9b4-4c8e-b590-2d102bc2cc6c",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "edb67600-b8a0-47ee-b7cd-4ab043504322",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "edb67600-b8a0-47ee-b7cd-4ab043504322",
+      "flow": {
+        "externalId": "EG",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "761fedb2-e9b4-4c8e-b590-2d102bc2cc6c",
+      "tags": {
+        "Comment": "",
+        "Name": "Ethylene glycol, at use",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d1ad7f5b-d83b-4a80-9926-25db532e45c5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.862765194247825
+      },
+      "externalId": "d1ad7f5b-d83b-4a80-9926-25db532e45c5",
+      "flow": {
+        "externalId": "d479404a-f180-41cc-a587-4425b64e4a00",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "materials-vPET-production_ux",
+      "tags": {
+        "Comment": "",
+        "Name": "purified terephthalic acid",
+        "StageName": "purified terephthalic acid production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "terephthalic-acid-production",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

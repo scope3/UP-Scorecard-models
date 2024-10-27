@@ -1,0 +1,93 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "07828d05-d21b-4ef5-8e00-8b45a8fde07c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-Nylon",
+      "flow": {
+        "externalId": "Nylon",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Nylon Primary",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-Nylon",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0a97e5a5-4cb5-4b24-b5ab-619b059e1f05",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0a97e5a5-4cb5-4b24-b5ab-619b059e1f05",
+      "flow": {
+        "externalId": "Nylon",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-Nylon",
+      "tags": {
+        "Comment": "",
+        "Name": "Nylon",
+        "StageName": "Nylon Primary"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "86a94063-f8a1-4603-80fb-45425aea0388",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "d16b5d3f-b5e4-45b6-9a04-23cde05220c0"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "44571ca0-7c79-41c9-8340-8c09444189fa",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 7e-05
+      },
+      "externalId": "44571ca0-7c79-41c9-8340-8c09444189fa",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Nylon",
+      "tags": {
+        "Comment": "non-mass so won't affect balance",
+        "Name": "Plastic leakage from primary production",
+        "StageName": "to water"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

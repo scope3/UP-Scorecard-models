@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "38ec3f23-9f18-4410-9fa6-aff19c658ef7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "transport-truck_8t",
+      "flow": {
+        "externalId": "truck_8t",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Transport, truck, 8t",
+        "StageName": "transport, freight, lorry 7.5-16 metric ton, EURO6"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "95cb6b4c-ed9b-480a-8801-bf335fb18cac",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "73585052-b3e9-4cde-832d-2db3272d2ae5"
+        }
+      }
+    }
+  ]
+}

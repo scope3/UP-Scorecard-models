@@ -1,0 +1,155 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "07064c2d-3f2c-4d66-a889-d2fc57b2ef60",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-Glass-cullet",
+      "flow": {
+        "externalId": "rGlass",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "high-cullet data point is 60.5% cullet",
+        "Name": "Cullet scaler",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-Glass-cullet",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "01b41c3a-3cea-43b1-8abc-5933373ea911",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.15
+      },
+      "externalId": "01b41c3a-3cea-43b1-8abc-5933373ea911",
+      "flow": {
+        "externalId": "truck_20t",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Glass-cullet",
+      "tags": {
+        "Comment": "Franklin 2018 impacts of recycled resins",
+        "Name": "transport to sorting",
+        "StageName": "transport, freight, lorry >32 metric ton, EURO6"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "transport-truck_20t",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8a44a5b6-9198-49de-bb21-e75ef6b5f4f9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.652892562
+      },
+      "externalId": "8a44a5b6-9198-49de-bb21-e75ef6b5f4f9",
+      "flow": {
+        "externalId": "rGlass",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Glass-cullet",
+      "tags": {
+        "Comment": "",
+        "Name": "Euro glass - 60.5% cullet",
+        "StageName": "Glass Production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-glass-secondary-mostly",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b9cbfe37-1479-49f5-848c-5c5dcef54234",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "b9cbfe37-1479-49f5-848c-5c5dcef54234",
+      "flow": {
+        "externalId": "resin_sort_pc",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Glass-cullet",
+      "tags": {
+        "Comment": "",
+        "Name": "Glass sorting",
+        "StageName": "Glass Recovery"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "-SUM-Sorting",
+          "origin": "foreground",
+          "termFlow": {
+            "externalId": "resin_sort_pc",
+            "origin": "sumd.models"
+          }
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "eccc6833-75de-45a3-b84b-fe66b3addc36",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": -0.652892562
+      },
+      "externalId": "eccc6833-75de-45a3-b84b-fe66b3addc36",
+      "flow": {
+        "externalId": "vGlass",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Glass-cullet",
+      "tags": {
+        "Comment": "Adjust through extrapolation",
+        "Name": "GLO glass - 0% cullet",
+        "StageName": "Glass Production"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-glass-primary",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

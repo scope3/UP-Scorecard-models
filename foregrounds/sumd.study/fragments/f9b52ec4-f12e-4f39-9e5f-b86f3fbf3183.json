@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "f9b52ec4-f12e-4f39-9e5f-b86f3fbf3183",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-dishwasher",
+      "flow": {
+        "externalId": "wash_cycle",
+        "origin": "sumd.models"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Impacts due to one dishwasher cycle run",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "wash-container",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "36188e54-68e1-462a-92d1-321d9bc1f097",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "36188e54-68e1-462a-92d1-321d9bc1f097",
+      "flow": {
+        "externalId": "elec",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-dishwasher",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, low voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-low",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "74bb9cf2-af9d-4da6-9fe4-5a0a28e97c9d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74bb9cf2-af9d-4da6-9fe4-5a0a28e97c9d",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-dishwasher",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-water-supply",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

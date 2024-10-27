@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "4eadf51d-3c76-48cb-b8ad-08abe77f43e8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-potassium chloride",
+      "flow": {
+        "externalId": "f9c6e4e7-e45c-423e-b48e-f7e140efb38e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "potassium chloride",
+        "StageName": "potassium chloride production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "b6a475ce-572f-40be-a2a8-f2bd80a7cf73",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

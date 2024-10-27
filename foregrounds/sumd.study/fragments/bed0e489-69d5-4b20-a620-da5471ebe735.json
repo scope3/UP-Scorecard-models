@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "bed0e489-69d5-4b20-a620-da5471ebe735",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-film",
+      "flow": {
+        "externalId": "film extrusion",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "yield 0.976",
+        "Name": "film extrusion",
+        "StageName": "extrusion, plastic film"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "329ac1a6-6204-40f8-bf24-045afefcc724",
+          "origin": "ecoinvent.3.6.cutoff",
+          "termFlow": "579049d0-3db8-4496-a234-2f61ed28a72b"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "72b34c93-6896-4910-86f8-8f849815d890",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-Al-forming",
+      "flow": {
+        "externalId": "Al",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Aluminum can production",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "Al-can",
+          "origin": "sumd.models",
+          "termFlow": "alum_can"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2e96b984-ff7a-453f-9057-c2b6fbfacd1a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "2e96b984-ff7a-453f-9057-c2b6fbfacd1a",
+      "flow": {
+        "externalId": "alum_sheet",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Al-forming",
+      "tags": {
+        "Comment": "",
+        "Name": "Aluminum sheet (incl scrap)",
+        "StageName": "Al Forming"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "92322178-9e0c-4d0d-a384-7383c24f1259",
+          "origin": "ecoinvent.3.6.cutoff",
+          "termFlow": "a5309c08-cc71-402e-b870-163a09ee0742"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "56d0bde8-8bfe-4339-880c-f7274bc4449a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "56d0bde8-8bfe-4339-880c-f7274bc4449a",
+      "flow": {
+        "externalId": "elec",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Al-forming",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity",
+        "StageName": "Al Forming - Electricity"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "7909f284-298c-4d5b-a1e2-b7f58c925117",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "-Al-new-scrap",
+      "flow": {
+        "externalId": "alum_mfg_scrap",
+        "origin": "sumd.models"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Al-forming",
+      "tags": {
+        "Comment": "",
+        "Name": "scrap to get remelted",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "-Al-new-scrap",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0fdc338a-c87d-4601-9d91-d61c49afa291",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "0fdc338a-c87d-4601-9d91-d61c49afa291",
+      "flow": {
+        "externalId": "Al-secondary",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "-Al-new-scrap",
+      "tags": {
+        "Comment": "",
+        "Name": "remelted scrap input to sheet rolling",
+        "StageName": "Al Forming - New scrap"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "085cf14b-d4f5-4dd4-9cdc-80ed279b4703",
+          "origin": "ecoinvent.3.6.cutoff",
+          "termFlow": "fef44ccb-917e-4c8d-bb35-a1898827b659"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "912fbe60-5ede-4d06-8ebf-4be079dd1202",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "912fbe60-5ede-4d06-8ebf-4be079dd1202",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Al-forming",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-water-supply",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9eaeec21-ec30-4abf-bf96-8ce356b7ed6c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "9eaeec21-ec30-4abf-bf96-8ce356b7ed6c",
+      "flow": {
+        "externalId": "epoxy_resin",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Al-forming",
+      "tags": {
+        "Comment": "Included in recipe",
+        "Name": "Epoxy",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "9eaeec21-ec30-4abf-bf96-8ce356b7ed6c",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

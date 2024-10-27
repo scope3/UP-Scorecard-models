@@ -1,0 +1,92 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "a5fd198f-55a4-4b91-8d41-90020e3f1dea",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-water-supply",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "sumd.models"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Supply 1m3 of water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-water-supply",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3bc3b961-56c3-4ba8-8d4f-197ce2238a7b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3bc3b961-56c3-4ba8-8d4f-197ce2238a7b",
+      "flow": {
+        "externalId": "elec",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-water-supply",
+      "tags": {
+        "Comment": "",
+        "Name": "power grid to supply local power",
+        "StageName": "Water Supply - Electricity"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-chooser-low",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3f70e85d-3e6c-4387-98e0-bbd06c1f135c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3f70e85d-3e6c-4387-98e0-bbd06c1f135c",
+      "flow": {
+        "externalId": "water_withdrawal",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-water-supply",
+      "tags": {
+        "Comment": "",
+        "Name": "Water, Blue",
+        "StageName": "Water Supply"
+      },
+      "terminations": {
+        "default": {
+          "context": "from water",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

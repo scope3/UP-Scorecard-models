@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "80532983-0865-4991-bed6-fa305038f678",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-h2o2_100",
+      "flow": {
+        "externalId": "26c92545-7995-491d-bcca-ee6d590ef194",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "hydrogen peroxide, without water, in 50% solution state",
+        "StageName": "market for hydrogen peroxide, without water, in 50% solution state"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "92dffdfd-876a-481e-92ae-d6a22426fe8d",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

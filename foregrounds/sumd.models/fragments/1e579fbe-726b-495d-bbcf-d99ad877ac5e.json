@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "1e579fbe-726b-495d-bbcf-d99ad877ac5e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-ferric_chloride",
+      "flow": {
+        "externalId": "b8f9a782-d4ee-4477-be28-ee3ff2997cf6",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "iron(III) chloride, without water, in a 12% iron solution state",
+        "StageName": "iron(III) chloride production, without water, in 12% iron solution state"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "48bc1374-da8b-4a4e-9e24-b2c28455d62a",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

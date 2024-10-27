@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "03cd8ea2-c992-448e-b91b-baefd7a11a93",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-Acrylic",
+      "flow": {
+        "externalId": "acrylic",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Acrylic Primary",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-Acrylic",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "45535656-5215-4246-a999-83ea4e52cee2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "45535656-5215-4246-a999-83ea4e52cee2",
+      "flow": {
+        "externalId": "acrylic",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-Acrylic",
+      "tags": {
+        "Comment": "",
+        "Name": "ecoinvent PMMA",
+        "StageName": "Acrylic Primary"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "acrylic-sheet-production",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "6018e4c1-06c8-42e4-b696-273f89402e62",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 7e-05
+      },
+      "externalId": "6018e4c1-06c8-42e4-b696-273f89402e62",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Acrylic",
+      "tags": {
+        "Comment": "non-mass so won't affect balance",
+        "Name": "Plastic leakage from primary production",
+        "StageName": "to water"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

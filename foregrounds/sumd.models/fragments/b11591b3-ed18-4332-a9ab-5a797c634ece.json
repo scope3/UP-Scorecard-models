@@ -1,0 +1,92 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "b11591b3-ed18-4332-a9ab-5a797c634ece",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "aluminium_sanitary_landfill_RoW",
+      "flow": {
+        "externalId": "7df87cd6-22cd-4010-ab95-b1a02917bbfe",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste aluminium",
+        "StageName": "treatment of waste aluminium, sanitary landfill"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "2db2b137-72db-4adf-b50a-748f47823588",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "544c835f-a71d-4d1a-86cc-7552ed484b90",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 4.23e-07,
+        "1": -4.23e-07
+      },
+      "externalId": "544c835f-a71d-4d1a-86cc-7552ed484b90",
+      "flow": {
+        "externalId": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "aluminium_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "544c835f-a71d-4d1a-86cc-7552ed484b90",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "6fd5a39e-af23-439b-a70a-f7f28e77459a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7
+      },
+      "externalId": "6fd5a39e-af23-439b-a70a-f7f28e77459a",
+      "flow": {
+        "externalId": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "544c835f-a71d-4d1a-86cc-7552ed484b90",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": "urban air close to ground"
+      },
+      "terminations": {
+        "default": {
+          "context": "urban air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

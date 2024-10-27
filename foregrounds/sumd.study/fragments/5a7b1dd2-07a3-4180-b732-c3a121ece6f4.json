@@ -1,0 +1,62 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "5a7b1dd2-07a3-4180-b732-c3a121ece6f4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "sulfate-pulp-c2g",
+      "flow": {
+        "externalId": "sulfate-pulp",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "uses pulping process and supplies softwood",
+        "Name": "Sulfate Pulp production, cradle to gate",
+        "StageName": "sulfate pulp production, from softwood, unbleached"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "sulfate-pulp-unbleached",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8764adab-192f-4bee-91ba-417289882669",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "8764adab-192f-4bee-91ba-417289882669",
+      "flow": {
+        "externalId": "6eb408db-980a-4b9e-82a8-b6dca183ec35",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "sulfate-pulp-c2g",
+      "tags": {
+        "Comment": "",
+        "Name": "pulpwood, softwood, measured as solid wood under bark",
+        "StageName": "market for pulpwood, softwood, measured as solid wood under bark"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "113ffbc5-d199-4ae2-acbe-829006152414",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

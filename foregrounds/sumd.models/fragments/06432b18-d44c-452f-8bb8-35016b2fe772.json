@@ -1,0 +1,601 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "06432b18-d44c-452f-8bb8-35016b2fe772",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1000.0,
+        "1": 1000.0
+      },
+      "externalId": "Al-can",
+      "flow": {
+        "externalId": "alum_can",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[lexicon.models] lexicon.models/Al-can",
+        "StageName": "",
+        "flowname": "Aluminum can",
+        "flowtype": "reference"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "Al-can",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "131b19ff-e2d2-4004-867f-27673eee03b2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.04,
+        "1": 1.04
+      },
+      "externalId": "131b19ff-e2d2-4004-867f-27673eee03b2",
+      "flow": {
+        "externalId": "coating_paint",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "UNLINK",
+        "Name": "Can coating (unspecified)",
+        "StageName": "",
+        "flowname": "Coatings (can)",
+        "flowtype": "chemical",
+        "notes": "outside of can"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "252caa02-afeb-4807-9ad3-e4a39f9b628d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0394,
+        "1": 0.0394
+      },
+      "externalId": "252caa02-afeb-4807-9ad3-e4a39f9b628d",
+      "flow": {
+        "externalId": "oil_lubricate",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "Lubricating oil",
+        "StageName": "market for lubricating oil",
+        "flowname": "Lubricating oil",
+        "flowtype": "lubricant"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-oil_lubricate",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "31e49c88-e230-4c39-8404-4d059f469e49",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.225,
+        "1": 0.225
+      },
+      "externalId": "31e49c88-e230-4c39-8404-4d059f469e49",
+      "flow": {
+        "externalId": "HF",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "Hydrogen fluoride",
+        "StageName": "hydrogen fluoride production",
+        "flowname": "Hydrogen fluoride",
+        "flowtype": "chemical"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-HF",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "57d186bc-0c1f-4d12-8a68-e031c558384e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.638888888891,
+        "1": 2.638888888891
+      },
+      "externalId": "57d186bc-0c1f-4d12-8a68-e031c558384e",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "Electricity",
+        "flowtype": "energy",
+        "notes": "For can sealing",
+        "process_type": "can-seal"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "626adcc4-4688-4932-842e-695c8709d73f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.198,
+        "1": 0.198
+      },
+      "externalId": "626adcc4-4688-4932-842e-695c8709d73f",
+      "flow": {
+        "externalId": "sulfuric_acid_96",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "Sulfuric acid aq. (96%)",
+        "StageName": "sulfuric acid production",
+        "flowname": "Sulphuric acid aq. (96%)",
+        "flowtype": "chemical"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-sulfuric_acid_96",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6ec247a8-d1c7-47f1-b218-546c0dd3ff5b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.076,
+        "1": 0.076
+      },
+      "externalId": "6ec247a8-d1c7-47f1-b218-546c0dd3ff5b",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": "",
+        "flowname": "Water",
+        "flowtype": "water"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "80095bcc-abe6-4767-a239-ed14637c98e5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.939130435,
+        "1": 1.939130435
+      },
+      "externalId": "80095bcc-abe6-4767-a239-ed14637c98e5",
+      "flow": {
+        "externalId": "ng",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "Natural gas",
+        "StageName": "heat production, natural gas, at boiler condensing modulating <100kW",
+        "flowname": "Natural gas",
+        "flowtype": "energy"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-ng",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8254dc6c-0fd6-4c2d-9f10-b63df06c9f54",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.008781,
+        "1": 0.008781
+      },
+      "externalId": "8254dc6c-0fd6-4c2d-9f10-b63df06c9f54",
+      "flow": {
+        "externalId": "solvent",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "Solvent",
+        "StageName": "",
+        "flowname": "Solvent",
+        "flowtype": "chemicals"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "933aefff-6850-4f84-bda2-a0b5cc928d52",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0772,
+        "1": 0.0772
+      },
+      "externalId": "933aefff-6850-4f84-bda2-a0b5cc928d52",
+      "flow": {
+        "externalId": "quicklime_lump",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "Quicklime lumps",
+        "StageName": "",
+        "flowname": "Quicklime (lumpy)",
+        "flowtype": "chemical"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "9fc155b1-e72d-4bb7-b842-1984532a972d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.39,
+        "1": 2.39
+      },
+      "externalId": "9fc155b1-e72d-4bb7-b842-1984532a972d",
+      "flow": {
+        "externalId": "alum_mfg_scrap",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "UNLINK",
+        "Name": "Alum. scrap (from can mfg)",
+        "StageName": "",
+        "flowname": "Aluminum scrap",
+        "flowtype": "scrap",
+        "notes": "does not include lining"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "af192c9c-9051-424c-a950-34dda9f400cf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.032799999999999996,
+        "1": 0.032799999999999996
+      },
+      "externalId": "af192c9c-9051-424c-a950-34dda9f400cf",
+      "flow": {
+        "externalId": "ink",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "UNLINK",
+        "Name": "ink",
+        "StageName": "",
+        "flowname": "Inks (can)",
+        "flowtype": "ink"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "be352cfa-91a3-4460-b1de-4038a846f82b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.395348837e-05,
+        "1": 1.395348837e-05
+      },
+      "externalId": "be352cfa-91a3-4460-b1de-4038a846f82b",
+      "flow": {
+        "externalId": "lpg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "LPG",
+        "StageName": "Liquefied petroleum gas, combusted in industrial boiler",
+        "flowname": "LPG",
+        "flowtype": "energy"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-lpg",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c4d79bd3-7889-4886-afa9-7c01ef5e472e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.01361,
+        "1": 0.01361
+      },
+      "externalId": "c4d79bd3-7889-4886-afa9-7c01ef5e472e",
+      "flow": {
+        "externalId": "PE_part",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "cutoff",
+        "Name": "PE part (for mfg.)",
+        "StageName": "",
+        "flowname": "Polyethylene part (PE)",
+        "flowtype": "other_materials",
+        "process_type": "inject-mold"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c7f4bf47-c5dd-464e-8942-4032c68c08c9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.038700000000000005,
+        "1": 0.038700000000000005
+      },
+      "externalId": "c7f4bf47-c5dd-464e-8942-4032c68c08c9",
+      "flow": {
+        "externalId": "epoxy_resin",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "UNLINK",
+        "Name": "Epoxy resin",
+        "StageName": "",
+        "flowname": "Epoxy resin",
+        "flowtype": "chemical",
+        "notes": "does not include lining on scrap"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d028efb5-66ce-4c45-bd5c-8590f6c72548",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 15.31,
+        "1": 15.31
+      },
+      "externalId": "d028efb5-66ce-4c45-bd5c-8590f6c72548",
+      "flow": {
+        "externalId": "alum_sheet",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "UNLINK",
+        "Name": "Aluminum sheet",
+        "StageName": "",
+        "flowname": "Aluminum sheet",
+        "flowtype": "metals",
+        "notes": "does not include lining"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d2132e12-25a8-4495-822d-5307c7bd8971",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.1235,
+        "1": 0.1235
+      },
+      "externalId": "d2132e12-25a8-4495-822d-5307c7bd8971",
+      "flow": {
+        "externalId": "lining_can",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "UNLINK",
+        "Name": "Can lining (unspecified)",
+        "StageName": "",
+        "flowname": "Coating (lining), unspecified",
+        "flowtype": "chemical",
+        "notes": "does not include lining on scrap"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f0a19cd8-f7f8-40b0-aefd-5bac809da2e2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.01787,
+        "1": 0.01787
+      },
+      "externalId": "f0a19cd8-f7f8-40b0-aefd-5bac809da2e2",
+      "flow": {
+        "externalId": "PP_part",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "cutoff",
+        "Name": "PP part (for mfg.)",
+        "StageName": "",
+        "flowname": "Polypropylene part (PP)",
+        "flowtype": "other_materials",
+        "process_type": "inject-mold"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "faa0ece7-aa06-413d-b3ca-3768b383010e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 30.277777777802,
+        "1": 30.277777777802
+      },
+      "externalId": "faa0ece7-aa06-413d-b3ca-3768b383010e",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "",
+        "flowname": "Electricity",
+        "flowtype": "energy",
+        "notes": "does not include filling & sealing can"
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fc4b979c-e3a4-4b19-92f6-c9ff321d1588",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0,
+        "1": 0.0
+      },
+      "externalId": "fc4b979c-e3a4-4b19-92f6-c9ff321d1588",
+      "flow": {
+        "externalId": "diesel",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-can",
+      "tags": {
+        "Comment": "",
+        "Name": "Diesel",
+        "StageName": "Diesel, combusted in industrial equipment",
+        "flowname": "Diesel",
+        "flowtype": "energy"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-diesel",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

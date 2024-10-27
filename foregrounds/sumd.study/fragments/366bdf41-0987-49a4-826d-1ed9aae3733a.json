@@ -1,0 +1,66 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "366bdf41-0987-49a4-826d-1ed9aae3733a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.001
+      },
+      "externalId": "Carton-converting-g",
+      "flow": {
+        "externalId": "carton-conversion",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "Set m2/kg in flow properties for carton-conversion",
+        "Name": "Area to mass converter for carton conversion",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "Carton-converting-g",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "987bcba1-5f88-4eb3-a555-89e8edf23591",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "987bcba1-5f88-4eb3-a555-89e8edf23591",
+      "flow": {
+        "externalId": "carton-conversion-area",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "Carton-converting-g",
+      "tags": {
+        "Comment": "",
+        "Name": "Carton Conversion Area",
+        "StageName": "beverage carton converting"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "carton-converting-m2",
+          "origin": "sumd.models",
+          "termFlow": {
+            "externalId": "9cc5ecbd-442b-4d2a-a1dd-73b7b899535d",
+            "origin": "ecoinvent.3.7.1.cutoff"
+          }
+        }
+      }
+    }
+  ]
+}

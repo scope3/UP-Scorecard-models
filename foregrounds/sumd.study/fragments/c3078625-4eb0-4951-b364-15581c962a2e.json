@@ -1,0 +1,122 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "c3078625-4eb0-4951-b364-15581c962a2e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-molded-fiber",
+      "flow": {
+        "externalId": "molded_fiber",
+        "origin": "sumd.models"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "Molded fiber fabrication, omitting the raw material",
+        "Name": "Molded fiber - material production and forming",
+        "StageName": "Molded Fiber"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "molded-fiber",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3def86ef-526f-417e-8763-b1cbdaa9e55e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3def86ef-526f-417e-8763-b1cbdaa9e55e",
+      "flow": {
+        "externalId": "paper_r_collected",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-molded-fiber",
+      "tags": {
+        "Comment": "",
+        "Name": "Recycled paper",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "3def86ef-526f-417e-8763-b1cbdaa9e55e",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "54512a5c-5b2a-4359-8393-7cb34c3df603",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "54512a5c-5b2a-4359-8393-7cb34c3df603",
+      "flow": {
+        "externalId": "elec",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-molded-fiber",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-chooser-medium",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f0c4a80f-c397-403e-b62d-0ed929192de9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "f0c4a80f-c397-403e-b62d-0ed929192de9",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-molded-fiber",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "SUM-water-supply",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

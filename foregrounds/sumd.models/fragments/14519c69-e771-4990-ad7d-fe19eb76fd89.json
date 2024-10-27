@@ -1,0 +1,207 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "14519c69-e771-4990-ad7d-fe19eb76fd89",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "pvc-production",
+      "flow": {
+        "externalId": "1768722c-0cb1-4b0b-9183-2ff16919120e",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "polyvinylchloride, bulk polymerised",
+        "StageName": "polyvinylchloride production, bulk polymerisation"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d3e64555-5773-453a-af80-7ce31137530b",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "87aa9373-6fd5-4752-be7d-fe4ec3e4c8f1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.87234,
+        "1": 0.87234
+      },
+      "externalId": "87aa9373-6fd5-4752-be7d-fe4ec3e4c8f1",
+      "flow": {
+        "externalId": "e69cca3a-6e2a-4638-b9e7-09927dcf1c95",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "pvc-production",
+      "tags": {
+        "Comment": "EcoSpold01Location=RER; European distribution to the different PVC types",
+        "Name": "polyvinylchloride, suspension polymerised",
+        "StageName": "market for polyvinylchloride, suspension polymerised"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "9ae29b61-d6bd-4089-ac59-1866bc2626d1",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0cc680e2-a3cd-4fe2-b9fb-98b52dbe9c9b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0cc680e2-a3cd-4fe2-b9fb-98b52dbe9c9b",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "87aa9373-6fd5-4752-be7d-fe4ec3e4c8f1",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "77fcb8f3-b36b-494b-bd9e-5631d6207f24",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.1931778151296186
+      },
+      "externalId": "77fcb8f3-b36b-494b-bd9e-5631d6207f24",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "87aa9373-6fd5-4752-be7d-fe4ec3e4c8f1",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fcd874f0-a79c-4882-a093-6800a5259784",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.12766,
+        "1": 0.12766
+      },
+      "externalId": "fcd874f0-a79c-4882-a093-6800a5259784",
+      "flow": {
+        "externalId": "fd45a910-a95c-4742-90a5-473e86d16486",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "pvc-production",
+      "tags": {
+        "Comment": "European distribution to the different PVC types; EcoSpold01Location=RER",
+        "Name": "polyvinylchloride, emulsion polymerised",
+        "StageName": "market for polyvinylchloride, emulsion polymerised"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "42edecb6-199a-4cba-92e6-5210219aca26",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "82148a83-ada5-44c2-9158-0588bdcb4f77",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.2987812615223349
+      },
+      "externalId": "82148a83-ada5-44c2-9158-0588bdcb4f77",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "fcd874f0-a79c-4882-a093-6800a5259784",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ea842a30-7fd5-4f24-a189-ec53a8aa4d93",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "ea842a30-7fd5-4f24-a189-ec53a8aa4d93",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "fcd874f0-a79c-4882-a093-6800a5259784",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-high",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

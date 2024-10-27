@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "37cfc8ca-fe88-42eb-908a-7790678f9bc2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "grid-CN-cutoff-low",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, low voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "08e74c90-5823-4730-8b17-8ac63ff6e0cc",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "d69294d7-8d64-4915-a896-9996a014c410"
+        }
+      }
+    }
+  ]
+}

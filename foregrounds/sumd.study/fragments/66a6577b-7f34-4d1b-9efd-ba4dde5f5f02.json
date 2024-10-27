@@ -1,0 +1,62 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "66a6577b-7f34-4d1b-9efd-ba4dde5f5f02",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-land-use-wood-fiber",
+      "flow": {
+        "externalId": "land_use",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "includes direct and induced effects",
+        "Name": "Land use transformation for wood fiber-based products",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-land-use-wood-fiber",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "5bb819c0-b83e-4a95-a0f5-372016da65dc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "5bb819c0-b83e-4a95-a0f5-372016da65dc",
+      "flow": {
+        "externalId": "carbon dioxide",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-land-use-wood-fiber",
+      "tags": {
+        "Comment": "TBD",
+        "Name": "CO2 intensity of land use change",
+        "StageName": "to air"
+      },
+      "terminations": {
+        "default": {
+          "context": "to air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

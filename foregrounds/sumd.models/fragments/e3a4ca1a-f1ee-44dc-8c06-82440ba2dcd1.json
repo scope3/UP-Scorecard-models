@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "e3a4ca1a-f1ee-44dc-8c06-82440ba2dcd1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-polyacrylamide",
+      "flow": {
+        "externalId": "29f75a6a-e5cd-40f6-8f84-797deb0ef98c",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "polyacrylamide",
+        "StageName": "polyacrylamide production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d1888924-c46f-4e4c-a868-752a235579ef",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

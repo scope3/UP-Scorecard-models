@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "221eea5c-b9d8-415a-adae-105d6653fd24",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-hdpe",
+      "flow": {
+        "externalId": "b685192a-e033-421e-9074-8fe7cb176046",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "polyethylene, high density, granulate",
+        "StageName": "polyethylene production, high density, granulate"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "b8eadcf3-caa0-4506-9ba2-7445e17330c6",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "a8d03b31-64a6-4cbc-9186-8133e1c3b181",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "polyethylene_sanitary_landfill_RoW",
+      "flow": {
+        "externalId": "7ee0ddc3-924d-4339-b9bf-7856af6a698f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste polyethylene",
+        "StageName": "treatment of waste polyethylene, sanitary landfill"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "b25c9554-1041-494d-9d9b-98f98b9a0e95",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "89340f93-4e49-4732-8f21-4eabdc572a1d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00316,
+        "1": -0.00316
+      },
+      "externalId": "89340f93-4e49-4732-8f21-4eabdc572a1d",
+      "flow": {
+        "externalId": "70ef743b-3ed5-4a6d-b192-fb6d62378555",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "polyethylene_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "89340f93-4e49-4732-8f21-4eabdc572a1d",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "a0066653-ff7b-4314-8e28-bd97ef545e11",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7
+      },
+      "externalId": "a0066653-ff7b-4314-8e28-bd97ef545e11",
+      "flow": {
+        "externalId": "70ef743b-3ed5-4a6d-b192-fb6d62378555",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "89340f93-4e49-4732-8f21-4eabdc572a1d",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": "non-urban air or from high stacks"
+      },
+      "terminations": {
+        "default": {
+          "context": "rural air",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "e1f837ae-caaa-477e-b74b-98c6cdd8fc76",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.35e-06,
+        "1": -1.35e-06
+      },
+      "externalId": "e1f837ae-caaa-477e-b74b-98c6cdd8fc76",
+      "flow": {
+        "externalId": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "polyethylene_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "e1f837ae-caaa-477e-b74b-98c6cdd8fc76",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "49c44b87-b5dd-4688-9da8-7fe6bf4d9525",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7
+      },
+      "externalId": "49c44b87-b5dd-4688-9da8-7fe6bf4d9525",
+      "flow": {
+        "externalId": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e1f837ae-caaa-477e-b74b-98c6cdd8fc76",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": "urban air close to ground"
+      },
+      "terminations": {
+        "default": {
+          "context": "urban air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

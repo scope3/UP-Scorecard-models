@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "eb7f6de6-1a0c-4d9a-9a09-4c3315ec7925",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "paperboard_municipal_incineration_RoW",
+      "flow": {
+        "externalId": "42baed81-24d1-4aed-a120-cc7d35ddac10",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste paperboard",
+        "StageName": "treatment of waste paperboard, municipal incineration"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "ea19d973-88bb-4685-adec-539492dbb31b",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "71926983-6324-446e-be51-975929d9e27d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00047601,
+        "1": 0.0
+      },
+      "externalId": "71926983-6324-446e-be51-975929d9e27d",
+      "flow": {
+        "externalId": "db4566b1-bd88-427d-92da-2d25879063b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "paperboard_municipal_incineration_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "71926983-6324-446e-be51-975929d9e27d",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

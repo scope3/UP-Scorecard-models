@@ -1,0 +1,85 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "2f417689-786a-42a6-9404-df0a7eec07bb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "grid-chooser-low",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, low voltage"
+      },
+      "terminations": {
+        "ASCC-grid-cutoff": {
+          "externalId": "grid-ASCC-cutoff-low",
+          "origin": "foreground"
+        },
+        "BR-grid-cutoff": {
+          "externalId": "grid-BR-cutoff-low",
+          "origin": "foreground"
+        },
+        "CN-grid-cutoff": {
+          "externalId": "grid-CN-cutoff-low",
+          "origin": "foreground"
+        },
+        "ENTSO-grid-cutoff": {
+          "externalId": "grid-ENTSO-cutoff-low",
+          "origin": "foreground"
+        },
+        "FRCC-grid-cutoff": {
+          "externalId": "grid-FRCC-cutoff-low",
+          "origin": "foreground"
+        },
+        "GLO-grid-cutoff": {
+          "externalId": "grid-GLO-cutoff-low",
+          "origin": "foreground"
+        },
+        "ID-grid-cutoff": {
+          "externalId": "grid-ID-cutoff-low",
+          "origin": "foreground"
+        },
+        "JP-grid-cutoff": {
+          "externalId": "grid-JP-cutoff-low",
+          "origin": "foreground"
+        },
+        "RFC-grid-cutoff": {
+          "externalId": "grid-RFC-cutoff-low",
+          "origin": "foreground"
+        },
+        "RNA-grid-cutoff": {
+          "externalId": "grid-RNA-cutoff-low",
+          "origin": "foreground"
+        },
+        "SERC-grid-cutoff": {
+          "externalId": "grid-SERC-cutoff-low",
+          "origin": "foreground"
+        },
+        "TRE-grid-cutoff": {
+          "externalId": "grid-TRE-cutoff-low",
+          "origin": "foreground"
+        },
+        "US-grid-cutoff": {
+          "externalId": "grid-US-cutoff-low",
+          "origin": "foreground"
+        },
+        "default": {
+          "externalId": "grid-US-cutoff-low",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "36be6f71-8b36-4020-afce-47f5c9d22895",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "polyethylene_terephthalate_municipal_incineration_RoW",
+      "flow": {
+        "externalId": "dcb70fd5-e305-4920-b68b-40697cc6a206",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste polyethylene terephthalate",
+        "StageName": "treatment of waste polyethylene terephthalate, municipal incineration"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "3ed311a5-d27f-4566-94ec-39ae3b4cf302",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "03c29fb3-4385-4efa-a628-e2987760d668",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00047579,
+        "1": 0.0
+      },
+      "externalId": "03c29fb3-4385-4efa-a628-e2987760d668",
+      "flow": {
+        "externalId": "db4566b1-bd88-427d-92da-2d25879063b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "polyethylene_terephthalate_municipal_incineration_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "03c29fb3-4385-4efa-a628-e2987760d668",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

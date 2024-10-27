@@ -1,0 +1,1805 @@
+{
+  "catalogNames": {
+    "local.lcia.ecoinvent.3.7": [
+      "/data/LCI/Ecoinvent/LCIA/LCIA_implementation_3.7.1.xlsx"
+    ]
+  },
+  "dataSource": "/data/GitHub/Scope3/SUM-Lexicon/catalog/archives/lcia.sum.ecoinvent.json",
+  "dataSourceType": "BasicArchive",
+  "initArgs": {
+    "dataReference": "local.lcia.ecoinvent.3.7",
+    "ns_uuid": "46802ca5-8b25-398c-af10-2376adaa4623"
+  },
+  "quantities": [
+    {
+      "Comment": "EcoSpold02",
+      "Name": "EcoSpold Quantity kg",
+      "UnitConversion": {
+        "kg": 1.0
+      },
+      "entityType": "quantity",
+      "externalId": "487df68b-4994-4027-8fdc-a4dc298257b7",
+      "referenceUnit": "kg"
+    },
+    {
+      "Category": "climate change",
+      "Comment": "Ecoinvent LCIA implementation",
+      "Indicator": "GWP 100a",
+      "Method": "IPCC 2013",
+      "Name": "IPCC 2013, climate change, GWP 100a",
+      "UnitConversion": {
+        "kg CO2-Eq": 1.0
+      },
+      "entityType": "quantity",
+      "externalId": "IPCC 2013, climate change, GWP 100a",
+      "referenceUnit": "kg CO2-Eq"
+    },
+    {
+      "Category": "water depletion",
+      "Comment": "Ecoinvent LCIA implementation",
+      "Indicator": "WDP",
+      "Method": "ReCiPe Midpoint (E) V1.13",
+      "Name": "ReCiPe Midpoint (E) V1.13, water depletion, WDP",
+      "UnitConversion": {
+        "m3 water-Eq": 1.0
+      },
+      "entityType": "quantity",
+      "externalId": "ReCiPe Midpoint (E) V1.13, water depletion, WDP",
+      "referenceUnit": "m3 water-Eq"
+    },
+    {
+      "Comment": "EcoSpold02",
+      "Name": "EcoSpold Quantity m3",
+      "UnitConversion": {
+        "m3": 1.0
+      },
+      "entityType": "quantity",
+      "externalId": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+      "referenceUnit": "m3"
+    },
+    {
+      "Category": "resource",
+      "Comment": "Ecoinvent LCIA implementation",
+      "Indicator": "water",
+      "Method": "selected LCI results, additional",
+      "Name": "selected LCI results, additional, resource, water",
+      "UnitConversion": {
+        "m3": 1.0
+      },
+      "entityType": "quantity",
+      "externalId": "selected LCI results, additional, resource, water",
+      "referenceUnit": "m3"
+    }
+  ],
+  "termManager": {
+    "Characterizations": {
+      "IPCC 2013, climate change, GWP 100a": {
+        "Carbon dioxide, fossil": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "Carbon dioxide, from soil or biomass stock": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "indoor": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "Carbon dioxide, to soil or biomass stock": {
+          "agricultural": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": -1.0
+            }
+          },
+          "forestry": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": -1.0
+            }
+          },
+          "industrial": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": -1.0
+            }
+          },
+          "soil, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": -1.0
+            }
+          }
+        },
+        "Carbon monoxide, fossil": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          }
+        },
+        "Carbon monoxide, from soil or biomass stock": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          },
+          "indoor": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4.0624
+            }
+          }
+        },
+        "Carbon monoxide, non-fossil": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 2.491
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 2.491
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 2.491
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 2.491
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 2.491
+            }
+          }
+        },
+        "Chloroform": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 16.40180896
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 16.40180896
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 16.40180896
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 16.40180896
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 16.40180896
+            }
+          }
+        },
+        "Dinitrogen monoxide": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 264.8
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 264.8
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 264.8
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 264.8
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 264.8
+            }
+          }
+        },
+        "Ethane, 1,1,1,2-tetrafluoro-, HFC-134a": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1301.27019996
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1301.27019996
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1301.27019996
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1301.27019996
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1301.27019996
+            }
+          }
+        },
+        "Ethane, 1,1,1-trichloro-, HCFC-140": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 160.09863099
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 160.09863099
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 160.09863099
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 160.09863099
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 160.09863099
+            }
+          }
+        },
+        "Ethane, 1,1,1-trifluoro-, HFC-143a": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4804.43907777
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4804.43907777
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4804.43907777
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4804.43907777
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4804.43907777
+            }
+          }
+        },
+        "Ethane, 1,1,2-trichloro-1,2,2-trifluoro-, CFC-113": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 5823.72618701
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 5823.72618701
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 5823.72618701
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 5823.72618701
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 5823.72618701
+            }
+          }
+        },
+        "Ethane, 1,1-dichloro-1-fluoro-, HCFC-141b": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 782.03725986
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 782.03725986
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 782.03725986
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 782.03725986
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 782.03725986
+            }
+          }
+        },
+        "Ethane, 1,1-difluoro-, HFC-152a": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 137.56020393
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 137.56020393
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 137.56020393
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 137.56020393
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 137.56020393
+            }
+          }
+        },
+        "Ethane, 1,2-dichloro-": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 0.89826217
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 0.89826217
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 0.89826217
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 0.89826217
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 0.89826217
+            }
+          }
+        },
+        "Ethane, 1,2-dichloro-1,1,2,2-tetrafluoro-, CFC-114": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8592.20208449
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8592.20208449
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8592.20208449
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8592.20208449
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8592.20208449
+            }
+          }
+        },
+        "Ethane, 1-chloro-1,1-difluoro-, HCFC-142b": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1982.03546266
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1982.03546266
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1982.03546266
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1982.03546266
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1982.03546266
+            }
+          }
+        },
+        "Ethane, 2,2-dichloro-1,1,1-trifluoro-, HCFC-123": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 79.36717675
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 79.36717675
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 79.36717675
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 79.36717675
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 79.36717675
+            }
+          }
+        },
+        "Ethane, 2-chloro-1,1,1,2-tetrafluoro-, HCFC-124": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 526.54777691
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 526.54777691
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 526.54777691
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 526.54777691
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 526.54777691
+            }
+          }
+        },
+        "Ethane, chloropentafluoro-, CFC-115": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 7665.36131656
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 7665.36131656
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 7665.36131656
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 7665.36131656
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 7665.36131656
+            }
+          }
+        },
+        "Ethane, hexafluoro-, HFC-116": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 11123.4939199
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 11123.4939199
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 11123.4939199
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 11123.4939199
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 11123.4939199
+            }
+          }
+        },
+        "Ethane, pentafluoro-, HFC-125": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 3169.25517622
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 3169.25517622
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 3169.25517622
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 3169.25517622
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 3169.25517622
+            }
+          }
+        },
+        "Methane": {
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          }
+        },
+        "Methane, bromo-, Halon 1001": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 2.3545465
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 2.3545465
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 2.3545465
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 2.3545465
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 2.3545465
+            }
+          }
+        },
+        "Methane, bromochlorodifluoro-, Halon 1211": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1746.48198701
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1746.48198701
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1746.48198701
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1746.48198701
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1746.48198701
+            }
+          }
+        },
+        "Methane, bromotrifluoro-, Halon 1301": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 6291.62957595
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 6291.62957595
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 6291.62957595
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 6291.62957595
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 6291.62957595
+            }
+          }
+        },
+        "Methane, chlorodifluoro-, HCFC-22": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1764.62950881
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1764.62950881
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1764.62950881
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1764.62950881
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1764.62950881
+            }
+          }
+        },
+        "Methane, chlorotrifluoro-, CFC-13": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 13893.352601
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 13893.352601
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 13893.352601
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 13893.352601
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 13893.352601
+            }
+          }
+        },
+        "Methane, dichloro-, HCC-30": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8.9151946
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8.9151946
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8.9151946
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8.9151946
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8.9151946
+            }
+          }
+        },
+        "Methane, dichlorodifluoro-, CFC-12": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 10239.2345992
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 10239.2345992
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 10239.2345992
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 10239.2345992
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 10239.2345992
+            }
+          }
+        },
+        "Methane, dichlorofluoro-, HCFC-21": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 147.66224518
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 147.66224518
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 147.66224518
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 147.66224518
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 147.66224518
+            }
+          }
+        },
+        "Methane, difluoro-, HFC-32": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 676.80778461
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 676.80778461
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 676.80778461
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 676.80778461
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 676.80778461
+            }
+          }
+        },
+        "Methane, fossil": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          }
+        },
+        "Methane, from soil or biomass stock": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          },
+          "indoor": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 29.7
+            }
+          }
+        },
+        "Methane, monochloro-, R-40": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 12.18322764
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 12.18322764
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 12.18322764
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 12.18322764
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 12.18322764
+            }
+          }
+        },
+        "Methane, non-fossil": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 28.5
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 28.5
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 28.5
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 28.5
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 28.5
+            }
+          }
+        },
+        "Methane, tetrachloro-, R-10": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1728.47068126
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1728.47068126
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1728.47068126
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1728.47068126
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 1728.47068126
+            }
+          }
+        },
+        "Methane, tetrafluoro-, R-14": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 6625.78042077
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 6625.78042077
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 6625.78042077
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 6625.78042077
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 6625.78042077
+            }
+          }
+        },
+        "Methane, trichlorofluoro-, CFC-11": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4662.93699438
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4662.93699438
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4662.93699438
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4662.93699438
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 4662.93699438
+            }
+          }
+        },
+        "Methane, trifluoro-, HFC-23": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 12397.6034385
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 12397.6034385
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 12397.6034385
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 12397.6034385
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 12397.6034385
+            }
+          }
+        },
+        "Nitric oxide": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": -10.8
+            }
+          }
+        },
+        "Nitrogen fluoride": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 16069.997634
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 16069.997634
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 16069.997634
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 16069.997634
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 16069.997634
+            }
+          }
+        },
+        "Perfluoropentane": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 8546.70453046
+            }
+          }
+        },
+        "Sulfur hexafluoride": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 23506.8199932
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 23506.8199932
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 23506.8199932
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 23506.8199932
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 23506.8199932
+            }
+          }
+        },
+        "VOC, volatile organic compounds, unspecified origin": {
+          "air, unspecified": {
+            "ref_quantity": "487df68b-4994-4027-8fdc-a4dc298257b7",
+            "value": {
+              "GLO": 3.9762
+            }
+          }
+        }
+      },
+      "ReCiPe Midpoint (E) V1.13, water depletion, WDP": {
+        "Water": {
+          "air, unspecified": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "low population density, long-term": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "lower stratosphere + upper troposphere": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "non-urban air or from high stacks": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          },
+          "urban air close to ground": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        }
+      },
+      "selected LCI results, additional, resource, water": {
+        "Water, in air": {
+          "in air": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "Water, lake": {
+          "in water": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "Water, river": {
+          "in water": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "Water, salt, ocean": {
+          "in water": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "Water, salt, sole": {
+          "in water": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "Water, unspecified natural origin": {
+          "in water": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        },
+        "Water, well, in ground": {
+          "in water": {
+            "ref_quantity": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+            "value": {
+              "GLO": 1.0
+            }
+          }
+        }
+      }
+    },
+    "Compartments": [
+      {
+        "name": "agricultural",
+        "parent": "soil",
+        "synonyms": [
+          "local.lcia.ecoinvent.3.7:agricultural",
+          "soil; agricultural"
+        ]
+      },
+      {
+        "name": "air",
+        "synonyms": [
+          "local.lcia.ecoinvent.3.7:air"
+        ]
+      },
+      {
+        "name": "air, unspecified",
+        "parent": "air",
+        "synonyms": [
+          "air; unspecified",
+          "local.lcia.ecoinvent.3.7:air, unspecified"
+        ]
+      },
+      {
+        "name": "forestry",
+        "parent": "soil",
+        "synonyms": [
+          "local.lcia.ecoinvent.3.7:forestry",
+          "soil; forestry"
+        ]
+      },
+      {
+        "name": "in air",
+        "parent": "natural resource",
+        "synonyms": [
+          "local.lcia.ecoinvent.3.7:in air",
+          "natural resource; in air"
+        ]
+      },
+      {
+        "name": "in water",
+        "parent": "natural resource",
+        "synonyms": [
+          "local.lcia.ecoinvent.3.7:in water",
+          "natural resource; in water"
+        ]
+      },
+      {
+        "name": "indoor",
+        "parent": "air",
+        "synonyms": [
+          "air; indoor",
+          "local.lcia.ecoinvent.3.7:indoor"
+        ]
+      },
+      {
+        "name": "industrial",
+        "parent": "soil",
+        "synonyms": [
+          "local.lcia.ecoinvent.3.7:industrial",
+          "soil; industrial"
+        ]
+      },
+      {
+        "name": "low population density, long-term",
+        "parent": "air",
+        "synonyms": [
+          "air; low population density, long-term",
+          "local.lcia.ecoinvent.3.7:low population density, long-term"
+        ]
+      },
+      {
+        "name": "lower stratosphere + upper troposphere",
+        "parent": "air",
+        "synonyms": [
+          "air; lower stratosphere + upper troposphere",
+          "local.lcia.ecoinvent.3.7:lower stratosphere + upper troposphere"
+        ]
+      },
+      {
+        "name": "natural resource",
+        "synonyms": [
+          "local.lcia.ecoinvent.3.7:natural resource"
+        ]
+      },
+      {
+        "name": "non-urban air or from high stacks",
+        "parent": "air",
+        "synonyms": [
+          "air; non-urban air or from high stacks",
+          "local.lcia.ecoinvent.3.7:non-urban air or from high stacks"
+        ]
+      },
+      {
+        "name": "soil",
+        "synonyms": [
+          "local.lcia.ecoinvent.3.7:soil"
+        ]
+      },
+      {
+        "name": "soil, unspecified",
+        "parent": "soil",
+        "synonyms": [
+          "local.lcia.ecoinvent.3.7:soil, unspecified",
+          "soil; unspecified"
+        ]
+      },
+      {
+        "name": "urban air close to ground",
+        "parent": "air",
+        "synonyms": [
+          "air; urban air close to ground",
+          "local.lcia.ecoinvent.3.7:urban air close to ground"
+        ]
+      }
+    ],
+    "Flowables": [
+      {
+        "name": "Carbon dioxide, fossil"
+      },
+      {
+        "name": "Carbon dioxide, from soil or biomass stock"
+      },
+      {
+        "name": "Carbon dioxide, to soil or biomass stock"
+      },
+      {
+        "name": "Carbon monoxide, fossil"
+      },
+      {
+        "name": "Carbon monoxide, from soil or biomass stock"
+      },
+      {
+        "name": "Carbon monoxide, non-fossil"
+      },
+      {
+        "name": "Chloroform"
+      },
+      {
+        "name": "Dinitrogen monoxide"
+      },
+      {
+        "name": "Ethane, 1,1,1,2-tetrafluoro-, HFC-134a"
+      },
+      {
+        "name": "Ethane, 1,1,1-trichloro-, HCFC-140"
+      },
+      {
+        "name": "Ethane, 1,1,1-trifluoro-, HFC-143a"
+      },
+      {
+        "name": "Ethane, 1,1,2-trichloro-1,2,2-trifluoro-, CFC-113"
+      },
+      {
+        "name": "Ethane, 1,1-dichloro-1-fluoro-, HCFC-141b"
+      },
+      {
+        "name": "Ethane, 1,1-difluoro-, HFC-152a"
+      },
+      {
+        "name": "Ethane, 1,2-dichloro-"
+      },
+      {
+        "name": "Ethane, 1,2-dichloro-1,1,2,2-tetrafluoro-, CFC-114"
+      },
+      {
+        "name": "Ethane, 1-chloro-1,1-difluoro-, HCFC-142b"
+      },
+      {
+        "name": "Ethane, 2,2-dichloro-1,1,1-trifluoro-, HCFC-123"
+      },
+      {
+        "name": "Ethane, 2-chloro-1,1,1,2-tetrafluoro-, HCFC-124"
+      },
+      {
+        "name": "Ethane, chloropentafluoro-, CFC-115"
+      },
+      {
+        "name": "Ethane, hexafluoro-, HFC-116"
+      },
+      {
+        "name": "Ethane, pentafluoro-, HFC-125"
+      },
+      {
+        "name": "Methane"
+      },
+      {
+        "name": "Methane, bromo-, Halon 1001"
+      },
+      {
+        "name": "Methane, bromochlorodifluoro-, Halon 1211"
+      },
+      {
+        "name": "Methane, bromotrifluoro-, Halon 1301"
+      },
+      {
+        "name": "Methane, chlorodifluoro-, HCFC-22"
+      },
+      {
+        "name": "Methane, chlorotrifluoro-, CFC-13"
+      },
+      {
+        "name": "Methane, dichloro-, HCC-30"
+      },
+      {
+        "name": "Methane, dichlorodifluoro-, CFC-12"
+      },
+      {
+        "name": "Methane, dichlorofluoro-, HCFC-21"
+      },
+      {
+        "name": "Methane, difluoro-, HFC-32"
+      },
+      {
+        "name": "Methane, fossil"
+      },
+      {
+        "name": "Methane, from soil or biomass stock"
+      },
+      {
+        "name": "Methane, monochloro-, R-40"
+      },
+      {
+        "name": "Methane, non-fossil"
+      },
+      {
+        "name": "Methane, tetrachloro-, R-10"
+      },
+      {
+        "name": "Methane, tetrafluoro-, R-14"
+      },
+      {
+        "name": "Methane, trichlorofluoro-, CFC-11"
+      },
+      {
+        "name": "Methane, trifluoro-, HFC-23"
+      },
+      {
+        "name": "Nitric oxide"
+      },
+      {
+        "name": "Nitrogen fluoride"
+      },
+      {
+        "name": "Perfluoropentane"
+      },
+      {
+        "name": "Sulfur hexafluoride"
+      },
+      {
+        "name": "VOC, volatile organic compounds, unspecified origin"
+      },
+      {
+        "name": "Water"
+      },
+      {
+        "name": "Water, in air"
+      },
+      {
+        "name": "Water, lake"
+      },
+      {
+        "name": "Water, river"
+      },
+      {
+        "name": "Water, salt, ocean"
+      },
+      {
+        "name": "Water, salt, sole"
+      },
+      {
+        "name": "Water, unspecified natural origin"
+      },
+      {
+        "name": "Water, well, in ground"
+      }
+    ]
+  }
+}

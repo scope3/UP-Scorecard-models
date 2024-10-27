@@ -1,0 +1,130 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "83947eb0-0a3e-4f59-91a7-21a78f0cbc7c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "PLA",
+      "flow": {
+        "externalId": "vPLA",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[lexicon.models] lexicon.models/PLA",
+        "StageName": "",
+        "flowname": "PLA",
+        "flowtype": "raw_mat"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "PLA",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2a05d3d6-1b26-486c-8e1f-70471120fca1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.07,
+        "1": 0.07
+      },
+      "externalId": "2a05d3d6-1b26-486c-8e1f-70471120fca1",
+      "flow": {
+        "externalId": "water_blue",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "PLA",
+      "tags": {
+        "Comment": "",
+        "Name": "Water impact",
+        "StageName": "from water",
+        "flowname": "Water",
+        "flowtype": "impact",
+        "notes": "GREET2020. [Bioproducts; AR183]"
+      },
+      "terminations": {
+        "default": {
+          "context": "from water",
+          "descend": false,
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "52cbf5a6-7c0a-4f9f-ae6e-644e3b1deef5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.97,
+        "1": 0.97
+      },
+      "externalId": "52cbf5a6-7c0a-4f9f-ae6e-644e3b1deef5",
+      "flow": {
+        "externalId": "GWP_noLUC",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "PLA",
+      "tags": {
+        "Comment": "",
+        "Name": "CO2 equivalent emissions - excluding LUC",
+        "StageName": "to air",
+        "flowname": "GWP(100), no LUC",
+        "flowtype": "impact",
+        "notes": "GREET2020. no LUC [\"Bioproducts\"; AR197 (when LUC is turned OFF)]"
+      },
+      "terminations": {
+        "default": {
+          "context": "to air",
+          "descend": false,
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c105665b-6152-4210-aa57-cefe954ca0d7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.19,
+        "1": 1.19
+      },
+      "externalId": "c105665b-6152-4210-aa57-cefe954ca0d7",
+      "flow": {
+        "externalId": "land_use_corn",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "PLA",
+      "tags": {
+        "Comment": "",
+        "Name": "Land Use, for Corn Production",
+        "StageName": "",
+        "flowname": "Land Use, for Corn Production",
+        "flowtype": "land_use",
+        "notes": "PLA yield from GREET; based on yield below"
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

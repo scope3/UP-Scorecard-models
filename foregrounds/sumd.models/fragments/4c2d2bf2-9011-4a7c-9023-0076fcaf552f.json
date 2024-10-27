@@ -1,0 +1,135 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "4c2d2bf2-9011-4a7c-9023-0076fcaf552f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bioEG",
+      "flow": {
+        "externalId": "bioeg",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[lexicon.models] lexicon.models/bioEG",
+        "StageName": "",
+        "flowname": "bio Ethylene Glycol",
+        "flowtype": "raw_mat",
+        "notes": "corn grain feedstock, from GREET"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "bioEG",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "2e28fd55-6fdc-4469-a60d-593f0bab238b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.53,
+        "1": 1.53
+      },
+      "externalId": "2e28fd55-6fdc-4469-a60d-593f0bab238b",
+      "flow": {
+        "externalId": "GWP_noLUC",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bioEG",
+      "tags": {
+        "Comment": "",
+        "Name": "CO2 equivalent emissions - excluding LUC",
+        "StageName": "to air",
+        "flowname": "GWP(100), no LUC",
+        "flowtype": "impact",
+        "notes": "GREET, 2020, Bioproducts/AP197, with Inputs/F384=0"
+      },
+      "terminations": {
+        "default": {
+          "context": "to air",
+          "descend": false,
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9c951519-a3b5-489c-878c-2955739f9b08",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0522,
+        "1": 0.0522
+      },
+      "externalId": "9c951519-a3b5-489c-878c-2955739f9b08",
+      "flow": {
+        "externalId": "water_blue",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bioEG",
+      "tags": {
+        "Comment": "",
+        "Name": "Water impact",
+        "StageName": "from water",
+        "flowname": "Water",
+        "flowtype": "impact",
+        "notes": "from GREET [\"Bioproducts\" sheet, AP183, with BIo Ethylene feedstock set manually to corn grain (BG 56-47}]"
+      },
+      "terminations": {
+        "default": {
+          "context": "from water",
+          "descend": false,
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e3348338-171c-4205-87ed-3bd688c8e52a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 3.06,
+        "1": 3.06
+      },
+      "externalId": "e3348338-171c-4205-87ed-3bd688c8e52a",
+      "flow": {
+        "externalId": "land_use_corn",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bioEG",
+      "tags": {
+        "Comment": "",
+        "Name": "Land Use, for Corn Production",
+        "StageName": "Resources",
+        "flowname": "Land Use, for Corn Production",
+        "flowtype": "land",
+        "notes": "product yields and requirements from GREET2020; assuming 170 bu / acre corn"
+      },
+      "terminations": {
+        "default": {
+          "context": "Resources",
+          "descend": false,
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

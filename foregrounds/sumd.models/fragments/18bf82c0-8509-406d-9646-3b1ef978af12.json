@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "18bf82c0-8509-406d-9646-3b1ef978af12",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-HF",
+      "flow": {
+        "externalId": "39f50029-2aae-470f-87dc-5e24405df568",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "hydrogen fluoride",
+        "StageName": "hydrogen fluoride production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "41a13040-80de-4203-b5b1-2a9d87e2d03a",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

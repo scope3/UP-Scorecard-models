@@ -1,0 +1,92 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "e525f193-423c-4162-91b1-d993b2e77605",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bio-PET_municipal_incineration",
+      "flow": {
+        "externalId": "dcb70fd5-e305-4920-b68b-40697cc6a206",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste polyethylene terephthalate",
+        "StageName": "treatment of waste polyethylene terephthalate, municipal incineration"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "3ed311a5-d27f-4566-94ec-39ae3b4cf302",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "596eb3e4-0c5b-4b91-b6dd-5a52ff6ce80d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": -0.40354,
+        "1": -0.40354
+      },
+      "externalId": "596eb3e4-0c5b-4b91-b6dd-5a52ff6ce80d",
+      "flow": {
+        "externalId": "73ed05cc-9727-4abf-9516-4b5c0fe54a16",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bio-PET_municipal_incineration",
+      "tags": {
+        "Comment": "",
+        "Name": "Carbon dioxide, non-fossil",
+        "StageName": "urban air close to ground"
+      },
+      "terminations": {
+        "default": {
+          "context": "urban air",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "ee631cf8-07ee-465d-a296-7dcf6d8df06b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0177,
+        "1": -1.61416
+      },
+      "externalId": "ee631cf8-07ee-465d-a296-7dcf6d8df06b",
+      "flow": {
+        "externalId": "f9749677-9c9f-4678-ab55-c607dfdc2cb9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bio-PET_municipal_incineration",
+      "tags": {
+        "Comment": "",
+        "Name": "Carbon dioxide, fossil",
+        "StageName": "urban air close to ground"
+      },
+      "terminations": {
+        "default": {
+          "context": "urban air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

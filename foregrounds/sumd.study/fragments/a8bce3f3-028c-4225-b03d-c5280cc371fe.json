@@ -1,0 +1,120 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "a8bce3f3-028c-4225-b03d-c5280cc371fe",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-Sorting",
+      "flow": {
+        "externalId": "resin_sort_pc",
+        "origin": "sumd.models"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "allocated by mass - all materials the same",
+        "Name": "Sorting postconsumer materials with plastic leakage",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-Sorting",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "21533ab4-c856-4c9f-8fac-572808dd4613",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0001
+      },
+      "externalId": "21533ab4-c856-4c9f-8fac-572808dd4613",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Sorting",
+      "tags": {
+        "Comment": "",
+        "Name": "Plastic leakage from PET post-consumer recycling",
+        "StageName": "PET Secondary"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9f05883a-0c9d-45b0-b654-9a3d8b5e0fd7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.15
+      },
+      "externalId": "9f05883a-0c9d-45b0-b654-9a3d8b5e0fd7",
+      "flow": {
+        "externalId": "truck_20t",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-Sorting",
+      "tags": {
+        "Comment": "Franklin 2018 impacts of recycled resins",
+        "Name": "transport to sorting",
+        "StageName": "transport, freight, lorry >32 metric ton, EURO6"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "transport-truck_20t",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b3754199-1ec0-48ca-81fe-7908df2487a9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "b3754199-1ec0-48ca-81fe-7908df2487a9",
+      "flow": {
+        "externalId": "resin_sort_pc",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-Sorting",
+      "tags": {
+        "Comment": "",
+        "Name": "Resin, Sorted postconsumer",
+        "StageName": "PET Secondary"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "-SUM-Sorting",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

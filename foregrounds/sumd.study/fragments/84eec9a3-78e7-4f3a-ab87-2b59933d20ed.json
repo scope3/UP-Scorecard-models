@@ -1,0 +1,181 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "84eec9a3-78e7-4f3a-ab87-2b59933d20ed",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-rPET",
+      "flow": {
+        "externalId": "rPET",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Rpet",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-rPET",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "06e48b7c-5aa4-423d-a1a4-827d6abcefce",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "-SUM-rPET",
+      "flow": {
+        "externalId": "rPET",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-rPET",
+      "tags": {
+        "Comment": "",
+        "Name": "Rpet",
+        "StageName": "PET Reclamation"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "reclaim-PET",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3baef9c6-e09b-460d-9bbd-ae418c4073ea",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3baef9c6-e09b-460d-9bbd-ae418c4073ea",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "-SUM-rPET",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-water-supply",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "83eb953f-3733-4ec3-bdea-e3e7adfdc169",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "83eb953f-3733-4ec3-bdea-e3e7adfdc169",
+      "flow": {
+        "externalId": "resin_sort_pc",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "-SUM-rPET",
+      "tags": {
+        "Comment": "",
+        "Name": "Resin, Sorted postconsumer",
+        "StageName": "PET Secondary"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "SUM-Sorting",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bb28c790-2095-46c3-89fe-fbed65f00f0c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "bb28c790-2095-46c3-89fe-fbed65f00f0c",
+      "flow": {
+        "externalId": "elec",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "-SUM-rPET",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "PET Reclamation - Grid"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-chooser-medium",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "9b1b5b77-d5c2-4ac3-ae12-8d7d59460505",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0001
+      },
+      "externalId": "9b1b5b77-d5c2-4ac3-ae12-8d7d59460505",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-rPET",
+      "tags": {
+        "Comment": "",
+        "Name": "Plastic leakage from PET post-consumer recycling",
+        "StageName": "PET Secondary"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

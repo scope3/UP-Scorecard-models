@@ -1,0 +1,185 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "3a6d67d8-c0b3-42a3-8abc-0c367541ed59",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-rHDPE",
+      "flow": {
+        "externalId": "rHDPE",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "HDPE secondary",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-rHDPE",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "52a7e563-7c54-4adb-8b02-633a7e200431",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0001
+      },
+      "externalId": "52a7e563-7c54-4adb-8b02-633a7e200431",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-rHDPE",
+      "tags": {
+        "Comment": "",
+        "Name": "Plastic leakage from HDPE post-consumer recycling",
+        "StageName": "HDPE Secondary"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "77960349-548d-4df3-a38b-f12c2476b825",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "-SUM-rHDPE",
+      "flow": {
+        "externalId": "rHDPE",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-rHDPE",
+      "tags": {
+        "Comment": "",
+        "Name": "HDPE Reclamation",
+        "StageName": "HDPE Reclamation"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "reclaim-HDPE",
+          "origin": "sumd.models"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "46c5bc9a-7d00-4b72-94a1-f1abe07bf30c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "46c5bc9a-7d00-4b72-94a1-f1abe07bf30c",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "-SUM-rHDPE",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-water-supply",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "984e5694-6b9f-4196-987c-80004b9118bf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "984e5694-6b9f-4196-987c-80004b9118bf",
+      "flow": {
+        "externalId": "hdpe_sort_pc",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "-SUM-rHDPE",
+      "tags": {
+        "Comment": "",
+        "Name": "HDPE, Sorted postconsumer",
+        "StageName": "HDPE Secondary"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "SUM-Sorting",
+          "origin": "foreground",
+          "termFlow": {
+            "externalId": "resin_sort_pc",
+            "origin": "sumd.models"
+          }
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fa672bb7-0264-485f-bd4b-08c0c98e7369",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "fa672bb7-0264-485f-bd4b-08c0c98e7369",
+      "flow": {
+        "externalId": "elec",
+        "origin": "sumd.models"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "-SUM-rHDPE",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "HDPE Secondary"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-chooser-medium",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

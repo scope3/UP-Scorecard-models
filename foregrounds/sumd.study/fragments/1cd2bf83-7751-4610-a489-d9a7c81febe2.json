@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "1cd2bf83-7751-4610-a489-d9a7c81febe2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-stretch-blow",
+      "flow": {
+        "externalId": "PET",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "yield 0.978 does SBM also require an injection mold? NO",
+        "Name": "stretch blow molding",
+        "StageName": "stretch blow moulding"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "5a6102e3-4429-47ba-a46e-b218fa87a703",
+          "origin": "ecoinvent.3.6.cutoff",
+          "termFlow": "1e16715e-6aa4-4649-92bd-304400d6c246"
+        }
+      }
+    }
+  ]
+}

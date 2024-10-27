@@ -1,0 +1,152 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "1d2ce059-0999-42cd-bbc8-cd151a4b6150",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "plastic_mixture_sanitary_landfill_RoW",
+      "flow": {
+        "externalId": "88afd721-07ec-4910-a004-fa3fecb6bf70",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste plastic, mixture",
+        "StageName": "treatment of waste plastic, mixture, sanitary landfill"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "97554a99-ccf8-488e-b8be-6b37f79a5a4a",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "724a992e-0690-4857-ba56-c050f5b609d9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.04e-06,
+        "1": -1.04e-06
+      },
+      "externalId": "724a992e-0690-4857-ba56-c050f5b609d9",
+      "flow": {
+        "externalId": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "plastic_mixture_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "724a992e-0690-4857-ba56-c050f5b609d9",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "c17819cb-62f2-469e-b210-26ba8c207bd5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7,
+        "defeat_methane": 1.0
+      },
+      "externalId": "c17819cb-62f2-469e-b210-26ba8c207bd5",
+      "flow": {
+        "externalId": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "724a992e-0690-4857-ba56-c050f5b609d9",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": "urban air close to ground"
+      },
+      "terminations": {
+        "default": {
+          "context": "urban air",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "e679e1ac-9aca-477f-988b-e74505180b02",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00243,
+        "1": -0.00243
+      },
+      "externalId": "e679e1ac-9aca-477f-988b-e74505180b02",
+      "flow": {
+        "externalId": "70ef743b-3ed5-4a6d-b192-fb6d62378555",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "plastic_mixture_sanitary_landfill_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "e679e1ac-9aca-477f-988b-e74505180b02",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "34c92bae-d502-4db9-8dd4-b0480560cb52",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.7,
+        "1": 0.7,
+        "defeat_methane": 1.0
+      },
+      "externalId": "34c92bae-d502-4db9-8dd4-b0480560cb52",
+      "flow": {
+        "externalId": "70ef743b-3ed5-4a6d-b192-fb6d62378555",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e679e1ac-9aca-477f-988b-e74505180b02",
+      "tags": {
+        "Comment": "",
+        "Name": "Methane, fossil",
+        "StageName": "non-urban air or from high stacks"
+      },
+      "terminations": {
+        "default": {
+          "context": "rural air",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

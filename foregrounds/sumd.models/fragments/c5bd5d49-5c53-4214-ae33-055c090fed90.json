@@ -1,0 +1,89 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "c5bd5d49-5c53-4214-ae33-055c090fed90",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "grid-chooser-high",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, high voltage"
+      },
+      "terminations": {
+        "ASCC-grid-cutoff": {
+          "externalId": "grid-ASCC-cutoff-high",
+          "origin": "foreground"
+        },
+        "BR-grid-cutoff": {
+          "externalId": "grid-BR-cutoff-high",
+          "origin": "foreground"
+        },
+        "CN-grid-cutoff": {
+          "externalId": "grid-CN-cutoff-high",
+          "origin": "foreground"
+        },
+        "ENTSO-grid-cutoff": {
+          "externalId": "grid-ENTSO-cutoff-high",
+          "origin": "foreground"
+        },
+        "FRCC-grid-cutoff": {
+          "externalId": "grid-FRCC-cutoff-high",
+          "origin": "foreground"
+        },
+        "GLO-grid-cutoff": {
+          "externalId": "grid-GLO-cutoff-high",
+          "origin": "foreground"
+        },
+        "HICC-grid-cutoff": {
+          "externalId": "grid-HICC-cutoff-high",
+          "origin": "foreground"
+        },
+        "ID-grid-cutoff": {
+          "externalId": "grid-ID-cutoff-high",
+          "origin": "foreground"
+        },
+        "JP-grid-cutoff": {
+          "externalId": "grid-JP-cutoff-high",
+          "origin": "foreground"
+        },
+        "RFC-grid-cutoff": {
+          "externalId": "grid-RFC-cutoff-high",
+          "origin": "foreground"
+        },
+        "RNA-grid-cutoff": {
+          "externalId": "grid-RNA-cutoff-high",
+          "origin": "foreground"
+        },
+        "SERC-grid-cutoff": {
+          "externalId": "grid-SERC-cutoff-high",
+          "origin": "foreground"
+        },
+        "TRE-grid-cutoff": {
+          "externalId": "grid-TRE-cutoff-high",
+          "origin": "foreground"
+        },
+        "US-grid-cutoff": {
+          "externalId": "grid-US-cutoff-high",
+          "origin": "foreground"
+        },
+        "default": {
+          "externalId": "grid-US-cutoff-high",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

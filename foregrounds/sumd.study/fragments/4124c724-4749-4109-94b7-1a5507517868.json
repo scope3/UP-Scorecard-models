@@ -1,0 +1,92 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "4124c724-4749-4109-94b7-1a5507517868",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-vPS",
+      "flow": {
+        "externalId": "PS",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "PS Primary",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-vPS",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "54453ffe-9d06-4f05-8e61-7d14ab303021",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 7e-05
+      },
+      "externalId": "54453ffe-9d06-4f05-8e61-7d14ab303021",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-vPS",
+      "tags": {
+        "Comment": "non-mass so won't affect balance",
+        "Name": "Plastic leakage from primary production",
+        "StageName": "to water"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "da69e749-20f8-4729-b8ec-bd17401d23cf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "da69e749-20f8-4729-b8ec-bd17401d23cf",
+      "flow": {
+        "externalId": "vPS",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-vPS",
+      "tags": {
+        "Comment": "",
+        "Name": "Vps",
+        "StageName": "PS Primary"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "c0ce0426-e074-4c7e-a810-744d92ab90a1",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "a71a3671-f294-46ad-8adb-885e61d6ae4e"
+        }
+      }
+    }
+  ]
+}

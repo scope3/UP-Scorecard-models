@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "02a3d1ff-8dda-473e-8a04-1c80716b0d91",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-polydimethylsiloxane",
+      "flow": {
+        "externalId": "0dc25044-d414-5564-b7f3-998ef6732374",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "polydimethylsiloxane",
+        "StageName": "polydimethylsiloxane production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "2e7c97ce-cfd5-505b-80c7-e696880fc999",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

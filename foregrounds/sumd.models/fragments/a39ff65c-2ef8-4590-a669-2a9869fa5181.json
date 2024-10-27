@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "a39ff65c-2ef8-4590-a669-2a9869fa5181",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "transport-train",
+      "flow": {
+        "externalId": "train",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Rail transport",
+        "StageName": "transport, freight train, diesel"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d87ab216-dbc9-41ae-aa7c-b7780cf0462d",
+          "origin": "ecoinvent.3.7.1.cutoff",
+          "termFlow": "0ace02fa-eca5-482d-a829-c18e46a52db4"
+        }
+      }
+    }
+  ]
+}

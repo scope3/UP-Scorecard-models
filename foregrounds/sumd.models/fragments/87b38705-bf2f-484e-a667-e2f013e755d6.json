@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "87b38705-bf2f-484e-a667-e2f013e755d6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "plastic_mixture_municipal_incineration_RoW",
+      "flow": {
+        "externalId": "88afd721-07ec-4910-a004-fa3fecb6bf70",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste plastic, mixture",
+        "StageName": "treatment of waste plastic, mixture, municipal incineration"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "03f25be5-24b1-4b27-92e4-646b55fcef34",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "63766588-5f92-4b6a-b9a4-f8da93ccef71",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00047528,
+        "1": 0.0
+      },
+      "externalId": "63766588-5f92-4b6a-b9a4-f8da93ccef71",
+      "flow": {
+        "externalId": "db4566b1-bd88-427d-92da-2d25879063b9",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "plastic_mixture_municipal_incineration_RoW",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "63766588-5f92-4b6a-b9a4-f8da93ccef71",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

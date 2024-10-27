@@ -1,0 +1,34 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "ff0499bb-02a3-4d35-871f-18df09cdf6e1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "treatment_of_inert_waste_sanitary_landfill_RoW",
+      "flow": {
+        "externalId": "3a91cb7d-843b-495d-9973-33ba5efee877",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "inert waste",
+        "StageName": "treatment of inert waste, sanitary landfill"
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "a8a3e4bd-506d-43cf-8a59-9a831752d787",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}

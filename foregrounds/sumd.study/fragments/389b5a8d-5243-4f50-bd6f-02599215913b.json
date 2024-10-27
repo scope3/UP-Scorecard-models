@@ -1,0 +1,91 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "389b5a8d-5243-4f50-bd6f-02599215913b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "SUM-vLLDPE",
+      "flow": {
+        "externalId": "LLDPE",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "ecoinvent via plastics europe",
+        "Name": "LDPE Primary",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "SUM-vLLDPE",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "04b702cb-066f-4c44-9def-c80017eb604e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 7e-05
+      },
+      "externalId": "04b702cb-066f-4c44-9def-c80017eb604e",
+      "flow": {
+        "externalId": "plastic-leakage",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "SUM-vLLDPE",
+      "tags": {
+        "Comment": "",
+        "Name": "Plastic leakage from primary production",
+        "StageName": "to water"
+      },
+      "terminations": {
+        "default": {
+          "context": "to water",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7bcf3ef5-d0e5-4aa3-b10a-55ed60675141",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7bcf3ef5-d0e5-4aa3-b10a-55ed60675141",
+      "flow": {
+        "externalId": "vLLDPE",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "SUM-vLLDPE",
+      "tags": {
+        "Comment": "",
+        "Name": "polyethylene production, linear low density, granulate [RoW]",
+        "StageName": "polyethylene production, linear low density, granulate"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "lldpe-production",
+          "origin": "sumd.models"
+        }
+      }
+    }
+  ]
+}

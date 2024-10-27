@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "9130ca19-7b1b-438a-bb13-ca25c2161526",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bg-single superphosphate",
+      "flow": {
+        "externalId": "3fbcb3ea-30d6-5459-8ac1-955fb642e67f",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "single superphosphate",
+        "StageName": "single superphosphate production"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "3fbe33a6-032d-40d2-886d-2647ae4147f9",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}
