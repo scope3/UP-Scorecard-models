@@ -55,10 +55,7 @@
         "default": {
           "externalId": "SUM-land-use-corn",
           "origin": "foreground",
-          "termFlow": {
-            "externalId": "land_use",
-            "origin": "foreground"
-          }
+          "termFlow": "land_use"
         }
       }
     }

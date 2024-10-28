@@ -18,7 +18,7 @@
       "entityType": "flow",
       "externalId": "42a1bdfc-883d-41f0-b83a-1c5527e34de7",
       "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
       "uuid": "42a1bdfc-883d-41f0-b83a-1c5527e34de7"
     },
     {
@@ -26,7 +26,7 @@
       "entityType": "flow",
       "externalId": "6eb408db-980a-4b9e-82a8-b6dca183ec35",
       "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+      "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
       "uuid": "6eb408db-980a-4b9e-82a8-b6dca183ec35"
     },
     {
@@ -35,7 +35,8 @@
       "Name": "Al",
       "entityType": "flow",
       "externalId": "Al",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -43,7 +44,8 @@
       "Name": "Al Secondary",
       "entityType": "flow",
       "externalId": "Al-secondary",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -51,7 +53,8 @@
       "Name": "Glass",
       "entityType": "flow",
       "externalId": "Glass",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -59,7 +62,8 @@
       "Name": "Hdpe",
       "entityType": "flow",
       "externalId": "HDPE",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -67,7 +71,8 @@
       "Name": "Ldpe",
       "entityType": "flow",
       "externalId": "LDPE",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -75,7 +80,8 @@
       "Name": "Lldpe",
       "entityType": "flow",
       "externalId": "LLDPE",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -83,7 +89,8 @@
       "Name": "Nylon",
       "entityType": "flow",
       "externalId": "Nylon",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -91,7 +98,8 @@
       "Name": "Pet",
       "entityType": "flow",
       "externalId": "PET",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -99,7 +107,8 @@
       "Name": "Pp",
       "entityType": "flow",
       "externalId": "PP",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -107,7 +116,8 @@
       "Name": "Ps",
       "entityType": "flow",
       "externalId": "PS",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -115,7 +125,8 @@
       "Name": "Ss",
       "entityType": "flow",
       "externalId": "SS",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -123,7 +134,8 @@
       "Name": "Ss Deep Drawing",
       "entityType": "flow",
       "externalId": "SS-deep-drawing",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -131,7 +143,8 @@
       "Name": "Ss Rolling",
       "entityType": "flow",
       "externalId": "SS-rolling",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -139,21 +152,22 @@
       "Name": "Acrylic",
       "entityType": "flow",
       "externalId": "acrylic",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "Name": "Alum. scrap (from can mfg)",
       "entityType": "flow",
       "externalId": "alum_mfg_scrap",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "Name": "Aluminum sheet",
       "entityType": "flow",
       "externalId": "alum_sheet",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -161,14 +175,15 @@
       "Name": "Bamboo Primary",
       "entityType": "flow",
       "externalId": "bamboo_primary",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "Name": "Bamboo utensil, fabricated",
       "entityType": "flow",
       "externalId": "bamboo_utensil",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -176,7 +191,8 @@
       "Name": "Bio Ethylene Glycol",
       "entityType": "flow",
       "externalId": "bio_ethylene_glycol",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "124-38-9",
@@ -185,7 +201,8 @@
       "Name": "Carbon Dioxide",
       "entityType": "flow",
       "externalId": "carbon dioxide",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -193,7 +210,8 @@
       "Name": "Carton Conversion",
       "entityType": "flow",
       "externalId": "carton-conversion",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -201,7 +219,8 @@
       "Name": "Carton Conversion Area",
       "entityType": "flow",
       "externalId": "carton-conversion-area",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-19da-a746-0800200c9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-19da-a746-0800200c9a66"
     },
     {
       "Name": "Electricity",
@@ -215,7 +234,7 @@
       "entityType": "flow",
       "externalId": "epoxy_resin",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -223,14 +242,15 @@
       "Name": "Film Extrusion",
       "entityType": "flow",
       "externalId": "film extrusion",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "Name": "HDPE, Sorted postconsumer",
       "entityType": "flow",
       "externalId": "hdpe_sort_pc",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -238,7 +258,8 @@
       "Name": "Injection Molding",
       "entityType": "flow",
       "externalId": "injection molding",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -246,28 +267,29 @@
       "Name": "Land use transformation to bio-materials",
       "entityType": "flow",
       "externalId": "land_use",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-21da-a746-0800200c9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-21da-a746-0800200c9a66"
     },
     {
       "Name": "Land Use, for Corn Production",
       "entityType": "flow",
       "externalId": "land_use_corn",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-21da-a746-0800200c9a66"
+      "referenceQuantity": "93a60a56-a3c8-21da-a746-0800200c9a66"
     },
     {
       "Name": "Molded Fiber Product",
       "entityType": "flow",
       "externalId": "molded_fiber",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "Name": "Recycled paper",
       "entityType": "flow",
       "externalId": "paper_r_collected",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -276,6 +298,7 @@
       "Name": "Plastic Leakage",
       "entityType": "flow",
       "externalId": "plastic-leakage",
+      "origin": "sumd.study",
       "referenceQuantity": "mass_plastic"
     },
     {
@@ -284,7 +307,8 @@
       "Name": "Rglass",
       "entityType": "flow",
       "externalId": "rGlass",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -292,7 +316,8 @@
       "Name": "Rhdpe",
       "entityType": "flow",
       "externalId": "rHDPE",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -300,21 +325,22 @@
       "Name": "Rpet",
       "entityType": "flow",
       "externalId": "rPET",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "Name": "Resin, Collected postconsumer",
       "entityType": "flow",
       "externalId": "resin_coll_pc",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "Name": "Resin, Sorted postconsumer",
       "entityType": "flow",
       "externalId": "resin_sort_pc",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -322,7 +348,8 @@
       "Name": "Sawnwood",
       "entityType": "flow",
       "externalId": "sawnwood",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66"
     },
     {
       "CasNumber": "",
@@ -330,14 +357,15 @@
       "Name": "Sulfate Pulp",
       "entityType": "flow",
       "externalId": "sulfate-pulp",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "Name": "Transport, truck, 20t",
       "entityType": "flow",
       "externalId": "truck_20t",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66"
+      "referenceQuantity": "838aaa20-0117-11db-92e3-0800200c9a66"
     },
     {
       "CasNumber": "",
@@ -345,7 +373,8 @@
       "Name": "Vglass",
       "entityType": "flow",
       "externalId": "vGlass",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -353,7 +382,8 @@
       "Name": "Vhdpe",
       "entityType": "flow",
       "externalId": "vHDPE",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -361,7 +391,8 @@
       "Name": "Vldpe",
       "entityType": "flow",
       "externalId": "vLDPE",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -369,14 +400,15 @@
       "Name": "Vlldpe",
       "entityType": "flow",
       "externalId": "vLLDPE",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "Name": "PLA",
       "entityType": "flow",
       "externalId": "vPLA",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -384,7 +416,8 @@
       "Name": "Vpp",
       "entityType": "flow",
       "externalId": "vPP",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -392,7 +425,8 @@
       "Name": "Vps",
       "entityType": "flow",
       "externalId": "vPS",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -400,7 +434,8 @@
       "Name": "Vpvc",
       "entityType": "flow",
       "externalId": "vPVC",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -408,7 +443,8 @@
       "Name": "Vpet Minus Eg",
       "entityType": "flow",
       "externalId": "vpet_minus_eg",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -416,21 +452,22 @@
       "Name": "Wash",
       "entityType": "flow",
       "externalId": "wash",
-      "referenceQuantity": "flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345"
+      "origin": "sumd.study",
+      "referenceQuantity": "01846770-4cfe-4a25-8ad9-919d8d378345"
     },
     {
       "Name": "Dishwasher Cycle",
       "entityType": "flow",
       "externalId": "wash_cycle",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345"
+      "referenceQuantity": "01846770-4cfe-4a25-8ad9-919d8d378345"
     },
     {
       "Name": "Water used",
       "entityType": "flow",
       "externalId": "water_muni",
       "origin": "sumd.models",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+      "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66"
     },
     {
       "CasNumber": "7732-18-5",
@@ -439,7 +476,8 @@
       "Name": "Water, Blue",
       "entityType": "flow",
       "externalId": "water_withdrawal",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66"
     },
     {
       "CasNumber": "",
@@ -447,7 +485,8 @@
       "Name": "Wood Lath",
       "entityType": "flow",
       "externalId": "wood_lath",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66"
     },
     {
       "CasNumber": "",
@@ -455,7 +494,8 @@
       "Name": "Wood Packaging",
       "entityType": "flow",
       "externalId": "wood_packaging",
-      "referenceQuantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66"
+      "origin": "sumd.study",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     }
   ],
   "initArgs": {
@@ -463,12 +503,60 @@
   },
   "quantities": [
     {
+      "Name": "Number of items",
+      "entityType": "quantity",
+      "externalId": "01846770-4cfe-4a25-8ad9-919d8d378345",
+      "origin": "local.qdb",
+      "referenceUnit": "Item(s)",
+      "uuid": "01846770-4cfe-4a25-8ad9-919d8d378345"
+    },
+    {
       "Name": "Electric energy",
       "entityType": "quantity",
       "externalId": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
-      "origin": "local.ecoinvent.3.2.cutoff",
+      "origin": "local.qdb",
       "referenceUnit": "kWh",
       "uuid": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc"
+    },
+    {
+      "Name": "Goods transport (mass*distance)",
+      "entityType": "quantity",
+      "externalId": "838aaa20-0117-11db-92e3-0800200c9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "t*km",
+      "uuid": "838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "Name": "Mass",
+      "entityType": "quantity",
+      "externalId": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "kg",
+      "uuid": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "Area",
+      "entityType": "quantity",
+      "externalId": "93a60a56-a3c8-19da-a746-0800200c9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "m2",
+      "uuid": "93a60a56-a3c8-19da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Area*time",
+      "entityType": "quantity",
+      "externalId": "93a60a56-a3c8-21da-a746-0800200c9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "m2*a",
+      "uuid": "93a60a56-a3c8-21da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Volume",
+      "entityType": "quantity",
+      "externalId": "93a60a56-a3c8-22da-a746-0800200c9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "m3",
+      "uuid": "93a60a56-a3c8-22da-a746-0800200c9a66"
     },
     {
       "Indicator": "WDP",
@@ -487,79 +575,8 @@
       },
       "entityType": "quantity",
       "externalId": "c_incin",
+      "origin": "sumd.study",
       "referenceUnit": "kg carbon"
-    },
-    {
-      "Name": "Number of items",
-      "entityType": "quantity",
-      "externalId": "flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345",
-      "origin": "elcd.3.2",
-      "referenceUnit": "Item(s)",
-      "uuid": "01846770-4cfe-4a25-8ad9-919d8d378345"
-    },
-    {
-      "Name": "Goods transport (mass*distance)",
-      "entityType": "quantity",
-      "externalId": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "t*km",
-      "uuid": "838aaa20-0117-11db-92e3-0800200c9a66"
-    },
-    {
-      "Name": "Mass",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "kg",
-      "uuid": "93a60a56-a3c8-11da-a746-0800200b9a66"
-    },
-    {
-      "Name": "Mass",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
-      "origin": "local.qdb",
-      "referenceUnit": "kg",
-      "uuid": "93a60a56-a3c8-11da-a746-0800200b9a66"
-    },
-    {
-      "Name": "Area",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-19da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "m2",
-      "uuid": "93a60a56-a3c8-19da-a746-0800200c9a66"
-    },
-    {
-      "Name": "Area",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-19da-a746-0800200c9a66",
-      "origin": "local.qdb",
-      "referenceUnit": "m2",
-      "uuid": "93a60a56-a3c8-19da-a746-0800200c9a66"
-    },
-    {
-      "Name": "Area*time",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-21da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "m2*a",
-      "uuid": "93a60a56-a3c8-21da-a746-0800200c9a66"
-    },
-    {
-      "Name": "Volume",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "m3",
-      "uuid": "93a60a56-a3c8-22da-a746-0800200c9a66"
-    },
-    {
-      "Name": "Volume",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
-      "origin": "local.qdb",
-      "referenceUnit": "m3",
-      "uuid": "93a60a56-a3c8-22da-a746-0800200c9a66"
     },
     {
       "Comment": "Used to compute the plastic content of containers from the recipe",
@@ -569,6 +586,7 @@
       },
       "entityType": "quantity",
       "externalId": "mass_plastic",
+      "origin": "sumd.study",
       "referenceUnit": "kg plastic"
     },
     {
@@ -579,6 +597,7 @@
       },
       "entityType": "quantity",
       "externalId": "node activity",
+      "origin": "sumd.study",
       "referenceUnit": "activity"
     },
     {
@@ -609,10 +628,30 @@
   ],
   "termManager": {
     "Characterizations": {
+      "93a60a56-a3c8-19da-a746-0800200c9a66": {
+        "Carton Conversion": {
+          "None": {
+            "ref_quantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+            "value": {
+              "GLO": 3.125
+            }
+          }
+        }
+      },
+      "93a60a56-a3c8-22da-a746-0800200c9a66": {
+        "Wood Packaging": {
+          "None": {
+            "ref_quantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+            "value": {
+              "GLO": 0.002222222222
+            }
+          }
+        }
+      },
       "ReCiPe Midpoint (E) V1.13, water depletion, WDP": {
         "Water": {
           "from water": {
-            "ref_quantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+            "ref_quantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
             "value": {
               "GLO": 1.0
             }
@@ -622,7 +661,7 @@
       "c_incin": {
         "Paper": {
           "None": {
-            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+            "ref_quantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
             "value": {
               "GLO": 0.444
             }
@@ -630,29 +669,9 @@
         },
         "Pet": {
           "None": {
-            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+            "ref_quantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
             "value": {
               "GLO": 0.625
-            }
-          }
-        }
-      },
-      "flowproperties/93a60a56-a3c8-19da-a746-0800200c9a66": {
-        "Carton Conversion": {
-          "None": {
-            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
-            "value": {
-              "GLO": 3.125
-            }
-          }
-        }
-      },
-      "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66": {
-        "Wood Packaging": {
-          "None": {
-            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
-            "value": {
-              "GLO": 0.002222222222
             }
           }
         }
@@ -660,7 +679,7 @@
       "mass_plastic": {
         "Adhesive": {
           "None": {
-            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+            "ref_quantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
             "value": {
               "GLO": 1.0
             }
@@ -668,7 +687,7 @@
         },
         "Pet": {
           "None": {
-            "ref_quantity": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
+            "ref_quantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
             "value": {
               "GLO": 1.0
             }
@@ -688,7 +707,7 @@
       "q_water_footprint": {
         "Water": {
           "from water": {
-            "ref_quantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+            "ref_quantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
             "value": {
               "GLO": 1.0
             }
@@ -698,7 +717,7 @@
       "selected LCI results, additional, resource, water": {
         "Water": {
           "from water": {
-            "ref_quantity": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
+            "ref_quantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
             "value": {
               "GLO": 1.0
             }
@@ -714,8 +733,10 @@
           "('emissions',)",
           "emission",
           "emissions",
+          "lcacommons.uslci.fy24.q1.01:Emissions",
           "lcia:Emissions",
           "lexicon.models:Emissions",
+          "sumd.models:Emissions",
           "uslci.mod:emission"
         ]
       },
@@ -726,10 +747,13 @@
           "('resources',)",
           "Energy resources",
           "Material resources",
+          "Minerals",
+          "Non renewable elements",
           "Non renewable energy resources",
           "Non renewable resources",
           "Renewable energy resources",
           "Renewable resources",
+          "lcacommons.uslci.fy24.q1.01:Resources",
           "local.elcd.3.2:Resources",
           "natural resource",
           "renewable",
@@ -752,6 +776,7 @@
         "name": "from water",
         "parent": "Resources",
         "synonyms": [
+          "('Resources', 'from water')",
           "Non-renewable element resources from water",
           "Non-renewable material resources from water",
           "Renewable energy resources from water",
@@ -760,7 +785,8 @@
           "Resources; from water",
           "in water",
           "lcia:from water",
-          "lexicon.models:from water"
+          "lexicon.models:from water",
+          "sumd.models:from water"
         ]
       },
       {
@@ -772,6 +798,10 @@
           "Emissions to water",
           "Emissions to water, unspecified",
           "Emissions; to water",
+          "ecoinvent.3.10.cutoff:water",
+          "ecoinvent.3.6.cutoff:water",
+          "ecoinvent.3.7.1.cutoff:to water",
+          "ecoinvent.3.7.1.cutoff:water",
           "lcia.sum.ecoinvent:water",
           "lcia:to water",
           "local.ecoinvent.3.6.cutoff.index.20210103:water",
@@ -789,7 +819,8 @@
       {
         "name": "Adhesive",
         "synonyms": [
-          "lexicon.models/adhesive"
+          "lexicon.models/adhesive",
+          "sumd.models/adhesive"
         ]
       },
       {
@@ -802,7 +833,8 @@
       {
         "name": "Paper",
         "synonyms": [
-          "lexicon.models/paper"
+          "lexicon.models/paper",
+          "sumd.models/paper"
         ]
       },
       {
@@ -822,10 +854,33 @@
       {
         "name": "Water",
         "synonyms": [
+          "06d4812b-6937-4d64-8517-b69aabce3648",
+          "075e433b-4be4-448e-9510-9a5029c1ce94",
+          "09872080-d143-4fb1-a3a5-647b077107ff",
+          "2256a142-8242-4b4f-b9aa-a167803989ca",
+          "2404b41a-2eed-4e9d-8ab6-783946fdf5d6",
+          "4f0f15b3-b227-4cdc-b0b3-6412d55695d5",
+          "51254820-3456-4373-b7b4-056cf7b16e01",
+          "5d368100-b1bc-4456-8420-e469edccf349",
           "Water, Blue",
           "db4566b1-bd88-427d-92da-2d25879063b9",
+          "ecoinvent.3.10.cutoff/06d4812b-6937-4d64-8517-b69aabce3648",
+          "ecoinvent.3.10.cutoff/075e433b-4be4-448e-9510-9a5029c1ce94",
+          "ecoinvent.3.10.cutoff/09872080-d143-4fb1-a3a5-647b077107ff",
+          "ecoinvent.3.10.cutoff/2256a142-8242-4b4f-b9aa-a167803989ca",
+          "ecoinvent.3.10.cutoff/2404b41a-2eed-4e9d-8ab6-783946fdf5d6",
+          "ecoinvent.3.10.cutoff/4f0f15b3-b227-4cdc-b0b3-6412d55695d5",
+          "ecoinvent.3.10.cutoff/51254820-3456-4373-b7b4-056cf7b16e01",
+          "ecoinvent.3.10.cutoff/5d368100-b1bc-4456-8420-e469edccf349",
+          "ecoinvent.3.10.cutoff/db4566b1-bd88-427d-92da-2d25879063b9",
+          "ecoinvent.3.10.cutoff/f14b59ff-d438-442d-8bad-b53694b8263a",
+          "ecoinvent.3.10.cutoff/f977a02e-3564-4798-843c-9fb9a18bc18b",
+          "ecoinvent.3.7.1.cutoff/db4566b1-bd88-427d-92da-2d25879063b9",
+          "f14b59ff-d438-442d-8bad-b53694b8263a",
+          "f977a02e-3564-4798-843c-9fb9a18bc18b",
           "lexicon.study/water_withdrawal",
           "local.ecoinvent.3.7.1.cutoff/db4566b1-bd88-427d-92da-2d25879063b9",
+          "oxidane",
           "sumd.study/water_withdrawal",
           "7732-18-5"
         ]
