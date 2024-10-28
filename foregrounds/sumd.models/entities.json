@@ -2024,6 +2024,7 @@
           "Pesticides to air",
           "Radioactive emissions to air",
           "air, unspecified",
+          "ecoinvent.3.10.cutoff:air",
           "ecoinvent.3.6.cutoff:air",
           "ecoinvent.3.7.1.cutoff:air",
           "lcacommons.uslci.fy24.q1.01:rural",

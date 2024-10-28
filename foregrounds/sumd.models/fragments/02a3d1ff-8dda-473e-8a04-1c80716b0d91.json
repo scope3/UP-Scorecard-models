@@ -24,8 +24,9 @@
       },
       "terminations": {
         "default": {
-          "externalId": "2e7c97ce-cfd5-505b-80c7-e696880fc999",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "bbf02701-0946-5571-b1ee-be3aa547419e",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "0dc25044-d414-5564-b7f3-998ef6732374"
         }
       }
     }

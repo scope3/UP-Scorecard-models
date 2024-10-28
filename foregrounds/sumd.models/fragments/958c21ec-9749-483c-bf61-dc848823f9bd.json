@@ -156,7 +156,11 @@
         "default": {
           "descend": false,
           "externalId": "SUM-water-supply",
-          "origin": "sumd.study"
+          "origin": "sumd.study",
+          "termFlow": {
+            "externalId": "water_muni",
+            "origin": "sumd.models"
+          }
         }
       }
     }

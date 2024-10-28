@@ -24,8 +24,9 @@
       },
       "terminations": {
         "default": {
-          "externalId": "d3e64555-5773-453a-af80-7ce31137530b",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "d915d502-8aa0-5a65-9df5-8d63b7ddd702",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "1768722c-0cb1-4b0b-9183-2ff16919120e"
         }
       }
     },
@@ -53,8 +54,9 @@
       },
       "terminations": {
         "default": {
-          "externalId": "9ae29b61-d6bd-4089-ac59-1866bc2626d1",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "b08106eb-d92d-55d6-8d9b-bf2f4f9886ab",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "e69cca3a-6e2a-4638-b9e7-09927dcf1c95"
         }
       }
     },
@@ -140,8 +142,9 @@
       },
       "terminations": {
         "default": {
-          "externalId": "42edecb6-199a-4cba-92e6-5210219aca26",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "153253df-8b5b-5aab-9bc6-fab9ef57001a",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "fd45a910-a95c-4742-90a5-473e86d16486"
         }
       }
     },
