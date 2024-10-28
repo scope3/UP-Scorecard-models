@@ -1,0 +1,33 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "d70b9a2a-d93d-4317-b62d-9543ada0e028",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "grid-DE-cutoff-low",
+      "flow": {
+        "externalId": "d69294d7-8d64-4915-a896-9996a014c410",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, low voltage",
+        "StageName": "market for electricity, low voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "7f5b670e-3719-46b4-bbb7-f4f372302173",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        }
+      }
+    }
+  ]
+}
