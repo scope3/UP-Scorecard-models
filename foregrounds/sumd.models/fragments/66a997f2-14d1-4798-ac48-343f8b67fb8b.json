@@ -2,13 +2,13 @@
   "fragments": [
     {
       "direction": "Input",
-      "entityId": "104a2f9c-f973-4366-9db4-899f4f71ead2",
+      "entityId": "66a997f2-14d1-4798-ac48-343f8b67fb8b",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 1.0
       },
-      "externalId": "wash-container",
+      "externalId": "wash_nostandby",
       "flow": {
         "externalId": "wash_cycle",
         "origin": "foreground"
@@ -19,28 +19,92 @@
       "parent": null,
       "tags": {
         "Comment": "",
-        "Name": "[lexicon.models] lexicon.models/wash-container",
-        "StageName": "wash-container",
+        "Name": "[sumd.models] sumd.models/wash_nostandby",
+        "StageName": "wash_nostandby",
         "flowname": "Wash Cycle",
-        "flowtype": "reference",
-        "notes": "Commercial 1-rack washer"
+        "flowtype": "reference"
       },
       "terminations": {
         "default": {
-          "externalId": "wash-container",
+          "externalId": "wash_nostandby",
           "origin": "foreground"
         }
       }
     },
     {
       "direction": "Input",
-      "entityId": "15cf454b-74d9-4516-abd3-a6ab98a81749",
+      "entityId": "3fa7c878-f2e3-40d2-9c9f-96ab59fdc52a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.35,
+        "1": 0.35
+      },
+      "externalId": "3fa7c878-f2e3-40d2-9c9f-96ab59fdc52a",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash_nostandby",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, medium voltage",
+        "flowname": "electricity",
+        "flowtype": "energy",
+        "notes": "standby was 0.55 per load, so 0.9 - 0.55"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "66ac9f4b-eb9d-462c-9a8b-1df4a958d3da",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0034,
+        "1": 0.0034
+      },
+      "externalId": "66ac9f4b-eb9d-462c-9a8b-1df4a958d3da",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash_nostandby",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": "",
+        "flowname": "water",
+        "flowtype": "water"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "SUM-water-supply",
+          "origin": "sumd.study"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6915ae7d-59d3-4dd2-b6fe-773be0614bdd",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 0.024,
         "1": 0.024
       },
-      "externalId": "15cf454b-74d9-4516-abd3-a6ab98a81749",
+      "externalId": "6915ae7d-59d3-4dd2-b6fe-773be0614bdd",
       "flow": {
         "externalId": "ng",
         "origin": "foreground"
@@ -48,7 +112,7 @@
       "isBackground": true,
       "isBalanceFlow": false,
       "isPrivate": false,
-      "parent": "wash-container",
+      "parent": "wash_nostandby",
       "tags": {
         "Comment": "",
         "Name": "Natural gas",
@@ -67,69 +131,13 @@
     },
     {
       "direction": "Input",
-      "entityId": "404e0f1c-2c7c-4a4e-a396-87ea5e3aff02",
+      "entityId": "899a1aa4-1a20-4b1a-b1bb-fb5e07735307",
       "entityType": "fragment",
       "exchangeValues": {
-        "0": 0.0034,
-        "1": 0.0034
-      },
-      "externalId": "404e0f1c-2c7c-4a4e-a396-87ea5e3aff02",
-      "flow": {
-        "externalId": "water_muni",
-        "origin": "foreground"
-      },
-      "isBackground": true,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "wash-container",
-      "tags": {
-        "Comment": "",
-        "Name": "Water used",
-        "StageName": "",
-        "flowname": "water",
-        "flowtype": "water"
-      },
-      "terminations": {
-        "default": {}
-      }
-    },
-    {
-      "direction": "Input",
-      "entityId": "7507861c-094a-4d0d-b5aa-3ae3599b1aa7",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 40.0,
-        "1": 40.0
-      },
-      "externalId": "7507861c-094a-4d0d-b5aa-3ae3599b1aa7",
-      "flow": {
-        "externalId": "wash_capacity",
-        "origin": "foreground"
-      },
-      "isBackground": true,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "wash-container",
-      "tags": {
-        "Comment": "",
-        "Name": "Dishwasher capacity",
-        "StageName": "",
-        "flowname": "Washer capacity",
-        "notes": "Impact of each bottle wash = 1/capacity * (impact of a wash cycle)"
-      },
-      "terminations": {
-        "default": {}
-      }
-    },
-    {
-      "direction": "Input",
-      "entityId": "9b16a9bf-dd87-467d-8158-ad5a7782a09f",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 0.02,
+        "0": 0.01,
         "1": 0.01
       },
-      "externalId": "9b16a9bf-dd87-467d-8158-ad5a7782a09f",
+      "externalId": "899a1aa4-1a20-4b1a-b1bb-fb5e07735307",
       "flow": {
         "externalId": "detergent",
         "origin": "foreground"
@@ -137,7 +145,7 @@
       "isBackground": true,
       "isBalanceFlow": false,
       "isPrivate": false,
-      "parent": "wash-container",
+      "parent": "wash_nostandby",
       "tags": {
         "Comment": "",
         "Name": "Detergent",
@@ -151,35 +159,6 @@
           "externalId": "bg-detergent",
           "origin": "foreground"
         }
-      }
-    },
-    {
-      "direction": "Input",
-      "entityId": "fe6eb18d-024b-4281-a949-a61029348943",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 0.9,
-        "1": 0.46
-      },
-      "externalId": "fe6eb18d-024b-4281-a949-a61029348943",
-      "flow": {
-        "externalId": "elec",
-        "origin": "foreground"
-      },
-      "isBackground": true,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "wash-container",
-      "tags": {
-        "Comment": "",
-        "Name": "Electricity",
-        "StageName": "",
-        "flowname": "electricity",
-        "flowtype": "energy",
-        "notes": "Wash elec (0.35 kwh) + Standby elec (12 min)"
-      },
-      "terminations": {
-        "default": {}
       }
     }
   ]

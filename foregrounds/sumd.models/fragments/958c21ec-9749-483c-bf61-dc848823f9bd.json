@@ -1,0 +1,164 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "958c21ec-9749-483c-bf61-dc848823f9bd",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "wash_flight",
+      "flow": {
+        "externalId": "wash_cycle",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[sumd.models] sumd.models/wash_flight",
+        "StageName": "wash_flight",
+        "flowname": "Wash Cycle",
+        "flowtype": "reference"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "wash_flight",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "219d9bf6-05ed-4f3a-b97a-9625fad6ea8b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.01,
+        "1": 0.01
+      },
+      "externalId": "219d9bf6-05ed-4f3a-b97a-9625fad6ea8b",
+      "flow": {
+        "externalId": "detergent",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash_flight",
+      "tags": {
+        "Comment": "",
+        "Name": "Detergent",
+        "StageName": "ethoxylated alcohol (AE7) production, petrochemical",
+        "flowname": "detergent",
+        "flowtype": "chemical"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-detergent",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "37b9dbec-64a4-4cd9-9fee-97c2154d23dd",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0049368,
+        "1": 0.0049368
+      },
+      "externalId": "37b9dbec-64a4-4cd9-9fee-97c2154d23dd",
+      "flow": {
+        "externalId": "ng",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash_flight",
+      "tags": {
+        "Comment": "",
+        "Name": "Natural gas",
+        "StageName": "heat production, natural gas, at boiler condensing modulating <100kW",
+        "flowname": "natural gas (heat water)",
+        "flowtype": "energy",
+        "notes": "all NG"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "bg-ng",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "da2d0597-9672-484a-899e-913071fe4286",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.2,
+        "1": 0.2
+      },
+      "externalId": "da2d0597-9672-484a-899e-913071fe4286",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash_flight",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, medium voltage",
+        "flowname": "electricity",
+        "flowtype": "energy"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "faeb8402-1f12-42f7-a9fd-ed0ce98a49fc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00088,
+        "1": 0.00088
+      },
+      "externalId": "faeb8402-1f12-42f7-a9fd-ed0ce98a49fc",
+      "flow": {
+        "externalId": "water_muni",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "wash_flight",
+      "tags": {
+        "Comment": "",
+        "Name": "Water used",
+        "StageName": "",
+        "flowname": "water",
+        "flowtype": "water"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "SUM-water-supply",
+          "origin": "sumd.study"
+        }
+      }
+    }
+  ]
+}

@@ -67,7 +67,19 @@
           "externalId": "57b94b74-ec5d-4d96-a57a-c1b8648f2ae1",
           "origin": "ecoinvent.3.7.1.cutoff"
         },
+        "DE-grid-cutoff": {
+          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
         "ENTSO-grid-cutoff": {
+          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "ES-grid-cutoff": {
+          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "FR-grid-cutoff": {
           "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
           "origin": "ecoinvent.3.7.1.cutoff"
         },
@@ -77,6 +89,10 @@
         },
         "ID-grid-cutoff": {
           "externalId": "f1b89823-7033-49eb-9b3a-e3308632be6d",
+          "origin": "ecoinvent.3.7.1.cutoff"
+        },
+        "IT-grid-cutoff": {
+          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
           "origin": "ecoinvent.3.7.1.cutoff"
         },
         "JP-grid-cutoff": {

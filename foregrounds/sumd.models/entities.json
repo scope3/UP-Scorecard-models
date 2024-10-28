@@ -825,6 +825,14 @@
       "uuid": "d51e5a32-c20a-4da6-8d58-31f344b50c00"
     },
     {
+      "Name": "electricity, low voltage",
+      "entityType": "flow",
+      "externalId": "d69294d7-8d64-4915-a896-9996a014c410",
+      "origin": "ecoinvent.3.7.1.cutoff",
+      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
+      "uuid": "d69294d7-8d64-4915-a896-9996a014c410"
+    },
+    {
       "Name": "Diesel, combusted in industrial equipment",
       "entityType": "flow",
       "externalId": "d815ff18-015c-3afb-be18-be03bdf325da",
@@ -1681,17 +1689,9 @@
       "Name": "Number of items",
       "entityType": "quantity",
       "externalId": "01846770-4cfe-4a25-8ad9-919d8d378345",
-      "origin": "elcd.3.2",
+      "origin": "local.qdb",
       "referenceUnit": "Item(s)",
       "uuid": "01846770-4cfe-4a25-8ad9-919d8d378345"
-    },
-    {
-      "Name": "Electric energy",
-      "entityType": "quantity",
-      "externalId": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
-      "origin": "local.ecoinvent.3.2.cutoff",
-      "referenceUnit": "kWh",
-      "uuid": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc"
     },
     {
       "Name": "Electric energy",
@@ -1705,17 +1705,9 @@
       "Name": "Goods transport (mass*distance)",
       "entityType": "quantity",
       "externalId": "838aaa20-0117-11db-92e3-0800200c9a66",
-      "origin": "elcd.3.2",
+      "origin": "local.qdb",
       "referenceUnit": "t*km",
       "uuid": "838aaa20-0117-11db-92e3-0800200c9a66"
-    },
-    {
-      "Name": "Mass",
-      "entityType": "quantity",
-      "externalId": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "kg",
-      "uuid": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "Name": "Mass",
@@ -1729,7 +1721,7 @@
       "Name": "Net calorific value",
       "entityType": "quantity",
       "externalId": "93a60a56-a3c8-11da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
+      "origin": "local.qdb",
       "referenceUnit": "MJ",
       "uuid": "93a60a56-a3c8-11da-a746-0800200c9a66"
     },
@@ -1737,15 +1729,31 @@
       "Name": "Gross calorific value",
       "entityType": "quantity",
       "externalId": "93a60a56-a3c8-14da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
+      "origin": "local.qdb",
       "referenceUnit": "MJ",
       "uuid": "93a60a56-a3c8-14da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Area",
+      "entityType": "quantity",
+      "externalId": "93a60a56-a3c8-19da-a746-0800200c9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "m2",
+      "uuid": "93a60a56-a3c8-19da-a746-0800200c9a66"
+    },
+    {
+      "Name": "Area*time",
+      "entityType": "quantity",
+      "externalId": "93a60a56-a3c8-21da-a746-0800200c9a66",
+      "origin": "local.qdb",
+      "referenceUnit": "m2*a",
+      "uuid": "93a60a56-a3c8-21da-a746-0800200c9a66"
     },
     {
       "Name": "Volume",
       "entityType": "quantity",
       "externalId": "93a60a56-a3c8-22da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
+      "origin": "local.qdb",
       "referenceUnit": "m3",
       "uuid": "93a60a56-a3c8-22da-a746-0800200c9a66"
     },
@@ -1773,70 +1781,6 @@
       "externalId": "c_incin",
       "origin": "sumd.study",
       "referenceUnit": "kg carbon"
-    },
-    {
-      "Name": "Number of items",
-      "entityType": "quantity",
-      "externalId": "flowproperties/01846770-4cfe-4a25-8ad9-919d8d378345",
-      "origin": "elcd.3.2",
-      "referenceUnit": "Item(s)",
-      "uuid": "01846770-4cfe-4a25-8ad9-919d8d378345"
-    },
-    {
-      "Name": "Goods transport (mass*distance)",
-      "entityType": "quantity",
-      "externalId": "flowproperties/838aaa20-0117-11db-92e3-0800200c9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "t*km",
-      "uuid": "838aaa20-0117-11db-92e3-0800200c9a66"
-    },
-    {
-      "Name": "Mass",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-11da-a746-0800200b9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "kg",
-      "uuid": "93a60a56-a3c8-11da-a746-0800200b9a66"
-    },
-    {
-      "Name": "Net calorific value",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-11da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "MJ",
-      "uuid": "93a60a56-a3c8-11da-a746-0800200c9a66"
-    },
-    {
-      "Name": "Gross calorific value",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-14da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "MJ",
-      "uuid": "93a60a56-a3c8-14da-a746-0800200c9a66"
-    },
-    {
-      "Name": "Area",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-19da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "m2",
-      "uuid": "93a60a56-a3c8-19da-a746-0800200c9a66"
-    },
-    {
-      "Name": "Area*time",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-21da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "m2*a",
-      "uuid": "93a60a56-a3c8-21da-a746-0800200c9a66"
-    },
-    {
-      "Name": "Volume",
-      "entityType": "quantity",
-      "externalId": "flowproperties/93a60a56-a3c8-22da-a746-0800200c9a66",
-      "origin": "elcd.3.2",
-      "referenceUnit": "m3",
-      "uuid": "93a60a56-a3c8-22da-a746-0800200c9a66"
     },
     {
       "Name": "Mass, synthetic plastic",
@@ -2004,6 +1948,7 @@
           "('emissions',)",
           "emission",
           "emissions",
+          "lcacommons.uslci.fy24.q1.01:Emissions",
           "lcia:Emissions",
           "lexicon.models:Emissions",
           "sumd.models:Emissions",
@@ -2023,6 +1968,7 @@
           "Non renewable resources",
           "Renewable energy resources",
           "Renewable resources",
+          "lcacommons.uslci.fy24.q1.01:Resources",
           "local.elcd.3.2:Resources",
           "natural resource",
           "renewable",
@@ -2045,6 +1991,7 @@
         "name": "from water",
         "parent": "Resources",
         "synonyms": [
+          "('Resources', 'from water')",
           "Non-renewable element resources from water",
           "Non-renewable material resources from water",
           "Renewable energy resources from water",
@@ -2079,6 +2026,9 @@
           "air, unspecified",
           "ecoinvent.3.6.cutoff:air",
           "ecoinvent.3.7.1.cutoff:air",
+          "lcacommons.uslci.fy24.q1.01:rural",
+          "lcacommons.uslci.fy24.q1.01:to air",
+          "lcacommons.uslci.fy24.q1.01:troposphere",
           "lcia.sum.ecoinvent:air",
           "lcia.sum.ecoinvent:air, unspecified",
           "lexicon.models:to air",

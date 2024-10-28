@@ -35,8 +35,24 @@
           "externalId": "grid-CN-cutoff-high",
           "origin": "foreground"
         },
+        "DE-grid-cutoff": {
+          "externalId": "grid-DE-cutoff-high",
+          "origin": "foreground"
+        },
+        "ENTSO-E-grid-cutoff": {
+          "externalId": "grid-ENTSO-E-cutoff-high",
+          "origin": "foreground"
+        },
         "ENTSO-grid-cutoff": {
           "externalId": "grid-ENTSO-cutoff-high",
+          "origin": "foreground"
+        },
+        "ES-grid-cutoff": {
+          "externalId": "grid-ES-cutoff-high",
+          "origin": "foreground"
+        },
+        "FR-grid-cutoff": {
+          "externalId": "grid-FR-cutoff-high",
           "origin": "foreground"
         },
         "FRCC-grid-cutoff": {
@@ -53,6 +69,10 @@
         },
         "ID-grid-cutoff": {
           "externalId": "grid-ID-cutoff-high",
+          "origin": "foreground"
+        },
+        "IT-grid-cutoff": {
+          "externalId": "grid-IT-cutoff-high",
           "origin": "foreground"
         },
         "JP-grid-cutoff": {
