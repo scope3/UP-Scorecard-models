@@ -24,80 +24,99 @@
       },
       "terminations": {
         "Al-CN": {
-          "externalId": "57b94b74-ec5d-4d96-a57a-c1b8648f2ae1",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "9a30dca8-cef6-5dca-b9f0-49b0bd680214",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "Al-IAI Area, Africa": {
-          "externalId": "42c6169b-9951-4d9d-9ca9-1b5441b297ff",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "0ab186cd-a1a5-5ea1-b432-0c86b58bd68f",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "Al-IAI Area, Asia, without China and GCC": {
-          "externalId": "78e0c2fd-a221-49a0-bdb4-6e59185fd3f8",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "3cd627d3-1e88-5470-810b-8bd352bf4780",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "Al-IAI Area, EU27 & EFTA": {
-          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "9340d580-03e4-5704-a84f-9eec458b3a73",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "Al-IAI Area, Gulf Cooperation Council": {
-          "externalId": "baae1515-259e-446e-a172-b69509f4112d",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "982f6db5-a61c-5965-b20d-48e0045f3583",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "Al-IAI Area, Russia & RER w/o EU27 & EFTA": {
-          "externalId": "08a83640-a3ec-46f1-afd8-a365502ca853",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "d7de1ecb-067f-5271-855c-f747f8390a54",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "Al-IAI Area, South America": {
-          "externalId": "0e287919-84c6-4678-8c0e-bc55537f7a76",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "5f842cc2-1187-5e10-bf3e-c31df90c6a82",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "Al-RoW": {
-          "externalId": "f1b89823-7033-49eb-9b3a-e3308632be6d",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "5ad3f7dc-0634-54e6-98f7-1d5aca125c61",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "Al-UN-OCEANIA": {
-          "externalId": "5813866a-4c1a-4556-b9ae-3f50753b8c3a",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "67e4eac7-ddf5-530a-989b-52f2acf5de81",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "BR-grid-cutoff": {
-          "externalId": "0e287919-84c6-4678-8c0e-bc55537f7a76",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "5f842cc2-1187-5e10-bf3e-c31df90c6a82",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "CN-grid-cutoff": {
-          "externalId": "57b94b74-ec5d-4d96-a57a-c1b8648f2ae1",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "9a30dca8-cef6-5dca-b9f0-49b0bd680214",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "DE-grid-cutoff": {
-          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "9340d580-03e4-5704-a84f-9eec458b3a73",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "ENTSO-grid-cutoff": {
-          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "9340d580-03e4-5704-a84f-9eec458b3a73",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "ES-grid-cutoff": {
-          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "9340d580-03e4-5704-a84f-9eec458b3a73",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "FR-grid-cutoff": {
-          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "9340d580-03e4-5704-a84f-9eec458b3a73",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "GLO-grid-cutoff": {
-          "externalId": "f1b89823-7033-49eb-9b3a-e3308632be6d",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "5ad3f7dc-0634-54e6-98f7-1d5aca125c61",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "ID-grid-cutoff": {
-          "externalId": "f1b89823-7033-49eb-9b3a-e3308632be6d",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "5ad3f7dc-0634-54e6-98f7-1d5aca125c61",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "IT-grid-cutoff": {
-          "externalId": "717843fd-c8cc-43ed-a0ee-b3f0e45357b0",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "9340d580-03e4-5704-a84f-9eec458b3a73",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "JP-grid-cutoff": {
-          "externalId": "f1b89823-7033-49eb-9b3a-e3308632be6d",
-          "origin": "ecoinvent.3.7.1.cutoff"
+          "externalId": "5ad3f7dc-0634-54e6-98f7-1d5aca125c61",
+          "origin": "ecoinvent.3.10.cutoff",
+          "termFlow": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
         },
         "default": {
           "externalId": "966ae5df-7cd7-5bf3-b8f9-42af9137b7c9",
