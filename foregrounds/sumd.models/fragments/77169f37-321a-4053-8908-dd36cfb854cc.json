@@ -23,14 +23,8 @@
         "StageName": "transport, freight train, electricity"
       },
       "terminations": {
-        "CN-grid-cutoff": {
-          "externalId": "fa0c2c55-3fdd-4420-a57a-b57f75467529",
-          "origin": "ecoinvent.3.7.1.cutoff"
-        },
-        "ENTSO-grid-cutoff": {
-          "externalId": "f19d1d10-473b-4e9f-a725-944ef4608ff9",
-          "origin": "ecoinvent.3.7.1.cutoff"
-        },
+        "CN-grid-cutoff": {},
+        "ENTSO-grid-cutoff": {},
         "default": {
           "externalId": "e_train_trans_RoW",
           "origin": "foreground"

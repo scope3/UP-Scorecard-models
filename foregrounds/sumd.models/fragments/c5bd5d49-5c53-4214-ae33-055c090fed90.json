@@ -55,10 +55,6 @@
           "externalId": "grid-FR-cutoff-high",
           "origin": "foreground"
         },
-        "FRCC-grid-cutoff": {
-          "externalId": "grid-FRCC-cutoff-high",
-          "origin": "foreground"
-        },
         "GLO-grid-cutoff": {
           "externalId": "grid-GLO-cutoff-high",
           "origin": "foreground"
