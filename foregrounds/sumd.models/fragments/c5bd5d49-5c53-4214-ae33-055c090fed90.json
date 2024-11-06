@@ -51,6 +51,10 @@
           "externalId": "grid-ES-cutoff-high",
           "origin": "foreground"
         },
+        "Ecoville": {
+          "externalId": "grid_ecoville",
+          "origin": "foreground"
+        },
         "FR-grid-cutoff": {
           "externalId": "grid-FR-cutoff-high",
           "origin": "foreground"

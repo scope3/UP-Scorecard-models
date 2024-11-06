@@ -1,0 +1,204 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "3fbe8d13-36a2-4bb3-90a2-e7e3d7e2c43e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "grid_ecoville",
+      "flow": {
+        "externalId": "c59aa090-f0ec-418d-94f7-9185b065c6d4",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "Grid Supply, Ecoville",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid_ecoville",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "409aa87a-8e39-4b69-93bc-8eef68348717",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.1
+      },
+      "externalId": "409aa87a-8e39-4b69-93bc-8eef68348717",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "grid_ecoville",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "electricity production, nuclear, pressure water reactor"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "dd4c14c1-df35-507a-bf7f-9d300ad92099",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "68735a1b-a173-4555-b7dc-32c036181962",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.1,
+        "1": 0.1
+      },
+      "externalId": "68735a1b-a173-4555-b7dc-32c036181962",
+      "flow": {
+        "externalId": "c59aa090-f0ec-418d-94f7-9185b065c6d4",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "grid_ecoville",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity Supply, Ecoville",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "817321b8-e1e8-4534-8548-609547661803",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.35
+      },
+      "externalId": "817321b8-e1e8-4534-8548-609547661803",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "grid_ecoville",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "electricity production, wind, 1-3MW turbine, onshore"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "7ae497e1-d717-520e-811b-dc14964dc9d7",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "961ad634-11f0-43ac-b186-0b57648cf8a3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.05
+      },
+      "externalId": "961ad634-11f0-43ac-b186-0b57648cf8a3",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "grid_ecoville",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "electricity production, natural gas, combined cycle power plant"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "e8ff08f7-a1f5-548a-a6f2-ba1b8e48d84e",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "baa33baa-42a5-45be-965d-f4641bdae072",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.1
+      },
+      "externalId": "baa33baa-42a5-45be-965d-f4641bdae072",
+      "flow": {
+        "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "grid_ecoville",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, high voltage",
+        "StageName": "electricity production, deep geothermal"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "de0a2034-ae5c-5c7f-aa4a-363e809eb137",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d8f96f06-7f44-4702-8110-ae898c898206",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.4
+      },
+      "externalId": "d8f96f06-7f44-4702-8110-ae898c898206",
+      "flow": {
+        "externalId": "d69294d7-8d64-4915-a896-9996a014c410",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "grid_ecoville",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, low voltage",
+        "StageName": "electricity production, photovoltaic, 570kWp open ground installation, multi-Si"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "c2bc827a-d0e3-596c-9ac8-fec240189303",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

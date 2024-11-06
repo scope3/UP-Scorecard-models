@@ -315,6 +315,14 @@
       "Name": "electricity, high voltage",
       "entityType": "flow",
       "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
+      "uuid": "66c93e71-f32b-4591-901c-55395db5c132"
+    },
+    {
+      "Name": "electricity, high voltage",
+      "entityType": "flow",
+      "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
       "uuid": "66c93e71-f32b-4591-901c-55395db5c132"
@@ -740,6 +748,15 @@
       "uuid": "c5638b4f-3c4b-4874-9188-644d52be12bc"
     },
     {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Electricity Supply, Ecoville",
+      "entityType": "flow",
+      "externalId": "c59aa090-f0ec-418d-94f7-9185b065c6d4",
+      "origin": "sumd.models",
+      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc"
+    },
+    {
       "Name": "corrugated board box",
       "entityType": "flow",
       "externalId": "ca213807-7c00-4537-ac8c-23d39d0f2bd5",
@@ -823,6 +840,14 @@
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "d51e5a32-c20a-4da6-8d58-31f344b50c00"
+    },
+    {
+      "Name": "electricity, low voltage",
+      "entityType": "flow",
+      "externalId": "d69294d7-8d64-4915-a896-9996a014c410",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
+      "uuid": "d69294d7-8d64-4915-a896-9996a014c410"
     },
     {
       "Name": "electricity, low voltage",
