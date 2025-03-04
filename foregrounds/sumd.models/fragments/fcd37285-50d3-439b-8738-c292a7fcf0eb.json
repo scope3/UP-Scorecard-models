@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "fcd37285-50d3-439b-8738-c292a7fcf0eb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1000.0
+      },
+      "externalId": "prod_quicklime_row",
+      "flow": {
+        "externalId": "quicklime_row",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "quicklime_row",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_quicklime_row",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a8fea886-e9a1-44af-b99f-ef48671d7014",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a8fea886-e9a1-44af-b99f-ef48671d7014",
+      "flow": {
+        "externalId": "9394b900-bc1b-40b4-b9f0-90c5c9d6b734",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_quicklime_row",
+      "tags": {
+        "Comment": "",
+        "Name": "lime, packed",
+        "StageName": "lime production, milled, packed",
+        "_prod_row": 20
+      },
+      "terminations": {
+        "default": {
+          "externalId": "6e6eacb2-d932-5ccc-a891-42034520eae9",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

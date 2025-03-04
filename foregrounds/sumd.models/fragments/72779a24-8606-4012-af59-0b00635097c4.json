@@ -1,0 +1,67 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "72779a24-8606-4012-af59-0b00635097c4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_waste_inert_landfill",
+      "flow": {
+        "externalId": "waste_inert_landfill",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "waste_inert_landfill",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_waste_inert_landfill",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "12f9002f-9189-42b5-82b4-2602809124de",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "12f9002f-9189-42b5-82b4-2602809124de",
+      "flow": {
+        "externalId": "3a91cb7d-843b-495d-9973-33ba5efee877",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_waste_inert_landfill",
+      "tags": {
+        "Comment": "",
+        "Name": "inert waste",
+        "StageName": "treatment of inert waste, sanitary landfill",
+        "_prod_row": 42
+      },
+      "terminations": {
+        "default": {
+          "externalId": "treatment_of_inert_waste_sanitary_landfill_RoW",
+          "origin": "foreground",
+          "termFlow": {
+            "externalId": "3a91cb7d-843b-495d-9973-33ba5efee877",
+            "origin": "ecoinvent.3.7.1.cutoff"
+          }
+        }
+      }
+    }
+  ]
+}

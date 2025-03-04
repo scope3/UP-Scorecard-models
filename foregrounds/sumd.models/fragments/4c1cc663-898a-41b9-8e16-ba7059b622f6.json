@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "4c1cc663-898a-41b9-8e16-ba7059b622f6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_hazwaste_incin",
+      "flow": {
+        "externalId": "hazwaste_incin",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "hazwaste_incin",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_hazwaste_incin",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "de13eb9a-c903-4306-aae7-0e0cd4392dcf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "de13eb9a-c903-4306-aae7-0e0cd4392dcf",
+      "flow": {
+        "externalId": "e5208079-1561-4537-a1f8-863db2702d0f",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_hazwaste_incin",
+      "tags": {
+        "Comment": "",
+        "Name": "hazardous waste, for incineration",
+        "StageName": "market for hazardous waste, for incineration",
+        "_prod_row": 10
+      },
+      "terminations": {
+        "default": {
+          "externalId": "6addf8de-f3db-57a5-bb0a-809cba4b6a89",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

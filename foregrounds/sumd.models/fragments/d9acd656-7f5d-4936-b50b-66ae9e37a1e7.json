@@ -1,0 +1,64 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "d9acd656-7f5d-4936-b50b-66ae9e37a1e7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 22.0
+      },
+      "externalId": "prod_pallets",
+      "flow": {
+        "externalId": "pallets",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "pallets",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_pallets",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c2350dea-e514-4b53-8288-8ce3ab4189c5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "c2350dea-e514-4b53-8288-8ce3ab4189c5",
+      "flow": {
+        "externalId": "9e68d1ff-39d8-4962-a34f-c1cf285a3ff7",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "prod_pallets",
+      "tags": {
+        "Comment": "",
+        "Name": "EUR-flat pallet",
+        "StageName": "EUR-flat pallet production",
+        "_prod_row": 46,
+        "note": "Docs specify 22 kg weight"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "00be2170-7659-5dc0-9d49-b1a075cae710",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

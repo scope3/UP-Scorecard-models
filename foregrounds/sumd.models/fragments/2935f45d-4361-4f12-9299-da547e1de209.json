@@ -1,0 +1,67 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "2935f45d-4361-4f12-9299-da547e1de209",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_pet_landfill",
+      "flow": {
+        "externalId": "pet_landfill",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "pet_landfill",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_pet_landfill",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "58cc32ad-bbd7-4b37-ba78-5f76d35d9cdb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "58cc32ad-bbd7-4b37-ba78-5f76d35d9cdb",
+      "flow": {
+        "externalId": "dcb70fd5-e305-4920-b68b-40697cc6a206",
+        "origin": "ecoinvent.3.7.1.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_pet_landfill",
+      "tags": {
+        "Comment": "",
+        "Name": "waste polyethylene terephthalate",
+        "StageName": "treatment of waste polyethylene terephthalate, sanitary landfill",
+        "_prod_row": 40
+      },
+      "terminations": {
+        "default": {
+          "externalId": "polyethylene_terephthalate_sanitary_landfill_RoW",
+          "origin": "foreground",
+          "termFlow": {
+            "externalId": "dcb70fd5-e305-4920-b68b-40697cc6a206",
+            "origin": "ecoinvent.3.7.1.cutoff"
+          }
+        }
+      }
+    }
+  ]
+}

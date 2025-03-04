@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "505c9a75-d1e0-4025-a211-cb543ae15a09",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_hazwaste_disposal",
+      "flow": {
+        "externalId": "hazwaste_disposal",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "hazwaste_disposal",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_hazwaste_disposal",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8445cb56-93af-4121-a8ba-39c88b2e8689",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "8445cb56-93af-4121-a8ba-39c88b2e8689",
+      "flow": {
+        "externalId": "6047c525-49b7-4a7d-baf6-a61283e5eda9",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_hazwaste_disposal",
+      "tags": {
+        "Comment": "",
+        "Name": "hazardous waste, for underground deposit",
+        "StageName": "treatment of hazardous waste, underground deposit",
+        "_prod_row": 12
+      },
+      "terminations": {
+        "default": {
+          "externalId": "7252bf12-0d39-5e37-b33f-5cc6641bb7c3",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

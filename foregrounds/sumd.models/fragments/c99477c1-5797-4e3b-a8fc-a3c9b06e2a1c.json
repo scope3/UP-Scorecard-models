@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "c99477c1-5797-4e3b-a8fc-a3c9b06e2a1c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_n2_kg",
+      "flow": {
+        "externalId": "n2_kg",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "n2_kg",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_n2_kg",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7aee7505-4b0f-4976-ad7c-4624ad4234d7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7aee7505-4b0f-4976-ad7c-4624ad4234d7",
+      "flow": {
+        "externalId": "159edf36-233e-4e2c-aec0-b0ac0d49f528",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_n2_kg",
+      "tags": {
+        "Comment": "",
+        "Name": "nitrogen, liquid",
+        "StageName": "market for nitrogen, liquid",
+        "_prod_row": 32
+      },
+      "terminations": {
+        "default": {
+          "externalId": "1e3af470-a9d8-5edf-9c15-51496bfa7a70",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

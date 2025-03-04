@@ -1,0 +1,67 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "ab1c1efa-fe8b-4d30-90eb-c69e904193b8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 43000.0
+      },
+      "externalId": "prod_diesel_mj",
+      "flow": {
+        "externalId": "diesel_mj",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "diesel_mj",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_diesel_mj",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "599f6de1-abf4-46cc-9396-d2a8c229d294",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "599f6de1-abf4-46cc-9396-d2a8c229d294",
+      "flow": {
+        "externalId": "diesel",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "prod_diesel_mj",
+      "tags": {
+        "Comment": "",
+        "Name": "Diesel",
+        "StageName": "Diesel, combusted in industrial equipment",
+        "_prod_row": 6
+      },
+      "terminations": {
+        "default": {
+          "externalId": "bg-diesel",
+          "origin": "foreground",
+          "termFlow": {
+            "externalId": "d815ff18-015c-3afb-be18-be03bdf325da",
+            "origin": "lcacommons.uslci.fy24.q1.01"
+          }
+        }
+      }
+    }
+  ]
+}

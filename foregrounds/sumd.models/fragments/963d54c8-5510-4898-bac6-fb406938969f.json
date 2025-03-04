@@ -1,0 +1,67 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "963d54c8-5510-4898-bac6-fb406938969f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 25000.0
+      },
+      "externalId": "prod_lpg_mj",
+      "flow": {
+        "externalId": "lpg_mj",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "lpg_mj",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_lpg_mj",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "34d2ce6d-707f-441b-b2f9-d2099e489943",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "34d2ce6d-707f-441b-b2f9-d2099e489943",
+      "flow": {
+        "externalId": "lpg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "prod_lpg_mj",
+      "tags": {
+        "Comment": "",
+        "Name": "LPG",
+        "StageName": "Liquefied petroleum gas, combusted in industrial boiler",
+        "_prod_row": 4
+      },
+      "terminations": {
+        "default": {
+          "externalId": "bg-lpg",
+          "origin": "foreground",
+          "termFlow": {
+            "externalId": "f77da622-e84d-3639-8917-fcf792aaee13",
+            "origin": "lcacommons.uslci.fy24.q1.01"
+          }
+        }
+      }
+    }
+  ]
+}

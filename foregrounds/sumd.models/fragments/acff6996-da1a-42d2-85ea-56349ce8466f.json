@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "acff6996-da1a-42d2-85ea-56349ce8466f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_paint_alum",
+      "flow": {
+        "externalId": "paint_alum",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "paint_alum",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_paint_alum",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "33ac8d17-eec2-411f-bff2-374580213aac",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "33ac8d17-eec2-411f-bff2-374580213aac",
+      "flow": {
+        "externalId": "8db93acf-cb88-4744-8a2f-7812e173e4d0",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_paint_alum",
+      "tags": {
+        "Comment": "",
+        "Name": "electrostatic paint",
+        "StageName": "paint production, for electrostatic painting for aluminium",
+        "_prod_row": 44
+      },
+      "terminations": {
+        "default": {
+          "externalId": "2e3d6133-bf2e-5068-b72a-fad1c6ac9d9d",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

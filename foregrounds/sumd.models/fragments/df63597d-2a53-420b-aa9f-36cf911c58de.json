@@ -1,0 +1,64 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "df63597d-2a53-420b-aa9f-36cf911c58de",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1000.0
+      },
+      "externalId": "prod_wastewater",
+      "flow": {
+        "externalId": "wastewater",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "wastewater",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_wastewater",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "42a8b509-e4b3-4a3b-b07d-c6785fa51309",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "42a8b509-e4b3-4a3b-b07d-c6785fa51309",
+      "flow": {
+        "externalId": "e8a51ec1-60cb-4ead-a948-ad1142c61918",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "prod_wastewater",
+      "tags": {
+        "Comment": "",
+        "Name": "wastewater, average",
+        "StageName": "treatment of wastewater, average, wastewater treatment",
+        "_prod_row": 16
+      },
+      "terminations": {
+        "default": {
+          "direction": "Output",
+          "externalId": "8d9f7aed-3f16-5030-a04e-388ada455fdd",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

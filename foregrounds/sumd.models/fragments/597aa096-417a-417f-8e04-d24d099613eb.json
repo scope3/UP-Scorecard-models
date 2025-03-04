@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "597aa096-417a-417f-8e04-d24d099613eb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_refractory",
+      "flow": {
+        "externalId": "refractory",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "refractory",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_refractory",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "48e3a50b-b65d-4522-9c16-751066df962e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "48e3a50b-b65d-4522-9c16-751066df962e",
+      "flow": {
+        "externalId": "17c72eaf-0185-42dc-87d4-4882e550ba09",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_refractory",
+      "tags": {
+        "Comment": "",
+        "Name": "refractory, basic, packed",
+        "StageName": "market for refractory, basic, packed",
+        "_prod_row": 30
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d94f89fa-cd6d-5e6a-96c8-d9dac055a1b1",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

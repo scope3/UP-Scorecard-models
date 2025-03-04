@@ -1,0 +1,610 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "c121ab0b-23d1-4336-92d3-54fad8f7ec68",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1000.0,
+        "1": 1000.0
+      },
+      "externalId": "Al-Remelt-2021",
+      "flow": {
+        "externalId": "alum_remelt",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[sumd.models] sumd.models/Al-Remelt-2021",
+        "StageName": "Al-Remelt-2021",
+        "note": "1049.6 kg in"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "Al-Remelt-2021",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "00d6d8ea-1348-42dc-b239-966785c1f415",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0114,
+        "1": 0.0114
+      },
+      "externalId": "00d6d8ea-1348-42dc-b239-966785c1f415",
+      "flow": {
+        "externalId": "lubricating_oil",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Hydraulic oil",
+        "StageName": "",
+        "note": 1.14e-05
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_lubricating_oil",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "15c90b27-097e-46be-aa1e-5c598d9ef9c5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.792,
+        "1": 0.792
+      },
+      "externalId": "15c90b27-097e-46be-aa1e-5c598d9ef9c5",
+      "flow": {
+        "externalId": "hazwaste_disposal",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Refractory for disposal",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_hazwaste_disposal",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "1d1d3a1b-7cc8-46f4-bf66-7a4841a00263",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 4.35,
+        "1": 4.35
+      },
+      "externalId": "1d1d3a1b-7cc8-46f4-bf66-7a4841a00263",
+      "flow": {
+        "externalId": "waste_inert_landfill",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Waste for disposal (unspecified)",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_waste_inert_landfill",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "26658251-2e72-4fcc-ac38-1f7abda52a83",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.182,
+        "1": 0.182
+      },
+      "externalId": "26658251-2e72-4fcc-ac38-1f7abda52a83",
+      "flow": {
+        "externalId": "filter_polyester",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Filter media",
+        "StageName": "",
+        "note": 0.000182
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_filter_polyester",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "2ce71adc-ba17-4257-be03-c566b806b548",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0783,
+        "1": 0.0783
+      },
+      "externalId": "2ce71adc-ba17-4257-be03-c566b806b548",
+      "flow": {
+        "externalId": "hazwaste_disposal",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Hazardous waste for disposal",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_hazwaste_disposal",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3e6f4264-83c6-4c6e-ab94-7dc5ace6e3d1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 247.0,
+        "1": 247.0
+      },
+      "externalId": "3e6f4264-83c6-4c6e-ab94-7dc5ace6e3d1",
+      "flow": {
+        "externalId": "argon",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Argon",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_argon",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "41445e35-c726-45da-9b21-164590f254a8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 355.0,
+        "1": 355.0
+      },
+      "externalId": "41445e35-c726-45da-9b21-164590f254a8",
+      "flow": {
+        "externalId": "tap_water",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_tap_water",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "5592068c-0a0a-4c45-82f5-ecb2e0d98dfc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.598,
+        "1": 0.598
+      },
+      "externalId": "5592068c-0a0a-4c45-82f5-ecb2e0d98dfc",
+      "flow": {
+        "externalId": "n2_kg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Nitrogen gaseous",
+        "StageName": "",
+        "note": 0.000598
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_n2_kg",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "5fb487d7-4868-4586-ab6a-e5b3a59057b6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 5.98,
+        "1": 5.98
+      },
+      "externalId": "5fb487d7-4868-4586-ab6a-e5b3a59057b6",
+      "flow": {
+        "externalId": "diesel_mj",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Thermal energy from diesel fuel",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_diesel_mj",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "71310892-d47b-4199-b80d-bf6015989f61",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0114,
+        "1": 0.0114
+      },
+      "externalId": "71310892-d47b-4199-b80d-bf6015989f61",
+      "flow": {
+        "externalId": "sulfuric_acid",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Sulphuric acid (100%)",
+        "StageName": "",
+        "note": 1.14e-05
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_sulfuric_acid",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9626d637-aa09-4dfd-9d4f-c5ee95312097",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 93.611111111186,
+        "1": 93.611111111186
+      },
+      "externalId": "9626d637-aa09-4dfd-9d4f-c5ee95312097",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9f70efaf-29c3-446a-b23d-404da51da8b3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.09,
+        "1": 2.09
+      },
+      "externalId": "9f70efaf-29c3-446a-b23d-404da51da8b3",
+      "flow": {
+        "externalId": "lpg_mj",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Thermal energy from LPG",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_lpg_mj",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b220e243-fa00-4a95-8e5f-1ca3f3c31cc2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0737,
+        "1": 0.0737
+      },
+      "externalId": "b220e243-fa00-4a95-8e5f-1ca3f3c31cc2",
+      "flow": {
+        "externalId": "quicklime_row",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Quicklime",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_quicklime_row",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ca4c0c71-e053-4801-a050-65746556e4e0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.93,
+        "1": 1.93
+      },
+      "externalId": "ca4c0c71-e053-4801-a050-65746556e4e0",
+      "flow": {
+        "externalId": "nacl",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Sodium chloride (rock salt)",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_nacl",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "cb1494df-5ed6-497e-973e-3aa5e7e5ba35",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.378,
+        "1": 0.378
+      },
+      "externalId": "cb1494df-5ed6-497e-973e-3aa5e7e5ba35",
+      "flow": {
+        "externalId": "refractory",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Refractory",
+        "StageName": "",
+        "note": 0.000378
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_refractory",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "cc061160-5994-443d-9bb2-2e61a7de4175",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.15,
+        "1": 0.15
+      },
+      "externalId": "cc061160-5994-443d-9bb2-2e61a7de4175",
+      "flow": {
+        "externalId": "naoh_100",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Sodium hydroxide (100%; caustic soda)",
+        "StageName": "",
+        "note": 0.00015
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_naoh_100",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d3cc1221-bf8c-405e-bc3e-426bc2b2821a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 9.71,
+        "1": 9.71
+      },
+      "externalId": "d3cc1221-bf8c-405e-bc3e-426bc2b2821a",
+      "flow": {
+        "externalId": "alum_alloy",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Alloy components",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_alum_alloy",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "dd8a2894-7394-40a3-9876-2f3dfef754df",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.207,
+        "1": 0.207
+      },
+      "externalId": "dd8a2894-7394-40a3-9876-2f3dfef754df",
+      "flow": {
+        "externalId": "pet_landfill",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Filter paper for disposal",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_pet_landfill",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f5f94cfb-d585-4ba5-adfd-8853b50998b0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 3780.0,
+        "1": 3780.0
+      },
+      "externalId": "f5f94cfb-d585-4ba5-adfd-8853b50998b0",
+      "flow": {
+        "externalId": "ng_mj",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Remelt-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Thermal energy from natural gas",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_ng_mj",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

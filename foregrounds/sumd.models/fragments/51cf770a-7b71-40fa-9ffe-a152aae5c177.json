@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "51cf770a-7b71-40fa-9ffe-a152aae5c177",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_ng_mj",
+      "flow": {
+        "externalId": "ng_mj",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "ng_mj",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_ng_mj",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9e8c9535-4d02-4abb-9b8b-86a42bbf26c0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "9e8c9535-4d02-4abb-9b8b-86a42bbf26c0",
+      "flow": {
+        "externalId": "1125e767-7b5d-442e-81d6-9b0d3e1919ac",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_ng_mj",
+      "tags": {
+        "Comment": "",
+        "Name": "heat, district or industrial, natural gas",
+        "StageName": "heat production, natural gas, at boiler condensing modulating >100kW",
+        "_prod_row": 2
+      },
+      "terminations": {
+        "default": {
+          "externalId": "17eb7019-e76c-5622-ab6a-78fc430fbec0",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

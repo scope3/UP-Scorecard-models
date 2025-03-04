@@ -1,0 +1,93 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "25f78b5b-610d-4a31-b5cc-bf738705e01b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_filter_polyester",
+      "flow": {
+        "externalId": "filter_polyester",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "filter_polyester",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_filter_polyester",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bf70af18-89c0-4a3b-bad8-8f8997a2f30b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "bf70af18-89c0-4a3b-bad8-8f8997a2f30b",
+      "flow": {
+        "externalId": "d585421f-a3a1-45bc-bd94-188f65865b9c",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "prod_filter_polyester",
+      "tags": {
+        "Comment": "",
+        "Name": "polyethylene terephthalate, granulate, amorphous",
+        "StageName": "market for polyethylene terephthalate, granulate, amorphous",
+        "_prod_row": 25
+      },
+      "terminations": {
+        "default": {
+          "externalId": "87f138ca-be86-5f5e-a6b8-b9e2737c4489",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d7966289-06e6-4e40-abe4-f20d8142f129",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "d7966289-06e6-4e40-abe4-f20d8142f129",
+      "flow": {
+        "externalId": "1f54e81e-a5bb-482d-b50e-51018d16909d",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "prod_filter_polyester",
+      "tags": {
+        "Comment": "",
+        "Name": "polar fleece, energy use only",
+        "StageName": "market for polar fleece, energy use only",
+        "_prod_row": 26
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d6cb689e-f106-56ea-a4f6-5b8cea197a30",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "907d59c7-b591-4935-8500-b382d8b99add",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_naoh_100",
+      "flow": {
+        "externalId": "naoh_100",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "naoh_100",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_naoh_100",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "flow": {
+        "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_naoh_100",
+      "tags": {
+        "Comment": "",
+        "Name": "sodium hydroxide, without water, in 50% solution state",
+        "StageName": "market for sodium hydroxide, without water, in 50% solution state",
+        "_prod_row": 36
+      },
+      "terminations": {
+        "default": {
+          "externalId": "906a1cbc-5356-5604-b8d3-9cec945ddac7",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

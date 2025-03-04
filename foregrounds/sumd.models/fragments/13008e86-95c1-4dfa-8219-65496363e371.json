@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Output",
+      "entityId": "13008e86-95c1-4dfa-8219-65496363e371",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_sludge_deposit",
+      "flow": {
+        "externalId": "sludge_deposit",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "sludge_deposit",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_sludge_deposit",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "290aeb11-9468-4858-892a-ef7ae6946741",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "290aeb11-9468-4858-892a-ef7ae6946741",
+      "flow": {
+        "externalId": "1f82a4fc-f292-4854-90f1-3621a9997ba3",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_sludge_deposit",
+      "tags": {
+        "Comment": "",
+        "Name": "sludge, NaCl electrolysis",
+        "StageName": "treatment of sludge, NaCl electrolysis, residual material landfill",
+        "_prod_row": 14
+      },
+      "terminations": {
+        "default": {
+          "externalId": "9b536cff-a8e9-591f-aa30-b23a0108b724",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

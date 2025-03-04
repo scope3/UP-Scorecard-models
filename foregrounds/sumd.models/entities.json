@@ -48,6 +48,14 @@
       "uuid": "10d65b66-177a-4c93-a984-ef986f6a8fe4"
     },
     {
+      "Name": "heat, district or industrial, natural gas",
+      "entityType": "flow",
+      "externalId": "1125e767-7b5d-442e-81d6-9b0d3e1919ac",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200c9a66",
+      "uuid": "1125e767-7b5d-442e-81d6-9b0d3e1919ac"
+    },
+    {
       "Name": "butyl acrylate",
       "entityType": "flow",
       "externalId": "118544e5-7d7a-4bfe-bcf9-6e71e0b50ad4",
@@ -80,12 +88,28 @@
       "uuid": "1458c180-5333-475e-88d2-7886d76e779e"
     },
     {
+      "Name": "nitrogen, liquid",
+      "entityType": "flow",
+      "externalId": "159edf36-233e-4e2c-aec0-b0ac0d49f528",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "159edf36-233e-4e2c-aec0-b0ac0d49f528"
+    },
+    {
       "Name": "polyvinylchloride, bulk polymerised",
       "entityType": "flow",
       "externalId": "1768722c-0cb1-4b0b-9183-2ff16919120e",
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "1768722c-0cb1-4b0b-9183-2ff16919120e"
+    },
+    {
+      "Name": "refractory, basic, packed",
+      "entityType": "flow",
+      "externalId": "17c72eaf-0185-42dc-87d4-4882e550ba09",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "17c72eaf-0185-42dc-87d4-4882e550ba09"
     },
     {
       "Name": "paper, woodfree, uncoated",
@@ -112,12 +136,36 @@
       "uuid": "1bed7aa6-94cd-445e-83f2-0ac811d8be86"
     },
     {
+      "Name": "magnesium",
+      "entityType": "flow",
+      "externalId": "1d344632-354d-4d3f-9f6c-da038a3bd491",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "1d344632-354d-4d3f-9f6c-da038a3bd491"
+    },
+    {
       "Name": "stretch blow moulding",
       "entityType": "flow",
       "externalId": "1e16715e-6aa4-4649-92bd-304400d6c246",
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "1e16715e-6aa4-4649-92bd-304400d6c246"
+    },
+    {
+      "Name": "polar fleece, energy use only",
+      "entityType": "flow",
+      "externalId": "1f54e81e-a5bb-482d-b50e-51018d16909d",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "1f54e81e-a5bb-482d-b50e-51018d16909d"
+    },
+    {
+      "Name": "sludge, NaCl electrolysis",
+      "entityType": "flow",
+      "externalId": "1f82a4fc-f292-4854-90f1-3621a9997ba3",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "1f82a4fc-f292-4854-90f1-3621a9997ba3"
     },
     {
       "Name": "bagasse, from sugarcane",
@@ -288,6 +336,22 @@
       "uuid": "5f7aad3d-566c-4d0d-ad59-e765f971aa0f"
     },
     {
+      "Name": "hazardous waste, for underground deposit",
+      "entityType": "flow",
+      "externalId": "6047c525-49b7-4a7d-baf6-a61283e5eda9",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "6047c525-49b7-4a7d-baf6-a61283e5eda9"
+    },
+    {
+      "Name": "sodium hydroxide, without water, in 50% solution state",
+      "entityType": "flow",
+      "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "61396bcb-bf35-411a-a6a6-8543ccef83e8"
+    },
+    {
       "Name": "sodium hydroxide, without water, in 50% solution state",
       "entityType": "flow",
       "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
@@ -316,14 +380,6 @@
       "entityType": "flow",
       "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
       "origin": "ecoinvent.3.10.cutoff",
-      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
-      "uuid": "66c93e71-f32b-4591-901c-55395db5c132"
-    },
-    {
-      "Name": "electricity, high voltage",
-      "entityType": "flow",
-      "externalId": "66c93e71-f32b-4591-901c-55395db5c132",
-      "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
       "uuid": "66c93e71-f32b-4591-901c-55395db5c132"
     },
@@ -440,6 +496,30 @@
       "uuid": "88afd721-07ec-4910-a004-fa3fecb6bf70"
     },
     {
+      "Name": "electrostatic paint",
+      "entityType": "flow",
+      "externalId": "8db93acf-cb88-4744-8a2f-7812e173e4d0",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "8db93acf-cb88-4744-8a2f-7812e173e4d0"
+    },
+    {
+      "Name": "salt",
+      "entityType": "flow",
+      "externalId": "93015ba0-863d-4535-be49-8a1b16b71782",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "93015ba0-863d-4535-be49-8a1b16b71782"
+    },
+    {
+      "Name": "lime, packed",
+      "entityType": "flow",
+      "externalId": "9394b900-bc1b-40b4-b9f0-90c5c9d6b734",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "9394b900-bc1b-40b4-b9f0-90c5c9d6b734"
+    },
+    {
       "Name": "polyethylene, low density, granulate",
       "entityType": "flow",
       "externalId": "947a85fa-114e-4d9e-b36c-3293e48ea5ae",
@@ -478,6 +558,14 @@
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "9e0c9c28-7d8f-4f18-a769-bff3a4c8c1e5"
+    },
+    {
+      "Name": "EUR-flat pallet",
+      "entityType": "flow",
+      "externalId": "9e68d1ff-39d8-4962-a34f-c1cf285a3ff7",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "01846770-4cfe-4a25-8ad9-919d8d378345",
+      "uuid": "9e68d1ff-39d8-4962-a34f-c1cf285a3ff7"
     },
     {
       "CasNumber": "",
@@ -551,6 +639,14 @@
       "uuid": "a8f9b840-05ff-4dad-b11e-dd4b1342655d"
     },
     {
+      "Name": "argon, liquid",
+      "entityType": "flow",
+      "externalId": "a94ce0ad-46f5-407c-b445-671e353875f0",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "a94ce0ad-46f5-407c-b445-671e353875f0"
+    },
+    {
       "CasNumber": "",
       "Comment": "",
       "Name": "Adhesive",
@@ -571,6 +667,15 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "Alloy components",
+      "entityType": "flow",
+      "externalId": "alum_alloy",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "Aluminum can",
       "entityType": "flow",
       "externalId": "alum_can",
@@ -580,9 +685,27 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "2-piece aluminum can",
+      "entityType": "flow",
+      "externalId": "alum_can_mass",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "Alum. scrap (from can mfg)",
       "entityType": "flow",
       "externalId": "alum_mfg_scrap",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Aluminum ingot for rolling",
+      "entityType": "flow",
+      "externalId": "alum_remelt",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -602,6 +725,15 @@
       "Name": "Chemcials with aluminum compounts",
       "entityType": "flow",
       "externalId": "aluminum_sulfate",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Argon",
+      "entityType": "flow",
+      "externalId": "argon",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -757,6 +889,14 @@
       "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc"
     },
     {
+      "Name": "tap water",
+      "entityType": "flow",
+      "externalId": "c5adb1fb-872e-4446-a3bb-c4b61aa4bd45",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "c5adb1fb-872e-4446-a3bb-c4b61aa4bd45"
+    },
+    {
       "Name": "corrugated board box",
       "entityType": "flow",
       "externalId": "ca213807-7c00-4537-ac8c-23d39d0f2bd5",
@@ -842,18 +982,18 @@
       "uuid": "d51e5a32-c20a-4da6-8d58-31f344b50c00"
     },
     {
-      "Name": "electricity, low voltage",
+      "Name": "polyethylene terephthalate, granulate, amorphous",
       "entityType": "flow",
-      "externalId": "d69294d7-8d64-4915-a896-9996a014c410",
+      "externalId": "d585421f-a3a1-45bc-bd94-188f65865b9c",
       "origin": "ecoinvent.3.10.cutoff",
-      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
-      "uuid": "d69294d7-8d64-4915-a896-9996a014c410"
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "d585421f-a3a1-45bc-bd94-188f65865b9c"
     },
     {
       "Name": "electricity, low voltage",
       "entityType": "flow",
       "externalId": "d69294d7-8d64-4915-a896-9996a014c410",
-      "origin": "ecoinvent.3.7.1.cutoff",
+      "origin": "ecoinvent.3.10.cutoff",
       "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
       "uuid": "d69294d7-8d64-4915-a896-9996a014c410"
     },
@@ -909,12 +1049,29 @@
       "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66"
     },
     {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Thermal energy from diesel fuel",
+      "entityType": "flow",
+      "externalId": "diesel_mj",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200c9a66"
+    },
+    {
       "Name": "sheet rolling, steel",
       "entityType": "flow",
       "externalId": "e2f62697-57d4-42fe-95bf-c85fd32a9cf0",
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "e2f62697-57d4-42fe-95bf-c85fd32a9cf0"
+    },
+    {
+      "Name": "hazardous waste, for incineration",
+      "entityType": "flow",
+      "externalId": "e5208079-1561-4537-a1f8-863db2702d0f",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "e5208079-1561-4537-a1f8-863db2702d0f"
     },
     {
       "Name": "polyvinylchloride, suspension polymerised",
@@ -931,6 +1088,22 @@
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "e6c4c508-f95f-42e0-b0a7-78c703326f9c"
+    },
+    {
+      "Name": "wastewater, average",
+      "entityType": "flow",
+      "externalId": "e8a51ec1-60cb-4ead-a948-ad1142c61918",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
+      "uuid": "e8a51ec1-60cb-4ead-a948-ad1142c61918"
+    },
+    {
+      "Name": "lubricating oil",
+      "entityType": "flow",
+      "externalId": "ea75b944-c676-4a13-85b8-2bea98f765a4",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "ea75b944-c676-4a13-85b8-2bea98f765a4"
     },
     {
       "Name": "lubricating oil",
@@ -965,6 +1138,14 @@
       "externalId": "epoxy_resin",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "manganese",
+      "entityType": "flow",
+      "externalId": "f42f6024-a63f-4cf7-9f70-4f40380a062e",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "f42f6024-a63f-4cf7-9f70-4f40380a062e"
     },
     {
       "Name": "Liquefied petroleum gas, combusted in industrial boiler",
@@ -1035,6 +1216,15 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "Filter media",
+      "entityType": "flow",
+      "externalId": "filter_polyester",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "Gasoline, combusted",
       "entityType": "flow",
       "externalId": "gasoline",
@@ -1066,6 +1256,24 @@
       "Name": "Hydrogen peroxide, active ingredient",
       "entityType": "flow",
       "externalId": "h2o2_100",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Unspecified grease lubricant for disposal",
+      "entityType": "flow",
+      "externalId": "hazwaste_disposal",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Waste for incineration",
+      "entityType": "flow",
+      "externalId": "hazwaste_incin",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1144,7 +1352,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "LPG",
+      "Name": "Thermal energy from LPG",
       "entityType": "flow",
       "externalId": "lpg_mj",
       "origin": "sumd.models",
@@ -1153,9 +1361,27 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "Lubricating oil",
+      "entityType": "flow",
+      "externalId": "lubricating_oil",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "Molded Fiber Product",
       "entityType": "flow",
       "externalId": "molded_fiber",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Nitrogen gaseous",
+      "entityType": "flow",
+      "externalId": "n2_kg",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1171,7 +1397,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Salt",
+      "Name": "Sodium chloride (rock salt)",
       "entityType": "flow",
       "externalId": "nacl",
       "origin": "sumd.models",
@@ -1190,7 +1416,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Sodium hydroxide, active ingredient",
+      "Name": "Sodium hydroxide (100%; caustic soda)",
       "entityType": "flow",
       "externalId": "naoh_100",
       "origin": "sumd.models",
@@ -1208,7 +1434,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Natural gas",
+      "Name": "Thermal energy from natural gas",
       "entityType": "flow",
       "externalId": "ng_mj",
       "origin": "sumd.models",
@@ -1226,6 +1452,36 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "Nitrogen dioxide",
+      "context": "Emissions to air",
+      "entityType": "flow",
+      "externalId": "nitrogen_dioxide",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Nitrous oxide",
+      "context": "Emissions to air",
+      "entityType": "flow",
+      "externalId": "nitrous_oxide",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "NMVOC",
+      "context": "Emissions to air",
+      "entityType": "flow",
+      "externalId": "nmvoc",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "Average ocean freighter transport",
       "entityType": "flow",
       "externalId": "ocean_freight",
@@ -1238,6 +1494,24 @@
       "Name": "Lubricating oil",
       "entityType": "flow",
       "externalId": "oil_lubricate",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Paint",
+      "entityType": "flow",
+      "externalId": "paint_alum",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Packaging wooden pallets",
+      "entityType": "flow",
+      "externalId": "pallets",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1271,6 +1545,15 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "Filter paper for disposal",
+      "entityType": "flow",
+      "externalId": "pet_landfill",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "PET pellet",
       "entityType": "flow",
       "externalId": "pet_pellet",
@@ -1292,6 +1575,36 @@
       "Name": "Particulates, unspecified",
       "entityType": "flow",
       "externalId": "pm",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Dust (PM10)",
+      "context": "Emissions to air",
+      "entityType": "flow",
+      "externalId": "pm10",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Dust (PM2.5)",
+      "context": "Emissions to air",
+      "entityType": "flow",
+      "externalId": "pm25",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Dust (PM2.5 - PM10)",
+      "context": "Emissions to air",
+      "entityType": "flow",
+      "externalId": "pm25-10",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1345,9 +1658,27 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "Quicklime",
+      "entityType": "flow",
+      "externalId": "quicklime_row",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "rAluminum",
       "entityType": "flow",
       "externalId": "ralum",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Refractory",
+      "entityType": "flow",
+      "externalId": "refractory",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1417,6 +1748,15 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "Sludge for disposal",
+      "entityType": "flow",
+      "externalId": "sludge_deposit",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "Solid Waste, fiber",
       "entityType": "flow",
       "externalId": "solid_waste_fiber",
@@ -1452,9 +1792,19 @@
     },
     {
       "CasNumber": "",
+      "Comment": "",
+      "Name": "Sulphur dioxide",
+      "context": "Emissions to air",
+      "entityType": "flow",
+      "externalId": "sulfur_dioxide",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
       "Comment": "X",
       "Ecoinvent": "sulfuric acid production",
-      "Name": "Acid",
+      "Name": "Sulphuric acid (100%)",
       "entityType": "flow",
       "externalId": "sulfuric_acid",
       "origin": "sumd.models",
@@ -1477,6 +1827,15 @@
       "Name": "Surfactant",
       "entityType": "flow",
       "externalId": "surfactant",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Water",
+      "entityType": "flow",
+      "externalId": "tap_water",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1663,9 +2022,27 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "Waste for landfilling",
+      "entityType": "flow",
+      "externalId": "waste_inert_landfill",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "Wastes generated by reclamation processes",
       "entityType": "flow",
       "externalId": "waste_process",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Wastewater",
+      "entityType": "flow",
+      "externalId": "wastewater",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1805,14 +2182,16 @@
       "entityType": "quantity",
       "externalId": "c_incin",
       "origin": "sumd.study",
-      "referenceUnit": "kg carbon"
+      "referenceUnit": "kg carbon",
+      "uuid": "adf95bc7-7d78-370a-b91d-ec9affe6694a"
     },
     {
       "Name": "Mass, synthetic plastic",
       "entityType": "quantity",
       "externalId": "mass_plastic",
       "origin": "sumd.study",
-      "referenceUnit": "kg plastic"
+      "referenceUnit": "kg plastic",
+      "uuid": "4b41c95e-e9df-388e-bdd4-63a41f8bd656"
     },
     {
       "Indicator": "Blue water",
@@ -1898,34 +2277,6 @@
               "GLO": 1.0
             }
           }
-        },
-        "lexicon.models/water_muni": {
-          "from water": {
-            "ref_quantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
-            "value": {
-              "GLO": 1.0
-            }
-          }
-        }
-      },
-      "c_incin": {
-        "Paper": {
-          "None": {
-            "ref_quantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-            "value": {
-              "GLO": 0.444
-            }
-          }
-        }
-      },
-      "mass_plastic": {
-        "Adhesive": {
-          "None": {
-            "ref_quantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-            "value": {
-              "GLO": 1.0
-            }
-          }
         }
       },
       "q_water_footprint": {
@@ -1937,7 +2288,7 @@
             }
           }
         },
-        "lexicon.models/water_muni": {
+        "Water used": {
           "from water": {
             "ref_quantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
             "value": {
@@ -1948,14 +2299,6 @@
       },
       "selected LCI results, additional, resource, water": {
         "Water used": {
-          "from water": {
-            "ref_quantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
-            "value": {
-              "GLO": 1.0
-            }
-          }
-        },
-        "lexicon.models/water_muni": {
           "from water": {
             "ref_quantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
             "value": {
@@ -1977,6 +2320,7 @@
           "lcia:Emissions",
           "lexicon.models:Emissions",
           "sumd.models:Emissions",
+          "sumd.study:Emissions",
           "uslci.mod:emission"
         ]
       },
@@ -2024,15 +2368,18 @@
           "Resources from water",
           "Resources; from water",
           "in water",
+          "lcacommons.uslci.fy24.q1.01:from water",
           "lcia:from water",
           "lexicon.models:from water",
-          "sumd.models:from water"
+          "sumd.models:from water",
+          "sumd.study:from water"
         ]
       },
       {
         "name": "to air",
         "parent": "Emissions",
         "synonyms": [
+          "('Emissions to air',)",
           "Emission to air",
           "Emission to air, unspecified",
           "Emissions to air",
@@ -2075,13 +2422,6 @@
     ],
     "Flowables": [
       {
-        "name": "Adhesive",
-        "synonyms": [
-          "lexicon.models/adhesive",
-          "sumd.models/adhesive"
-        ]
-      },
-      {
         "name": "Aluminum can",
         "synonyms": [
           "lexicon.models/alum_can",
@@ -2103,13 +2443,6 @@
         ]
       },
       {
-        "name": "Paper",
-        "synonyms": [
-          "lexicon.models/paper",
-          "sumd.models/paper"
-        ]
-      },
-      {
         "name": "Water impact",
         "synonyms": [
           "lexicon.models/water_blue",
@@ -2118,7 +2451,10 @@
       },
       {
         "name": "Water used",
-        "synonyms": []
+        "synonyms": [
+          "lexicon.models/water_muni",
+          "sumd.models/water_muni"
+        ]
       },
       {
         "name": "lexicon.models/gasoline_kg",
@@ -2136,12 +2472,6 @@
         "name": "lexicon.models/ng_mj_hhv",
         "synonyms": [
           "sumd.models/ng_mj_hhv"
-        ]
-      },
-      {
-        "name": "lexicon.models/water_muni",
-        "synonyms": [
-          "sumd.models/water_muni"
         ]
       }
     ]

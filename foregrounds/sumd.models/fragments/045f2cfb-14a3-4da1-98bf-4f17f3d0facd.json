@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "045f2cfb-14a3-4da1-98bf-4f17f3d0facd",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_nacl",
+      "flow": {
+        "externalId": "nacl",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "nacl",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_nacl",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7930bc47-a806-498d-bc6d-79f346994c5b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7930bc47-a806-498d-bc6d-79f346994c5b",
+      "flow": {
+        "externalId": "93015ba0-863d-4535-be49-8a1b16b71782",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_nacl",
+      "tags": {
+        "Comment": "",
+        "Name": "salt",
+        "StageName": "market for salt",
+        "_prod_row": 34
+      },
+      "terminations": {
+        "default": {
+          "externalId": "695cec9f-fbfa-536d-a7a7-3819cd6541f2",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

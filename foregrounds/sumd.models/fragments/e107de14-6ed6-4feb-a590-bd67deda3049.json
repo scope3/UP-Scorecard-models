@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "e107de14-6ed6-4feb-a590-bd67deda3049",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_lubricating_oil",
+      "flow": {
+        "externalId": "lubricating_oil",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "lubricating_oil",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_lubricating_oil",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a3667833-fb3f-4dbc-aeed-9f152e04c439",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a3667833-fb3f-4dbc-aeed-9f152e04c439",
+      "flow": {
+        "externalId": "ea75b944-c676-4a13-85b8-2bea98f765a4",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_lubricating_oil",
+      "tags": {
+        "Comment": "",
+        "Name": "lubricating oil",
+        "StageName": "market for lubricating oil",
+        "_prod_row": 28
+      },
+      "terminations": {
+        "default": {
+          "externalId": "c17266f3-3f87-5ed7-ad2b-410db3d5ed1c",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

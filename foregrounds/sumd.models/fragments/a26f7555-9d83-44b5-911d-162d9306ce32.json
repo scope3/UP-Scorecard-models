@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "a26f7555-9d83-44b5-911d-162d9306ce32",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_tap_water",
+      "flow": {
+        "externalId": "tap_water",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "tap_water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_tap_water",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a9aa80bd-1eab-474a-8925-08d15fa401ab",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a9aa80bd-1eab-474a-8925-08d15fa401ab",
+      "flow": {
+        "externalId": "c5adb1fb-872e-4446-a3bb-c4b61aa4bd45",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_tap_water",
+      "tags": {
+        "Comment": "",
+        "Name": "tap water",
+        "StageName": "market for tap water",
+        "_prod_row": 8
+      },
+      "terminations": {
+        "default": {
+          "externalId": "1cb04872-15c3-54bc-ac35-1312b37eb8bf",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "7583f923-547d-4757-904d-292a0a41ab41",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_argon",
+      "flow": {
+        "externalId": "argon",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "argon",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_argon",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "1b44e988-0d3f-4146-9614-89bd1d6541f8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "1b44e988-0d3f-4146-9614-89bd1d6541f8",
+      "flow": {
+        "externalId": "a94ce0ad-46f5-407c-b445-671e353875f0",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "prod_argon",
+      "tags": {
+        "Comment": "",
+        "Name": "argon, liquid",
+        "StageName": "argon production, liquid",
+        "_prod_row": 18
+      },
+      "terminations": {
+        "default": {
+          "externalId": "dbc6e17c-747b-51e7-8c48-9eb606ba364e",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "98304474-98a6-4899-b164-26623759c43d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_alum_alloy",
+      "flow": {
+        "externalId": "alum_alloy",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "alum_alloy",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_alum_alloy",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8008d9e6-c436-43cd-aba7-da967d091604",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.87
+      },
+      "externalId": "8008d9e6-c436-43cd-aba7-da967d091604",
+      "flow": {
+        "externalId": "1d344632-354d-4d3f-9f6c-da038a3bd491",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "prod_alum_alloy",
+      "tags": {
+        "Comment": "",
+        "Name": "magnesium",
+        "StageName": "market for magnesium",
+        "_prod_row": 22
+      },
+      "terminations": {
+        "default": {
+          "externalId": "936bbb0f-54f5-53e4-9a3c-1e49ec21eddf",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "821f3018-b654-4019-9b2d-a66df12ef1c9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.13
+      },
+      "externalId": "821f3018-b654-4019-9b2d-a66df12ef1c9",
+      "flow": {
+        "externalId": "f42f6024-a63f-4cf7-9f70-4f40380a062e",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "prod_alum_alloy",
+      "tags": {
+        "Comment": "",
+        "Name": "manganese",
+        "StageName": "market for manganese",
+        "_prod_row": 23
+      },
+      "terminations": {
+        "default": {
+          "externalId": "5e841b1f-feba-5914-acb6-0493a063bb23",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}
