@@ -352,14 +352,6 @@
       "uuid": "61396bcb-bf35-411a-a6a6-8543ccef83e8"
     },
     {
-      "Name": "sodium hydroxide, without water, in 50% solution state",
-      "entityType": "flow",
-      "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
-      "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "uuid": "61396bcb-bf35-411a-a6a6-8543ccef83e8"
-    },
-    {
       "Name": "scrap aluminium",
       "entityType": "flow",
       "externalId": "618bf4eb-bee5-4d38-8e4f-78cfebf779be",
@@ -438,6 +430,14 @@
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "73ed05cc-9727-4abf-9516-4b5c0fe54a16"
+    },
+    {
+      "Name": "electricity, medium voltage",
+      "entityType": "flow",
+      "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
+      "uuid": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d"
     },
     {
       "Name": "electricity, medium voltage",
@@ -623,6 +623,22 @@
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
+      "Name": "aluminium, cast alloy",
+      "entityType": "flow",
+      "externalId": "a430f433-cdc8-45be-ace2-32a634634d3b",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "a430f433-cdc8-45be-ace2-32a634634d3b"
+    },
+    {
+      "Name": "sheet rolling, aluminium",
+      "entityType": "flow",
+      "externalId": "a5309c08-cc71-402e-b870-163a09ee0742",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "a5309c08-cc71-402e-b870-163a09ee0742"
+    },
+    {
       "Name": "sheet rolling, aluminium",
       "entityType": "flow",
       "externalId": "a5309c08-cc71-402e-b870-163a09ee0742",
@@ -667,7 +683,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Alloy components",
+      "Name": "alum_alloy",
       "entityType": "flow",
       "externalId": "alum_alloy",
       "origin": "sumd.models",
@@ -711,10 +727,46 @@
     },
     {
       "CasNumber": "",
+      "Comment": "",
+      "Name": "alum_remelt_new_ei",
+      "entityType": "flow",
+      "externalId": "alum_remelt_new_ei",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Aluminum remelting (ei)",
+      "entityType": "flow",
+      "externalId": "alum_remelting_new_ei",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Aluminum rolling (ei)",
+      "entityType": "flow",
+      "externalId": "alum_rolling_ei",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
       "Comment": "does not include coatings",
       "Name": "Aluminum sheet",
       "entityType": "flow",
       "externalId": "alum_sheet",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Aluminum sheet",
+      "entityType": "flow",
+      "externalId": "alum_sheet_ei",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -731,7 +783,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Argon",
+      "Name": "argon",
       "entityType": "flow",
       "externalId": "argon",
       "origin": "sumd.models",
@@ -1051,7 +1103,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Thermal energy from diesel fuel",
+      "Name": "diesel_mj",
       "entityType": "flow",
       "externalId": "diesel_mj",
       "origin": "sumd.models",
@@ -1106,14 +1158,6 @@
       "uuid": "ea75b944-c676-4a13-85b8-2bea98f765a4"
     },
     {
-      "Name": "lubricating oil",
-      "entityType": "flow",
-      "externalId": "ea75b944-c676-4a13-85b8-2bea98f765a4",
-      "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "uuid": "ea75b944-c676-4a13-85b8-2bea98f765a4"
-    },
-    {
       "Name": "ethoxylated alcohol (AE7)",
       "entityType": "flow",
       "externalId": "ee02b2e7-9c42-4fe3-904b-2a4a6f221656",
@@ -1124,7 +1168,7 @@
     {
       "CasNumber": "",
       "Comment": "kWh is its own quantity for explicit clarity, even though it is basically the same as 'net calorific value'",
-      "Name": "Electricity",
+      "Name": "Electricity, at user",
       "entityType": "flow",
       "externalId": "elec",
       "origin": "sumd.models",
@@ -1216,7 +1260,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Filter media",
+      "Name": "filter_polyester",
       "entityType": "flow",
       "externalId": "filter_polyester",
       "origin": "sumd.models",
@@ -1262,7 +1306,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Unspecified grease lubricant for disposal",
+      "Name": "hazwaste_disposal",
       "entityType": "flow",
       "externalId": "hazwaste_disposal",
       "origin": "sumd.models",
@@ -1271,7 +1315,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Waste for incineration",
+      "Name": "hazwaste_incin",
       "entityType": "flow",
       "externalId": "hazwaste_incin",
       "origin": "sumd.models",
@@ -1352,7 +1396,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Thermal energy from LPG",
+      "Name": "lpg_mj",
       "entityType": "flow",
       "externalId": "lpg_mj",
       "origin": "sumd.models",
@@ -1361,7 +1405,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Lubricating oil",
+      "Name": "lubricating_oil",
       "entityType": "flow",
       "externalId": "lubricating_oil",
       "origin": "sumd.models",
@@ -1379,7 +1423,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Nitrogen gaseous",
+      "Name": "n2_kg",
       "entityType": "flow",
       "externalId": "n2_kg",
       "origin": "sumd.models",
@@ -1397,7 +1441,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Sodium chloride (rock salt)",
+      "Name": "nacl",
       "entityType": "flow",
       "externalId": "nacl",
       "origin": "sumd.models",
@@ -1416,7 +1460,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Sodium hydroxide (100%; caustic soda)",
+      "Name": "naoh_100",
       "entityType": "flow",
       "externalId": "naoh_100",
       "origin": "sumd.models",
@@ -1434,7 +1478,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Thermal energy from natural gas",
+      "Name": "ng_mj",
       "entityType": "flow",
       "externalId": "ng_mj",
       "origin": "sumd.models",
@@ -1500,7 +1544,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Paint",
+      "Name": "paint_alum",
       "entityType": "flow",
       "externalId": "paint_alum",
       "origin": "sumd.models",
@@ -1509,7 +1553,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Packaging wooden pallets",
+      "Name": "pallets",
       "entityType": "flow",
       "externalId": "pallets",
       "origin": "sumd.models",
@@ -1545,7 +1589,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Filter paper for disposal",
+      "Name": "pet_landfill",
       "entityType": "flow",
       "externalId": "pet_landfill",
       "origin": "sumd.models",
@@ -1658,7 +1702,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Quicklime",
+      "Name": "quicklime_row",
       "entityType": "flow",
       "externalId": "quicklime_row",
       "origin": "sumd.models",
@@ -1676,7 +1720,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Refractory",
+      "Name": "refractory",
       "entityType": "flow",
       "externalId": "refractory",
       "origin": "sumd.models",
@@ -1748,7 +1792,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Sludge for disposal",
+      "Name": "sludge_deposit",
       "entityType": "flow",
       "externalId": "sludge_deposit",
       "origin": "sumd.models",
@@ -1804,7 +1848,7 @@
       "CasNumber": "",
       "Comment": "X",
       "Ecoinvent": "sulfuric acid production",
-      "Name": "Sulphuric acid (100%)",
+      "Name": "sulfuric_acid",
       "entityType": "flow",
       "externalId": "sulfuric_acid",
       "origin": "sumd.models",
@@ -1833,7 +1877,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Water",
+      "Name": "tap_water",
       "entityType": "flow",
       "externalId": "tap_water",
       "origin": "sumd.models",
@@ -2022,7 +2066,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Waste for landfilling",
+      "Name": "waste_inert_landfill",
       "entityType": "flow",
       "externalId": "waste_inert_landfill",
       "origin": "sumd.models",
@@ -2040,7 +2084,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Wastewater",
+      "Name": "wastewater",
       "entityType": "flow",
       "externalId": "wastewater",
       "origin": "sumd.models",

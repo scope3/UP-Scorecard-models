@@ -142,6 +142,11 @@
         "StageName": "Al-Sheet-2021"
       },
       "terminations": {
+        "alum_old": {
+          "descend": false,
+          "externalId": "Al-sheet-ei",
+          "origin": "foreground"
+        },
         "default": {
           "descend": false,
           "externalId": "Al-Sheet-2021",

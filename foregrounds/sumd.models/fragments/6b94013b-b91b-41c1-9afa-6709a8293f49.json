@@ -1,0 +1,96 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "6b94013b-b91b-41c1-9afa-6709a8293f49",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1000.0,
+        "1": 1000.0
+      },
+      "externalId": "Al-sheet-ei",
+      "flow": {
+        "externalId": "alum_sheet_ei",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[sumd.models] sumd.models/Al-sheet-ei",
+        "StageName": "Al-sheet-ei",
+        "note": "16 kg sheet / 1000 cans * 1310 kg ingot / 1000 sheet = 20.96 kg ingot/ 1000 cans"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "Al-sheet-ei",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7482eee6-f643-4505-9747-0226e943a52c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1300.0,
+        "1": 1300.0
+      },
+      "externalId": "7482eee6-f643-4505-9747-0226e943a52c",
+      "flow": {
+        "externalId": "alum_rolling_ei",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-sheet-ei",
+      "tags": {
+        "Comment": "",
+        "Name": "Aluminum rolling (ei)",
+        "StageName": "",
+        "note": "From AA, 1300 kg ingot / 1000 kg sheet"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_alum_rolling_ei",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a3324b6e-14db-4639-bbed-da2aafc08af6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1300.0,
+        "1": 1300.0
+      },
+      "externalId": "a3324b6e-14db-4639-bbed-da2aafc08af6",
+      "flow": {
+        "externalId": "alum_remelt_new_ei",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-sheet-ei",
+      "tags": {
+        "Comment": "",
+        "Name": "Aluminum remelting (ei)",
+        "StageName": "",
+        "note": "From AA, 1300 kg ingot / 1000 kg sheet"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_alum_remelt_new_ei",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

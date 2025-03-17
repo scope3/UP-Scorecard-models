@@ -1,8 +1,8 @@
 {
   "version_major": -1,
-  "version_minor": 0,
+  "version_minor": 1,
   "dataSource": "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models",
   "release_notes": null,
-  "description": "Update aluminum models to 2021 study via production sheet",
+  "description": "Filling out the ecoinvent upstream case",
   "author": null
 }
