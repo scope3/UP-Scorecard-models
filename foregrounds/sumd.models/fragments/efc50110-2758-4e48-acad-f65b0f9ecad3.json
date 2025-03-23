@@ -1,0 +1,62 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "efc50110-2758-4e48-acad-f65b0f9ecad3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "efc50110-2758-4e48-acad-f65b0f9ecad3",
+      "flow": {
+        "externalId": "44defed2-3dc7-4d59-b3bc-23dacf1b9140",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "aluminium, primary, ingot",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "efc50110-2758-4e48-acad-f65b0f9ecad3",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "89fcfba8-02fa-4c9b-8edf-2029d241e1cc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "89fcfba8-02fa-4c9b-8edf-2029d241e1cc",
+      "flow": {
+        "externalId": "44defed2-3dc7-4d59-b3bc-23dacf1b9140",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "efc50110-2758-4e48-acad-f65b0f9ecad3",
+      "tags": {
+        "Comment": "",
+        "Name": "aluminium, primary, ingot",
+        "StageName": "aluminium production, primary, ingot"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "966ae5df-7cd7-5bf3-b8f9-42af9137b7c9",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}

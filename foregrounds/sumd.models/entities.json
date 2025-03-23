@@ -112,6 +112,14 @@
       "uuid": "17c72eaf-0185-42dc-87d4-4882e550ba09"
     },
     {
+      "Name": "palm oil, crude",
+      "entityType": "flow",
+      "externalId": "17e163ef-4e16-4368-83f3-9d6faaf6ae3b",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "17e163ef-4e16-4368-83f3-9d6faaf6ae3b"
+    },
+    {
       "Name": "paper, woodfree, uncoated",
       "entityType": "flow",
       "externalId": "198f9bb6-4268-4609-b85f-3f90f0d26d6d",
@@ -176,6 +184,14 @@
       "uuid": "22df1429-91c9-4d1e-a289-1deec0adc66d"
     },
     {
+      "Name": "inert waste, for final disposal",
+      "entityType": "flow",
+      "externalId": "240c1a3c-1aba-4528-afc3-3f27f56583be",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "240c1a3c-1aba-4528-afc3-3f27f56583be"
+    },
+    {
       "Name": "hydrogen peroxide, without water, in 50% solution state",
       "entityType": "flow",
       "externalId": "26c92545-7995-491d-bcca-ee6d590ef194",
@@ -232,6 +248,22 @@
       "uuid": "3a91cb7d-843b-495d-9973-33ba5efee877"
     },
     {
+      "Name": "aluminium casting facility",
+      "entityType": "flow",
+      "externalId": "3ce2f7c0-30bf-48f3-8e31-d9deeb08cb05",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "01846770-4cfe-4a25-8ad9-919d8d378345",
+      "uuid": "3ce2f7c0-30bf-48f3-8e31-d9deeb08cb05"
+    },
+    {
+      "Name": "aluminium, primary, liquid",
+      "entityType": "flow",
+      "externalId": "3ede4edc-b278-40dc-8007-0c574aff0739",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "3ede4edc-b278-40dc-8007-0c574aff0739"
+    },
+    {
       "Name": "single superphosphate",
       "entityType": "flow",
       "externalId": "3fbcb3ea-30d6-5459-8ac1-955fb642e67f",
@@ -275,6 +307,14 @@
       "Name": "aluminium, primary, ingot",
       "entityType": "flow",
       "externalId": "44defed2-3dc7-4d59-b3bc-23dacf1b9140",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
+    },
+    {
+      "Name": "aluminium, primary, ingot",
+      "entityType": "flow",
+      "externalId": "44defed2-3dc7-4d59-b3bc-23dacf1b9140",
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
@@ -286,6 +326,14 @@
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "4ad5078c-3f14-440a-b9d6-b44ff0faec60"
+    },
+    {
+      "Name": "electricity, medium voltage, aluminium industry",
+      "entityType": "flow",
+      "externalId": "4fcfb407-7879-42ad-9582-ab3fbfe5af10",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
+      "uuid": "4fcfb407-7879-42ad-9582-ab3fbfe5af10"
     },
     {
       "Name": "liquid packaging board container",
@@ -424,6 +472,14 @@
       "uuid": "70ef743b-3ed5-4a6d-b192-fb6d62378555"
     },
     {
+      "Name": "heat, district or industrial, other than natural gas",
+      "entityType": "flow",
+      "externalId": "71e2f1db-a2c5-44d0-8337-dfff15be974d",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200c9a66",
+      "uuid": "71e2f1db-a2c5-44d0-8337-dfff15be974d"
+    },
+    {
       "Name": "Carbon dioxide, non-fossil",
       "entityType": "flow",
       "externalId": "73ed05cc-9727-4abf-9516-4b5c0fe54a16",
@@ -470,6 +526,22 @@
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "817c3650-4fed-4ef2-b9b6-404a198834e6"
+    },
+    {
+      "Name": "dross from Al electrolysis",
+      "entityType": "flow",
+      "externalId": "81efea43-cfa0-43aa-bae1-698701967ffb",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "81efea43-cfa0-43aa-bae1-698701967ffb"
+    },
+    {
+      "Name": "filter dust from Al electrolysis",
+      "entityType": "flow",
+      "externalId": "82fc8ffd-e1f4-4a11-ac26-6734d9b2fe89",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "82fc8ffd-e1f4-4a11-ac26-6734d9b2fe89"
     },
     {
       "Name": "sawnwood, softwood, raw",
@@ -560,6 +632,14 @@
       "uuid": "9e0c9c28-7d8f-4f18-a769-bff3a4c8c1e5"
     },
     {
+      "Name": "stone wool",
+      "entityType": "flow",
+      "externalId": "9e0e1511-492a-4ea4-a88a-50564b29805b",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "9e0e1511-492a-4ea4-a88a-50564b29805b"
+    },
+    {
       "Name": "EUR-flat pallet",
       "entityType": "flow",
       "externalId": "9e68d1ff-39d8-4962-a34f-c1cf285a3ff7",
@@ -645,6 +725,14 @@
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "a5309c08-cc71-402e-b870-163a09ee0742"
+    },
+    {
+      "Name": "chlorine, liquid",
+      "entityType": "flow",
+      "externalId": "a6b32de2-648a-4cd7-a256-9b122f68dd8b",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "a6b32de2-648a-4cd7-a256-9b122f68dd8b"
     },
     {
       "Name": "silicone product",
@@ -952,6 +1040,14 @@
       "Name": "corrugated board box",
       "entityType": "flow",
       "externalId": "ca213807-7c00-4537-ac8c-23d39d0f2bd5",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "ca213807-7c00-4537-ac8c-23d39d0f2bd5"
+    },
+    {
+      "Name": "corrugated board box",
+      "entityType": "flow",
+      "externalId": "ca213807-7c00-4537-ac8c-23d39d0f2bd5",
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "ca213807-7c00-4537-ac8c-23d39d0f2bd5"
@@ -1018,6 +1114,14 @@
       "uuid": "d1a4a803-c563-4740-84cf-3c21a488bd74"
     },
     {
+      "Name": "refractory, fireclay, packed",
+      "entityType": "flow",
+      "externalId": "d3e019ee-edbe-4774-a4a6-9701cf293d05",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "d3e019ee-edbe-4774-a4a6-9701cf293d05"
+    },
+    {
       "Name": "purified terephthalic acid",
       "entityType": "flow",
       "externalId": "d479404a-f180-41cc-a587-4425b64e4a00",
@@ -1056,6 +1160,14 @@
       "origin": "lcacommons.uslci.fy24.q1.01",
       "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
       "uuid": "d815ff18-015c-3afb-be18-be03bdf325da"
+    },
+    {
+      "Name": "silicon, metallurgical grade",
+      "entityType": "flow",
+      "externalId": "da4a421e-2d42-4537-bfcd-162fe38ec8a9",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "da4a421e-2d42-4537-bfcd-162fe38ec8a9"
     },
     {
       "Name": "waste glass",
@@ -1182,6 +1294,14 @@
       "externalId": "epoxy_resin",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "Name": "cryolite",
+      "entityType": "flow",
+      "externalId": "f011e841-dfed-4e80-99c3-a5f71e50f890",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "f011e841-dfed-4e80-99c3-a5f71e50f890"
     },
     {
       "Name": "manganese",
@@ -2093,7 +2213,7 @@
     {
       "CasNumber": "",
       "Comment": "This is meant to represent water as impact, as opposed to water as flow type",
-      "Name": "Water impact",
+      "Name": "Water",
       "entityType": "flow",
       "externalId": "water_blue",
       "origin": "sumd.models",

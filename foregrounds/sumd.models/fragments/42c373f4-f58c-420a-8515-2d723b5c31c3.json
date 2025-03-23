@@ -1,0 +1,575 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "42c373f4-f58c-420a-8515-2d723b5c31c3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "42c373f4-f58c-420a-8515-2d723b5c31c3",
+      "flow": {
+        "externalId": "44defed2-3dc7-4d59-b3bc-23dacf1b9140",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "aluminium, primary, ingot",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "42c373f4-f58c-420a-8515-2d723b5c31c3",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "flow": {
+        "externalId": "44defed2-3dc7-4d59-b3bc-23dacf1b9140",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": true,
+      "isPrivate": false,
+      "parent": "42c373f4-f58c-420a-8515-2d723b5c31c3",
+      "tags": {
+        "Comment": "",
+        "Name": "aluminium, primary, ingot",
+        "StageName": "aluminium production, primary, ingot"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "966ae5df-7cd7-5bf3-b8f9-42af9137b7c9",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "094095ac-f844-4d36-b615-871c1f0de02a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.54e-10,
+        "1": 1.54e-10
+      },
+      "externalId": "094095ac-f844-4d36-b615-871c1f0de02a",
+      "flow": {
+        "externalId": "3ce2f7c0-30bf-48f3-8e31-d9deeb08cb05",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "aluminium casting facility",
+        "StageName": "market for aluminium casting facility"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "53e59948-8842-579b-bfb6-b8abacc05d3a",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3ef00d3a-1953-48db-b1de-1d24f3a11ba4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0006,
+        "1": 0.0006
+      },
+      "externalId": "3ef00d3a-1953-48db-b1de-1d24f3a11ba4",
+      "flow": {
+        "externalId": "159edf36-233e-4e2c-aec0-b0ac0d49f528",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "nitrogen, liquid",
+        "StageName": "market for nitrogen, liquid"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "c18f11de-37d5-5ff9-a146-bfff5b47c6cc",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "42fc3b40-2271-4525-90f7-e0d73febfd72",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00087,
+        "1": 0.00087
+      },
+      "externalId": "42fc3b40-2271-4525-90f7-e0d73febfd72",
+      "flow": {
+        "externalId": "240c1a3c-1aba-4528-afc3-3f27f56583be",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "inert waste, for final disposal",
+        "StageName": "market for inert waste, for final disposal"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "direction": "Output",
+          "externalId": "932e47f0-6c9a-5e77-94d6-90597345904f",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "64f1090f-29c4-4e19-ac8d-a71008c7a5e5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "64f1090f-29c4-4e19-ac8d-a71008c7a5e5",
+      "flow": {
+        "externalId": "3ede4edc-b278-40dc-8007-0c574aff0739",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "aluminium, primary, liquid",
+        "StageName": "aluminium production, primary, liquid, prebake"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "672c5311-d1f1-5a9c-90e7-c3bfeddf5648",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "681c95d2-9637-49a8-9fc9-c6d44677f691",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0007,
+        "1": 0.0007
+      },
+      "externalId": "681c95d2-9637-49a8-9fc9-c6d44677f691",
+      "flow": {
+        "externalId": "d3e019ee-edbe-4774-a4a6-9701cf293d05",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "refractory, fireclay, packed",
+        "StageName": "market for refractory, fireclay, packed"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "7ace9282-6fc9-5320-91b1-13f221fede36",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "76a49848-0358-4bcc-87f7-73d8d9710d00",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0015,
+        "1": 0.0015
+      },
+      "externalId": "76a49848-0358-4bcc-87f7-73d8d9710d00",
+      "flow": {
+        "externalId": "a94ce0ad-46f5-407c-b445-671e353875f0",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "argon, liquid",
+        "StageName": "market for argon, liquid"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "2b62fa74-9e72-5c00-b820-1826945e85d0",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "7f213f4a-4647-4598-9019-1ceec49706c1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.01064,
+        "1": 0.01064
+      },
+      "externalId": "7f213f4a-4647-4598-9019-1ceec49706c1",
+      "flow": {
+        "externalId": "81efea43-cfa0-43aa-bae1-698701967ffb",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "dross from Al electrolysis",
+        "StageName": "market for dross from Al electrolysis"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "direction": "Output",
+          "externalId": "ed5ab36c-1782-5b6b-bdd9-20f42e59a64d",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8745228f-20bc-4c56-8416-6710101346f6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0004,
+        "1": 0.0004
+      },
+      "externalId": "8745228f-20bc-4c56-8416-6710101346f6",
+      "flow": {
+        "externalId": "f011e841-dfed-4e80-99c3-a5f71e50f890",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "cryolite",
+        "StageName": "market for cryolite"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "ef0c1ccf-acdd-5b16-864b-aca079ab5332",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a0d70006-afea-4963-aee7-1b7c4f76c885",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.03203,
+        "1": 0.03203
+      },
+      "externalId": "a0d70006-afea-4963-aee7-1b7c4f76c885",
+      "flow": {
+        "externalId": "4fcfb407-7879-42ad-9582-ab3fbfe5af10",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage, aluminium industry",
+        "StageName": "market for electricity, medium voltage, aluminium industry"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "0af1f20f-1abd-5437-bace-e05b56828608",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "d0bb01d7-6ab7-47e6-8d42-55672080be25",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00082,
+        "1": 0.00082
+      },
+      "externalId": "d0bb01d7-6ab7-47e6-8d42-55672080be25",
+      "flow": {
+        "externalId": "82fc8ffd-e1f4-4a11-ac26-6734d9b2fe89",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "filter dust from Al electrolysis",
+        "StageName": "market for filter dust from Al electrolysis"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "direction": "Output",
+          "externalId": "72917b1b-4590-5082-ae48-21866f7de60c",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d778c48e-17ba-42d4-ac9a-0e66eb0c0e9b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0108,
+        "1": 0.0108
+      },
+      "externalId": "d778c48e-17ba-42d4-ac9a-0e66eb0c0e9b",
+      "flow": {
+        "externalId": "da4a421e-2d42-4537-bfcd-162fe38ec8a9",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "silicon, metallurgical grade",
+        "StageName": "market for silicon, metallurgical grade"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "4a80061f-72e3-5357-8eb1-4d8293a72e1d",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d95b5208-353b-420a-b940-fb98a5697eea",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00011,
+        "1": 0.00011
+      },
+      "externalId": "d95b5208-353b-420a-b940-fb98a5697eea",
+      "flow": {
+        "externalId": "9e0e1511-492a-4ea4-a88a-50564b29805b",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "stone wool",
+        "StageName": "market for stone wool"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "2bf64aed-5a05-5066-92ce-14b7fd20e84d",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e27d68a7-725d-466b-9012-c5655008da66",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.208836657169991,
+        "1": 0.208836657169991
+      },
+      "externalId": "e27d68a7-725d-466b-9012-c5655008da66",
+      "flow": {
+        "externalId": "71e2f1db-a2c5-44d0-8337-dfff15be974d",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "heat, district or industrial, other than natural gas",
+        "StageName": "heat production, light fuel oil, at industrial furnace 1MW"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "46bca285-5d8d-5d7e-8cde-8807bfb655d8",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e431935a-2d56-46eb-8d64-940caa84d58e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.344176923076923,
+        "1": 0.344176923076923
+      },
+      "externalId": "e431935a-2d56-46eb-8d64-940caa84d58e",
+      "flow": {
+        "externalId": "1125e767-7b5d-442e-81d6-9b0d3e1919ac",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "heat, district or industrial, natural gas",
+        "StageName": "market for heat, district or industrial, natural gas"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "6563b20a-0577-51b3-b307-e25901ced718",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e720c524-dd27-4627-8964-1df8214fdf89",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0018,
+        "1": 0.0018
+      },
+      "externalId": "e720c524-dd27-4627-8964-1df8214fdf89",
+      "flow": {
+        "externalId": "ca213807-7c00-4537-ac8c-23d39d0f2bd5",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "corrugated board box",
+        "StageName": "market for corrugated board box"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "cd5b91d3-4bd5-564b-8edb-5a4853f2dfd3",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ed62dc90-88c1-4be0-b3b5-9f993779a51c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 9.81e-06,
+        "1": 9.81e-06
+      },
+      "externalId": "ed62dc90-88c1-4be0-b3b5-9f993779a51c",
+      "flow": {
+        "externalId": "a6b32de2-648a-4cd7-a256-9b122f68dd8b",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "chlorine, liquid",
+        "StageName": "market for chlorine, liquid"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "91e07f95-e5d1-5d6b-836d-301bcc2ba2d4",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f88eb0b3-4cbc-4ecd-911c-bc6f8e5428a2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 8e-05,
+        "1": 8e-05
+      },
+      "externalId": "f88eb0b3-4cbc-4ecd-911c-bc6f8e5428a2",
+      "flow": {
+        "externalId": "17e163ef-4e16-4368-83f3-9d6faaf6ae3b",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0f4aa52f-b65b-42d6-932f-8fb070c100cf",
+      "tags": {
+        "Comment": "",
+        "Name": "palm oil, crude",
+        "StageName": "market for palm oil, crude"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "5ec75c1f-ae6d-53ed-ba28-c72244ce8446",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    }
+  ]
+}
