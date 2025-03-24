@@ -2213,6 +2213,7 @@
     {
       "CasNumber": "",
       "Comment": "This is meant to represent water as impact, as opposed to water as flow type",
+      "Compartment": ["from water"],
       "Name": "Water",
       "entityType": "flow",
       "externalId": "water_blue",
@@ -2604,13 +2605,6 @@
         "synonyms": [
           "lexicon.models/GWP_onlyLUC",
           "sumd.models/GWP_onlyLUC"
-        ]
-      },
-      {
-        "name": "Water impact",
-        "synonyms": [
-          "lexicon.models/water_blue",
-          "sumd.models/water_blue"
         ]
       },
       {
