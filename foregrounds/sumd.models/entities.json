@@ -14,7 +14,7 @@
       "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models/entities.json"
     ]
   },
-  "dataSource": "/Users/kylem/GitHub/UP-Scorecard-models/foregrounds/sumd.models",
+  "dataSource": "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models",
   "dataSourceType": "LcForeground",
   "flows": [
     {
@@ -216,6 +216,22 @@
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "26c92545-7995-491d-bcca-ee6d590ef194"
+    },
+    {
+      "Name": "diesel",
+      "entityType": "flow",
+      "externalId": "291fc06d-1b3e-4077-aabb-346b588ed24b",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "291fc06d-1b3e-4077-aabb-346b588ed24b"
+    },
+    {
+      "Name": "heavy fuel oil",
+      "entityType": "flow",
+      "externalId": "2966d161-5281-47d6-86d3-efbb0a4b2110",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "2966d161-5281-47d6-86d3-efbb0a4b2110"
     },
     {
       "Name": "polyacrylamide",
@@ -789,7 +805,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "AKD/ASA sizing agent",
+      "Name": "akd_prod",
       "entityType": "flow",
       "externalId": "akd_prod",
       "origin": "sumd.models",
@@ -937,6 +953,14 @@
       "uuid": "b685192a-e033-421e-9074-8fe7cb176046"
     },
     {
+      "Name": "light fuel oil",
+      "entityType": "flow",
+      "externalId": "b89dadb0-75e9-44fd-8d41-1ec8dcce23b6",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "b89dadb0-75e9-44fd-8d41-1ec8dcce23b6"
+    },
+    {
       "Name": "iron(III) chloride, without water, in a 12% iron solution state",
       "entityType": "flow",
       "externalId": "b8f9a782-d4ee-4477-be28-ee3ff2997cf6",
@@ -1082,7 +1106,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Defoamer / biocide",
+      "Name": "chem_inorganic",
       "entityType": "flow",
       "externalId": "chem_inorganic",
       "origin": "sumd.models",
@@ -1100,7 +1124,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Waste-water coagulant / flocculant",
+      "Name": "coag_flocc",
       "entityType": "flow",
       "externalId": "coag_flocc",
       "origin": "sumd.models",
@@ -1326,7 +1350,7 @@
     {
       "CasNumber": "",
       "Comment": "kWh is its own quantity for explicit clarity, even though it is basically the same as 'net calorific value'",
-      "Name": "Electricity (motors, vacuum, drives, compressors)",
+      "Name": "Electricity, at user",
       "entityType": "flow",
       "externalId": "elec",
       "origin": "sumd.models",
@@ -1606,7 +1630,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Maintenance oils & greases",
+      "Name": "lube_oil",
       "entityType": "flow",
       "externalId": "lube_oil",
       "origin": "sumd.models",
@@ -1688,7 +1712,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Thermal energy",
+      "Name": "ng_mj",
       "entityType": "flow",
       "externalId": "ng_mj",
       "origin": "sumd.models",
@@ -1766,7 +1790,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "PAE wet\u2011strength resin",
+      "Name": "pae_prod",
       "entityType": "flow",
       "externalId": "pae_prod",
       "origin": "sumd.models",
@@ -1890,7 +1914,7 @@
       "CasNumber": "",
       "Comment": "",
       "Ecoinvent": "polyacrylamide production",
-      "Name": "Retention/drainage polymer (cationic PAM)",
+      "Name": "polyacrylamide",
       "entityType": "flow",
       "externalId": "polyacrylamide",
       "origin": "sumd.models",
@@ -2035,7 +2059,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Silicone / PTFE mold\u2011release",
+      "Name": "silicone_product",
       "entityType": "flow",
       "externalId": "silicone_product",
       "origin": "sumd.models",
@@ -2062,7 +2086,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Clean-up chemicals",
+      "Name": "sodium_hydroxide_50",
       "entityType": "flow",
       "externalId": "sodium_hydroxide_50",
       "origin": "sumd.models",
@@ -2107,7 +2131,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Cationic/oxidised starch",
+      "Name": "starch_poly",
       "entityType": "flow",
       "externalId": "starch_poly",
       "origin": "sumd.models",
@@ -2394,7 +2418,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Clean-up water",
+      "Name": "water_tap",
       "entityType": "flow",
       "externalId": "water_tap",
       "origin": "sumd.models",
@@ -2421,7 +2445,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Wastewater treatment",
+      "Name": "ww_treat_avg",
       "entityType": "flow",
       "externalId": "ww_treat_avg",
       "origin": "sumd.models",

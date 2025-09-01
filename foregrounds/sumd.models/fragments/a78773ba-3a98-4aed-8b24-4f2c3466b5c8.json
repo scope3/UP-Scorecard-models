@@ -61,6 +61,35 @@
     },
     {
       "direction": "Input",
+      "entityId": "12b70109-a41e-4e37-8b9c-61d7e9db600f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "12b70109-a41e-4e37-8b9c-61d7e9db600f",
+      "flow": {
+        "externalId": "291fc06d-1b3e-4077-aabb-346b588ed24b",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0b433325-e5b1-4843-af71-5fbfa0f9d789",
+      "tags": {
+        "Comment": "",
+        "Name": "diesel",
+        "StageName": "None"
+      },
+      "terminations": {
+        "default": {
+          "context": "None",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
       "entityId": "2168a368-b9cc-4946-8e10-0c9827abf4bd",
       "entityType": "fragment",
       "exchangeValues": {
@@ -90,6 +119,35 @@
     },
     {
       "direction": "Input",
+      "entityId": "7873abfc-037a-4feb-9f9f-7cdf8fc01bff",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7873abfc-037a-4feb-9f9f-7cdf8fc01bff",
+      "flow": {
+        "externalId": "2966d161-5281-47d6-86d3-efbb0a4b2110",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0b433325-e5b1-4843-af71-5fbfa0f9d789",
+      "tags": {
+        "Comment": "",
+        "Name": "heavy fuel oil",
+        "StageName": "None"
+      },
+      "terminations": {
+        "default": {
+          "context": "None",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
       "entityId": "79d24d51-f0a6-49bc-9c53-498922410930",
       "entityType": "fragment",
       "exchangeValues": {
@@ -113,6 +171,35 @@
       "terminations": {
         "default": {
           "externalId": "prod_ng_supply_m3",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c29f327c-06d8-4fa7-8917-5b14c2da7eeb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c29f327c-06d8-4fa7-8917-5b14c2da7eeb",
+      "flow": {
+        "externalId": "b89dadb0-75e9-44fd-8d41-1ec8dcce23b6",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0b433325-e5b1-4843-af71-5fbfa0f9d789",
+      "tags": {
+        "Comment": "",
+        "Name": "light fuel oil",
+        "StageName": "None"
+      },
+      "terminations": {
+        "default": {
+          "context": "None",
           "origin": "foreground"
         }
       }

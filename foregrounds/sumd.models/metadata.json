@@ -1,8 +1,8 @@
 {
   "version_major": -1,
   "version_minor": 0,
-  "dataSource": "/Users/kylem/GitHub/UP-Scorecard-models/foregrounds/sumd.models",
+  "dataSource": "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models",
   "release_notes": null,
-  "description": "fixing production taps while building dry molded fiber",
+  "description": "Correct taps on glass cullet models",
   "author": null
 }
