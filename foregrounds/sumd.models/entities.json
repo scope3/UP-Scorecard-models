@@ -578,6 +578,14 @@
       "uuid": "82fc8ffd-e1f4-4a11-ac26-6734d9b2fe89"
     },
     {
+      "Name": "aluminium scrap, post-consumer, prepared for melting",
+      "entityType": "flow",
+      "externalId": "858164b0-44f1-4118-b6cb-47054faa21ef",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "858164b0-44f1-4118-b6cb-47054faa21ef"
+    },
+    {
       "Name": "sawnwood, softwood, raw",
       "entityType": "flow",
       "externalId": "86f41749-d313-4e4a-ab11-67af97ee0e4a",
@@ -844,6 +852,15 @@
       "Name": "Alum. scrap (from can mfg)",
       "entityType": "flow",
       "externalId": "alum_mfg_scrap",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "alum_r",
+      "entityType": "flow",
+      "externalId": "alum_r",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },

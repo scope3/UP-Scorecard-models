@@ -1,0 +1,123 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "af10ddbb-8724-4e61-9d0d-b2a73c22a074",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "prod_alum_r",
+      "flow": {
+        "externalId": "alum_r",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "alum_r",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_alum_r",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "41f6e44d-2094-4626-a5d5-d76adbdd56da",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "41f6e44d-2094-4626-a5d5-d76adbdd56da",
+      "flow": {
+        "externalId": "858164b0-44f1-4118-b6cb-47054faa21ef",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "prod_alum_r",
+      "tags": {
+        "Comment": "",
+        "Name": "aluminium scrap, post-consumer, prepared for melting",
+        "StageName": "treatment of aluminium scrap, post-consumer, by collecting, sorting, cleaning, pressing",
+        "_prod_row": 3
+      },
+      "terminations": {
+        "default": {
+          "externalId": "768104db-7578-566b-b6e2-e0f4d14e9db4",
+          "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fb41686d-7dba-4631-b500-5013d197b3b5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.063
+      },
+      "externalId": "fb41686d-7dba-4631-b500-5013d197b3b5",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "41f6e44d-2094-4626-a5d5-d76adbdd56da",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a6e64df6-951f-496b-81c0-f0463f1911f3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "a6e64df6-951f-496b-81c0-f0463f1911f3",
+      "flow": {
+        "externalId": "resin_sort_pc",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "prod_alum_r",
+      "tags": {
+        "Comment": "",
+        "Name": "Resin, Sorted postconsumer",
+        "StageName": "",
+        "_prod_row": 2
+      },
+      "terminations": {
+        "default": {
+          "externalId": "sort-plastics",
+          "origin": "foreground",
+          "termFlow": "resin_sort_pc"
+        }
+      }
+    }
+  ]
+}
