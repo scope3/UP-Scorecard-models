@@ -14,7 +14,7 @@
       "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models/entities.json"
     ]
   },
-  "dataSource": "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models",
+  "dataSource": "/Users/kylem/GitHub/UP-Scorecard-models/foregrounds/sumd.models",
   "dataSourceType": "LcForeground",
   "flows": [
     {
