@@ -42,7 +42,7 @@
         "externalId": "29f75a6a-e5cd-40f6-8f84-797deb0ef98c",
         "origin": "ecoinvent.3.10.cutoff"
       },
-      "isBackground": true,
+      "isBackground": false,
       "isBalanceFlow": true,
       "isPrivate": false,
       "parent": "prod_polyacrylamide",
@@ -56,6 +56,35 @@
         "default": {
           "externalId": "4b483beb-1f47-574b-8f75-7326953af194",
           "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "abe15b00-5289-4b7d-aca6-9508e635185c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.399063145089249
+      },
+      "externalId": "abe15b00-5289-4b7d-aca6-9508e635185c",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "5f6f4cb6-635b-4a01-a9bc-ffd4b6f9f8af",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
         }
       }
     }

@@ -42,7 +42,7 @@
         "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
         "origin": "ecoinvent.3.10.cutoff"
       },
-      "isBackground": true,
+      "isBackground": false,
       "isBalanceFlow": true,
       "isPrivate": false,
       "parent": "prod_sodium_hydroxide_50",
@@ -56,6 +56,35 @@
         "default": {
           "externalId": "01ad9c09-f838-5641-9dd9-c43b451a3d9c",
           "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "cc4925a0-ab42-4cc9-9d37-c8aa04ff8cf1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.2589198460280517
+      },
+      "externalId": "cc4925a0-ab42-4cc9-9d37-c8aa04ff8cf1",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "7cfc0205-62fc-4a9c-afbb-18b87b46c858",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
         }
       }
     }

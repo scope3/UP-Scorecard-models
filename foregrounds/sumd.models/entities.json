@@ -226,14 +226,6 @@
       "uuid": "29f75a6a-e5cd-40f6-8f84-797deb0ef98c"
     },
     {
-      "Name": "polyacrylamide",
-      "entityType": "flow",
-      "externalId": "29f75a6a-e5cd-40f6-8f84-797deb0ef98c",
-      "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "uuid": "29f75a6a-e5cd-40f6-8f84-797deb0ef98c"
-    },
-    {
       "Name": "bagasse, from sweet sorghum",
       "entityType": "flow",
       "externalId": "2cd6e74e-c64c-4ed4-945b-fd2d2a4f0db6",
@@ -378,14 +370,6 @@
       "uuid": "55918c79-1454-4ce3-9c06-a09b4e3e224b"
     },
     {
-      "Name": "epichlorohydrin",
-      "entityType": "flow",
-      "externalId": "55918c79-1454-4ce3-9c06-a09b4e3e224b",
-      "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "uuid": "55918c79-1454-4ce3-9c06-a09b4e3e224b"
-    },
-    {
       "Name": "extrusion, plastic film",
       "entityType": "flow",
       "externalId": "579049d0-3db8-4496-a234-2f61ed28a72b",
@@ -446,14 +430,6 @@
       "entityType": "flow",
       "externalId": "63b67766-9ed6-4037-bb45-eb4f88fdd76b",
       "origin": "ecoinvent.3.10.cutoff",
-      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "uuid": "63b67766-9ed6-4037-bb45-eb4f88fdd76b"
-    },
-    {
-      "Name": "sulfate pulp, unbleached",
-      "entityType": "flow",
-      "externalId": "63b67766-9ed6-4037-bb45-eb4f88fdd76b",
-      "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "63b67766-9ed6-4037-bb45-eb4f88fdd76b"
     },
@@ -777,14 +753,6 @@
       "uuid": "a8f9b840-05ff-4dad-b11e-dd4b1342655d"
     },
     {
-      "Name": "silicone product",
-      "entityType": "flow",
-      "externalId": "a8f9b840-05ff-4dad-b11e-dd4b1342655d",
-      "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "uuid": "a8f9b840-05ff-4dad-b11e-dd4b1342655d"
-    },
-    {
       "Name": "natural gas, high pressure",
       "entityType": "flow",
       "externalId": "a9007f10-7e39-4d50-8f4a-d6d03ce3d673",
@@ -821,7 +789,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "akd_prod",
+      "Name": "AKD/ASA sizing agent",
       "entityType": "flow",
       "externalId": "akd_prod",
       "origin": "sumd.models",
@@ -1063,14 +1031,6 @@
       "uuid": "c3fd9530-3e9b-44b5-8833-9e544937a6e9"
     },
     {
-      "Name": "packaging glass, white",
-      "entityType": "flow",
-      "externalId": "c3fd9530-3e9b-44b5-8833-9e544937a6e9",
-      "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "uuid": "c3fd9530-3e9b-44b5-8833-9e544937a6e9"
-    },
-    {
       "Name": "thermoforming of plastic sheets",
       "entityType": "flow",
       "externalId": "c449e3b5-385c-454b-acba-e3e6f58c68e4",
@@ -1122,7 +1082,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "chem_inorganic",
+      "Name": "Defoamer / biocide",
       "entityType": "flow",
       "externalId": "chem_inorganic",
       "origin": "sumd.models",
@@ -1140,7 +1100,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "coag_flocc",
+      "Name": "Waste-water coagulant / flocculant",
       "entityType": "flow",
       "externalId": "coag_flocc",
       "origin": "sumd.models",
@@ -1299,6 +1259,15 @@
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200c9a66"
     },
     {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "Forming process, dry-molded products",
+      "entityType": "flow",
+      "externalId": "dry_fiber_molded_forming_nomat",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
       "Name": "sheet rolling, steel",
       "entityType": "flow",
       "externalId": "e2f62697-57d4-42fe-95bf-c85fd32a9cf0",
@@ -1357,7 +1326,7 @@
     {
       "CasNumber": "",
       "Comment": "kWh is its own quantity for explicit clarity, even though it is basically the same as 'net calorific value'",
-      "Name": "Electricity, at user",
+      "Name": "Electricity (motors, vacuum, drives, compressors)",
       "entityType": "flow",
       "externalId": "elec",
       "origin": "sumd.models",
@@ -1637,7 +1606,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "lube_oil",
+      "Name": "Maintenance oils & greases",
       "entityType": "flow",
       "externalId": "lube_oil",
       "origin": "sumd.models",
@@ -1719,7 +1688,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "ng_mj",
+      "Name": "Thermal energy",
       "entityType": "flow",
       "externalId": "ng_mj",
       "origin": "sumd.models",
@@ -1797,7 +1766,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "pae_prod",
+      "Name": "PAE wet\u2011strength resin",
       "entityType": "flow",
       "externalId": "pae_prod",
       "origin": "sumd.models",
@@ -1921,7 +1890,7 @@
       "CasNumber": "",
       "Comment": "",
       "Ecoinvent": "polyacrylamide production",
-      "Name": "polyacrylamide",
+      "Name": "Retention/drainage polymer (cationic PAM)",
       "entityType": "flow",
       "externalId": "polyacrylamide",
       "origin": "sumd.models",
@@ -2066,7 +2035,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "silicone_product",
+      "Name": "Silicone / PTFE mold\u2011release",
       "entityType": "flow",
       "externalId": "silicone_product",
       "origin": "sumd.models",
@@ -2093,7 +2062,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "sodium_hydroxide_50",
+      "Name": "Clean-up chemicals",
       "entityType": "flow",
       "externalId": "sodium_hydroxide_50",
       "origin": "sumd.models",
@@ -2138,7 +2107,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "starch_poly",
+      "Name": "Cationic/oxidised starch",
       "entityType": "flow",
       "externalId": "starch_poly",
       "origin": "sumd.models",
@@ -2425,7 +2394,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "water_tap",
+      "Name": "Clean-up water",
       "entityType": "flow",
       "externalId": "water_tap",
       "origin": "sumd.models",
@@ -2452,7 +2421,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "ww_treat_avg",
+      "Name": "Wastewater treatment",
       "entityType": "flow",
       "externalId": "ww_treat_avg",
       "origin": "sumd.models",
@@ -2821,7 +2790,9 @@
       },
       {
         "name": "Water impact",
-        "synonyms": []
+        "synonyms": [
+          "sumd.models/water_blue"
+        ]
       },
       {
         "name": "Water used",

@@ -42,7 +42,7 @@
         "externalId": "1125e767-7b5d-442e-81d6-9b0d3e1919ac",
         "origin": "ecoinvent.3.10.cutoff"
       },
-      "isBackground": true,
+      "isBackground": false,
       "isBalanceFlow": true,
       "isPrivate": false,
       "parent": "prod_heat_ng",
@@ -56,6 +56,35 @@
         "default": {
           "externalId": "fb9703ae-2f13-5846-ba9a-22bcc5ab806d",
           "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4acfed92-a622-40da-83c7-21d3e57198c6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.00463333333333333
+      },
+      "externalId": "4acfed92-a622-40da-83c7-21d3e57198c6",
+      "flow": {
+        "externalId": "d69294d7-8d64-4915-a896-9996a014c410",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "f010bfb8-ce42-41d6-b33f-3f287badbbce",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, low voltage",
+        "StageName": "market group for electricity, low voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-low",
+          "origin": "foreground"
         }
       }
     }

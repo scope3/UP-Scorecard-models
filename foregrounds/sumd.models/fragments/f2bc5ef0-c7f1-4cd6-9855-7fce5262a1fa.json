@@ -42,7 +42,7 @@
         "externalId": "c5adb1fb-872e-4446-a3bb-c4b61aa4bd45",
         "origin": "ecoinvent.3.10.cutoff"
       },
-      "isBackground": true,
+      "isBackground": false,
       "isBalanceFlow": true,
       "isPrivate": false,
       "parent": "prod_water_tap",
@@ -56,6 +56,35 @@
         "default": {
           "externalId": "c51a30c4-3b85-5b01-aff6-626e6e989f7a",
           "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "cc5c5059-1a05-4e09-9d93-fd1a7c5f4321",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.000427
+      },
+      "externalId": "cc5c5059-1a05-4e09-9d93-fd1a7c5f4321",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "9027ddc9-d553-4f11-8c28-11a7c043b7f9",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
         }
       }
     }

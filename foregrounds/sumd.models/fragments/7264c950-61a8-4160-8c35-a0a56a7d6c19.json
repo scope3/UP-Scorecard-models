@@ -42,7 +42,7 @@
         "externalId": "ea75b944-c676-4a13-85b8-2bea98f765a4",
         "origin": "ecoinvent.3.10.cutoff"
       },
-      "isBackground": true,
+      "isBackground": false,
       "isBalanceFlow": true,
       "isPrivate": false,
       "parent": "prod_lube_oil",
@@ -56,6 +56,35 @@
         "default": {
           "externalId": "f32c6162-fae5-55d1-be25-366d53be985e",
           "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "470d7038-ceae-4128-80be-ede0ef9fa7e6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.399063145089249
+      },
+      "externalId": "470d7038-ceae-4128-80be-ede0ef9fa7e6",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "5d2e1654-6201-4865-84f4-33e09b6fcc22",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
         }
       }
     }

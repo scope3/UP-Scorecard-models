@@ -42,7 +42,7 @@
         "externalId": "c3fd9530-3e9b-44b5-8833-9e544937a6e9",
         "origin": "ecoinvent.3.10.cutoff"
       },
-      "isBackground": true,
+      "isBackground": false,
       "isBalanceFlow": false,
       "isPrivate": false,
       "parent": "prod_glass_60cullet",
@@ -56,6 +56,64 @@
         "default": {
           "externalId": "0b60b1ae-7bf7-5e25-bacb-d236f7c2891a",
           "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "32e5a870-ce6c-425a-8a3a-b354f58b8449",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.167145574
+      },
+      "externalId": "32e5a870-ce6c-425a-8a3a-b354f58b8449",
+      "flow": {
+        "externalId": "a9007f10-7e39-4d50-8f4a-d6d03ce3d673",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "a258c7c5-bac5-4407-91d8-e5061c624e8b",
+      "tags": {
+        "Comment": "",
+        "Name": "natural gas, high pressure",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_ng_supply_m3",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6a8132f7-6599-4d6b-a080-ba2372e26958",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.446882265
+      },
+      "externalId": "6a8132f7-6599-4d6b-a080-ba2372e26958",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "a258c7c5-bac5-4407-91d8-e5061c624e8b",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
         }
       }
     }

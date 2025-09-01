@@ -42,7 +42,7 @@
         "externalId": "ff36e6af-aa19-4944-8040-181006c9c335",
         "origin": "ecoinvent.3.10.cutoff"
       },
-      "isBackground": true,
+      "isBackground": false,
       "isBalanceFlow": true,
       "isPrivate": false,
       "parent": "prod_starch_poly",
@@ -56,6 +56,35 @@
         "default": {
           "externalId": "6ce07b82-03d9-5736-af47-9122956c3c3f",
           "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "22204138-648c-4904-8277-d27b78873fbe",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.555
+      },
+      "externalId": "22204138-648c-4904-8277-d27b78873fbe",
+      "flow": {
+        "externalId": "d69294d7-8d64-4915-a896-9996a014c410",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "042f88db-2f53-4e6b-b9fb-f635a186490f",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, low voltage",
+        "StageName": "market group for electricity, low voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-low",
+          "origin": "foreground"
         }
       }
     }

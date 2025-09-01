@@ -1,0 +1,363 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "32df7e36-710f-4ecd-bf23-e5ce5ec8ba8c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 1.0
+      },
+      "externalId": "Dry-Molded-Fiber-Form",
+      "flow": {
+        "externalId": "dry_fiber_molded_forming_nomat",
+        "origin": "foreground"
+      },
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "[sumd.models] sumd.models/Dry-Molded-Fiber-Form",
+        "StageName": "Dry-Molded-Fiber-Form"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "Dry-Molded-Fiber-Form",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "072946c0-e5c8-46e5-bf2c-48d1305bccb9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.9,
+        "1": 0.9
+      },
+      "externalId": "072946c0-e5c8-46e5-bf2c-48d1305bccb9",
+      "flow": {
+        "externalId": "water_tap",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Process-water make-up",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_water_tap",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0feda29d-7732-4aab-a228-1ae795375197",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0002,
+        "1": 0.0002
+      },
+      "externalId": "0feda29d-7732-4aab-a228-1ae795375197",
+      "flow": {
+        "externalId": "lube_oil",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Maintenance oils & greases",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_lube_oil",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "17f16c5e-f11b-4a38-be35-af78bbe78668",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0001,
+        "1": 0.0001
+      },
+      "externalId": "17f16c5e-f11b-4a38-be35-af78bbe78668",
+      "flow": {
+        "externalId": "sodium_hydroxide_50",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Clean-up chemicals",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_sodium_hydroxide_50",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "254f9025-9451-4ae3-a77a-503ba57d2648",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00015,
+        "1": 0.00015
+      },
+      "externalId": "254f9025-9451-4ae3-a77a-503ba57d2648",
+      "flow": {
+        "externalId": "ww_treat_avg",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Wastewater treatment",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_ww_treat_avg",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "471496f1-54bc-4967-8fdf-363e35c46375",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0001,
+        "1": 0.0001
+      },
+      "externalId": "471496f1-54bc-4967-8fdf-363e35c46375",
+      "flow": {
+        "externalId": "coag_flocc",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Waste-water coagulant / flocculant",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_coag_flocc",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "56c9f1bc-33dc-4769-98c0-d711f0a9bf08",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.001,
+        "1": 0.001
+      },
+      "externalId": "56c9f1bc-33dc-4769-98c0-d711f0a9bf08",
+      "flow": {
+        "externalId": "polyacrylamide",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Retention/drainage polymer (cationic PAM)",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_polyacrylamide",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "703e82d1-9852-43e4-8f09-da0bbff6a30f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 5e-05,
+        "1": 5e-05
+      },
+      "externalId": "703e82d1-9852-43e4-8f09-da0bbff6a30f",
+      "flow": {
+        "externalId": "silicone_product",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Silicone / PTFE mold\u2011release",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_silicone_product",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "92db9308-67df-4b01-bc4e-a09812f66934",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.36000000000000004,
+        "1": 0.36000000000000004
+      },
+      "externalId": "92db9308-67df-4b01-bc4e-a09812f66934",
+      "flow": {
+        "externalId": "ng_mj",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Thermal energy",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_ng_mj",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b6989c23-957b-4070-a807-23153b27d01f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.0001,
+        "1": 0.0001
+      },
+      "externalId": "b6989c23-957b-4070-a807-23153b27d01f",
+      "flow": {
+        "externalId": "chem_inorganic",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Defoamer / biocide",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_chem_inorganic",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bdc8aa9d-109b-459f-8f03-98609e7fe743",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.35,
+        "1": 0.35
+      },
+      "externalId": "bdc8aa9d-109b-459f-8f03-98609e7fe743",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity (motors, vacuum, drives, compressors)",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f8db8cb6-cc44-4572-b13d-a73366aaebc7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.05,
+        "1": 0.05
+      },
+      "externalId": "f8db8cb6-cc44-4572-b13d-a73366aaebc7",
+      "flow": {
+        "externalId": "water_tap",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Dry-Molded-Fiber-Form",
+      "tags": {
+        "Comment": "",
+        "Name": "Clean-up water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_water_tap",
+          "origin": "foreground"
+        }
+      }
+    }
+  ]
+}

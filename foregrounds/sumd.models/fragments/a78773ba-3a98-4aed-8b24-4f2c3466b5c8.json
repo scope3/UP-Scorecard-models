@@ -42,7 +42,7 @@
         "externalId": "c3fd9530-3e9b-44b5-8833-9e544937a6e9",
         "origin": "ecoinvent.3.10.cutoff"
       },
-      "isBackground": true,
+      "isBackground": false,
       "isBalanceFlow": false,
       "isPrivate": false,
       "parent": "prod_glass_nocullet",
@@ -56,6 +56,64 @@
         "default": {
           "externalId": "2326311d-6d7c-5bd4-bc1b-739817040bbc",
           "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2168a368-b9cc-4946-8e10-0c9827abf4bd",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.488665483
+      },
+      "externalId": "2168a368-b9cc-4946-8e10-0c9827abf4bd",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0b433325-e5b1-4843-af71-5fbfa0f9d789",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "79d24d51-f0a6-49bc-9c53-498922410930",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.182773583
+      },
+      "externalId": "79d24d51-f0a6-49bc-9c53-498922410930",
+      "flow": {
+        "externalId": "a9007f10-7e39-4d50-8f4a-d6d03ce3d673",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0b433325-e5b1-4843-af71-5fbfa0f9d789",
+      "tags": {
+        "Comment": "",
+        "Name": "natural gas, high pressure",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "prod_ng_supply_m3",
+          "origin": "foreground"
         }
       }
     }

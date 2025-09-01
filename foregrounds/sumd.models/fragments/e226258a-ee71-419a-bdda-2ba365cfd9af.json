@@ -42,7 +42,7 @@
         "externalId": "5d0ec026-7937-5ac8-9358-dd2690065dd7",
         "origin": "ecoinvent.3.10.cutoff"
       },
-      "isBackground": true,
+      "isBackground": false,
       "isBalanceFlow": true,
       "isPrivate": false,
       "parent": "prod_coag_flocc",
@@ -56,6 +56,35 @@
         "default": {
           "externalId": "3301eeef-4618-57c8-93c9-bbe4b49adb6f",
           "origin": "ecoinvent.3.10.cutoff"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4d9eba87-655d-4291-b095-d21713104f83",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.39906
+      },
+      "externalId": "4d9eba87-655d-4291-b095-d21713104f83",
+      "flow": {
+        "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
+        "origin": "ecoinvent.3.10.cutoff"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "86bad6ac-8577-4c45-9c23-ac4d13a81313",
+      "tags": {
+        "Comment": "",
+        "Name": "electricity, medium voltage",
+        "StageName": "market group for electricity, medium voltage"
+      },
+      "terminations": {
+        "default": {
+          "externalId": "grid-chooser-medium",
+          "origin": "foreground"
         }
       }
     }
