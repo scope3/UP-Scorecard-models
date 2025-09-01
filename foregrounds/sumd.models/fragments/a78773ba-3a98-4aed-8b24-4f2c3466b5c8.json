@@ -2,15 +2,15 @@
   "fragments": [
     {
       "direction": "Input",
-      "entityId": "907d59c7-b591-4935-8500-b382d8b99add",
+      "entityId": "a78773ba-3a98-4aed-8b24-4f2c3466b5c8",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 1.0
       },
-      "externalId": "prod_naoh_100",
+      "externalId": "prod_glass_nocullet",
       "flow": {
-        "externalId": "naoh_100",
+        "externalId": "glass_nocullet",
         "origin": "foreground"
       },
       "isBackground": false,
@@ -19,42 +19,42 @@
       "parent": null,
       "tags": {
         "Comment": "",
-        "Name": "naoh_100",
+        "Name": "glass_nocullet",
         "StageName": ""
       },
       "terminations": {
         "default": {
-          "externalId": "prod_naoh_100",
+          "externalId": "prod_glass_nocullet",
           "origin": "foreground"
         }
       }
     },
     {
       "direction": "Input",
-      "entityId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "entityId": "0b433325-e5b1-4843-af71-5fbfa0f9d789",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
-        "1": 0.0
+        "1": 1.0
       },
-      "externalId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "externalId": "0b433325-e5b1-4843-af71-5fbfa0f9d789",
       "flow": {
-        "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
+        "externalId": "c3fd9530-3e9b-44b5-8833-9e544937a6e9",
         "origin": "ecoinvent.3.10.cutoff"
       },
       "isBackground": true,
-      "isBalanceFlow": true,
+      "isBalanceFlow": false,
       "isPrivate": false,
-      "parent": "prod_naoh_100",
+      "parent": "prod_glass_nocullet",
       "tags": {
         "Comment": "",
-        "Name": "sodium hydroxide, without water, in 50% solution state",
-        "StageName": "market for sodium hydroxide, without water, in 50% solution state",
-        "_prod_row": 41
+        "Name": "packaging glass, white",
+        "StageName": "packaging glass production, white, without cullet",
+        "_prod_row": 10
       },
       "terminations": {
         "default": {
-          "externalId": "906a1cbc-5356-5604-b8d3-9cec945ddac7",
+          "externalId": "2326311d-6d7c-5bd4-bc1b-739817040bbc",
           "origin": "ecoinvent.3.10.cutoff"
         }
       }

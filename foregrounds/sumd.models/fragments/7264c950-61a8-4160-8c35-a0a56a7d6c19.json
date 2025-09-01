@@ -2,15 +2,15 @@
   "fragments": [
     {
       "direction": "Input",
-      "entityId": "907d59c7-b591-4935-8500-b382d8b99add",
+      "entityId": "7264c950-61a8-4160-8c35-a0a56a7d6c19",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 1.0
       },
-      "externalId": "prod_naoh_100",
+      "externalId": "prod_lube_oil",
       "flow": {
-        "externalId": "naoh_100",
+        "externalId": "lube_oil",
         "origin": "foreground"
       },
       "isBackground": false,
@@ -19,42 +19,42 @@
       "parent": null,
       "tags": {
         "Comment": "",
-        "Name": "naoh_100",
+        "Name": "lube_oil",
         "StageName": ""
       },
       "terminations": {
         "default": {
-          "externalId": "prod_naoh_100",
+          "externalId": "prod_lube_oil",
           "origin": "foreground"
         }
       }
     },
     {
       "direction": "Input",
-      "entityId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "entityId": "5d2e1654-6201-4865-84f4-33e09b6fcc22",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 0.0
       },
-      "externalId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "externalId": "5d2e1654-6201-4865-84f4-33e09b6fcc22",
       "flow": {
-        "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
+        "externalId": "ea75b944-c676-4a13-85b8-2bea98f765a4",
         "origin": "ecoinvent.3.10.cutoff"
       },
       "isBackground": true,
       "isBalanceFlow": true,
       "isPrivate": false,
-      "parent": "prod_naoh_100",
+      "parent": "prod_lube_oil",
       "tags": {
         "Comment": "",
-        "Name": "sodium hydroxide, without water, in 50% solution state",
-        "StageName": "market for sodium hydroxide, without water, in 50% solution state",
-        "_prod_row": 41
+        "Name": "lubricating oil",
+        "StageName": "lubricating oil production",
+        "_prod_row": 67
       },
       "terminations": {
         "default": {
-          "externalId": "906a1cbc-5356-5604-b8d3-9cec945ddac7",
+          "externalId": "f32c6162-fae5-55d1-be25-366d53be985e",
           "origin": "ecoinvent.3.10.cutoff"
         }
       }

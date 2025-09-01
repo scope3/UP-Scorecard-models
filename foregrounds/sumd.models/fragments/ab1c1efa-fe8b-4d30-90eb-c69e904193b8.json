@@ -50,7 +50,7 @@
         "Comment": "",
         "Name": "Diesel",
         "StageName": "Diesel, combusted in industrial equipment",
-        "_prod_row": 6
+        "_prod_row": 8
       },
       "terminations": {
         "default": {

@@ -2,15 +2,15 @@
   "fragments": [
     {
       "direction": "Input",
-      "entityId": "907d59c7-b591-4935-8500-b382d8b99add",
+      "entityId": "e5d87e96-d4b8-4791-933b-a9cc78c05e8a",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 1.0
       },
-      "externalId": "prod_naoh_100",
+      "externalId": "prod_pae_prod",
       "flow": {
-        "externalId": "naoh_100",
+        "externalId": "pae_prod",
         "origin": "foreground"
       },
       "isBackground": false,
@@ -19,42 +19,42 @@
       "parent": null,
       "tags": {
         "Comment": "",
-        "Name": "naoh_100",
+        "Name": "pae_prod",
         "StageName": ""
       },
       "terminations": {
         "default": {
-          "externalId": "prod_naoh_100",
+          "externalId": "prod_pae_prod",
           "origin": "foreground"
         }
       }
     },
     {
       "direction": "Input",
-      "entityId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "entityId": "3a375e43-73a4-40df-b649-bc641e49c51a",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 0.0
       },
-      "externalId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "externalId": "3a375e43-73a4-40df-b649-bc641e49c51a",
       "flow": {
-        "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
+        "externalId": "1fe6463a-08c8-406e-b05c-d5ad845da6be",
         "origin": "ecoinvent.3.10.cutoff"
       },
       "isBackground": true,
       "isBalanceFlow": true,
       "isPrivate": false,
-      "parent": "prod_naoh_100",
+      "parent": "prod_pae_prod",
       "tags": {
         "Comment": "",
-        "Name": "sodium hydroxide, without water, in 50% solution state",
-        "StageName": "market for sodium hydroxide, without water, in 50% solution state",
-        "_prod_row": 41
+        "Name": "cationic resin",
+        "StageName": "cationic resin production",
+        "_prod_row": 61
       },
       "terminations": {
         "default": {
-          "externalId": "906a1cbc-5356-5604-b8d3-9cec945ddac7",
+          "externalId": "eb07b07c-533e-5987-92cb-4f71d4a39c3c",
           "origin": "ecoinvent.3.10.cutoff"
         }
       }

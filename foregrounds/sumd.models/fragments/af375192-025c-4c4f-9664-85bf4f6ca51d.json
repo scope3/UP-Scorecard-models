@@ -2,15 +2,15 @@
   "fragments": [
     {
       "direction": "Input",
-      "entityId": "907d59c7-b591-4935-8500-b382d8b99add",
+      "entityId": "af375192-025c-4c4f-9664-85bf4f6ca51d",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 1.0
       },
-      "externalId": "prod_naoh_100",
+      "externalId": "prod_heat_ng",
       "flow": {
-        "externalId": "naoh_100",
+        "externalId": "heat_ng",
         "origin": "foreground"
       },
       "isBackground": false,
@@ -19,42 +19,42 @@
       "parent": null,
       "tags": {
         "Comment": "",
-        "Name": "naoh_100",
+        "Name": "heat_ng",
         "StageName": ""
       },
       "terminations": {
         "default": {
-          "externalId": "prod_naoh_100",
+          "externalId": "prod_heat_ng",
           "origin": "foreground"
         }
       }
     },
     {
       "direction": "Input",
-      "entityId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "entityId": "f010bfb8-ce42-41d6-b33f-3f287badbbce",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 0.0
       },
-      "externalId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "externalId": "f010bfb8-ce42-41d6-b33f-3f287badbbce",
       "flow": {
-        "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
+        "externalId": "1125e767-7b5d-442e-81d6-9b0d3e1919ac",
         "origin": "ecoinvent.3.10.cutoff"
       },
       "isBackground": true,
       "isBalanceFlow": true,
       "isPrivate": false,
-      "parent": "prod_naoh_100",
+      "parent": "prod_heat_ng",
       "tags": {
         "Comment": "",
-        "Name": "sodium hydroxide, without water, in 50% solution state",
-        "StageName": "market for sodium hydroxide, without water, in 50% solution state",
-        "_prod_row": 41
+        "Name": "heat, district or industrial, natural gas",
+        "StageName": "heat production, natural gas, at industrial furnace low-NOx >100kW",
+        "_prod_row": 59
       },
       "terminations": {
         "default": {
-          "externalId": "906a1cbc-5356-5604-b8d3-9cec945ddac7",
+          "externalId": "fb9703ae-2f13-5846-ba9a-22bcc5ab806d",
           "origin": "ecoinvent.3.10.cutoff"
         }
       }

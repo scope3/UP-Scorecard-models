@@ -50,7 +50,7 @@
         "Comment": "",
         "Name": "magnesium",
         "StageName": "market for magnesium",
-        "_prod_row": 22
+        "_prod_row": 27
       },
       "terminations": {
         "default": {
@@ -80,7 +80,7 @@
         "Comment": "",
         "Name": "manganese",
         "StageName": "market for manganese",
-        "_prod_row": 23
+        "_prod_row": 28
       },
       "terminations": {
         "default": {

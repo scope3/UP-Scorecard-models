@@ -2,11 +2,11 @@
   "fragments": [
     {
       "direction": "Input",
-      "entityId": "89fce631-1870-413a-a24b-84e8b62ceae7",
+      "entityId": "5a05d8cb-a0e9-4068-84dc-283d71885a1d",
       "entityType": "fragment",
       "exchangeValues": {
-        "0": 12.99,
-        "1": 12.99
+        "0": 13.5,
+        "1": 13.5
       },
       "externalId": "Al-Can-2021",
       "flow": {
@@ -30,46 +30,16 @@
       }
     },
     {
-      "direction": "Input",
-      "entityId": "0fb6d29a-8ab7-45d6-809e-6985d5b50b56",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 30.277777777802,
-        "1": 30.277777777802
-      },
-      "externalId": "0fb6d29a-8ab7-45d6-809e-6985d5b50b56",
-      "flow": {
-        "externalId": "elec",
-        "origin": "foreground"
-      },
-      "isBackground": true,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "Al-Can-2021",
-      "tags": {
-        "Comment": "",
-        "Name": "Electricity",
-        "StageName": "market group for electricity, medium voltage"
-      },
-      "terminations": {
-        "default": {
-          "descend": false,
-          "externalId": "grid-chooser-medium",
-          "origin": "foreground"
-        }
-      }
-    },
-    {
       "direction": "Output",
-      "entityId": "34845b68-494f-48cc-9249-84aafed524f2",
+      "entityId": "132adcb7-c148-4895-b981-f8d6428d5035",
       "entityType": "fragment",
       "exchangeValues": {
-        "0": 0.000137,
-        "1": 0.000137
+        "0": 1.69e-05,
+        "1": 1.69e-05
       },
-      "externalId": "34845b68-494f-48cc-9249-84aafed524f2",
+      "externalId": "132adcb7-c148-4895-b981-f8d6428d5035",
       "flow": {
-        "externalId": "nitrous_oxide",
+        "externalId": "pm10",
         "origin": "foreground"
       },
       "isBackground": true,
@@ -78,7 +48,7 @@
       "parent": "Al-Can-2021",
       "tags": {
         "Comment": "",
-        "Name": "Nitrous oxide",
+        "Name": "Dust (PM10)",
         "StageName": "to air"
       },
       "terminations": {
@@ -91,15 +61,15 @@
     },
     {
       "direction": "Output",
-      "entityId": "3a8b19b7-cf48-4e8d-9ac1-d0d85016c207",
+      "entityId": "2517597d-5bc6-49bc-8d3c-1863a5e50d73",
       "entityType": "fragment",
       "exchangeValues": {
-        "0": 1.63e-05,
-        "1": 1.63e-05
+        "0": 53.4,
+        "1": 53.4
       },
-      "externalId": "3a8b19b7-cf48-4e8d-9ac1-d0d85016c207",
+      "externalId": "2517597d-5bc6-49bc-8d3c-1863a5e50d73",
       "flow": {
-        "externalId": "sulfur_dioxide",
+        "externalId": "wastewater",
         "origin": "foreground"
       },
       "isBackground": true,
@@ -108,121 +78,56 @@
       "parent": "Al-Can-2021",
       "tags": {
         "Comment": "",
-        "Name": "Sulphur dioxide",
-        "StageName": "to air"
-      },
-      "terminations": {
-        "default": {
-          "context": "to air",
-          "descend": false,
-          "origin": "foreground"
-        }
-      }
-    },
-    {
-      "direction": "Input",
-      "entityId": "40dcab8c-e505-4822-8884-abe976fdeb5f",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 16.0,
-        "1": 16.0
-      },
-      "externalId": "40dcab8c-e505-4822-8884-abe976fdeb5f",
-      "flow": {
-        "externalId": "alum_sheet",
-        "origin": "foreground"
-      },
-      "isBackground": true,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "Al-Can-2021",
-      "tags": {
-        "Comment": "",
-        "Name": "Aluminum sheet",
-        "StageName": "Al-Sheet-2021"
-      },
-      "terminations": {
-        "alum_ei_melt_roll": {
-          "descend": false,
-          "externalId": "Al-sheet-ei",
-          "origin": "foreground"
-        },
-        "default": {
-          "descend": false,
-          "externalId": "Al-Sheet-2021",
-          "origin": "foreground"
-        }
-      }
-    },
-    {
-      "direction": "Output",
-      "entityId": "50c64076-4fb0-4139-8916-5fd9e22664e6",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 0.0648,
-        "1": 0.0648
-      },
-      "externalId": "50c64076-4fb0-4139-8916-5fd9e22664e6",
-      "flow": {
-        "externalId": "nmvoc",
-        "origin": "foreground"
-      },
-      "isBackground": true,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "Al-Can-2021",
-      "tags": {
-        "Comment": "",
-        "Name": "NMVOC",
-        "StageName": "to air"
-      },
-      "terminations": {
-        "default": {
-          "context": "to air",
-          "descend": false,
-          "origin": "foreground"
-        }
-      }
-    },
-    {
-      "direction": "Output",
-      "entityId": "5dabdf63-f656-4cb9-97fb-901f9fcab1dc",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 0.044,
-        "1": 0.044
-      },
-      "externalId": "5dabdf63-f656-4cb9-97fb-901f9fcab1dc",
-      "flow": {
-        "externalId": "waste_inert_landfill",
-        "origin": "foreground"
-      },
-      "isBackground": true,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "Al-Can-2021",
-      "tags": {
-        "Comment": "",
-        "Name": "Waste for landfilling",
+        "Name": "Wastewater",
         "StageName": ""
       },
       "terminations": {
         "default": {
           "descend": false,
-          "externalId": "prod_waste_inert_landfill",
+          "externalId": "prod_wastewater",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "37660a9a-b340-4c88-8f36-bd60dec9c5f1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 67.5,
+        "1": 67.5
+      },
+      "externalId": "37660a9a-b340-4c88-8f36-bd60dec9c5f1",
+      "flow": {
+        "externalId": "ng_mj",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Can-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Thermal energy from natural gas",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_ng_mj",
           "origin": "foreground"
         }
       }
     },
     {
       "direction": "Output",
-      "entityId": "7d3f28b0-019d-47ac-8711-bc0a4fd9daeb",
+      "entityId": "4faecd73-37d6-4597-b4b2-c7753135429c",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 0.000752,
         "1": 0.000752
       },
-      "externalId": "7d3f28b0-019d-47ac-8711-bc0a4fd9daeb",
+      "externalId": "4faecd73-37d6-4597-b4b2-c7753135429c",
       "flow": {
         "externalId": "hazwaste_incin",
         "origin": "foreground"
@@ -246,15 +151,15 @@
     },
     {
       "direction": "Output",
-      "entityId": "831efc77-49fa-46e7-adbb-9d12985c9a06",
+      "entityId": "5a69a038-a587-4561-91e8-109e02cc7670",
       "entityType": "fragment",
       "exchangeValues": {
-        "0": 0.00274,
-        "1": 0.00274
+        "0": 1.63e-05,
+        "1": 1.63e-05
       },
-      "externalId": "831efc77-49fa-46e7-adbb-9d12985c9a06",
+      "externalId": "5a69a038-a587-4561-91e8-109e02cc7670",
       "flow": {
-        "externalId": "nitrogen_dioxide",
+        "externalId": "sulfur_dioxide",
         "origin": "foreground"
       },
       "isBackground": true,
@@ -263,28 +168,58 @@
       "parent": "Al-Can-2021",
       "tags": {
         "Comment": "",
-        "Name": "Nitrogen dioxide",
+        "Name": "Sulphur dioxide",
         "StageName": "to air"
       },
       "terminations": {
         "default": {
           "context": "to air",
           "descend": false,
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "70be117f-1414-4e19-8996-20a1888b9088",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 16.0,
+        "1": 16.0
+      },
+      "externalId": "70be117f-1414-4e19-8996-20a1888b9088",
+      "flow": {
+        "externalId": "alum_sheet",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Can-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Aluminum sheet",
+        "StageName": "Al-Sheet-2021"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "Al-Sheet-2021",
           "origin": "foreground"
         }
       }
     },
     {
       "direction": "Output",
-      "entityId": "8a06d478-5a01-4dd5-bcc9-f1882f8effe7",
+      "entityId": "80143ef0-998c-4a74-a769-6320b4668202",
       "entityType": "fragment",
       "exchangeValues": {
-        "0": 1.69e-05,
-        "1": 1.69e-05
+        "0": 0.0648,
+        "1": 0.0648
       },
-      "externalId": "8a06d478-5a01-4dd5-bcc9-f1882f8effe7",
+      "externalId": "80143ef0-998c-4a74-a769-6320b4668202",
       "flow": {
-        "externalId": "pm10",
+        "externalId": "nmvoc",
         "origin": "foreground"
       },
       "isBackground": true,
@@ -293,7 +228,7 @@
       "parent": "Al-Can-2021",
       "tags": {
         "Comment": "",
-        "Name": "Dust (PM10)",
+        "Name": "NMVOC",
         "StageName": "to air"
       },
       "terminations": {
@@ -306,43 +241,13 @@
     },
     {
       "direction": "Input",
-      "entityId": "a20af01a-0cf4-4ef6-a1b9-c2edbd1096a4",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 67.5,
-        "1": 67.5
-      },
-      "externalId": "a20af01a-0cf4-4ef6-a1b9-c2edbd1096a4",
-      "flow": {
-        "externalId": "ng_mj",
-        "origin": "foreground"
-      },
-      "isBackground": true,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "Al-Can-2021",
-      "tags": {
-        "Comment": "",
-        "Name": "Thermal energy from natural gas",
-        "StageName": ""
-      },
-      "terminations": {
-        "default": {
-          "descend": false,
-          "externalId": "prod_ng_mj",
-          "origin": "foreground"
-        }
-      }
-    },
-    {
-      "direction": "Input",
-      "entityId": "b406cfed-14bb-4a1e-affc-8ae1f92057a0",
+      "entityId": "97c40f1d-2c2c-4035-a73d-c04de525262a",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 0.0394,
         "1": 0.0394
       },
-      "externalId": "b406cfed-14bb-4a1e-affc-8ae1f92057a0",
+      "externalId": "97c40f1d-2c2c-4035-a73d-c04de525262a",
       "flow": {
         "externalId": "lubricating_oil",
         "origin": "foreground"
@@ -366,15 +271,15 @@
     },
     {
       "direction": "Output",
-      "entityId": "b62da0da-abc1-4012-8f29-dabf536a327a",
+      "entityId": "a13b4024-69ec-4335-851e-dade2b0fd020",
       "entityType": "fragment",
       "exchangeValues": {
-        "0": 0.174,
-        "1": 0.174
+        "0": 0.044,
+        "1": 0.044
       },
-      "externalId": "b62da0da-abc1-4012-8f29-dabf536a327a",
+      "externalId": "a13b4024-69ec-4335-851e-dade2b0fd020",
       "flow": {
-        "externalId": "sludge_deposit",
+        "externalId": "waste_inert_landfill",
         "origin": "foreground"
       },
       "isBackground": true,
@@ -383,56 +288,26 @@
       "parent": "Al-Can-2021",
       "tags": {
         "Comment": "",
-        "Name": "Sludge for disposal",
+        "Name": "Waste for landfilling",
         "StageName": ""
       },
       "terminations": {
         "default": {
           "descend": false,
-          "externalId": "prod_sludge_deposit",
-          "origin": "foreground"
-        }
-      }
-    },
-    {
-      "direction": "Input",
-      "entityId": "c981d7f5-e244-44fa-803f-bc1932d647cf",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 76.0,
-        "1": 76.0
-      },
-      "externalId": "c981d7f5-e244-44fa-803f-bc1932d647cf",
-      "flow": {
-        "externalId": "tap_water",
-        "origin": "foreground"
-      },
-      "isBackground": true,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "Al-Can-2021",
-      "tags": {
-        "Comment": "",
-        "Name": "Water",
-        "StageName": ""
-      },
-      "terminations": {
-        "default": {
-          "descend": false,
-          "externalId": "prod_tap_water",
+          "externalId": "prod_waste_inert_landfill",
           "origin": "foreground"
         }
       }
     },
     {
       "direction": "Output",
-      "entityId": "f6ffe16d-ce9d-427a-80b0-450d2d21498c",
+      "entityId": "ed5fbf96-2f07-4b5b-b854-d4aa581b4a30",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 0.0275,
         "1": 0.0275
       },
-      "externalId": "f6ffe16d-ce9d-427a-80b0-450d2d21498c",
+      "externalId": "ed5fbf96-2f07-4b5b-b854-d4aa581b4a30",
       "flow": {
         "externalId": "hazwaste_incin",
         "origin": "foreground"
@@ -456,15 +331,15 @@
     },
     {
       "direction": "Output",
-      "entityId": "f77d1165-fe7e-49f7-942e-bda6ebb13e86",
+      "entityId": "ef180b93-75ab-4ce0-be24-25f9e700b650",
       "entityType": "fragment",
       "exchangeValues": {
-        "0": 53.4,
-        "1": 53.4
+        "0": 0.174,
+        "1": 0.174
       },
-      "externalId": "f77d1165-fe7e-49f7-942e-bda6ebb13e86",
+      "externalId": "ef180b93-75ab-4ce0-be24-25f9e700b650",
       "flow": {
-        "externalId": "wastewater",
+        "externalId": "sludge_deposit",
         "origin": "foreground"
       },
       "isBackground": true,
@@ -473,13 +348,133 @@
       "parent": "Al-Can-2021",
       "tags": {
         "Comment": "",
-        "Name": "Wastewater",
+        "Name": "Sludge for disposal",
         "StageName": ""
       },
       "terminations": {
         "default": {
           "descend": false,
-          "externalId": "prod_wastewater",
+          "externalId": "prod_sludge_deposit",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "f11d01db-9b21-4979-a4c3-17f7cfd5145a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.00274,
+        "1": 0.00274
+      },
+      "externalId": "f11d01db-9b21-4979-a4c3-17f7cfd5145a",
+      "flow": {
+        "externalId": "nitrogen_dioxide",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Can-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Nitrogen dioxide",
+        "StageName": "to air"
+      },
+      "terminations": {
+        "default": {
+          "context": "to air",
+          "descend": false,
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fb47cdc6-a9e1-4670-96de-af8711ad5b0e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 76.0,
+        "1": 76.0
+      },
+      "externalId": "fb47cdc6-a9e1-4670-96de-af8711ad5b0e",
+      "flow": {
+        "externalId": "tap_water",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Can-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Water",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "prod_tap_water",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fbde81db-e3fb-4f1c-899c-2becfb61be55",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 30.277777777802,
+        "1": 30.277777777802
+      },
+      "externalId": "fbde81db-e3fb-4f1c-899c-2becfb61be55",
+      "flow": {
+        "externalId": "elec",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Can-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Electricity",
+        "StageName": "market for electricity, high voltage"
+      },
+      "terminations": {
+        "default": {
+          "descend": false,
+          "externalId": "grid-ASCC-cutoff-high",
+          "origin": "foreground"
+        }
+      }
+    },
+    {
+      "direction": "Output",
+      "entityId": "fe6d5257-16e7-4cb0-a0ff-0a10b70ac0d2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 0.000137,
+        "1": 0.000137
+      },
+      "externalId": "fe6d5257-16e7-4cb0-a0ff-0a10b70ac0d2",
+      "flow": {
+        "externalId": "nitrous_oxide",
+        "origin": "foreground"
+      },
+      "isBackground": true,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "Al-Can-2021",
+      "tags": {
+        "Comment": "",
+        "Name": "Nitrous oxide",
+        "StageName": "to air"
+      },
+      "terminations": {
+        "default": {
+          "context": "to air",
+          "descend": false,
           "origin": "foreground"
         }
       }

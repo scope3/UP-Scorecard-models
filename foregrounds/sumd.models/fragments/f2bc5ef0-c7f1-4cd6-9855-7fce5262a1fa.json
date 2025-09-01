@@ -2,15 +2,15 @@
   "fragments": [
     {
       "direction": "Input",
-      "entityId": "907d59c7-b591-4935-8500-b382d8b99add",
+      "entityId": "f2bc5ef0-c7f1-4cd6-9855-7fce5262a1fa",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 1.0
       },
-      "externalId": "prod_naoh_100",
+      "externalId": "prod_water_tap",
       "flow": {
-        "externalId": "naoh_100",
+        "externalId": "water_tap",
         "origin": "foreground"
       },
       "isBackground": false,
@@ -19,42 +19,42 @@
       "parent": null,
       "tags": {
         "Comment": "",
-        "Name": "naoh_100",
+        "Name": "water_tap",
         "StageName": ""
       },
       "terminations": {
         "default": {
-          "externalId": "prod_naoh_100",
+          "externalId": "prod_water_tap",
           "origin": "foreground"
         }
       }
     },
     {
       "direction": "Input",
-      "entityId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "entityId": "9027ddc9-d553-4f11-8c28-11a7c043b7f9",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 0.0
       },
-      "externalId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "externalId": "9027ddc9-d553-4f11-8c28-11a7c043b7f9",
       "flow": {
-        "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
+        "externalId": "c5adb1fb-872e-4446-a3bb-c4b61aa4bd45",
         "origin": "ecoinvent.3.10.cutoff"
       },
       "isBackground": true,
       "isBalanceFlow": true,
       "isPrivate": false,
-      "parent": "prod_naoh_100",
+      "parent": "prod_water_tap",
       "tags": {
         "Comment": "",
-        "Name": "sodium hydroxide, without water, in 50% solution state",
-        "StageName": "market for sodium hydroxide, without water, in 50% solution state",
-        "_prod_row": 41
+        "Name": "tap water",
+        "StageName": "tap water production, conventional treatment",
+        "_prod_row": 58
       },
       "terminations": {
         "default": {
-          "externalId": "906a1cbc-5356-5604-b8d3-9cec945ddac7",
+          "externalId": "c51a30c4-3b85-5b01-aff6-626e6e989f7a",
           "origin": "ecoinvent.3.10.cutoff"
         }
       }

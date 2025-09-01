@@ -50,7 +50,7 @@
         "Comment": "",
         "Name": "LPG",
         "StageName": "Liquefied petroleum gas, combusted in industrial boiler",
-        "_prod_row": 4
+        "_prod_row": 6
       },
       "terminations": {
         "default": {

@@ -1,8 +1,8 @@
 {
   "version_major": -1,
-  "version_minor": 2,
-  "dataSource": "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models",
+  "version_minor": 0,
+  "dataSource": "/Users/kylem/GitHub/UP-Scorecard-models/foregrounds/sumd.models",
   "release_notes": null,
-  "description": "correct water flow name; add ecoinvent aluminium",
+  "description": "updating reference flow amount for alum can 2021 inventory",
   "author": null
 }

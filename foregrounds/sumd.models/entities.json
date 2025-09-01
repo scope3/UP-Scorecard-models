@@ -8,11 +8,13 @@
       "/data/GitHub/Scope3/SUM-Lexicon/catalog/lexicon.models/entities.json"
     ],
     "sumd.models": [
+      "/Users/kylem/GitHub/UP-Scorecard-models/foregrounds/sumd.models",
+      "/Users/kylem/GitHub/UP-Scorecard-models/foregrounds/sumd.models/entities.json",
       "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models",
       "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models/entities.json"
     ]
   },
-  "dataSource": "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.models",
+  "dataSource": "/Users/kylem/GitHub/UP-Scorecard-models/foregrounds/sumd.models",
   "dataSourceType": "LcForeground",
   "flows": [
     {
@@ -176,6 +178,14 @@
       "uuid": "1f82a4fc-f292-4854-90f1-3621a9997ba3"
     },
     {
+      "Name": "cationic resin",
+      "entityType": "flow",
+      "externalId": "1fe6463a-08c8-406e-b05c-d5ad845da6be",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "1fe6463a-08c8-406e-b05c-d5ad845da6be"
+    },
+    {
       "Name": "bagasse, from sugarcane",
       "entityType": "flow",
       "externalId": "22df1429-91c9-4d1e-a289-1deec0adc66d",
@@ -192,12 +202,28 @@
       "uuid": "240c1a3c-1aba-4528-afc3-3f27f56583be"
     },
     {
+      "Name": "sulfate pulp, bleached",
+      "entityType": "flow",
+      "externalId": "2540e7b1-583b-49c3-a53f-db748f92f730",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "2540e7b1-583b-49c3-a53f-db748f92f730"
+    },
+    {
       "Name": "hydrogen peroxide, without water, in 50% solution state",
       "entityType": "flow",
       "externalId": "26c92545-7995-491d-bcca-ee6d590ef194",
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "26c92545-7995-491d-bcca-ee6d590ef194"
+    },
+    {
+      "Name": "polyacrylamide",
+      "entityType": "flow",
+      "externalId": "29f75a6a-e5cd-40f6-8f84-797deb0ef98c",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "29f75a6a-e5cd-40f6-8f84-797deb0ef98c"
     },
     {
       "Name": "polyacrylamide",
@@ -312,14 +338,6 @@
       "uuid": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
     },
     {
-      "Name": "aluminium, primary, ingot",
-      "entityType": "flow",
-      "externalId": "44defed2-3dc7-4d59-b3bc-23dacf1b9140",
-      "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "uuid": "44defed2-3dc7-4d59-b3bc-23dacf1b9140"
-    },
-    {
       "Name": "aluminium sulfate, without water, in 4.33% aluminium solution state",
       "entityType": "flow",
       "externalId": "4ad5078c-3f14-440a-b9d6-b44ff0faec60",
@@ -355,6 +373,14 @@
       "Name": "epichlorohydrin",
       "entityType": "flow",
       "externalId": "55918c79-1454-4ce3-9c06-a09b4e3e224b",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "55918c79-1454-4ce3-9c06-a09b4e3e224b"
+    },
+    {
+      "Name": "epichlorohydrin",
+      "entityType": "flow",
+      "externalId": "55918c79-1454-4ce3-9c06-a09b4e3e224b",
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "55918c79-1454-4ce3-9c06-a09b4e3e224b"
@@ -374,6 +400,14 @@
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "57bdb443-d4a6-423d-8024-959b8261d02e"
+    },
+    {
+      "Name": "aluminium chloride",
+      "entityType": "flow",
+      "externalId": "5d0ec026-7937-5ac8-9358-dd2690065dd7",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "5d0ec026-7937-5ac8-9358-dd2690065dd7"
     },
     {
       "Name": "Methane, fossil",
@@ -406,6 +440,14 @@
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "618bf4eb-bee5-4d38-8e4f-78cfebf779be"
+    },
+    {
+      "Name": "sulfate pulp, unbleached",
+      "entityType": "flow",
+      "externalId": "63b67766-9ed6-4037-bb45-eb4f88fdd76b",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "63b67766-9ed6-4037-bb45-eb4f88fdd76b"
     },
     {
       "Name": "sulfate pulp, unbleached",
@@ -480,6 +522,14 @@
       "uuid": "71e2f1db-a2c5-44d0-8337-dfff15be974d"
     },
     {
+      "Name": "chemical, inorganic",
+      "entityType": "flow",
+      "externalId": "73b452c8-3ac4-4993-86e4-fe0653467988",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "73b452c8-3ac4-4993-86e4-fe0653467988"
+    },
+    {
       "Name": "Carbon dioxide, non-fossil",
       "entityType": "flow",
       "externalId": "73ed05cc-9727-4abf-9516-4b5c0fe54a16",
@@ -492,14 +542,6 @@
       "entityType": "flow",
       "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
       "origin": "ecoinvent.3.10.cutoff",
-      "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
-      "uuid": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d"
-    },
-    {
-      "Name": "electricity, medium voltage",
-      "entityType": "flow",
-      "externalId": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d",
-      "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "77ae64fa-7e74-4252-9c3b-889c1cd20bfc",
       "uuid": "759b89bd-3aa6-42ad-b767-5bb9ef5d331d"
     },
@@ -719,14 +761,6 @@
       "uuid": "a5309c08-cc71-402e-b870-163a09ee0742"
     },
     {
-      "Name": "sheet rolling, aluminium",
-      "entityType": "flow",
-      "externalId": "a5309c08-cc71-402e-b870-163a09ee0742",
-      "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "uuid": "a5309c08-cc71-402e-b870-163a09ee0742"
-    },
-    {
       "Name": "chlorine, liquid",
       "entityType": "flow",
       "externalId": "a6b32de2-648a-4cd7-a256-9b122f68dd8b",
@@ -738,9 +772,25 @@
       "Name": "silicone product",
       "entityType": "flow",
       "externalId": "a8f9b840-05ff-4dad-b11e-dd4b1342655d",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "a8f9b840-05ff-4dad-b11e-dd4b1342655d"
+    },
+    {
+      "Name": "silicone product",
+      "entityType": "flow",
+      "externalId": "a8f9b840-05ff-4dad-b11e-dd4b1342655d",
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "a8f9b840-05ff-4dad-b11e-dd4b1342655d"
+    },
+    {
+      "Name": "natural gas, high pressure",
+      "entityType": "flow",
+      "externalId": "a9007f10-7e39-4d50-8f4a-d6d03ce3d673",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66",
+      "uuid": "a9007f10-7e39-4d50-8f4a-d6d03ce3d673"
     },
     {
       "Name": "argon, liquid",
@@ -767,6 +817,15 @@
       "externalId": "air_freight",
       "origin": "sumd.models",
       "referenceQuantity": "838aaa20-0117-11db-92e3-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "akd_prod",
+      "entityType": "flow",
+      "externalId": "akd_prod",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -834,7 +893,7 @@
     {
       "CasNumber": "",
       "Comment": "",
-      "Name": "Aluminum rolling (ei)",
+      "Name": "alum_rolling_ei",
       "entityType": "flow",
       "externalId": "alum_rolling_ei",
       "origin": "sumd.models",
@@ -999,6 +1058,14 @@
       "Name": "packaging glass, white",
       "entityType": "flow",
       "externalId": "c3fd9530-3e9b-44b5-8833-9e544937a6e9",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "c3fd9530-3e9b-44b5-8833-9e544937a6e9"
+    },
+    {
+      "Name": "packaging glass, white",
+      "entityType": "flow",
+      "externalId": "c3fd9530-3e9b-44b5-8833-9e544937a6e9",
       "origin": "ecoinvent.3.7.1.cutoff",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
       "uuid": "c3fd9530-3e9b-44b5-8833-9e544937a6e9"
@@ -1045,14 +1112,6 @@
       "uuid": "ca213807-7c00-4537-ac8c-23d39d0f2bd5"
     },
     {
-      "Name": "corrugated board box",
-      "entityType": "flow",
-      "externalId": "ca213807-7c00-4537-ac8c-23d39d0f2bd5",
-      "origin": "ecoinvent.3.7.1.cutoff",
-      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
-      "uuid": "ca213807-7c00-4537-ac8c-23d39d0f2bd5"
-    },
-    {
       "Name": "blow moulding",
       "entityType": "flow",
       "externalId": "cfe51aa8-55b2-43ef-82f3-0d6c4c80ca67",
@@ -1062,10 +1121,28 @@
     },
     {
       "CasNumber": "",
+      "Comment": "",
+      "Name": "chem_inorganic",
+      "entityType": "flow",
+      "externalId": "chem_inorganic",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
       "Comment": "Use ecoinvent \"organic chemicals, unspecified\"",
       "Name": "Other confidential chemicals",
       "entityType": "flow",
       "externalId": "chemical_generic",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "coag_flocc",
+      "entityType": "flow",
+      "externalId": "coag_flocc",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1370,6 +1447,14 @@
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
+      "Name": "polyester-complexed starch biopolymer",
+      "entityType": "flow",
+      "externalId": "ff36e6af-aa19-4944-8040-181006c9c335",
+      "origin": "ecoinvent.3.10.cutoff",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66",
+      "uuid": "ff36e6af-aa19-4944-8040-181006c9c335"
+    },
+    {
       "Name": "polyethylene, linear low density, granulate",
       "entityType": "flow",
       "externalId": "ff4734a5-a4a6-4960-bfbd-febae7a64f65",
@@ -1410,6 +1495,24 @@
       "Name": "Glass",
       "entityType": "flow",
       "externalId": "glass",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "glass_60cullet",
+      "entityType": "flow",
+      "externalId": "glass_60cullet",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "glass_nocullet",
+      "entityType": "flow",
+      "externalId": "glass_nocullet",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1471,6 +1574,15 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "heat_ng",
+      "entityType": "flow",
+      "externalId": "heat_ng",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "ink",
       "entityType": "flow",
       "externalId": "ink",
@@ -1521,6 +1633,15 @@
       "externalId": "lpg_mj",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "lube_oil",
+      "entityType": "flow",
+      "externalId": "lube_oil",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -1616,6 +1737,16 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "ng_supply_m3",
+      "entityType": "flow",
+      "externalId": "ng_supply_m3",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Compartment": "to air",
       "Name": "Nitrogen dioxide",
       "context": "Emissions to air",
       "entityType": "flow",
@@ -1626,6 +1757,7 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Compartment": "to air",
       "Name": "Nitrous oxide",
       "context": "Emissions to air",
       "entityType": "flow",
@@ -1636,6 +1768,7 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Compartment": "to air",
       "Name": "NMVOC",
       "context": "Emissions to air",
       "entityType": "flow",
@@ -1658,6 +1791,15 @@
       "Name": "Lubricating oil",
       "entityType": "flow",
       "externalId": "oil_lubricate",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "pae_prod",
+      "entityType": "flow",
+      "externalId": "pae_prod",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1745,6 +1887,7 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Compartment": "to air",
       "Name": "Dust (PM10)",
       "context": "Emissions to air",
       "entityType": "flow",
@@ -1755,6 +1898,7 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Compartment": "to air",
       "Name": "Dust (PM2.5)",
       "context": "Emissions to air",
       "entityType": "flow",
@@ -1765,6 +1909,7 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Compartment": "to air",
       "Name": "Dust (PM2.5 - PM10)",
       "context": "Emissions to air",
       "entityType": "flow",
@@ -1776,7 +1921,7 @@
       "CasNumber": "",
       "Comment": "",
       "Ecoinvent": "polyacrylamide production",
-      "Name": "Wastewater treatment polymer",
+      "Name": "polyacrylamide",
       "entityType": "flow",
       "externalId": "polyacrylamide",
       "origin": "sumd.models",
@@ -1807,6 +1952,24 @@
       "Name": "PP pellet",
       "entityType": "flow",
       "externalId": "pp_pellet",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "pulp_softwood_nonchlorinebleached",
+      "entityType": "flow",
+      "externalId": "pulp_softwood_nonchlorinebleached",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "pulp_softwood_unbleach",
+      "entityType": "flow",
+      "externalId": "pulp_softwood_unbleach",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1903,6 +2066,15 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "silicone_product",
+      "entityType": "flow",
+      "externalId": "silicone_product",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
       "Name": "P fertilizer (as P2O5)",
       "entityType": "flow",
       "externalId": "single superphosphate",
@@ -1915,6 +2087,15 @@
       "Name": "sludge_deposit",
       "entityType": "flow",
       "externalId": "sludge_deposit",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "sodium_hydroxide_50",
+      "entityType": "flow",
+      "externalId": "sodium_hydroxide_50",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
@@ -1957,6 +2138,16 @@
     {
       "CasNumber": "",
       "Comment": "",
+      "Name": "starch_poly",
+      "entityType": "flow",
+      "externalId": "starch_poly",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Compartment": "to air",
       "Name": "Sulphur dioxide",
       "context": "Emissions to air",
       "entityType": "flow",
@@ -2213,8 +2404,10 @@
     {
       "CasNumber": "",
       "Comment": "This is meant to represent water as impact, as opposed to water as flow type",
-      "Compartment": ["from water"],
-      "Name": "Water",
+      "Compartment": [
+        "from water"
+      ],
+      "Name": "Water impact",
       "entityType": "flow",
       "externalId": "water_blue",
       "origin": "sumd.models",
@@ -2228,6 +2421,15 @@
       "externalId": "water_muni",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "water_tap",
+      "entityType": "flow",
+      "externalId": "water_tap",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
     },
     {
       "CasNumber": "",
@@ -2246,6 +2448,15 @@
       "externalId": "ww_susp_solid",
       "origin": "sumd.models",
       "referenceQuantity": "93a60a56-a3c8-11da-a746-0800200b9a66"
+    },
+    {
+      "CasNumber": "",
+      "Comment": "",
+      "Name": "ww_treat_avg",
+      "entityType": "flow",
+      "externalId": "ww_treat_avg",
+      "origin": "sumd.models",
+      "referenceQuantity": "93a60a56-a3c8-22da-a746-0800200c9a66"
     }
   ],
   "initArgs": {
@@ -2526,6 +2737,7 @@
         "parent": "Resources",
         "synonyms": [
           "('Resources', 'from water')",
+          "('from water',)",
           "Non-renewable element resources from water",
           "Non-renewable material resources from water",
           "Renewable energy resources from water",
@@ -2606,6 +2818,10 @@
           "lexicon.models/GWP_onlyLUC",
           "sumd.models/GWP_onlyLUC"
         ]
+      },
+      {
+        "name": "Water impact",
+        "synonyms": []
       },
       {
         "name": "Water used",

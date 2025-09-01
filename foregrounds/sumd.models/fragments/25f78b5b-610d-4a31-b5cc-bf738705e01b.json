@@ -50,7 +50,7 @@
         "Comment": "",
         "Name": "polyethylene terephthalate, granulate, amorphous",
         "StageName": "market for polyethylene terephthalate, granulate, amorphous",
-        "_prod_row": 25
+        "_prod_row": 30
       },
       "terminations": {
         "default": {
@@ -80,7 +80,7 @@
         "Comment": "",
         "Name": "polar fleece, energy use only",
         "StageName": "market for polar fleece, energy use only",
-        "_prod_row": 26
+        "_prod_row": 31
       },
       "terminations": {
         "default": {

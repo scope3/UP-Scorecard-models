@@ -2,15 +2,15 @@
   "fragments": [
     {
       "direction": "Input",
-      "entityId": "907d59c7-b591-4935-8500-b382d8b99add",
+      "entityId": "6a7634f6-dce8-4f94-9a42-8dd9fd6296ef",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 1.0
       },
-      "externalId": "prod_naoh_100",
+      "externalId": "prod_silicone_product",
       "flow": {
-        "externalId": "naoh_100",
+        "externalId": "silicone_product",
         "origin": "foreground"
       },
       "isBackground": false,
@@ -19,42 +19,42 @@
       "parent": null,
       "tags": {
         "Comment": "",
-        "Name": "naoh_100",
+        "Name": "silicone_product",
         "StageName": ""
       },
       "terminations": {
         "default": {
-          "externalId": "prod_naoh_100",
+          "externalId": "prod_silicone_product",
           "origin": "foreground"
         }
       }
     },
     {
       "direction": "Input",
-      "entityId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "entityId": "a49fa0e4-2af1-48d1-a17f-4a25405dee58",
       "entityType": "fragment",
       "exchangeValues": {
         "0": 1.0,
         "1": 0.0
       },
-      "externalId": "52c688f6-ced1-42b2-aaf8-72679ddc15b7",
+      "externalId": "a49fa0e4-2af1-48d1-a17f-4a25405dee58",
       "flow": {
-        "externalId": "61396bcb-bf35-411a-a6a6-8543ccef83e8",
+        "externalId": "a8f9b840-05ff-4dad-b11e-dd4b1342655d",
         "origin": "ecoinvent.3.10.cutoff"
       },
       "isBackground": true,
       "isBalanceFlow": true,
       "isPrivate": false,
-      "parent": "prod_naoh_100",
+      "parent": "prod_silicone_product",
       "tags": {
         "Comment": "",
-        "Name": "sodium hydroxide, without water, in 50% solution state",
-        "StageName": "market for sodium hydroxide, without water, in 50% solution state",
-        "_prod_row": 41
+        "Name": "silicone product",
+        "StageName": "silicone product production",
+        "_prod_row": 65
       },
       "terminations": {
         "default": {
-          "externalId": "906a1cbc-5356-5604-b8d3-9cec945ddac7",
+          "externalId": "6f3a780c-7779-5503-8d21-648d9e8ac222",
           "origin": "ecoinvent.3.10.cutoff"
         }
       }
