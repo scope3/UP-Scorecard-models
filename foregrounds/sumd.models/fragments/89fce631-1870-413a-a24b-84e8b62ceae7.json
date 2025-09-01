@@ -142,7 +142,7 @@
         "StageName": "Al-Sheet-2021"
       },
       "terminations": {
-        "alum_old": {
+        "alum_ei_melt_roll": {
           "descend": false,
           "externalId": "Al-sheet-ei",
           "origin": "foreground"
