@@ -82,7 +82,7 @@
       },
       "terminations": {
         "default": {
-          "externalId": "grid-glass-secondary-mostly",
+          "externalId": "prod_glass_60cullet",
           "origin": "sumd.models"
         }
       }
@@ -145,8 +145,7 @@
       },
       "terminations": {
         "default": {
-          "descend": false,
-          "externalId": "grid-glass-primary",
+          "externalId": "prod_glass_nocullet",
           "origin": "sumd.models"
         }
       }

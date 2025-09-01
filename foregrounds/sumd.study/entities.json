@@ -223,7 +223,7 @@
       "referenceQuantity": "93a60a56-a3c8-19da-a746-0800200c9a66"
     },
     {
-      "Name": "Electricity",
+      "Name": "Electricity, at user",
       "entityType": "flow",
       "externalId": "elec",
       "origin": "sumd.models",
@@ -737,6 +737,7 @@
           "lcia:Emissions",
           "lexicon.models:Emissions",
           "sumd.models:Emissions",
+          "sumd.study:Emissions",
           "uslci.mod:emission"
         ]
       },
@@ -777,6 +778,7 @@
         "parent": "Resources",
         "synonyms": [
           "('Resources', 'from water')",
+          "('from water',)",
           "Non-renewable element resources from water",
           "Non-renewable material resources from water",
           "Renewable energy resources from water",
@@ -784,9 +786,11 @@
           "Resources from water",
           "Resources; from water",
           "in water",
+          "lcacommons.uslci.fy24.q1.01:from water",
           "lcia:from water",
           "lexicon.models:from water",
-          "sumd.models:from water"
+          "sumd.models:from water",
+          "sumd.study:from water"
         ]
       },
       {

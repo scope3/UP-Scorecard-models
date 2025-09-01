@@ -1,8 +1,8 @@
 {
-  "version_major": 0,
-  "version_minor": 1,
-  "dataSource": "/data/GitHub/Scope3/FPF-Regional/catalog/lexicon.study",
+  "version_major": -1,
+  "version_minor": 0,
+  "dataSource": "/data/GitHub/Scope3/UP-Scorecard-models/foregrounds/sumd.study",
   "release_notes": null,
-  "description": null,
+  "description": "Re-plumb glass models",
   "author": null
 }
